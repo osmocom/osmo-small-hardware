@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -129,7 +129,6 @@
 <wire x1="19.685" y1="46.6725" x2="19.685" y2="49.2125" width="0.3048" layer="21"/>
 <wire x1="19.685" y1="49.2125" x2="14.9225" y2="49.2125" width="0.3048" layer="21"/>
 <wire x1="14.9225" y1="49.2125" x2="14.9225" y2="46.6725" width="0.3048" layer="21"/>
-<text x="19.685" y="33.655" size="1.778" layer="21">D45014F</text>
 <text x="43.18" y="4.1275" size="1.778" layer="22" rot="MR0">sysmocom</text>
 <text x="42.8625" y="6.985" size="1.778" layer="22" rot="MR0">osmo-lea6t-gps</text>
 <text x="43.4975" y="0.9525" size="1.778" layer="22" rot="MR0">(c) 2012 Munaut</text>
@@ -1790,6 +1789,42 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="led">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="SML0603">
+<description>&lt;b&gt;SML0603-XXX (HIGH INTENSITY) LED&lt;/b&gt;&lt;p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;AG3K&lt;/td&gt;&lt;td&gt;AQUA GREEN&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;B1K&lt;/td&gt;&lt;td&gt;SUPER BLUE&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;R1K&lt;/td&gt;&lt;td&gt;SUPER RED&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;R3K&lt;/td&gt;&lt;td&gt;ULTRA RED&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;O3K&lt;/td&gt;&lt;td&gt;SUPER ORANGE&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;O3KH&lt;/td&gt;&lt;td&gt;SOFT ORANGE&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Y3KH&lt;/td&gt;&lt;td&gt;SUPER YELLOW&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Y3K&lt;/td&gt;&lt;td&gt;SUPER YELLOW&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2CW&lt;/td&gt;&lt;td&gt;WHITE&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
+<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1016" layer="51"/>
+<wire x1="0.75" y1="0.35" x2="0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-0.75" y1="-0.35" x2="-0.75" y2="0.35" width="0.1016" layer="51"/>
+<wire x1="-0.45" y1="0.3" x2="-0.45" y2="-0.3" width="0.1016" layer="51"/>
+<wire x1="0.45" y1="0.3" x2="0.45" y2="-0.3" width="0.1016" layer="51"/>
+<wire x1="-0.2" y1="0.35" x2="0.2" y2="0.35" width="0.1016" layer="21"/>
+<wire x1="-0.2" y1="-0.35" x2="0.2" y2="-0.35" width="0.1016" layer="21"/>
+<smd name="C" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="-1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.4" y1="0.175" x2="0" y2="0.4" layer="51"/>
+<rectangle x1="-0.25" y1="0.175" x2="0" y2="0.4" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2017,15 +2052,15 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.835" y="38.957" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="TP3" library="we_conn" package="TP_1X1" value="TESTPAD" x="13.335" y="34.29" smashed="yes">
-<attribute name="NAME" x="6.4375" y="36.175" size="1.27" layer="25"/>
+<attribute name="NAME" x="3.8975" y="35.8575" size="1.27" layer="25"/>
 <attribute name="VALUE" x="11.835" y="33.04" size="1.27" layer="27"/>
 </element>
 <element name="TP5" library="we_conn" package="TP_1X1" value="TESTPAD" x="10.795" y="31.75" smashed="yes">
-<attribute name="NAME" x="2.54" y="34.29" size="1.27" layer="25"/>
+<attribute name="NAME" x="0.3175" y="34.29" size="1.27" layer="25"/>
 <attribute name="VALUE" x="9.295" y="30.5" size="1.27" layer="27"/>
 </element>
 <element name="TP6" library="we_conn" package="TP_1X1" value="TESTPAD" x="13.335" y="31.75" smashed="yes">
-<attribute name="NAME" x="6.35" y="34.29" size="1.27" layer="25"/>
+<attribute name="NAME" x="3.81" y="34.29" size="1.27" layer="25"/>
 <attribute name="VALUE" x="11.835" y="30.5" size="1.27" layer="27"/>
 </element>
 <element name="TP1" library="we_conn" package="TP_1X1" value="TESTPAD" x="34.925" y="33.9725" smashed="yes">
@@ -2055,7 +2090,7 @@ design rules under a new name.</description>
 <element name="X1" library="laforge" package="JACK2.5_SJ-2523" value="SERIAL" x="43.18" y="26.67" rot="R180"/>
 <element name="C2" library="we_passive" package="0603" value="DNP" x="36.195" y="38.1"/>
 <element name="TP2" library="we_conn" package="TP_1X1" value="TESTPAD" x="10.795" y="34.29" smashed="yes">
-<attribute name="NAME" x="2.54" y="36.195" size="1.27" layer="25"/>
+<attribute name="NAME" x="0.3175" y="35.8775" size="1.27" layer="25"/>
 <attribute name="VALUE" x="9.295" y="33.04" size="1.27" layer="27"/>
 </element>
 <element name="X3" library="we_conn" package="HRS_UFL" value="FOUT" x="41.275" y="41.91" rot="R90"/>
@@ -2089,19 +2124,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.115" y="2.2225" size="1.016" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="24.765" y="0" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="C12" library="we_passive" package="0603" value="10n" x="16.51" y="11.43" smashed="yes" rot="R90">
+<element name="C12" library="we_passive" package="0603" value="?" x="16.51" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.145" y="13.6525" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="18.51" y="9.93" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C13" library="we_passive" package="0603" value="1u" x="18.415" y="11.43" smashed="yes" rot="R90">
+<element name="C13" library="we_passive" package="0603" value="?" x="18.415" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.05" y="13.6525" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="20.415" y="9.93" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C11" library="we_passive" package="0603" value="1u" x="22.225" y="5.08" smashed="yes" rot="R270">
+<element name="C11" library="we_passive" package="0603" value="?" x="22.225" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.2725" y="6.985" size="1.27" layer="25"/>
 <attribute name="VALUE" x="20.225" y="6.58" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R10" library="we_passive" package="0603" value="1k" x="3.175" y="6.35" smashed="yes" rot="R90">
+<element name="R10" library="we_passive" package="0603" value="OR" x="3.175" y="6.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.81" y="8.255" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="5.175" y="4.85" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -2109,27 +2144,27 @@ design rules under a new name.</description>
 <attribute name="NAME" x="1.905" y="8.255" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="3.27" y="4.85" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C8" library="we_passive" package="0603" value="10n" x="5.08" y="11.43" smashed="yes" rot="R90">
+<element name="C8" library="we_passive" package="0603" value="?" x="5.08" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.715" y="13.6525" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.08" y="9.93" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C9" library="we_passive" package="0603" value="1u" x="8.89" y="11.43" smashed="yes" rot="R90">
+<element name="C9" library="we_passive" package="0603" value="?" x="8.89" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.525" y="13.6525" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="10.89" y="9.93" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="we_passive" package="SOT23" value="BAT54" x="11.7475" y="11.43" smashed="yes" rot="R90">
+<element name="D1" library="we_passive" package="SOT23" value="" x="11.7475" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="9.9695" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="12.3825" y="13.6525" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="D2" library="we_passive" package="SOT23" value="BAT54" x="21.2725" y="11.43" smashed="yes" rot="R90">
+<element name="D2" library="we_passive" package="SOT23" value="" x="21.2725" y="11.43" smashed="yes" rot="R90">
 <attribute name="VALUE" x="19.4945" y="10.0076" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="NAME" x="21.9075" y="13.6525" size="1.27" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="R12" library="we_passive" package="0603" value="DNP" x="6.985" y="11.43" smashed="yes" rot="R270">
+<element name="R12" library="we_passive" package="0603" value="" x="6.985" y="11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.62" y="13.6525" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="4.985" y="12.93" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C7" library="we_passive" package="0603" value="1u" x="12.065" y="5.08" smashed="yes" rot="R270">
+<element name="C7" library="we_passive" package="0603" value="?" x="12.065" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.1125" y="6.985" size="1.27" layer="25"/>
 <attribute name="VALUE" x="10.065" y="6.58" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -2142,7 +2177,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.565" y="31.845" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="we_passive" package="0603" value="0R" x="38.735" y="8.5725" rot="R90"/>
-<element name="C6" library="rcl" package="A/3216-18R" value="10u" x="27.305" y="12.3825" smashed="yes" rot="R180">
+<element name="C6" library="rcl" package="A/3216-18R" value="" x="27.305" y="12.3825" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.115" y="11.7475" size="1.27" layer="25"/>
 <attribute name="VALUE" x="29.255" y="14.7075" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2154,10 +2189,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0.635" y="32.385" size="1.27" layer="25"/>
 <attribute name="VALUE" x="5.65125" y="30.5675" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C10" library="rcl" package="A/3216-18R" value="10u" x="27.305" y="9.525" smashed="yes" rot="R180">
+<element name="C10" library="rcl" package="A/3216-18R" value="" x="27.305" y="9.525" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.07" y="9.255" size="1.27" layer="25"/>
 <attribute name="VALUE" x="29.255" y="11.85" size="1.27" layer="27" rot="R180"/>
 </element>
+<element name="LED1" library="led" package="SML0603" value="" x="27.305" y="16.1925"/>
+<element name="R13" library="we_passive" package="0603" value="" x="24.13" y="16.1925"/>
+<element name="TP8" library="we_conn" package="TP_1X1" value="TESTPAD" x="8.255" y="34.925" smashed="yes">
+<attribute name="NAME" x="3.8975" y="37.445" size="1.27" layer="25"/>
+<attribute name="VALUE" x="6.755" y="33.675" size="1.27" layer="27"/>
+</element>
+<element name="R14" library="we_passive" package="0603" value="DNP" x="9.8425" y="36.957"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2342,6 +2384,9 @@ design rules under a new name.</description>
 <vertex x="9.2075" y="5.3975"/>
 <vertex x="6.35" y="5.3975"/>
 </polygon>
+<contactref element="R13" pad="1"/>
+<via x="21.9075" y="16.1925" extent="1-16" drill="0.4064"/>
+<wire x1="23.33" y1="16.1925" x2="21.9075" y2="16.1925" width="0.4572" layer="1"/>
 </signal>
 <signal name="1PPS">
 <contactref element="U1" pad="28"/>
@@ -2454,6 +2499,12 @@ design rules under a new name.</description>
 <contactref element="U1" pad="19"/>
 <wire x1="14.135" y1="36.957" x2="16.352" y2="36.957" width="0.3048" layer="1"/>
 <wire x1="16.352" y1="36.957" x2="16.365" y2="36.97" width="0.3048" layer="1"/>
+<contactref element="R14" pad="2"/>
+<wire x1="14.135" y1="36.957" x2="14.135" y2="36.6775" width="0.3048" layer="1"/>
+<wire x1="14.135" y1="36.6775" x2="13.335" y2="35.8775" width="0.3048" layer="1"/>
+<wire x1="13.335" y1="35.8775" x2="11.7475" y2="35.8775" width="0.3048" layer="1"/>
+<wire x1="11.7475" y1="35.8775" x2="10.668" y2="36.957" width="0.3048" layer="1"/>
+<wire x1="10.6425" y1="36.957" x2="10.668" y2="36.957" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="TP3" pad="TP"/>
@@ -2603,16 +2654,11 @@ design rules under a new name.</description>
 <signal name="3V3">
 <contactref element="U1" pad="6"/>
 <contactref element="SV1" pad="12"/>
-<contactref element="D2" pad="3"/>
-<contactref element="D1" pad="3"/>
 <contactref element="C1" pad="1"/>
-<contactref element="C6" pad="+"/>
 <wire x1="33.165" y1="29.87" x2="35.065" y2="29.87" width="0.6096" layer="1"/>
 <wire x1="35.065" y1="29.87" x2="35.56" y2="29.375" width="0.6096" layer="1"/>
-<wire x1="12.7635" y1="11.43" x2="12.7635" y2="13.716" width="0.4572" layer="1"/>
 <wire x1="12.7635" y1="13.716" x2="13.335" y2="14.2875" width="0.4572" layer="1"/>
 <wire x1="13.335" y1="14.2875" x2="22.225" y2="14.2875" width="0.4572" layer="1"/>
-<wire x1="22.2885" y1="11.43" x2="22.2885" y2="14.224" width="0.4572" layer="1"/>
 <wire x1="22.2885" y1="14.224" x2="22.225" y2="14.2875" width="0.4572" layer="1"/>
 <wire x1="35.56" y1="16.51" x2="31.75" y2="16.51" width="0.4572" layer="16"/>
 <wire x1="31.75" y1="16.51" x2="31.115" y2="15.875" width="0.4572" layer="16"/>
@@ -2626,9 +2672,9 @@ design rules under a new name.</description>
 <wire x1="35.8775" y1="26.035" x2="35.8775" y2="22.86" width="0.4572" layer="1"/>
 <wire x1="35.8775" y1="22.86" x2="34.6075" y2="21.59" width="0.4572" layer="1"/>
 <wire x1="22.225" y1="14.2875" x2="26.035" y2="14.2875" width="0.4572" layer="1"/>
-<wire x1="26.035" y1="14.2875" x2="29.5275" y2="14.2875" width="0.4572" layer="1"/>
+<wire x1="26.035" y1="14.2875" x2="28.2575" y2="14.2875" width="0.4572" layer="1"/>
+<wire x1="28.2575" y1="14.2875" x2="29.5275" y2="14.2875" width="0.4572" layer="1"/>
 <wire x1="29.5275" y1="14.2875" x2="31.115" y2="15.875" width="0.4572" layer="1"/>
-<wire x1="25.93" y1="12.3825" x2="25.93" y2="14.1825" width="0.4572" layer="1"/>
 <wire x1="25.93" y1="14.1825" x2="26.035" y2="14.2875" width="0.4572" layer="1"/>
 <via x="34.6075" y="21.59" extent="1-16" drill="0.4064"/>
 <wire x1="34.6075" y1="21.59" x2="32.385" y2="21.59" width="0.4572" layer="16"/>
@@ -2638,6 +2684,15 @@ design rules under a new name.</description>
 <via x="31.75" y="18.7325" extent="1-16" drill="0.4064"/>
 <wire x1="31.75" y1="18.7325" x2="31.115" y2="18.0975" width="0.4572" layer="16"/>
 <wire x1="31.115" y1="18.0975" x2="31.115" y2="15.875" width="0.4572" layer="16"/>
+<contactref element="D2" pad="3"/>
+<contactref element="D1" pad="3"/>
+<contactref element="C6" pad="+"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="12.7635" y1="13.716" x2="12.7635" y2="11.43" width="0.4572" layer="1"/>
+<wire x1="22.2885" y1="14.224" x2="22.2885" y2="11.43" width="0.4572" layer="1"/>
+<wire x1="25.93" y1="14.1825" x2="25.93" y2="12.3825" width="0.4572" layer="1"/>
+<wire x1="28.055" y1="16.1925" x2="28.055" y2="14.49" width="0.4572" layer="1"/>
+<wire x1="28.055" y1="14.49" x2="28.2575" y2="14.2875" width="0.4572" layer="1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="U1" pad="10"/>
@@ -2686,8 +2741,10 @@ design rules under a new name.</description>
 <signal name="N$8">
 <contactref element="U1" pad="20"/>
 <contactref element="TP2" pad="TP"/>
-<wire x1="10.795" y1="34.29" x2="12.375" y2="35.87" width="0.3048" layer="1"/>
-<wire x1="16.365" y1="35.87" x2="12.375" y2="35.87" width="0.3048" layer="1"/>
+<wire x1="10.795" y1="34.29" x2="11.7475" y2="35.2425" width="0.3048" layer="1"/>
+<wire x1="11.7475" y1="35.2425" x2="14.2875" y2="35.2425" width="0.3048" layer="1"/>
+<wire x1="14.2875" y1="35.2425" x2="14.915" y2="35.87" width="0.3048" layer="1"/>
+<wire x1="16.365" y1="35.87" x2="14.915" y2="35.87" width="0.3048" layer="1"/>
 </signal>
 <signal name="FOUT_EXT">
 <contactref element="R5" pad="2"/>
@@ -2830,6 +2887,17 @@ design rules under a new name.</description>
 <vertex x="16.51" y="5.715"/>
 <vertex x="16.51" y="9.8425"/>
 </polygon>
+</signal>
+<signal name="N$27">
+<contactref element="LED1" pad="C"/>
+<contactref element="R13" pad="2"/>
+<wire x1="24.93" y1="16.1925" x2="26.555" y2="16.1925" width="0.4572" layer="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="TP8" pad="TP"/>
+<contactref element="R14" pad="1"/>
+<wire x1="8.255" y1="34.925" x2="8.255" y2="36.1695" width="0.3048" layer="1"/>
+<wire x1="8.255" y1="36.1695" x2="9.0425" y2="36.957" width="0.3048" layer="1"/>
 </signal>
 </signals>
 </board>

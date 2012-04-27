@@ -11026,35 +11026,35 @@ Source: www.kingbright.com</description>
 <part name="U$15" library="we_supply" deviceset="GND" device=""/>
 <part name="X9" library="con-molex" deviceset="22-23-2021" device=""/>
 <part name="U$16" library="we_supply" deviceset="GND" device=""/>
-<part name="C12" library="we_passive" deviceset="C-EU" device="_0603" value="?"/>
-<part name="C13" library="we_passive" deviceset="C-EU" device="_0603" value="?"/>
-<part name="C11" library="we_passive" deviceset="C-EU" device="_0603" value="?"/>
+<part name="C12" library="we_passive" deviceset="C-EU" device="_0603" value="10n"/>
+<part name="C13" library="we_passive" deviceset="C-EU" device="_0603" value="1u"/>
+<part name="C11" library="we_passive" deviceset="C-EU" device="_0603" value="1u"/>
 <part name="U$17" library="we_supply" deviceset="GND" device=""/>
 <part name="U$18" library="we_supply" deviceset="GND" device=""/>
 <part name="U$19" library="we_supply" deviceset="GND" device=""/>
-<part name="R10" library="we_passive" deviceset="R-EU" device="_0603" value="OR"/>
+<part name="R10" library="we_passive" deviceset="R-EU" device="_0603" value="1k"/>
 <part name="R11" library="we_passive" deviceset="R-EU" device="_0603" value="DNP"/>
-<part name="C8" library="we_passive" deviceset="C-EU" device="_0603" value="?"/>
-<part name="C9" library="we_passive" deviceset="C-EU" device="_0603" value="?"/>
+<part name="C8" library="we_passive" deviceset="C-EU" device="_0603" value="10n"/>
+<part name="C9" library="we_passive" deviceset="C-EU" device="_0603" value="1u"/>
 <part name="U$20" library="we_supply" deviceset="GND" device=""/>
 <part name="U$21" library="we_supply" deviceset="GND" device=""/>
 <part name="U$22" library="we_supply" deviceset="3V3" device=""/>
-<part name="D1" library="we_passive" deviceset="D_SCHOTTKY" device="_SOT23"/>
-<part name="D2" library="we_passive" deviceset="D_SCHOTTKY" device="_SOT23"/>
-<part name="R12" library="we_passive" deviceset="R-EU" device="_0603"/>
+<part name="D1" library="we_passive" deviceset="D_SCHOTTKY" device="_SOT23" value="BAT54"/>
+<part name="D2" library="we_passive" deviceset="D_SCHOTTKY" device="_SOT23" value="BAT54"/>
+<part name="R12" library="we_passive" deviceset="R-EU" device="_0603" value="DNP"/>
 <part name="U$23" library="we_supply" deviceset="GND" device=""/>
-<part name="C7" library="we_passive" deviceset="C-EU" device="_0603" value="?"/>
+<part name="C7" library="we_passive" deviceset="C-EU" device="_0603" value="1u"/>
 <part name="U$24" library="we_supply" deviceset="GND" device=""/>
 <part name="C1" library="we_passive" deviceset="C-EU" device="_0603" value="100n"/>
 <part name="U$25" library="we_supply" deviceset="GND" device=""/>
 <part name="C3" library="we_passive" deviceset="C-EU" device="_0603" value="100n"/>
 <part name="U$26" library="we_supply" deviceset="GND" device=""/>
 <part name="R7" library="we_passive" deviceset="R-EU" device="_0603" value="0R"/>
-<part name="C6" library="rcl" deviceset="CPOL-EU" device="A/3216-18R"/>
+<part name="C6" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10u"/>
 <part name="U$27" library="we_supply" deviceset="GND" device=""/>
 <part name="R9" library="we_passive" deviceset="R-EU" device="_0603" value="1M"/>
 <part name="C5" library="we_passive" deviceset="C-EU" device="_0603" value="100n"/>
-<part name="C10" library="rcl" deviceset="CPOL-EU" device="A/3216-18R"/>
+<part name="C10" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10u"/>
 <part name="U$28" library="we_supply" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="SML0603"/>
 <part name="R13" library="we_passive" deviceset="R-EU" device="_0603"/>

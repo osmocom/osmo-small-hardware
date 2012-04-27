@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11927,6 +11927,24 @@ Source: www.kingbright.com</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,88.9,139.7,U1,VCC_RF,N$5,,,"/>
+<approved hash="104,1,88.9,137.16,U1,V_ANT,N$6,,,"/>
+<approved hash="104,1,88.9,119.38,U1,VDDUSB,VUSB,,,"/>
+<approved hash="103,1,160.02,119.38,U1,NC,N$20,,,"/>
+<approved hash="104,1,160.02,121.92,U1,VCC,3V3,,,"/>
+<approved hash="104,1,160.02,127,U1,VCC_OUT,N$19,,,"/>
+<approved hash="104,1,160.02,139.7,U1,V_BCKP,N$17,,,"/>
+<approved hash="103,1,160.02,142.24,U1,RSVD,N$16,,,"/>
+<approved hash="104,1,104.14,17.78,U3,GND1,GND,,,"/>
+<approved hash="104,1,104.14,60.96,U2,GND1,GND,,,"/>
+<approved hash="208,1,35.56,99.06,N$12,,,,,"/>
+<approved hash="106,1,35.56,99.06,N$12,,,,,"/>
+<approved hash="108,1,127,78.74,VUSB,,,,,"/>
+<approved hash="115,1,131.976,90.066,FRAME1,,,,,"/>
+<approved hash="115,1,218.44,53.1453,SV1,,,,,"/>
+<approved hash="115,1,170.502,67.31,LED1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

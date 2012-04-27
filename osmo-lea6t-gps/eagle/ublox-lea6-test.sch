@@ -10113,6 +10113,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="210.82" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="3"/>
+<label x="187.96" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SERIAL_RXD" class="0">
@@ -10129,7 +10130,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <wire x1="210.82" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
 <label x="187.96" y="55.88" size="1.778" layer="95"/>
-<label x="187.96" y="58.42" size="1.778" layer="95"/>
 <pinref part="SV1" gate="1" pin="5"/>
 </segment>
 </net>

@@ -8641,7 +8641,7 @@ distributor RS 112-3794</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="U1" class="1">
+<net name="VCC" class="1">
 <segment>
 <pinref part="QG1" gate="G$1" pin="VCC"/>
 <wire x1="38.1" y1="55.88" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
@@ -8875,9 +8875,17 @@ distributor RS 112-3794</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,45.72,55.88,QG1,VCC,5V,,,"/>
-<approved hash="104,1,20.32,38.1,U1,GND1,GND,,,"/>
-<approved hash="104,1,33.02,99.06,U3,VCC,5V,,,"/>
+<approved hash="202,1,63.5,86.36,U2,OE,,,,"/>
+<approved hash="104,1,2.54,58.42,U1,GND1,GND,,,"/>
+<approved hash="115,1,90.4452,45.72,R1,,,,,"/>
+<approved hash="115,1,90.4452,33.02,R2,,,,,"/>
+<approved hash="115,1,97.79,42.3782,C3,,,,,"/>
+<approved hash="115,1,-25.6371,68.7112,X3,,,,,"/>
+<approved hash="115,1,0,77.7155,SJ1,,,,,"/>
+<approved hash="115,1,-30.7171,56.0112,X4,,,,,"/>
+<approved hash="115,1,83.82,52.3155,SJ2,,,,,"/>
+<approved hash="115,1,109.431,33.02,OUT,,,,,"/>
+<approved hash="115,1,69.8401,76.2,CLKIN,,,,,"/>
 </errors>
 </schematic>
 </drawing>

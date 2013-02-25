@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6988,7 +6988,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <sheets>
 <sheet>
 <plain>
-<text x="55.88" y="12.7" size="5.08" layer="97">sysmocom NVS GPS evaluation module v2</text>
+<text x="55.88" y="12.7" size="5.08" layer="97">sysmocom NVS GPS evaluation module v3</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="66.04" y="58.42"/>

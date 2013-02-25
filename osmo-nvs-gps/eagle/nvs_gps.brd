@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -108,8 +108,8 @@
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
 <text x="1.9812" y="18.288" size="1.778" layer="1" rot="R90">sysmocom</text>
 <text x="3.5814" y="20.574" size="1.778" layer="16" rot="MR90">sysmocom</text>
-<text x="0.6096" y="19.431" size="1.778" layer="16" rot="MR90">NVS GPS v1</text>
-<text x="4.8768" y="18.0594" size="1.778" layer="1" rot="R90">NVS GPS v2</text>
+<text x="0.6096" y="19.431" size="1.778" layer="16" rot="MR90">NVS GPS v3</text>
+<text x="4.8768" y="18.0594" size="1.778" layer="1" rot="R90">NVS GPS v3</text>
 <text x="16.0782" y="21.0312" size="1.778" layer="21">D42349A (1.6mm)</text>
 </plain>
 <libraries>
@@ -1553,7 +1553,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <clearance class="2" value="0.1524"/>
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2046,7 +2046,6 @@ design rules under a new name.</description>
 <wire x1="28.75" y1="7.75" x2="29" y2="8" width="0.3556" layer="1"/>
 <wire x1="27" y1="7.75" x2="28.75" y2="7.75" width="0.3556" layer="1"/>
 <wire x1="27" y1="10.25" x2="27" y2="7.75" width="0.3556" layer="1"/>
-<wire x1="36.25" y1="8" x2="33.3114" y2="8.001" width="0.3556" layer="1"/>
 <wire x1="29" y1="8" x2="33.25" y2="8" width="0.3556" layer="1"/>
 <wire x1="33.25" y1="8" x2="33.3114" y2="8.001" width="0.3556" layer="1"/>
 </signal>
@@ -2259,7 +2258,7 @@ design rules under a new name.</description>
 <signal name="N$14">
 <contactref element="R2" pad="2"/>
 <contactref element="LED1" pad="C"/>
-<wire x1="34.8114" y1="8.001" x2="36.869" y2="8.001" width="0" layer="19" extent="1-1"/>
+<wire x1="36.869" y1="8.001" x2="34.8114" y2="8.001" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>

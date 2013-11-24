@@ -129,7 +129,6 @@
 <wire x1="19.685" y1="46.6725" x2="19.685" y2="49.2125" width="0.3048" layer="21"/>
 <wire x1="19.685" y1="49.2125" x2="14.9225" y2="49.2125" width="0.3048" layer="21"/>
 <wire x1="14.9225" y1="49.2125" x2="14.9225" y2="46.6725" width="0.3048" layer="21"/>
-<text x="19.685" y="33.655" size="1.778" layer="21">D45014F</text>
 <text x="43.18" y="4.1275" size="1.778" layer="22" rot="MR0">sysmocom</text>
 <text x="42.8625" y="6.985" size="1.778" layer="22" rot="MR0">osmo-lea6t-gps</text>
 <text x="43.4975" y="0.9525" size="1.778" layer="22" rot="MR0">(c) 2012 Munaut</text>

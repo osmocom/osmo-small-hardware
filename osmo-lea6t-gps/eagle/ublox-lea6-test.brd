@@ -2194,7 +2194,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="29.255" y="11.85" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="LED1" library="led" package="SML0603" value="" x="27.305" y="16.1925"/>
-<element name="R13" library="we_passive" package="0603" value="" x="24.13" y="16.1925"/>
+<element name="R13" library="we_passive" package="0603" value="100R" x="24.13" y="16.1925"/>
 <element name="TP8" library="we_conn" package="TP_1X1" value="TESTPAD" x="8.255" y="34.925" smashed="yes">
 <attribute name="NAME" x="3.8975" y="37.445" size="1.27" layer="25"/>
 <attribute name="VALUE" x="6.755" y="33.675" size="1.27" layer="27"/>

@@ -11057,7 +11057,7 @@ Source: www.kingbright.com</description>
 <part name="C10" library="rcl" deviceset="CPOL-EU" device="A/3216-18R" value="10u"/>
 <part name="U$28" library="we_supply" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="SML0603"/>
-<part name="R13" library="we_passive" deviceset="R-EU" device="_0603"/>
+<part name="R13" library="we_passive" deviceset="R-EU" device="_0603" value="100R"/>
 <part name="TP8" library="we_conn" deviceset="TESTPAD" device=""/>
 <part name="R14" library="we_passive" deviceset="R-EU" device="_0603" value="DNP"/>
 <part name="U$29" library="we_supply" deviceset="GND" device=""/>

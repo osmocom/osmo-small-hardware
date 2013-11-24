@@ -11008,7 +11008,7 @@ Source: www.kingbright.com</description>
 <part name="TP4" library="we_conn" deviceset="TESTPAD" device=""/>
 <part name="TP7" library="we_conn" deviceset="TESTPAD" device=""/>
 <part name="R2" library="we_passive" deviceset="R-EU" device="_0603" value="0R"/>
-<part name="R1" library="we_passive" deviceset="R-EU" device="_0603" value="0R"/>
+<part name="R1" library="we_passive" deviceset="R-EU" device="_0603" value="DNP"/>
 <part name="X1" library="laforge" deviceset="JACK2.5_SJ-2523" device="" value="SERIAL"/>
 <part name="U$10" library="we_supply" deviceset="GND" device=""/>
 <part name="C2" library="we_passive" deviceset="C-EU" device="_0603" value="DNP"/>

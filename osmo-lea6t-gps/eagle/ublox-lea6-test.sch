@@ -429,86 +429,6 @@ See the datasheet for the various pin configuration depending on the model.</des
 </library>
 <library name="we_conn">
 <packages>
-<package name="SMA-F-S-EDGE">
-<wire x1="0" y1="0.381" x2="4.572" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="4.572" y1="0.381" x2="4.826" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="4.826" y1="0.254" x2="4.826" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="4.826" y1="-0.254" x2="4.572" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="4.572" y1="-0.381" x2="0" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="4.7625" x2="4.826" y2="4.7625" width="0.1524" layer="51"/>
-<wire x1="4.826" y1="4.7625" x2="4.826" y2="3.7465" width="0.1524" layer="51"/>
-<wire x1="4.826" y1="3.7465" x2="0" y2="3.7465" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="-4.7625" x2="4.826" y2="-4.7625" width="0.1524" layer="51"/>
-<wire x1="4.826" y1="-4.7625" x2="4.826" y2="-3.7465" width="0.1524" layer="51"/>
-<wire x1="4.826" y1="-3.7465" x2="0" y2="-3.7465" width="0.1524" layer="51"/>
-<wire x1="0" y1="6.35" x2="0" y2="-6.35" width="0" layer="20"/>
-<wire x1="5.6" y1="5.3" x2="5.1" y2="5.8" width="0.1524" layer="21"/>
-<wire x1="5.1" y1="5.8" x2="0.3" y2="5.8" width="0.1524" layer="21"/>
-<wire x1="5.6" y1="5.3" x2="5.6" y2="-5.3" width="0.1524" layer="21"/>
-<wire x1="5.6" y1="-5.3" x2="5.1" y2="-5.8" width="0.1524" layer="21"/>
-<wire x1="5.1" y1="-5.8" x2="0.3" y2="-5.8" width="0.1524" layer="21"/>
-<wire x1="0.3" y1="5.8" x2="5.1" y2="5.8" width="0.1524" layer="22"/>
-<wire x1="5.1" y1="5.8" x2="5.6" y2="5.3" width="0.1524" layer="22"/>
-<wire x1="5.6" y1="5.3" x2="5.6" y2="-5.3" width="0.1524" layer="22"/>
-<wire x1="5.6" y1="-5.3" x2="5.1" y2="-5.8" width="0.1524" layer="22"/>
-<wire x1="5.1" y1="-5.8" x2="0.3" y2="-5.8" width="0.1524" layer="22"/>
-<wire x1="0" y1="-4.7625" x2="4.826" y2="-4.7625" width="0.1524" layer="52"/>
-<wire x1="4.826" y1="-3.7465" x2="0" y2="-3.7465" width="0.1524" layer="52"/>
-<wire x1="4.826" y1="-4.7625" x2="4.826" y2="-3.7465" width="0.1524" layer="52"/>
-<wire x1="4.826" y1="4.7625" x2="4.826" y2="3.7465" width="0.1524" layer="52"/>
-<wire x1="-0.1" y1="4.7625" x2="4.826" y2="4.7625" width="0.1524" layer="52"/>
-<wire x1="4.826" y1="3.7465" x2="0" y2="3.7465" width="0.1524" layer="52"/>
-<smd name="C" x="2.794" y="0" dx="4.572" dy="2.54" layer="1"/>
-<smd name="TG2" x="2.794" y="4.064" dx="4.572" dy="2.54" layer="1"/>
-<smd name="TG1" x="2.794" y="-4.064" dx="4.572" dy="2.54" layer="1"/>
-<smd name="BG2" x="2.794" y="4.064" dx="4.572" dy="2.54" layer="16"/>
-<smd name="BG1" x="2.794" y="-4.064" dx="4.572" dy="2.54" layer="16"/>
-<text x="0.635" y="6.35" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="0.635" y="-7.62" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-4.7625" x2="0" y2="4.7625" layer="51" rot="R180"/>
-<rectangle x1="-9.525" y1="-2.667" x2="-1.651" y2="2.667" layer="51" rot="R180"/>
-<polygon width="0.127" layer="51">
-<vertex x="-4.064" y="-2.667"/>
-<vertex x="-4.572" y="-3.175"/>
-<vertex x="-8.128" y="-3.175"/>
-<vertex x="-8.636" y="-2.667"/>
-</polygon>
-<polygon width="0.127" layer="51">
-<vertex x="-4.572" y="3.175"/>
-<vertex x="-8.128" y="3.175"/>
-<vertex x="-8.636" y="2.667"/>
-<vertex x="-4.064" y="2.667"/>
-</polygon>
-</package>
-<package name="SMA-F-S-TH">
-<wire x1="-3.81" y1="1.5875" x2="-3.81" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.5875" y1="3.81" x2="1.5875" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.5875" x2="3.81" y2="-1.5875" width="0.1524" layer="21"/>
-<wire x1="-1.5875" y1="-3.81" x2="1.5875" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="3.4925" width="0.1524" layer="21"/>
-<wire x1="-3.4925" y1="3.81" x2="-3.81" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="3.4925" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="3.81" x2="3.81" y2="3.4925" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-3.4925" x2="3.81" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-3.81" x2="3.4925" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-3.4925" x2="-3.81" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="-3.4925" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="3.4925" x2="-3.81" y2="1.5875" width="0.1524" layer="51"/>
-<wire x1="-3.4925" y1="3.81" x2="-1.5875" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="1.5875" y1="3.81" x2="3.4925" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="3.4925" x2="3.81" y2="1.5875" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="-1.5875" x2="3.81" y2="-3.4925" width="0.1524" layer="51"/>
-<wire x1="3.4925" y1="-3.81" x2="1.5875" y2="-3.81" width="0.1524" layer="51"/>
-<wire x1="-1.5875" y1="-3.81" x2="-3.4925" y2="-3.81" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="-3.4925" x2="-3.81" y2="-1.27" width="0.1524" layer="51"/>
-<pad name="C" x="0" y="0" drill="1.524"/>
-<pad name="G1" x="-2.54" y="2.54" drill="1.651"/>
-<pad name="G2" x="2.54" y="2.54" drill="1.651"/>
-<pad name="G4" x="2.54" y="-2.54" drill="1.651"/>
-<pad name="G3" x="-2.54" y="-2.54" drill="1.651"/>
-<text x="-3.81" y="4.1275" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-5.3975" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-</package>
 <package name="TP_1X1">
 <description>&lt;b&gt;Test Pad&lt;/b&gt; Square 1mm x 1mm</description>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1"/>
@@ -545,26 +465,6 @@ See the datasheet for the various pin configuration depending on the model.</des
 </package>
 </packages>
 <symbols>
-<symbol name="COAX-F-4GND">
-<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
-<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.778" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.286" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-2.286" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<text x="-1.27" y="-3.81" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
-<text x="-1.27" y="5.08" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="GND@3" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="GND@4" x="2.54" y="-5.08" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="GND@2" x="2.54" y="2.54" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
-<pin name="GND@1" x="2.54" y="5.08" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="TESTPAD">
 <description>&lt;b&gt;Test Pad&lt;/b&gt;</description>
 <circle x="0" y="3.81" radius="1.143" width="0.254" layer="94"/>
@@ -592,37 +492,6 @@ See the datasheet for the various pin configuration depending on the model.</des
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMA-F" prefix="X" uservalue="yes">
-<gates>
-<gate name="G" symbol="COAX-F-4GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-S-EDGE" package="SMA-F-S-EDGE">
-<connects>
-<connect gate="G" pin="1" pad="C"/>
-<connect gate="G" pin="GND@1" pad="BG1"/>
-<connect gate="G" pin="GND@2" pad="TG1"/>
-<connect gate="G" pin="GND@3" pad="TG2"/>
-<connect gate="G" pin="GND@4" pad="BG2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-S-TH" package="SMA-F-S-TH">
-<connects>
-<connect gate="G" pin="1" pad="C"/>
-<connect gate="G" pin="GND@1" pad="G1"/>
-<connect gate="G" pin="GND@2" pad="G2"/>
-<connect gate="G" pin="GND@3" pad="G3"/>
-<connect gate="G" pin="GND@4" pad="G4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TESTPAD" prefix="TP">
 <description>&lt;b&gt;Test Pad&lt;/b&gt;</description>
 <gates>
@@ -1652,16 +1521,19 @@ Coin cell battery holder (SMD, 22mm)</description>
 <hole x="2.9997" y="0" drill="1"/>
 <wire x1="-6" y1="-2.5" x2="6" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-6" y1="-2.5" x2="-6" y2="-2" width="0.127" layer="21"/>
-<wire x1="-6" y1="-1.9" x2="-6" y2="2" width="0.127" layer="21"/>
+<wire x1="-6" y1="-2" x2="-6" y2="2" width="0.127" layer="21"/>
 <wire x1="-6" y1="2" x2="-6" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-6" y1="2.5" x2="6" y2="2.5" width="0.127" layer="21"/>
 <wire x1="6" y1="2.5" x2="6" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-6" y1="2" x2="-7.5" y2="2" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="2" x2="-7.5" y2="-2" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="-2" x2="-6" y2="-2" width="0.127" layer="21"/>
-<wire x1="-6" y1="-2" x2="-6" y2="-1.9" width="0.127" layer="21"/>
 <text x="0.6" y="3.1" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2.7" y="-4.1" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-3" y="0" radius="0.647575" width="0.127" layer="41"/>
+<circle x="3" y="0" radius="0.647575" width="0.127" layer="41"/>
+<circle x="-3" y="0" radius="0.647575" width="0.127" layer="42"/>
+<circle x="3" y="0" radius="0.647575" width="0.127" layer="42"/>
 </package>
 <package name="SOT223-6">
 <description>SOT223-6 ass found in TPS736xx data sheet</description>
@@ -1683,6 +1555,86 @@ Coin cell battery holder (SMD, 22mm)</description>
 <text x="-3.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+</package>
+<package name="SMA-F-S-EDGE">
+<wire x1="0" y1="0.381" x2="4.572" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="4.572" y1="0.381" x2="4.826" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="4.826" y1="0.254" x2="4.826" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="4.826" y1="-0.254" x2="4.572" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="4.572" y1="-0.381" x2="0" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="4.7625" x2="4.826" y2="4.7625" width="0.1524" layer="51"/>
+<wire x1="4.826" y1="4.7625" x2="4.826" y2="3.7465" width="0.1524" layer="51"/>
+<wire x1="4.826" y1="3.7465" x2="0" y2="3.7465" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="-4.7625" x2="4.826" y2="-4.7625" width="0.1524" layer="51"/>
+<wire x1="4.826" y1="-4.7625" x2="4.826" y2="-3.7465" width="0.1524" layer="51"/>
+<wire x1="4.826" y1="-3.7465" x2="0" y2="-3.7465" width="0.1524" layer="51"/>
+<wire x1="0" y1="6.35" x2="0" y2="-6.35" width="0" layer="20"/>
+<wire x1="5.6" y1="5.3" x2="5.1" y2="5.8" width="0.1524" layer="21"/>
+<wire x1="5.1" y1="5.8" x2="0.3" y2="5.8" width="0.1524" layer="21"/>
+<wire x1="5.6" y1="5.3" x2="5.6" y2="-5.3" width="0.1524" layer="21"/>
+<wire x1="5.6" y1="-5.3" x2="5.1" y2="-5.8" width="0.1524" layer="21"/>
+<wire x1="5.1" y1="-5.8" x2="0.3" y2="-5.8" width="0.1524" layer="21"/>
+<wire x1="0.3" y1="5.8" x2="5.1" y2="5.8" width="0.1524" layer="22"/>
+<wire x1="5.1" y1="5.8" x2="5.6" y2="5.3" width="0.1524" layer="22"/>
+<wire x1="5.6" y1="5.3" x2="5.6" y2="-5.3" width="0.1524" layer="22"/>
+<wire x1="5.6" y1="-5.3" x2="5.1" y2="-5.8" width="0.1524" layer="22"/>
+<wire x1="5.1" y1="-5.8" x2="0.3" y2="-5.8" width="0.1524" layer="22"/>
+<wire x1="0" y1="-4.7625" x2="4.826" y2="-4.7625" width="0.1524" layer="52"/>
+<wire x1="4.826" y1="-3.7465" x2="0" y2="-3.7465" width="0.1524" layer="52"/>
+<wire x1="4.826" y1="-4.7625" x2="4.826" y2="-3.7465" width="0.1524" layer="52"/>
+<wire x1="4.826" y1="4.7625" x2="4.826" y2="3.7465" width="0.1524" layer="52"/>
+<wire x1="-0.1" y1="4.7625" x2="4.826" y2="4.7625" width="0.1524" layer="52"/>
+<wire x1="4.826" y1="3.7465" x2="0" y2="3.7465" width="0.1524" layer="52"/>
+<rectangle x1="-1.651" y1="-4.7625" x2="0" y2="4.7625" layer="51" rot="R180"/>
+<rectangle x1="-9.525" y1="-2.667" x2="-1.651" y2="2.667" layer="51" rot="R180"/>
+<smd name="BG1" x="2.794" y="-4.064" dx="4.572" dy="2.54" layer="16" cream="no"/>
+<smd name="BG2" x="2.794" y="4.064" dx="4.572" dy="2.54" layer="16" cream="no"/>
+<smd name="C" x="2.794" y="0" dx="4.572" dy="2.54" layer="1" cream="no"/>
+<smd name="TG1" x="2.794" y="-4.064" dx="4.572" dy="2.54" layer="1" cream="no"/>
+<smd name="TG2" x="2.794" y="4.064" dx="4.572" dy="2.54" layer="1" cream="no"/>
+<text x="0.635" y="6.35" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0.635" y="-7.62" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.127" layer="51">
+<vertex x="-4.064" y="-2.667"/>
+<vertex x="-4.572" y="-3.175"/>
+<vertex x="-8.128" y="-3.175"/>
+<vertex x="-8.636" y="-2.667"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-4.572" y="3.175"/>
+<vertex x="-8.128" y="3.175"/>
+<vertex x="-8.636" y="2.667"/>
+<vertex x="-4.064" y="2.667"/>
+</polygon>
+</package>
+<package name="SMA-F-S-TH">
+<wire x1="-3.81" y1="1.5875" x2="-3.81" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.5875" y1="3.81" x2="1.5875" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.5875" x2="3.81" y2="-1.5875" width="0.1524" layer="21"/>
+<wire x1="-1.5875" y1="-3.81" x2="1.5875" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="3.4925" width="0.1524" layer="21"/>
+<wire x1="-3.4925" y1="3.81" x2="-3.81" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="3.4925" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="3.4925" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-3.4925" x2="3.81" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-3.81" x2="3.4925" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-3.4925" x2="-3.81" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.4925" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="3.4925" x2="-3.81" y2="1.5875" width="0.1524" layer="51"/>
+<wire x1="-3.4925" y1="3.81" x2="-1.5875" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="1.5875" y1="3.81" x2="3.4925" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="3.4925" x2="3.81" y2="1.5875" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-1.5875" x2="3.81" y2="-3.4925" width="0.1524" layer="51"/>
+<wire x1="3.4925" y1="-3.81" x2="1.5875" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="-1.5875" y1="-3.81" x2="-3.4925" y2="-3.81" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="-3.4925" x2="-3.81" y2="-1.27" width="0.1524" layer="51"/>
+<pad name="C" x="0" y="0" drill="1.524"/>
+<pad name="G1" x="-2.54" y="2.54" drill="1.651"/>
+<pad name="G2" x="2.54" y="2.54" drill="1.651"/>
+<pad name="G4" x="2.54" y="-2.54" drill="1.651"/>
+<pad name="G3" x="-2.54" y="-2.54" drill="1.651"/>
+<text x="-3.81" y="4.1275" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-5.3975" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1718,6 +1670,26 @@ Coin cell battery holder (SMD, 22mm)</description>
 <pin name="NR" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
 <pin name="GND1" x="2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
 </symbol>
+<symbol name="COAX-F-4GND">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.286" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.286" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<text x="-1.27" y="-3.81" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<text x="-1.27" y="5.08" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="GND@3" x="2.54" y="-2.54" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND@4" x="2.54" y="-5.08" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND@2" x="2.54" y="2.54" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="GND@1" x="2.54" y="5.08" visible="off" length="short" direction="pwr" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="JACK2.5_SJ-2523">
@@ -1733,7 +1705,9 @@ Coin cell battery holder (SMD, 22mm)</description>
 <connect gate="G$1" pin="TIP" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="OC_DIGIKEY" value="CP-2523SJCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1752,6 +1726,37 @@ Coin cell battery holder (SMD, 22mm)</description>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="NR" pad="4"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA-F" prefix="X" uservalue="yes">
+<gates>
+<gate name="G" symbol="COAX-F-4GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-S-EDGE" package="SMA-F-S-EDGE">
+<connects>
+<connect gate="G" pin="1" pad="C"/>
+<connect gate="G" pin="GND@1" pad="BG1"/>
+<connect gate="G" pin="GND@2" pad="TG1"/>
+<connect gate="G" pin="GND@3" pad="TG2"/>
+<connect gate="G" pin="GND@4" pad="BG2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-S-TH" package="SMA-F-S-TH">
+<connects>
+<connect gate="G" pin="1" pad="C"/>
+<connect gate="G" pin="GND@1" pad="G1"/>
+<connect gate="G" pin="GND@2" pad="G2"/>
+<connect gate="G" pin="GND@3" pad="G3"/>
+<connect gate="G" pin="GND@4" pad="G4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10983,9 +10988,9 @@ Source: www.kingbright.com</description>
 <part name="U1" library="we_chips" deviceset="UBLOX-LEA-6" device="T"/>
 <part name="U$1" library="we_supply" deviceset="GND" device=""/>
 <part name="U$2" library="we_supply" deviceset="GND" device=""/>
-<part name="X4" library="we_conn" deviceset="SMA-F" device="-S-EDGE" value="ANT"/>
-<part name="X5" library="we_conn" deviceset="SMA-F" device="-S-EDGE" value="FOUT"/>
-<part name="X8" library="we_conn" deviceset="SMA-F" device="-S-EDGE" value="1PPS"/>
+<part name="X4" library="laforge" deviceset="SMA-F" device="-S-EDGE" value="ANT"/>
+<part name="X5" library="laforge" deviceset="SMA-F" device="-S-EDGE" value="FOUT"/>
+<part name="X8" library="laforge" deviceset="SMA-F" device="-S-EDGE" value="1PPS"/>
 <part name="U$3" library="we_supply" deviceset="GND" device=""/>
 <part name="U$4" library="we_supply" deviceset="GND" device=""/>
 <part name="U$5" library="we_supply" deviceset="GND" device=""/>

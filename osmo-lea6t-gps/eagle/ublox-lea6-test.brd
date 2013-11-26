@@ -1825,6 +1825,27 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package>
 </packages>
 </library>
+<library name="dicons">
+<description>&lt;b&gt;Silkscreen Icons, Legend Fields and Fiducials&lt;/b&gt;&lt;p&gt;
+A collection of general purpose silkscreen icons, legends and label fields.
+&lt;h4&gt;&lt;i&gt;Copyright (C) 2004, Bob Starr (rtzaudio@mindspring.com)&lt;br&gt;
+Updated 01/08/2005&lt;/i&gt;&lt;/h4&gt;</description>
+<packages>
+<package name="VISION_REF15">
+<description>&lt;b&gt;Global Fiducial - Vision Reference&lt;/b&gt;&lt;p&gt;
+1.5 MM Diameter&lt;p&gt;
+for SMD auto placement equipment</description>
+<wire x1="0" y1="1.25" x2="0" y2="-1.25" width="0.0508" layer="51"/>
+<wire x1="-1.25" y1="0" x2="1.25" y2="0" width="0.0508" layer="51"/>
+<circle x="0" y="0" radius="0.75" width="0" layer="1"/>
+<circle x="0" y="0" radius="1.25" width="0" layer="29"/>
+<circle x="0" y="0" radius="1.2747" width="0.0508" layer="51"/>
+<circle x="0" y="0" radius="0.7099" width="0" layer="41"/>
+<circle x="0" y="0" radius="1.0606" width="0" layer="41"/>
+<circle x="0" y="0" radius="0.7071" width="0.0508" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2200,6 +2221,9 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="6.755" y="33.675" size="1.27" layer="27"/>
 </element>
 <element name="R14" library="we_passive" package="0603" value="DNP" x="9.8425" y="36.957"/>
+<element name="U$30" library="dicons" package="VISION_REF15" value="" x="21.2725" y="47.625"/>
+<element name="U$31" library="dicons" package="VISION_REF15" value="" x="34.925" y="1.905"/>
+<element name="U$32" library="dicons" package="VISION_REF15" value="" x="34.925" y="47.625"/>
 </elements>
 <signals>
 <signal name="GND">

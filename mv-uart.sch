@@ -2672,6 +2672,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X7" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2736,6 +2737,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 <instance part="GND15" gate="1" x="165.1" y="121.92" rot="R90"/>
 <instance part="JP5" gate="A" x="261.62" y="139.7" rot="R180"/>
 <instance part="GND16" gate="1" x="269.24" y="124.46"/>
+<instance part="GND17" gate="1" x="289.56" y="109.22" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2936,6 +2938,12 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 <wire x1="264.16" y1="132.08" x2="269.24" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="132.08" x2="269.24" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="HEAT_TAB"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="287.02" y1="104.14" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="104.14" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIO" class="0">

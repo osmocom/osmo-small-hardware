@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -55,11 +55,11 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -935,53 +935,161 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="rc-sysmocom" package="_0603" value="100n" x="19.05" y="21.59" rot="R180"/>
-<element name="C2" library="rc-sysmocom" package="_0603" value="100n" x="16.51" y="24.765" rot="R90"/>
-<element name="C3" library="rc-sysmocom" package="_0603" value="2.2u" x="17.78" y="24.765" rot="R90"/>
-<element name="C4" library="rc-sysmocom" package="_0603" value="1u" x="15.24" y="24.765" rot="R90"/>
-<element name="C5" library="rc-sysmocom" package="_0603" value="100n" x="34.29" y="14.605" rot="R90"/>
-<element name="C6" library="rc-sysmocom" package="_0603" value="1u" x="30.48" y="2.8575" rot="R180"/>
-<element name="C7" library="rc-sysmocom" package="_0603" value="1u" x="28.2575" y="8.5725" rot="R270"/>
-<element name="C8" library="rc-sysmocom" package="_0603" value="1n" x="30.48" y="8.89" rot="R180"/>
+<element name="C1" library="rc-sysmocom" package="_0603" value="100n" x="19.05" y="21.59" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.3675" y="22.38375" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="20.6375" y="23.0823" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+</element>
+<element name="C2" library="rc-sysmocom" package="_0603" value="100n" x="16.51" y="24.765" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.145" y="27.14625" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="18.0023" y="23.1775" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="C3" library="rc-sysmocom" package="_0603" value="2.2u" x="17.78" y="24.765" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.415" y="27.14625" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="19.2723" y="23.1775" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="C4" library="rc-sysmocom" package="_0603" value="1u" x="15.24" y="24.765" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.2875" y="23.1775" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="16.7323" y="23.1775" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="C5" library="rc-sysmocom" package="_0603" value="100n" x="34.29" y="14.605" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.81375" y="12.85875" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
+<attribute name="VALUE" x="35.7823" y="13.0175" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="C6" library="rc-sysmocom" package="_0603" value="1u" x="30.48" y="2.8575" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.0675" y="1.905" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="32.0675" y="4.3498" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+</element>
+<element name="C7" library="rc-sysmocom" package="_0603" value="1u" x="28.2575" y="8.5725" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.78125" y="6.985" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
+<attribute name="VALUE" x="26.7652" y="10.16" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+</element>
+<element name="C8" library="rc-sysmocom" package="_0603" value="1n" x="30.48" y="8.89" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.22625" y="8.41375" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="32.0675" y="10.3823" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+</element>
 <element name="C9" library="rc-sysmocom" package="_0603" value="4.7u" x="10.16" y="19.05" rot="R90"/>
-<element name="JP1" library="pinhead" package="1X04" value="" x="24.13" y="16.51"/>
-<element name="JP2" library="pinhead" package="1X06/90" value="" x="0" y="25.4" rot="R90"/>
-<element name="JP3" library="pinhead" package="1X06/90" value="" x="0" y="8.89" rot="R90"/>
-<element name="JP4" library="jumper" package="JP1" value="" x="24.13" y="12.7" rot="R270"/>
-<element name="R1" library="rc-sysmocom" package="_0603" value="18k" x="30.48" y="10.4775"/>
-<element name="R10" library="rc-sysmocom" package="_0603" value="10k" x="27.94" y="12.3825" rot="R90"/>
-<element name="R2" library="rc-sysmocom" package="_0603" value="1M" x="33.02" y="14.605" rot="R90"/>
-<element name="R3" library="rc-sysmocom" package="_0603" value="22.6k" x="24.765" y="6.35"/>
-<element name="R4" library="rc-sysmocom" package="_0603" value="34k" x="24.765" y="7.62"/>
-<element name="R5" library="rc-sysmocom" package="_0603" value="38.3k" x="24.765" y="8.89"/>
-<element name="R6" library="rc-sysmocom" package="_0603" value="45.3k" x="24.765" y="5.08"/>
-<element name="R7" library="rc-sysmocom" package="_0603" value="49.9k" x="24.765" y="3.81"/>
-<element name="R8" library="rc-sysmocom" package="_0603" value="56.2k" x="24.765" y="2.54"/>
-<element name="R9" library="rc-sysmocom" package="_0603" value="4.7k" x="15.24" y="28.2575" rot="R90"/>
-<element name="SW1" library="laforge" package="DIP_SP6T" value="DIP_SP6T" x="15.875" y="6.35"/>
-<element name="U1" library="laforge" package="TSOP-6" value="IP4234CZ6" x="26.67" y="20.32" rot="R180">
+<element name="JP1" library="pinhead" package="1X04" value="" x="24.13" y="16.51" smashed="yes">
+<attribute name="NAME" x="19.1262" y="16.2687" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="19.05" y="13.335" size="1.27" layer="27"/>
+</element>
+<element name="JP2" library="pinhead" package="1X06/90" value="" x="0" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="5.55625" y="21.74875" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="3.81" y="34.925" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="JP3" library="pinhead" package="1X06/90" value="" x="0" y="8.89" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.38125" y="0.3175" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="3.81" y="18.415" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="JP4" library="jumper" package="JP1" value="" x="24.13" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.36775" y="11.1125" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="21.59" y="9.779" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="R1" library="rc-sysmocom" package="_0603" value="18k" x="30.48" y="10.4775" smashed="yes">
+<attribute name="NAME" x="32.22625" y="10.00125" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="28.8925" y="8.9852" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R10" library="rc-sysmocom" package="_0603" value="10k" x="27.94" y="12.3825" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.9875" y="10.795" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="29.4323" y="10.795" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="R2" library="rc-sysmocom" package="_0603" value="1M" x="33.02" y="14.605" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.54375" y="13.0175" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
+<attribute name="VALUE" x="34.5123" y="13.0175" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="R3" library="rc-sysmocom" package="_0603" value="22.6k" x="24.765" y="6.35" smashed="yes">
+<attribute name="NAME" x="23.33625" y="6.6675" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="23.1775" y="4.8577" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R4" library="rc-sysmocom" package="_0603" value="34k" x="24.765" y="7.62" smashed="yes">
+<attribute name="NAME" x="23.33625" y="7.9375" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="23.1775" y="6.1277" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R5" library="rc-sysmocom" package="_0603" value="38.3k" x="24.765" y="8.89" smashed="yes">
+<attribute name="NAME" x="23.33625" y="9.2075" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="23.1775" y="7.3977" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R6" library="rc-sysmocom" package="_0603" value="45.3k" x="24.765" y="5.08" smashed="yes">
+<attribute name="NAME" x="23.33625" y="5.3975" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="23.1775" y="3.5877" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R7" library="rc-sysmocom" package="_0603" value="49.9k" x="24.765" y="3.81" smashed="yes">
+<attribute name="NAME" x="23.33625" y="4.1275" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="23.1775" y="2.3177" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R8" library="rc-sysmocom" package="_0603" value="56.2k" x="24.765" y="2.54" smashed="yes">
+<attribute name="NAME" x="23.33625" y="3.01625" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="23.1775" y="1.0477" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R9" library="rc-sysmocom" package="_0603" value="4.7k" x="15.24" y="28.2575" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.71625" y="30.00375" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="16.7323" y="26.67" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="SW1" library="laforge" package="DIP_SP6T" value="DIP_SP6T" x="15.875" y="6.35" smashed="yes">
+<attribute name="NAME" x="15.39875" y="11.27125" size="1.27" layer="25"/>
+<attribute name="VALUE" x="22.225" y="2.54" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U1" library="laforge" package="TSOP-6" value="IP4234CZ6" x="26.67" y="20.32" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="568-5869-1-ND" x="26.67" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="29.21" y="17.78" size="1.778" layer="25" rot="R180"/>
+<attribute name="VALUE" x="29.21" y="24.13" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="U2" library="usb-uart" package="QFN24_4X4" value="CP2105-GM" x="13.97" y="20.32" rot="R180">
+<element name="U2" library="usb-uart" package="QFN24_4X4" value="CP2105-GM" x="13.97" y="20.32" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="336-2009-5-ND" x="13.97" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="13.9573" y="16.51" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="9.525" y="22.5044" size="1.27" layer="27" ratio="6" rot="SR270"/>
 </element>
-<element name="U3" library="ldo" package="SOT23L" value="LDO_SHD_ADJ-AP2127K-ADJ" x="30.48" y="6.35"/>
-<element name="X1" library="con-hirose" package="UX60-MB-5ST" value="MINI-USB-SHIELD-UX60-MB-5ST" x="33.02" y="20.32" rot="R180">
+<element name="U3" library="ldo" package="SOT23L" value="LDO_SHD_ADJ-AP2127K-ADJ" x="30.48" y="6.35" smashed="yes">
+<attribute name="NAME" x="33.81375" y="5.23875" size="1.27" layer="25" ratio="17" rot="R90"/>
+<attribute name="VALUE" x="33.909" y="4.445" size="1.27" layer="27" ratio="17" rot="R90"/>
+</element>
+<element name="X1" library="con-hirose" package="UX60-MB-5ST" value="MINI-USB-SHIELD-UX60-MB-5ST" x="33.02" y="20.32" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="33.02" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="33.02" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="33.02" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="33.02" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="36.195" y="15.24" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="37.465" y="27.305" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R11" library="rc-sysmocom" package="_0603" value="47" x="8.89" y="13.97" rot="R90"/>
-<element name="R12" library="rc-sysmocom" package="_0603" value="47" x="10.16" y="13.97" rot="R90"/>
-<element name="R13" library="rc-sysmocom" package="_0603" value="47" x="12.7" y="13.97" rot="R90"/>
-<element name="R14" library="rc-sysmocom" package="_0603" value="47" x="11.43" y="13.97" rot="R90"/>
-<element name="R15" library="rc-sysmocom" package="_0603" value="47" x="8.89" y="26.67"/>
-<element name="R16" library="rc-sysmocom" package="_0603" value="47" x="12.065" y="28.2575"/>
-<element name="R17" library="rc-sysmocom" package="_0603" value="47" x="8.255" y="31.75"/>
-<element name="R18" library="rc-sysmocom" package="_0603" value="47" x="12.065" y="30.1625"/>
-<element name="D1" library="Wuerth_Elektronik_eiSos_V6_20140807" package="WE-TVS_SOT23-6L" value="WE-TVS_824013" x="8.255" y="29.21" rot="R270"/>
-<element name="D2" library="Wuerth_Elektronik_eiSos_V6_20140807" package="WE-TVS_SOT23-6L" value="WE-TVS_824013" x="7.62" y="7.62" rot="R270"/>
+<element name="R11" library="rc-sysmocom" package="_0603" value="47" x="8.89" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.255" y="12.3825" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
+<attribute name="VALUE" x="10.3823" y="12.3825" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="R12" library="rc-sysmocom" package="_0603" value="47" x="10.16" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.68375" y="12.3825" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
+<attribute name="VALUE" x="11.6523" y="12.3825" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="R13" library="rc-sysmocom" package="_0603" value="47" x="12.7" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.17625" y="15.5575" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="14.1923" y="12.3825" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="R14" library="rc-sysmocom" package="_0603" value="47" x="11.43" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.90625" y="15.5575" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="12.9223" y="12.3825" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="R15" library="rc-sysmocom" package="_0603" value="47" x="8.89" y="26.67" smashed="yes">
+<attribute name="NAME" x="10.31875" y="25.7175" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="7.3025" y="25.1777" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R16" library="rc-sysmocom" package="_0603" value="47" x="12.065" y="28.2575" smashed="yes">
+<attribute name="NAME" x="13.49375" y="27.305" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="10.4775" y="26.7652" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R17" library="rc-sysmocom" package="_0603" value="47" x="8.255" y="31.75" smashed="yes">
+<attribute name="NAME" x="6.50875" y="32.385" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="6.6675" y="30.2577" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R18" library="rc-sysmocom" package="_0603" value="47" x="12.065" y="30.1625" smashed="yes">
+<attribute name="NAME" x="10.95375" y="30.95625" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="10.4775" y="28.6702" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="D1" library="Wuerth_Elektronik_eiSos_V6_20140807" package="WE-TVS_SOT23-6L" value="WE-TVS_824013" x="8.255" y="29.21" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.842" y="27.305" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="5.08" y="25.908" size="1.27" layer="27"/>
+</element>
+<element name="D2" library="Wuerth_Elektronik_eiSos_V6_20140807" package="WE-TVS_SOT23-6L" value="WE-TVS_824013" x="7.62" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.6675" y="4.2545" size="1.27" layer="25"/>
+<attribute name="VALUE" x="4.445" y="4.318" size="1.27" layer="27"/>
+</element>
 <element name="JP5" library="pinhead" package="1X07" value="" x="27.94" y="31.115" rot="R180"/>
 </elements>
 <signals>
@@ -1130,7 +1238,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="36.195" y="12.3825" extent="1-16" drill="0.3"/>
 <via x="14.9225" y="32.0675" extent="1-16" drill="0.3"/>
 <via x="17.78" y="32.0675" extent="1-16" drill="0.3"/>
-<via x="36.195" y="28.2575" extent="1-16" drill="0.3"/>
+<via x="35.56" y="27.94" extent="1-16" drill="0.3"/>
 <via x="31.115" y="6.35" extent="1-16" drill="0.3"/>
 <via x="29.845" y="6.35" extent="1-16" drill="0.3"/>
 <via x="30.48" y="3.81" extent="1-16" drill="0.3"/>
@@ -1143,7 +1251,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="28.8925" y="21.2725" extent="1-16" drill="0.3"/>
 <via x="28.8925" y="22.225" extent="1-16" drill="0.3"/>
 <via x="10.16" y="16.8275" extent="1-16" drill="0.3"/>
-<via x="11.1125" y="18.0975" extent="1-16" drill="0.3"/>
+<via x="10.95375" y="19.05" extent="1-16" drill="0.3"/>
 <via x="21.59" y="29.05125" extent="1-16" drill="0.3"/>
 <via x="23.65375" y="28.8925" extent="1-16" drill="0.3"/>
 <via x="24.60625" y="26.82875" extent="1-16" drill="0.3"/>

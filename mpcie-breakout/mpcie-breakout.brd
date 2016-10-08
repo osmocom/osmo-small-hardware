@@ -2430,7 +2430,7 @@ design rules under a new name.</description>
 <attribute name="SOURCE" value="DIGIKEY" x="24.892" y="34.544" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="JP4" library="pinhead" package="2X12" value="" x="16.51" y="66.04" smashed="yes">
-<attribute name="NAME" x="33.401" y="68.072" size="1.27" layer="25" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="33.401" y="68.072" size="1.27" layer="26" font="vector" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="1.27" y="61.595" size="1.27" layer="27"/>
 </element>
 <element name="C8" library="rc-sysmocom" package="_0603" value="100n" x="6.604" y="27.94" smashed="yes" rot="MR0">

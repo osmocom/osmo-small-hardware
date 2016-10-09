@@ -12304,31 +12304,203 @@ DIN A4, landscape with extra doc field</description>
 </class>
 </classes>
 <parts>
-<part name="X1" library="con-miniPCIe" deviceset="MPCIE" device="-JAE"/>
+<part name="X1" library="con-miniPCIe" deviceset="MPCIE" device="-JAE">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/MM60-52B1-E1-R650/670-2275-1-ND"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="X2" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST"/>
-<part name="M1" library="BOM-exclusive" deviceset="NUT" device=""/>
-<part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW"/>
-<part name="JP1" library="jumper" deviceset="JP1E" device=""/>
-<part name="JP2" library="jumper" deviceset="JP1E" device=""/>
+<part name="X2" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="M1" library="BOM-exclusive" deviceset="NUT" device="">
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND"/>
+</part>
+<part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
+<attribute name="CLASS" value="LED"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="JP1" library="jumper" deviceset="JP1E" device="">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="JP2" library="jumper" deviceset="JP1E" device="">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rc-sysmocom" deviceset="RESISTOR" device="_0603"/>
-<part name="R2" library="rc-sysmocom" deviceset="RESISTOR" device="_0603"/>
-<part name="R3" library="rc-sysmocom" deviceset="RESISTOR" device="_0603"/>
-<part name="U1" library="laforge" deviceset="IP4234CZ6" device=""/>
-<part name="U2" library="ldo" deviceset="LDO" device="-LD1085D2" value="LD1085D2T33R"/>
-<part name="C1" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u"/>
-<part name="C2" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u"/>
+<part name="R1" library="rc-sysmocom" deviceset="RESISTOR" device="_0603">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="R2" library="rc-sysmocom" deviceset="RESISTOR" device="_0603">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="R3" library="rc-sysmocom" deviceset="RESISTOR" device="_0603">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="U1" library="laforge" deviceset="IP4234CZ6" device="">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/nxp-semiconductors/IP4234CZ6,125/568-5869-1-ND/2531156"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="U2" library="ldo" deviceset="LDO" device="-LD1085D2" value="LD1085D2T33R">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="C1" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="C2" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="K1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108106102" device=""/>
-<part name="JP3" library="jumper" deviceset="JP2E" device=""/>
+<part name="K1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108106102" device="">
+<attribute name="CLASS" value="RELAY"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="JP3" library="jumper" deviceset="JP2E" device="">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="UD-8X10" value="470u"/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="SMCE" value="DNP"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="UD-8X10" value="470u">
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="SMCE" value="DNP">
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="C107" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
@@ -12455,7 +12627,17 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="JP4" library="pinhead" deviceset="PINHD-2X12" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-2X12" device="">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="C8" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
@@ -12468,7 +12650,17 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1M"/>
+<part name="R4" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1M">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="C9" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
@@ -12481,8 +12673,28 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="GREEN"/>
-<part name="R5" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="GREEN">
+<attribute name="CLASS" value="LED"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="R5" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 </parts>
@@ -12493,32 +12705,202 @@ DIN A4, landscape with extra doc field</description>
 (C) 2016 by Harald Welte &lt;laforge@gnumonks.org&gt;</text>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="60.96" y="63.5"/>
+<instance part="X1" gate="G$1" x="60.96" y="63.5">
+<attribute name="DESCRIPTION" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="60.96" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="38.1" y="25.4"/>
 <instance part="GND2" gate="1" x="83.82" y="25.4"/>
-<instance part="X2" gate="G$1" x="208.28" y="78.74"/>
+<instance part="X2" gate="G$1" x="208.28" y="78.74">
+<attribute name="DESCRIPTION" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="208.28" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="X2" gate="S" x="213.36" y="68.58"/>
 <instance part="M1" gate="G$1" x="101.6" y="30.48"/>
-<instance part="SIM1" gate="-CARD" x="228.6" y="139.7"/>
-<instance part="LED1" gate="G$1" x="109.22" y="43.18" rot="R270"/>
-<instance part="JP1" gate="A" x="116.84" y="68.58" rot="R270"/>
-<instance part="JP2" gate="A" x="116.84" y="73.66" rot="R270"/>
+<instance part="SIM1" gate="-CARD" x="228.6" y="139.7">
+<attribute name="DESCRIPTION" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="228.6" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED1" gate="G$1" x="109.22" y="43.18" rot="R270">
+<attribute name="DESCRIPTION" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="109.22" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP1" gate="A" x="116.84" y="68.58" rot="R270">
+<attribute name="DESCRIPTION" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="116.84" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="A" x="116.84" y="73.66" rot="R270">
+<attribute name="DESCRIPTION" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="116.84" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="111.76" y="60.96"/>
-<instance part="R1" gate="G$1" x="109.22" y="86.36"/>
-<instance part="R2" gate="G$1" x="101.6" y="83.82"/>
-<instance part="R3" gate="G$1" x="109.22" y="81.28"/>
-<instance part="U1" gate="G$1" x="175.26" y="78.74" rot="MR0"/>
-<instance part="U2" gate="G$1" x="170.18" y="162.56"/>
-<instance part="C1" gate="G$1" x="152.4" y="157.48" rot="R90"/>
-<instance part="C2" gate="G$1" x="185.42" y="157.48" rot="R90"/>
+<instance part="R1" gate="G$1" x="109.22" y="86.36">
+<attribute name="DESCRIPTION" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="109.22" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="101.6" y="83.82">
+<attribute name="DESCRIPTION" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="109.22" y="81.28">
+<attribute name="DESCRIPTION" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="109.22" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U1" gate="G$1" x="175.26" y="78.74" rot="MR0">
+<attribute name="DESCRIPTION" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="175.26" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="170.18" y="162.56">
+<attribute name="DESCRIPTION" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="152.4" y="157.48" rot="R90">
+<attribute name="DESCRIPTION" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="152.4" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="185.42" y="157.48" rot="R90">
+<attribute name="DESCRIPTION" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="185.42" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="170.18" y="149.86"/>
-<instance part="K1" gate="G$1" x="114.3" y="172.72"/>
-<instance part="JP3" gate="1" x="129.54" y="165.1" rot="R90"/>
+<instance part="K1" gate="G$1" x="114.3" y="172.72">
+<attribute name="DESCRIPTION" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="114.3" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP3" gate="1" x="129.54" y="165.1" rot="R90">
+<attribute name="DESCRIPTION" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="129.54" y="165.1" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="116.84" y="162.56"/>
 <instance part="GND6" gate="1" x="175.26" y="63.5"/>
 <instance part="GND7" gate="1" x="200.66" y="68.58"/>
-<instance part="C3" gate="G$1" x="142.24" y="160.02"/>
-<instance part="C4" gate="G$1" x="195.58" y="160.02"/>
+<instance part="C3" gate="G$1" x="142.24" y="160.02">
+<attribute name="DESCRIPTION" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="142.24" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="195.58" y="160.02">
+<attribute name="DESCRIPTION" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="195.58" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C107" gate="G$1" x="137.16" y="134.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="135.89" y="128.016" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.89" y="135.636" size="1.27" layer="96" rot="R90"/>
@@ -12667,7 +13049,17 @@ DIN A4, landscape with extra doc field</description>
 <instance part="GND8" gate="1" x="208.28" y="129.54"/>
 <instance part="GND9" gate="1" x="213.36" y="129.54"/>
 <instance part="GND10" gate="1" x="246.38" y="129.54"/>
-<instance part="JP4" gate="A" x="55.88" y="144.78"/>
+<instance part="JP4" gate="A" x="55.88" y="144.78">
+<attribute name="DESCRIPTION" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="55.88" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C8" gate="G$1" x="203.2" y="134.62" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="203.2" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="203.2" y="134.62" size="1.778" layer="96" display="off"/>
@@ -12682,7 +13074,17 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="202.438" y="137.414" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="GND11" gate="1" x="203.2" y="129.54"/>
-<instance part="R4" gate="G$1" x="213.36" y="55.88" rot="R90"/>
+<instance part="R4" gate="G$1" x="213.36" y="55.88" rot="R90">
+<attribute name="DESCRIPTION" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="213.36" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C9" gate="G$1" x="205.74" y="55.88" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="205.74" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="205.74" y="55.88" size="1.778" layer="96" display="off"/>
@@ -12697,8 +13099,28 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="VALUE" x="204.978" y="58.674" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="GND12" gate="1" x="210.82" y="45.72"/>
-<instance part="LED2" gate="G$1" x="15.24" y="152.4"/>
-<instance part="R5" gate="G$1" x="15.24" y="142.24" rot="R90"/>
+<instance part="LED2" gate="G$1" x="15.24" y="152.4">
+<attribute name="DESCRIPTION" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="15.24" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="15.24" y="142.24" rot="R90">
+<attribute name="DESCRIPTION" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="15.24" y="142.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND13" gate="1" x="15.24" y="134.62"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0"/>

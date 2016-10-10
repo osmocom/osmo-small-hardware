@@ -1,0 +1,5 @@
+*.b#*
+*.s#*
+httpwww*
+AddAttributes.scr
+clone_attributes.scr

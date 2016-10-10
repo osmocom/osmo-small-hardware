@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
+  <gnm:Version Epoch="1" Major="12" Minor="18" Full="1.12.18"/>
+  <gnm:SheetNameIndex>
+    <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">mpcie-breakout.sch</gnm:SheetName>
+  </gnm:SheetNameIndex>
+  <gnm:Sheets>
+    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
+      <gnm:Name>mpcie-breakout.sch</gnm:Name>
+      <gnm:MaxCol>9</gnm:MaxCol>
+      <gnm:MaxRow>65535</gnm:MaxRow>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Zoom>1</gnm:Zoom>
+      <gnm:Styles>
+        <gnm:StyleRegion startCol="0" startRow="1" endCol="255" endRow="1">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Bold="1" Underline="1">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="2" endCol="6" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="3" endCol="6" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="5" endCol="6" endRow="5">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="6" endCol="6" endRow="6">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="7" endCol="6" endRow="7">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="8" endCol="6" endRow="8">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/C0603C100J5GACTU/399-1049-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="11" endCol="6" endRow="11">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC012DAAN-RC/S2011EC-12-ND/2775282" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="12" endCol="6" endRow="12">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="15" endCol="6" endRow="15">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="https://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="16" endCol="6" endRow="16">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="17" endCol="6" endRow="17">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="18" endCol="6" endRow="18">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="19" endCol="6" endRow="19">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="20" endCol="6" endRow="20">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/nxp-semiconductors/IP4234CZ6,125/568-5869-1-ND/2531156" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="21" endCol="6" endRow="21">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="22" endCol="6" endRow="22">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/jae-electronics/MM60-52B1-E1-R650/670-2275-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="23" endCol="6" endRow="23">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+      </gnm:Styles>
+      <gnm:Cols DefaultSizePts="48">
+        <gnm:ColInfo No="0" Unit="27"/>
+        <gnm:ColInfo No="1" Unit="216"/>
+        <gnm:ColInfo No="2" Unit="150"/>
+        <gnm:ColInfo No="3" Unit="110"/>
+        <gnm:ColInfo No="4" Unit="95"/>
+        <gnm:ColInfo No="5" Unit="58"/>
+        <gnm:ColInfo No="6" Unit="123"/>
+        <gnm:ColInfo No="7" Unit="80"/>
+        <gnm:ColInfo No="8" Unit="200"/>
+        <gnm:ColInfo No="9" Unit="58"/>
+      </gnm:Cols>
+      <gnm:Cells>
+        <gnm:Cell Row="0" Col="1" ValueType="60">mpcie-breakout.sch</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-10 15:56:18</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="60">EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft</gnm:Cell>
+        <gnm:Cell Row="1" Col="0" ValueType="60">Qty</gnm:Cell>
+        <gnm:Cell Row="1" Col="1" ValueType="60">Name</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="60">Value</gnm:Cell>
+        <gnm:Cell Row="1" Col="3" ValueType="60">Package</gnm:Cell>
+        <gnm:Cell Row="1" Col="4" ValueType="60">Class</gnm:Cell>
+        <gnm:Cell Row="1" Col="5" ValueType="60">Supplier</gnm:Cell>
+        <gnm:Cell Row="1" Col="6" ValueType="60">Part Number</gnm:Cell>
+        <gnm:Cell Row="1" Col="7" ValueType="60">URL</gnm:Cell>
+        <gnm:Cell Row="1" Col="8" ValueType="60">Description</gnm:Cell>
+        <gnm:Cell Row="1" Col="9" ValueType="60">Populated</gnm:Cell>
+        <gnm:Cell Row="1" Col="10" ValueType="60">Beistellung</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="60">C1, C2</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="60">10u</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="60">_0805</gnm:Cell>
+        <gnm:Cell Row="2" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
+        <gnm:Cell Row="2" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="2" Col="6" ValueType="60">1276-6455-1-ND</gnm:Cell>
+        <gnm:Cell Row="2" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083</gnm:Cell>
+        <gnm:Cell Row="2" Col="8" ValueType="60">10µF 16V Ceramic Capacitor X5R 0805 (2012 Metric) 0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)</gnm:Cell>
+        <gnm:Cell Row="2" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="2" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">C3</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="60">470u</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="60">UD-8X10_NICHICON</gnm:Cell>
+        <gnm:Cell Row="3" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
+        <gnm:Cell Row="3" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="3" Col="6" ValueType="60">493-6207-1-ND</gnm:Cell>
+        <gnm:Cell Row="3" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720</gnm:Cell>
+        <gnm:Cell Row="3" Col="8" ValueType="60">470µF 6.3V Aluminum Capacitors Radial, Can - SMD  2000 Hrs @ 85°C</gnm:Cell>
+        <gnm:Cell Row="3" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="3" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="60">C4</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="60">DNP</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="60">SMC_E</gnm:Cell>
+        <gnm:Cell Row="4" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
+        <gnm:Cell Row="4" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
+        <gnm:Cell Row="4" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
+        <gnm:Cell Row="4" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
+        <gnm:Cell Row="4" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="4" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="4" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="40">5</gnm:Cell>
+        <gnm:Cell Row="5" Col="1" ValueType="60">C5, C6, C7, C107, C111</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="60">33p</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="60">_0402</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
+        <gnm:Cell Row="5" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="5" Col="6" ValueType="60">1276-1272-1-ND</gnm:Cell>
+        <gnm:Cell Row="5" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358</gnm:Cell>
+        <gnm:Cell Row="5" Col="8" ValueType="60">CAP CER 33PF 50V NP0 0402</gnm:Cell>
+        <gnm:Cell Row="5" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="5" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="60">C8, C9, C106, C110</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="60">100n</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="60">_0603</gnm:Cell>
+        <gnm:Cell Row="6" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
+        <gnm:Cell Row="6" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="6" Col="6" ValueType="60">1276-1005-1-ND</gnm:Cell>
+        <gnm:Cell Row="6" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND</gnm:Cell>
+        <gnm:Cell Row="6" Col="8" ValueType="60">CAP CER 0.1UF 16V 10% X7R 0603</gnm:Cell>
+        <gnm:Cell Row="6" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="6" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">C105, C109</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="60">100u</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="60">C1210</gnm:Cell>
+        <gnm:Cell Row="7" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
+        <gnm:Cell Row="7" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="7" Col="6" ValueType="60">1276-1092-1-ND</gnm:Cell>
+        <gnm:Cell Row="7" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178</gnm:Cell>
+        <gnm:Cell Row="7" Col="8" ValueType="60">CAP CER 100UF 6.3V X5R 1210</gnm:Cell>
+        <gnm:Cell Row="7" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="7" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="8" Col="1" ValueType="60">C108, C112</gnm:Cell>
+        <gnm:Cell Row="8" Col="2" ValueType="60">10p</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ValueType="60">_0603</gnm:Cell>
+        <gnm:Cell Row="8" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
+        <gnm:Cell Row="8" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="8" Col="6" ValueType="60">399-1049-1-ND</gnm:Cell>
+        <gnm:Cell Row="8" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/C0603C100J5GACTU/399-1049-1-ND</gnm:Cell>
+        <gnm:Cell Row="8" Col="8" ValueType="60">CAP CER 10PF 50V NP0 0603</gnm:Cell>
+        <gnm:Cell Row="8" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="8" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="9" Col="0" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="9" Col="1" ValueType="60">JP1, JP2</gnm:Cell>
+        <gnm:Cell Row="9" Col="2" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="9" Col="3" ValueType="60">JP1</gnm:Cell>
+        <gnm:Cell Row="9" Col="4" ValueType="60">CONNECTOR\JUMPER</gnm:Cell>
+        <gnm:Cell Row="9" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
+        <gnm:Cell Row="9" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
+        <gnm:Cell Row="9" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
+        <gnm:Cell Row="9" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="9" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="9" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ValueType="60">JP3</gnm:Cell>
+        <gnm:Cell Row="10" Col="2" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="10" Col="3" ValueType="60">JP2</gnm:Cell>
+        <gnm:Cell Row="10" Col="4" ValueType="60">CONNECTOR\JUMPER</gnm:Cell>
+        <gnm:Cell Row="10" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
+        <gnm:Cell Row="10" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
+        <gnm:Cell Row="10" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
+        <gnm:Cell Row="10" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="10" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="10" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="11" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ValueType="60">JP4</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="11" Col="3" ValueType="60">2X12</gnm:Cell>
+        <gnm:Cell Row="11" Col="4" ValueType="60">CONNECTOR\JUMPER</gnm:Cell>
+        <gnm:Cell Row="11" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="11" Col="6" ValueType="60">S2011EC-12-ND</gnm:Cell>
+        <gnm:Cell Row="11" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC012DAAN-RC/S2011EC-12-ND/2775282</gnm:Cell>
+        <gnm:Cell Row="11" Col="8" ValueType="60">24 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold</gnm:Cell>
+        <gnm:Cell Row="11" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="11" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="12" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ValueType="60">K1</gnm:Cell>
+        <gnm:Cell Row="12" Col="2" ValueType="60">694108106102</gnm:Cell>
+        <gnm:Cell Row="12" Col="3" ValueType="60">694108106102</gnm:Cell>
+        <gnm:Cell Row="12" Col="4" ValueType="60">RELAY</gnm:Cell>
+        <gnm:Cell Row="12" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="12" Col="6" ValueType="60">732-5933-1-ND</gnm:Cell>
+        <gnm:Cell Row="12" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628</gnm:Cell>
+        <gnm:Cell Row="12" Col="8" ValueType="60">Power Barrel Connector Jack 2.50mm ID (0.098&quot;), 5.50mm OD (0.217&quot;) Surface Mount, Right Angle</gnm:Cell>
+        <gnm:Cell Row="12" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="12" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="13" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="13" Col="1" ValueType="60">LED1</gnm:Cell>
+        <gnm:Cell Row="13" Col="2" ValueType="60">YELLOW</gnm:Cell>
+        <gnm:Cell Row="13" Col="3" ValueType="60">CHIP-LED0603</gnm:Cell>
+        <gnm:Cell Row="13" Col="4" ValueType="60">LED</gnm:Cell>
+        <gnm:Cell Row="13" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
+        <gnm:Cell Row="13" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
+        <gnm:Cell Row="13" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
+        <gnm:Cell Row="13" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="13" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="13" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="14" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="14" Col="1" ValueType="60">LED2</gnm:Cell>
+        <gnm:Cell Row="14" Col="2" ValueType="60">GREEN</gnm:Cell>
+        <gnm:Cell Row="14" Col="3" ValueType="60">CHIP-LED0603</gnm:Cell>
+        <gnm:Cell Row="14" Col="4" ValueType="60">LED</gnm:Cell>
+        <gnm:Cell Row="14" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
+        <gnm:Cell Row="14" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
+        <gnm:Cell Row="14" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
+        <gnm:Cell Row="14" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="14" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="14" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="15" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="15" Col="1" ValueType="60">M1</gnm:Cell>
+        <gnm:Cell Row="15" Col="2" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="15" Col="3" ValueType="60">NONE</gnm:Cell>
+        <gnm:Cell Row="15" Col="4" ValueType="60">MECHANICAL</gnm:Cell>
+        <gnm:Cell Row="15" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
+        <gnm:Cell Row="15" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
+        <gnm:Cell Row="15" Col="7" ValueType="60">https://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND</gnm:Cell>
+        <gnm:Cell Row="15" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="15" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="15" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="16" Col="0" ValueType="40">3</gnm:Cell>
+        <gnm:Cell Row="16" Col="1" ValueType="60">R1, R2, R3</gnm:Cell>
+        <gnm:Cell Row="16" Col="2" ValueType="60">47</gnm:Cell>
+        <gnm:Cell Row="16" Col="3" ValueType="60">_0603</gnm:Cell>
+        <gnm:Cell Row="16" Col="4" ValueType="60">RESISTOR</gnm:Cell>
+        <gnm:Cell Row="16" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="16" Col="6" ValueType="60">311-47GRCT-ND</gnm:Cell>
+        <gnm:Cell Row="16" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740</gnm:Cell>
+        <gnm:Cell Row="16" Col="8" ValueType="60">RES SMD 47 OHM 5% 1/10W 0603</gnm:Cell>
+        <gnm:Cell Row="16" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="16" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="17" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="17" Col="1" ValueType="60">R4</gnm:Cell>
+        <gnm:Cell Row="17" Col="2" ValueType="60">1M</gnm:Cell>
+        <gnm:Cell Row="17" Col="3" ValueType="60">_0603</gnm:Cell>
+        <gnm:Cell Row="17" Col="4" ValueType="60">RESISTOR</gnm:Cell>
+        <gnm:Cell Row="17" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="17" Col="6" ValueType="60">1276-3856-1-ND</gnm:Cell>
+        <gnm:Cell Row="17" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828</gnm:Cell>
+        <gnm:Cell Row="17" Col="8" ValueType="60">RES SMD 1M OHM 5% 1/20W 0201</gnm:Cell>
+        <gnm:Cell Row="17" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="17" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="18" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="18" Col="1" ValueType="60">R5</gnm:Cell>
+        <gnm:Cell Row="18" Col="2" ValueType="60">330</gnm:Cell>
+        <gnm:Cell Row="18" Col="3" ValueType="60">_0603</gnm:Cell>
+        <gnm:Cell Row="18" Col="4" ValueType="60">RESISTOR</gnm:Cell>
+        <gnm:Cell Row="18" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="18" Col="6" ValueType="60">311-330GRCT-ND</gnm:Cell>
+        <gnm:Cell Row="18" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716</gnm:Cell>
+        <gnm:Cell Row="18" Col="8" ValueType="60">RES SMD 330 OHM 5% 1/10W 0603</gnm:Cell>
+        <gnm:Cell Row="18" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="18" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="19" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="19" Col="1" ValueType="60">SIM1</gnm:Cell>
+        <gnm:Cell Row="19" Col="2" ValueType="60">SF7W008S1A-R</gnm:Cell>
+        <gnm:Cell Row="19" Col="3" ValueType="60">SF7W008S1A-RESTR</gnm:Cell>
+        <gnm:Cell Row="19" Col="4" ValueType="60">UNKNOWN CLASS</gnm:Cell>
+        <gnm:Cell Row="19" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="19" Col="6" ValueType="60">670-2337-1-ND</gnm:Cell>
+        <gnm:Cell Row="19" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033</gnm:Cell>
+        <gnm:Cell Row="19" Col="8" ValueType="60">8 (6 + 2) Position Card Connector SIM Card Surface Mount, Right Angle Gold</gnm:Cell>
+        <gnm:Cell Row="19" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="19" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="20" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="20" Col="1" ValueType="60">U1</gnm:Cell>
+        <gnm:Cell Row="20" Col="2" ValueType="60">IP4234CZ6</gnm:Cell>
+        <gnm:Cell Row="20" Col="3" ValueType="60">TSOP-6</gnm:Cell>
+        <gnm:Cell Row="20" Col="4" ValueType="60">IC</gnm:Cell>
+        <gnm:Cell Row="20" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="20" Col="6" ValueType="60">568-5869-1-ND</gnm:Cell>
+        <gnm:Cell Row="20" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/nxp-semiconductors/IP4234CZ6,125/568-5869-1-ND/2531156</gnm:Cell>
+        <gnm:Cell Row="20" Col="8" ValueType="60">TVS DIODE 5.5VWM 6TSOP</gnm:Cell>
+        <gnm:Cell Row="20" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="20" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="21" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="21" Col="1" ValueType="60">U2</gnm:Cell>
+        <gnm:Cell Row="21" Col="2" ValueType="60">LD1085D2T33R</gnm:Cell>
+        <gnm:Cell Row="21" Col="3" ValueType="60">ST_D2PAK</gnm:Cell>
+        <gnm:Cell Row="21" Col="4" ValueType="60">IC</gnm:Cell>
+        <gnm:Cell Row="21" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="21" Col="6" ValueType="60">497-1222-1-ND</gnm:Cell>
+        <gnm:Cell Row="21" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222</gnm:Cell>
+        <gnm:Cell Row="21" Col="8" ValueType="60">Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 3A D2PAK</gnm:Cell>
+        <gnm:Cell Row="21" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="21" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="22" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="22" Col="1" ValueType="60">X1</gnm:Cell>
+        <gnm:Cell Row="22" Col="2" ValueType="60">MPCIE-JAE</gnm:Cell>
+        <gnm:Cell Row="22" Col="3" ValueType="60">MM60-52</gnm:Cell>
+        <gnm:Cell Row="22" Col="4" ValueType="60">CONNECTOR</gnm:Cell>
+        <gnm:Cell Row="22" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="22" Col="6" ValueType="60">670-2275-1-ND</gnm:Cell>
+        <gnm:Cell Row="22" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/jae-electronics/MM60-52B1-E1-R650/670-2275-1-ND</gnm:Cell>
+        <gnm:Cell Row="22" Col="8" ValueType="60">CONN MINI EXPRESS CARD 52POS SMD</gnm:Cell>
+        <gnm:Cell Row="22" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="22" Col="10" ValueType="60"></gnm:Cell>
+        <gnm:Cell Row="23" Col="0" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="23" Col="1" ValueType="60">X2</gnm:Cell>
+        <gnm:Cell Row="23" Col="2" ValueType="60">MINI-USB-SHIELD-UX60-MB-5ST</gnm:Cell>
+        <gnm:Cell Row="23" Col="3" ValueType="60">UX60-MB-5ST</gnm:Cell>
+        <gnm:Cell Row="23" Col="4" ValueType="60">CONNECTOR</gnm:Cell>
+        <gnm:Cell Row="23" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="23" Col="6" ValueType="60">H2959CT-ND</gnm:Cell>
+        <gnm:Cell Row="23" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538</gnm:Cell>
+        <gnm:Cell Row="23" Col="8" ValueType="60">USB - mini B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle, Horizontal</gnm:Cell>
+        <gnm:Cell Row="23" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="23" Col="10" ValueType="60"></gnm:Cell>
+      </gnm:Cells>
+      <gnm:SheetLayout TopLeft="H1"/>
+    </gnm:Sheet>
+  </gnm:Sheets>
+  <gnm:UIData SelectedTab="0"/>
+</gnm:Workbook>

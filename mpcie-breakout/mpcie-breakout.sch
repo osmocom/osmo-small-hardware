@@ -12306,41 +12306,41 @@ DIN A4, landscape with extra doc field</description>
 <parts>
 <part name="X1" library="con-miniPCIe" deviceset="MPCIE" device="-JAE">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/MM60-52B1-E1-R650/670-2275-1-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CONN MINI EXPRESS CARD 52POS SMD"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/jae-electronics/MM60-52B1-E1-R650/670-2275-1-ND"/>
+<attribute name="MANUFACTURER" value="JAE Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MM60-52B1-E1-R650"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="670-2275-1-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="X2" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="USB - mini B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle, Horizontal"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UX60-MB-5ST"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="H2959CT-ND"/>
 </part>
 <part name="M1" library="BOM-exclusive" deviceset="NUT" device="">
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND"/>
 </part>
 <part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="8 (6 + 2) Position Card Connector SIM Card Surface Mount, Right Angle Gold"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="JAE Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AE900"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="670-2337-1-ND"/>
 </part>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
 <attribute name="CLASS" value="LED"/>
@@ -12376,94 +12376,94 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rc-sysmocom" deviceset="RESISTOR" device="_0603">
+<part name="R1" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
 </part>
-<part name="R2" library="rc-sysmocom" deviceset="RESISTOR" device="_0603">
+<part name="R2" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
 </part>
-<part name="R3" library="rc-sysmocom" deviceset="RESISTOR" device="_0603">
+<part name="R3" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
 </part>
 <part name="U1" library="laforge" deviceset="IP4234CZ6" device="">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 5.5VWM 6TSOP"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/nxp-semiconductors/IP4234CZ6,125/568-5869-1-ND/2531156"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="NXP Semiconductors"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="IP4234CZ6,125"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="568-5869-1-ND"/>
 </part>
 <part name="U2" library="ldo" deviceset="LDO" device="-LD1085D2" value="LD1085D2T33R">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 3A D2PAK"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="LD1085D2T33R"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="497-1222-1-ND"/>
 </part>
 <part name="C1" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="10µF 16V Ceramic Capacitor X5R 0805 (2012 Metric) 0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOQNNNG"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-6455-1-ND"/>
 </part>
 <part name="C2" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="10µF 16V Ceramic Capacitor X5R 0805 (2012 Metric) 0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOQNNNG"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-6455-1-ND"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="K1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108106102" device="">
 <attribute name="CLASS" value="RELAY"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="Power Barrel Connector Jack 2.50mm ID (0.098&quot;), 5.50mm OD (0.217&quot;) Surface Mount, Right Angle"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="694108106102"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND"/>
 </part>
 <part name="JP3" library="jumper" deviceset="JP2E" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
@@ -12481,14 +12481,14 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="CPOL-EU" device="UD-8X10" value="470u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="470µF 6.3V Aluminum Capacitors Radial, Can - SMD  2000 Hrs @ 85°C"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="Nichicon"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UUR0J471MNL1GS"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="493-6207-1-ND"/>
 </part>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="SMCE" value="DNP">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -12504,7 +12504,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C107" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12516,7 +12516,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C108" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 10PF 50V NP0 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/C0603C100J5GACTU/399-1049-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/C0603C100J5GACTU/399-1049-1-ND"/>
 <attribute name="MANUFACTURER" value="Kemet"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12527,7 +12527,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C106" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12538,7 +12538,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C111" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12550,7 +12550,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C112" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 10PF 50V NP0 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/C0603C100J5GACTU/399-1049-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/C0603C100J5GACTU/399-1049-1-ND"/>
 <attribute name="MANUFACTURER" value="Kemet"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12561,7 +12561,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C110" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12572,7 +12572,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C105" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1210" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL32A107MQVNNNE/1276-1092-1-ND/3889178"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL32A107MQVNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12583,7 +12583,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C109" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1210" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL32A107MQVNNNE/1276-1092-1-ND/3889178"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL32A107MQVNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12594,7 +12594,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C5" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12605,7 +12605,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C6" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12616,7 +12616,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C7" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12629,19 +12629,19 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X12" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="24 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC012DAAN-RC/S2011EC-12-ND/2775282"/>
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PRPC012DAAN-RC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="S2011EC-12-ND"/>
 </part>
 <part name="C8" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12652,19 +12652,19 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1M">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 1M OHM 5% 1/20W 0201"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603J105CS"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-3856-1-ND"/>
 </part>
 <part name="C9" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -12686,14 +12686,14 @@ DIN A4, landscape with extra doc field</description>
 </part>
 <part name="R5" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-330GRCT-ND"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>

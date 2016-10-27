@@ -12329,7 +12329,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCEPARTNUMBER" value="H2959CT-ND"/>
 </part>
 <part name="M1" library="BOM-exclusive" deviceset="NUT" device="">
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND"/>
 </part>
 <part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
@@ -12569,27 +12569,27 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
-<part name="C105" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1210" value="100u">
+<part name="C105" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL32A107MQVNNNE"/>
+<attribute name="DESCRIPTION" value="100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1092-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
 </part>
-<part name="C109" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1210" value="100u">
+<part name="C109" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1210"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL32A107MQVNNNE"/>
+<attribute name="DESCRIPTION" value="100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1092-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
 </part>
 <part name="C5" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -12629,14 +12629,14 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X12" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="24 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC012DAAN-RC/S2011EC-12-ND/2775282"/>
-<attribute name="MANUFACTURER" value="Sullins Connector Solutions"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="PRPC012DAAN-RC"/>
+<attribute name="DESCRIPTION" value="24 Positions Header, Unshrouded Connector 0.100&quot; (2.54mm) Through Hole Gold"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/961224-6404-AR/3M9463-ND/2071504"/>
+<attribute name="MANUFACTURER" value="3M"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="961224-6404-AR"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="S2011EC-12-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="3M9463-ND"/>
 </part>
 <part name="C8" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -12697,6 +12697,28 @@ DIN A4, landscape with extra doc field</description>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
+<part name="C10" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+</part>
+<part name="C11" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
+<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12959,45 +12981,45 @@ JP3 2-3: external 5V supply</text>
 <attribute name="NAME" x="166.624" y="109.982" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="166.624" y="116.586" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="C111" gate="G$1" x="193.04" y="116.84" smashed="yes" rot="R270">
-<attribute name="SOURCE" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="DESCRIPTION" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="193.04" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="192.024" y="109.982" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="192.024" y="118.364" size="1.27" layer="96" rot="R90"/>
+<instance part="C111" gate="G$1" x="200.66" y="116.84" smashed="yes" rot="R270">
+<attribute name="SOURCE" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="200.66" y="116.84" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="199.644" y="109.982" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="199.644" y="118.364" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND127" gate="1" x="193.04" y="104.14"/>
-<instance part="C112" gate="G$1" x="198.12" y="116.84" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="198.12" y="116.84" size="1.27" layer="96" display="off"/>
-<attribute name="NAME" x="196.85" y="109.982" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="197.358" y="118.364" size="1.27" layer="96" rot="R90"/>
+<instance part="GND127" gate="1" x="200.66" y="104.14"/>
+<instance part="C112" gate="G$1" x="205.74" y="116.84" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="SOURCE" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="POPULATED" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="CLASS" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="LINK" x="205.74" y="116.84" size="1.27" layer="96" display="off"/>
+<attribute name="NAME" x="204.47" y="109.982" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="204.978" y="118.364" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="C110" gate="G$1" x="187.96" y="114.3" smashed="yes" rot="R90">
-<attribute name="SOURCE" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="DESCRIPTION" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="187.96" y="114.3" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="186.944" y="109.728" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="187.198" y="117.094" size="1.27" layer="96" rot="R90"/>
+<instance part="C110" gate="G$1" x="195.58" y="114.3" smashed="yes" rot="R90">
+<attribute name="SOURCE" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="195.58" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="194.564" y="109.728" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="194.818" y="117.094" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C105" gate="G$1" x="162.56" y="114.3" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="162.56" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
@@ -13012,18 +13034,18 @@ JP3 2-3: external 5V supply</text>
 <attribute name="NAME" x="161.544" y="109.982" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="161.544" y="117.094" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="C109" gate="G$1" x="182.88" y="114.3" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="182.88" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="181.864" y="109.982" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="181.864" y="117.094" size="1.27" layer="96" rot="R90"/>
+<instance part="C109" gate="G$1" x="190.5" y="114.3" smashed="yes" rot="R90">
+<attribute name="LINK" x="190.5" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="189.484" y="109.982" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="189.484" y="117.094" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="190.5" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="40.64" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.37" y="97.536" size="1.27" layer="95" rot="R90"/>
@@ -13068,15 +13090,15 @@ JP3 2-3: external 5V supply</text>
 <instance part="GND9" gate="1" x="40.64" y="96.52"/>
 <instance part="GND10" gate="1" x="73.66" y="96.52"/>
 <instance part="JP4" gate="A" x="83.82" y="149.86">
+<attribute name="SOURCE" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCE" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="SOURCEPARTNUMBER" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="ROHSCERTIFICATE" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="83.82" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="30.48" y="101.6" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="30.48" y="101.6" size="1.778" layer="96" display="off"/>
@@ -13142,6 +13164,32 @@ JP3 2-3: external 5V supply</text>
 <instance part="GND13" gate="1" x="43.18" y="139.7"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0"/>
+<instance part="C10" gate="G$1" x="157.48" y="114.3" smashed="yes" rot="R90">
+<attribute name="LINK" x="157.48" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="156.464" y="109.982" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="156.464" y="117.094" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="157.48" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="185.42" y="114.3" smashed="yes" rot="R90">
+<attribute name="LINK" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="184.404" y="109.982" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="184.404" y="117.094" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13279,23 +13327,31 @@ JP3 2-3: external 5V supply</text>
 <wire x1="177.8" y1="109.22" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <junction x="167.64" y="109.22"/>
 <pinref part="C105" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="111.76" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<junction x="162.56" y="109.22"/>
 </segment>
 <segment>
 <pinref part="C111" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="111.76" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="111.76" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND127" gate="1" pin="GND"/>
-<wire x1="193.04" y1="109.22" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<junction x="193.04" y="109.22"/>
-<wire x1="182.88" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="109.22" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="109.22" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<junction x="200.66" y="109.22"/>
+<wire x1="190.5" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="109.22" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C110" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="111.76" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="111.76" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C112" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="109.22" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
-<junction x="187.96" y="109.22"/>
+<wire x1="200.66" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="109.22" x2="205.74" y2="111.76" width="0.1524" layer="91"/>
+<junction x="195.58" y="109.22"/>
 <pinref part="C109" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="111.76" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<junction x="190.5" y="109.22"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -13475,17 +13531,17 @@ JP3 2-3: external 5V supply</text>
 </segment>
 <segment>
 <pinref part="C111" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="119.38" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-<junction x="193.04" y="124.46"/>
-<wire x1="182.88" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="124.46" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="119.38" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
+<junction x="200.66" y="124.46"/>
+<wire x1="190.5" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="124.46" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C110" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="119.38" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="119.38" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C112" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="119.38" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
-<junction x="187.96" y="124.46"/>
+<wire x1="205.74" y1="119.38" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
+<junction x="195.58" y="124.46"/>
 <pinref part="C107" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="119.38" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
@@ -13498,14 +13554,22 @@ JP3 2-3: external 5V supply</text>
 <pinref part="C108" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="119.38" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
 <junction x="167.64" y="121.92"/>
-<wire x1="182.88" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="124.46" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
 <junction x="162.56" y="121.92"/>
-<junction x="182.88" y="124.46"/>
-<label x="157.48" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<junction x="190.5" y="124.46"/>
+<label x="149.86" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="C105" gate="G$1" pin="2"/>
 <pinref part="C109" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="121.92" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
+<junction x="157.48" y="121.92"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="119.38" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
+<junction x="185.42" y="124.46"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="14"/>

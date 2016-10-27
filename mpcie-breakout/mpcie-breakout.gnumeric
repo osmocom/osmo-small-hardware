@@ -44,7 +44,7 @@
         <gnm:StyleRegion startCol="6" startRow="7" endCol="6" endRow="7">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Underline="1">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="8" endCol="6" endRow="8">
@@ -56,7 +56,7 @@
         <gnm:StyleRegion startCol="6" startRow="11" endCol="6" endRow="11">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Underline="1">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC012DAAN-RC/S2011EC-12-ND/2775282" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/961224-6404-AR/3M9463-ND/2071504" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="12" endCol="6" endRow="12">
@@ -68,7 +68,7 @@
         <gnm:StyleRegion startCol="6" startRow="15" endCol="6" endRow="15">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Underline="1">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="https://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="16" endCol="6" endRow="16">
@@ -134,7 +134,7 @@
       </gnm:Cols>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">mpcie-breakout.sch</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-10 15:56:18</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-27 17:34:00</gnm:Cell>
         <gnm:Cell Row="0" Col="4" ValueType="60">EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft</gnm:Cell>
         <gnm:Cell Row="1" Col="0" ValueType="60">Qty</gnm:Cell>
         <gnm:Cell Row="1" Col="1" ValueType="60">Name</gnm:Cell>
@@ -202,15 +202,15 @@
         <gnm:Cell Row="6" Col="8" ValueType="60">CAP CER 0.1UF 16V 10% X7R 0603</gnm:Cell>
         <gnm:Cell Row="6" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="6" Col="10" ValueType="60"></gnm:Cell>
-        <gnm:Cell Row="7" Col="0" ValueType="40">2</gnm:Cell>
-        <gnm:Cell Row="7" Col="1" ValueType="60">C105, C109</gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">C10, C11, C105, C109</gnm:Cell>
         <gnm:Cell Row="7" Col="2" ValueType="60">100u</gnm:Cell>
-        <gnm:Cell Row="7" Col="3" ValueType="60">C1210</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="60">1206</gnm:Cell>
         <gnm:Cell Row="7" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
         <gnm:Cell Row="7" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
-        <gnm:Cell Row="7" Col="6" ValueType="60">1276-1092-1-ND</gnm:Cell>
-        <gnm:Cell Row="7" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/CL32A107MQVNNNE/1276-1092-1-ND/3889178</gnm:Cell>
-        <gnm:Cell Row="7" Col="8" ValueType="60">CAP CER 100UF 6.3V X5R 1210</gnm:Cell>
+        <gnm:Cell Row="7" Col="6" ValueType="60">490-7217-1-ND</gnm:Cell>
+        <gnm:Cell Row="7" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203</gnm:Cell>
+        <gnm:Cell Row="7" Col="8" ValueType="60">100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)</gnm:Cell>
         <gnm:Cell Row="7" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="7" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="8" Col="0" ValueType="40">2</gnm:Cell>
@@ -252,9 +252,9 @@
         <gnm:Cell Row="11" Col="3" ValueType="60">2X12</gnm:Cell>
         <gnm:Cell Row="11" Col="4" ValueType="60">CONNECTOR\JUMPER</gnm:Cell>
         <gnm:Cell Row="11" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
-        <gnm:Cell Row="11" Col="6" ValueType="60">S2011EC-12-ND</gnm:Cell>
-        <gnm:Cell Row="11" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC012DAAN-RC/S2011EC-12-ND/2775282</gnm:Cell>
-        <gnm:Cell Row="11" Col="8" ValueType="60">24 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold</gnm:Cell>
+        <gnm:Cell Row="11" Col="6" ValueType="60">3M9463-ND</gnm:Cell>
+        <gnm:Cell Row="11" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/961224-6404-AR/3M9463-ND/2071504</gnm:Cell>
+        <gnm:Cell Row="11" Col="8" ValueType="60">24 Positions Header, Unshrouded Connector 0.100&quot; (2.54mm) Through Hole Gold</gnm:Cell>
         <gnm:Cell Row="11" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="11" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="12" Col="0" ValueType="40">1</gnm:Cell>
@@ -297,7 +297,7 @@
         <gnm:Cell Row="15" Col="4" ValueType="60">MECHANICAL</gnm:Cell>
         <gnm:Cell Row="15" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
         <gnm:Cell Row="15" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
-        <gnm:Cell Row="15" Col="7" ValueType="60">https://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND</gnm:Cell>
+        <gnm:Cell Row="15" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND</gnm:Cell>
         <gnm:Cell Row="15" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
         <gnm:Cell Row="15" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="15" Col="10" ValueType="60"></gnm:Cell>

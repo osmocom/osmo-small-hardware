@@ -12652,14 +12652,14 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1M">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 1M OHM 5% 1/20W 0201"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603J105CS"/>
+<attribute name="DESCRIPTION" value="RES SMD 1M OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-071ML/311-1.0MGRCT-ND/729625"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-071ML"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-3856-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1.0MGRCT-ND"/>
 </part>
 <part name="C9" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -13115,6 +13115,7 @@ JP3 2-3: external 5V supply</text>
 </instance>
 <instance part="GND11" gate="1" x="30.48" y="96.52"/>
 <instance part="R4" gate="G$1" x="236.22" y="50.8" rot="R90">
+<attribute name="LINK" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
@@ -13123,7 +13124,6 @@ JP3 2-3: external 5V supply</text>
 <attribute name="ROHSCERTIFICATE" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="236.22" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="228.6" y="50.8" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="228.6" y="50.8" size="1.778" layer="96" display="off"/>

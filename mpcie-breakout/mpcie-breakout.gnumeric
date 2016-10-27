@@ -80,7 +80,7 @@
         <gnm:StyleRegion startCol="6" startRow="17" endCol="6" endRow="17">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Underline="1">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/yageo/RC0603JR-071ML/311-1.0MGRCT-ND/729625" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="18" endCol="6" endRow="18">
@@ -134,7 +134,7 @@
       </gnm:Cols>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">mpcie-breakout.sch</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-27 17:34:00</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-27 17:41:26</gnm:Cell>
         <gnm:Cell Row="0" Col="4" ValueType="60">EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft</gnm:Cell>
         <gnm:Cell Row="1" Col="0" ValueType="60">Qty</gnm:Cell>
         <gnm:Cell Row="1" Col="1" ValueType="60">Name</gnm:Cell>
@@ -318,9 +318,9 @@
         <gnm:Cell Row="17" Col="3" ValueType="60">_0603</gnm:Cell>
         <gnm:Cell Row="17" Col="4" ValueType="60">RESISTOR</gnm:Cell>
         <gnm:Cell Row="17" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
-        <gnm:Cell Row="17" Col="6" ValueType="60">1276-3856-1-ND</gnm:Cell>
-        <gnm:Cell Row="17" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828</gnm:Cell>
-        <gnm:Cell Row="17" Col="8" ValueType="60">RES SMD 1M OHM 5% 1/20W 0201</gnm:Cell>
+        <gnm:Cell Row="17" Col="6" ValueType="60">311-1.0MGRCT-ND</gnm:Cell>
+        <gnm:Cell Row="17" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/yageo/RC0603JR-071ML/311-1.0MGRCT-ND/729625</gnm:Cell>
+        <gnm:Cell Row="17" Col="8" ValueType="60">RES SMD 1M OHM 5% 1/10W 0603</gnm:Cell>
         <gnm:Cell Row="17" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="17" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="18" Col="0" ValueType="40">1</gnm:Cell>

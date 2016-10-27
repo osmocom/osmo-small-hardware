@@ -2621,15 +2621,15 @@ design rules under a new name.</description>
 <element name="R4" library="rc-sysmocom" package="_0603" value="1M" x="46.99" y="60.198" smashed="yes" rot="MR90">
 <attribute name="NAME" x="47.3075" y="58.4835" size="1.016" layer="26" font="vector" ratio="14" rot="MR270"/>
 <attribute name="VALUE" x="45.4977" y="58.6105" size="0.508" layer="28" font="vector" ratio="10" rot="MR90"/>
-<attribute name="DESCRIPTION" value="RES SMD 1M OHM 5% 1/20W 0201" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603J105CS" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-071ML/311-1.0MGRCT-ND/729625" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 1M OHM 5% 1/10W 0603" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-071ML" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-3856-1-ND" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1.0MGRCT-ND" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828" x="46.99" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C9" library="rc-sysmocom" package="_0603" value="100n" x="48.26" y="60.198" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="48.26" y="60.198" size="1.778" layer="28" rot="MR90" display="off"/>

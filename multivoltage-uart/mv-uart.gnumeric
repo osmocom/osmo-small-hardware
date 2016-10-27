@@ -116,7 +116,7 @@
         <gnm:StyleRegion startCol="6" startRow="22" endCol="6" endRow="22">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Underline="1">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/copal-electronics-inc/SS-10-16NP-LE/563-1080-ND/948391" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/copal-electronics-inc/SS-10-16SP-L-AE/563-1082-ND/948393" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="23" endCol="6" endRow="23">
@@ -158,7 +158,7 @@
       </gnm:Cols>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">mv-uart.sch</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-10 15:32:07</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-27 15:55:41</gnm:Cell>
         <gnm:Cell Row="0" Col="4" ValueType="60">EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft</gnm:Cell>
         <gnm:Cell Row="1" Col="0" ValueType="60">Qty</gnm:Cell>
         <gnm:Cell Row="1" Col="1" ValueType="60">Name</gnm:Cell>
@@ -397,8 +397,8 @@
         <gnm:Cell Row="22" Col="3" ValueType="60">DIP_SP6T</gnm:Cell>
         <gnm:Cell Row="22" Col="4" ValueType="60">UNKNOWN CLASS</gnm:Cell>
         <gnm:Cell Row="22" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
-        <gnm:Cell Row="22" Col="6" ValueType="60">563-1080-ND</gnm:Cell>
-        <gnm:Cell Row="22" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/copal-electronics-inc/SS-10-16NP-LE/563-1080-ND/948391</gnm:Cell>
+        <gnm:Cell Row="22" Col="6" ValueType="60">563-1082-ND</gnm:Cell>
+        <gnm:Cell Row="22" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/copal-electronics-inc/SS-10-16SP-L-AE/563-1082-ND/948393</gnm:Cell>
         <gnm:Cell Row="22" Col="8" ValueType="60">Dip Switch SP6T 6 Position Through Hole Rotary with Shaft Actuator 100mA 5VDC</gnm:Cell>
         <gnm:Cell Row="22" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="22" Col="10" ValueType="60"></gnm:Cell>

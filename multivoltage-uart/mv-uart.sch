@@ -2734,13 +2734,13 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 <part name="SW1" library="laforge" deviceset="DIP_SP6T" device="">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="Dip Switch SP6T 6 Position Through Hole Rotary with Shaft Actuator 100mA 5VDC"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/copal-electronics-inc/SS-10-16NP-LE/563-1080-ND/948391"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/copal-electronics-inc/SS-10-16SP-L-AE/563-1082-ND/948393"/>
 <attribute name="MANUFACTURER" value="Copal Electronics Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SS-10-16NP-LE"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SS-10-16SP-L-AE"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="563-1080-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="563-1082-ND"/>
 </part>
 <part name="U3" library="ldo" deviceset="LDO_SHD_ADJ" device="-AP2127K-ADJ">
 <attribute name="CLASS" value="IC"/>
@@ -3212,6 +3212,7 @@ voltage mis-match</text>
 <attribute name="LINK" x="170.18" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW1" gate="G$1" x="60.96" y="30.48">
+<attribute name="LINK" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
@@ -3220,7 +3221,6 @@ voltage mis-match</text>
 <attribute name="ROHSCERTIFICATE" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="60.96" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="58.42" y="60.96">
 <attribute name="DESCRIPTION" x="58.42" y="60.96" size="1.778" layer="96" display="off"/>

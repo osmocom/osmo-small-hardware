@@ -12290,7 +12290,7 @@ DIN A4, landscape with extra doc field</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="VERSION" value="v1"/>
+<attribute name="VERSION" value="v2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -12719,6 +12719,17 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
 </part>
+<part name="R6" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-330GRCT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12782,16 +12793,16 @@ JP3 2-3: external 5V supply</text>
 <attribute name="CLASS" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="55.88" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED1" gate="G$1" x="93.98" y="22.86" rot="R270">
-<attribute name="DESCRIPTION" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCE" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="93.98" y="22.86" size="1.778" layer="96" display="off"/>
+<instance part="LED1" gate="G$1" x="99.06" y="22.86" rot="R270">
+<attribute name="DESCRIPTION" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="99.06" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="A" x="101.6" y="48.26" rot="R270">
 <attribute name="DESCRIPTION" x="101.6" y="48.26" size="1.778" layer="96" display="off"/>
@@ -13190,6 +13201,17 @@ JP3 2-3: external 5V supply</text>
 <attribute name="POPULATED" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="185.42" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="R6" gate="G$1" x="86.36" y="22.86" rot="R180">
+<attribute name="DESCRIPTION" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCE" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="POPULATED" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CLASS" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LINK" x="86.36" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13513,8 +13535,8 @@ JP3 2-3: external 5V supply</text>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="96.52" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
-<label x="99.06" y="22.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="101.6" y1="22.86" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
+<label x="104.14" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
@@ -13633,8 +13655,8 @@ JP3 2-3: external 5V supply</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="LED_WWAN"/>
-<wire x1="66.04" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="66.04" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -13982,6 +14004,13 @@ JP3 2-3: external 5V supply</text>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

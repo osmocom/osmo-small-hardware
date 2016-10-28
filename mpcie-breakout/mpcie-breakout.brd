@@ -2450,7 +2450,7 @@ design rules under a new name.</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE" x="35.052" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="35.052" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="35.052" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="35.052" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="FALSE" x="35.052" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="35.052" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="35.052" y="39.37" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>

@@ -12496,7 +12496,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="TRUE"/>
+<attribute name="POPULATED" value="FALSE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>

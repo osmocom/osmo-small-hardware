@@ -29,6 +29,10 @@
             <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="4" endCol="255" endRow="4">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
+          </gnm:Style>
+        </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="5" endCol="6" endRow="5">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Underline="1">Sans</gnm:Font>
@@ -134,7 +138,7 @@
       </gnm:Cols>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">mpcie-breakout.sch</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-27 17:41:26</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-28 14:03:25</gnm:Cell>
         <gnm:Cell Row="0" Col="4" ValueType="60">EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft</gnm:Cell>
         <gnm:Cell Row="1" Col="0" ValueType="60">Qty</gnm:Cell>
         <gnm:Cell Row="1" Col="1" ValueType="60">Name</gnm:Cell>
@@ -178,7 +182,7 @@
         <gnm:Cell Row="4" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
         <gnm:Cell Row="4" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
         <gnm:Cell Row="4" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
-        <gnm:Cell Row="4" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="4" Col="9" ValueType="60">FALSE</gnm:Cell>
         <gnm:Cell Row="4" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="5" Col="0" ValueType="40">5</gnm:Cell>
         <gnm:Cell Row="5" Col="1" ValueType="60">C5, C6, C7, C107, C111</gnm:Cell>
@@ -323,8 +327,8 @@
         <gnm:Cell Row="17" Col="8" ValueType="60">RES SMD 1M OHM 5% 1/10W 0603</gnm:Cell>
         <gnm:Cell Row="17" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="17" Col="10" ValueType="60"></gnm:Cell>
-        <gnm:Cell Row="18" Col="0" ValueType="40">1</gnm:Cell>
-        <gnm:Cell Row="18" Col="1" ValueType="60">R5</gnm:Cell>
+        <gnm:Cell Row="18" Col="0" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="18" Col="1" ValueType="60">R5, R6</gnm:Cell>
         <gnm:Cell Row="18" Col="2" ValueType="60">330</gnm:Cell>
         <gnm:Cell Row="18" Col="3" ValueType="60">_0603</gnm:Cell>
         <gnm:Cell Row="18" Col="4" ValueType="60">RESISTOR</gnm:Cell>

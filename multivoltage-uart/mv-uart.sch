@@ -2893,25 +2893,25 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X6" device="/90">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="6 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole, Right Angle Gold"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/harwin-inc/M20-9960645/952-2247-ND/3728211"/>
+<attribute name="MANUFACTURER" value="Harwin Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="M20-9960645"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="952-2247-ND"/>
 </part>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X6" device="/90">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="6 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole, Right Angle Gold"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/harwin-inc/M20-9960645/952-2247-ND/3728211"/>
+<attribute name="MANUFACTURER" value="Harwin Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="M20-9960645"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="952-2247-ND"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -2928,14 +2928,14 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 </part>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X4" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="4 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/harwin-inc/M20-9990445/952-2265-ND/3728229"/>
+<attribute name="MANUFACTURER" value="Harwin Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="M20-9990445"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="952-2265-ND"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R11" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47">
@@ -3052,14 +3052,14 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X7" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="7 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC007SAAN-RC/S1011EC-07-ND/2775247"/>
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PRPC007SAAN-RC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="S1011EC-07-ND"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>

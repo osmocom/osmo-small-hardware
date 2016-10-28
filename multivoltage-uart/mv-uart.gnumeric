@@ -47,6 +47,24 @@
             <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/wurth-electronics-inc/824013/732-4466-1-ND/3900561" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="7" endCol="6" endRow="7">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/harwin-inc/M20-9990445/952-2265-ND/3728229" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="8" endCol="6" endRow="8">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/harwin-inc/M20-9960645/952-2247-ND/3728211" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="10" endCol="6" endRow="10">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Underline="1">Sans</gnm:Font>
+            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC007SAAN-RC/S1011EC-07-ND/2775247" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+          </gnm:Style>
+        </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="11" endCol="6" endRow="11">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Underline="1">Sans</gnm:Font>
@@ -158,7 +176,7 @@
       </gnm:Cols>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">mv-uart.sch</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-27 15:55:41</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">2016-10-28 13:54:55</gnm:Cell>
         <gnm:Cell Row="0" Col="4" ValueType="60">EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft</gnm:Cell>
         <gnm:Cell Row="1" Col="0" ValueType="60">Qty</gnm:Cell>
         <gnm:Cell Row="1" Col="1" ValueType="60">Name</gnm:Cell>
@@ -231,10 +249,10 @@
         <gnm:Cell Row="7" Col="2" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="7" Col="3" ValueType="60">1X04</gnm:Cell>
         <gnm:Cell Row="7" Col="4" ValueType="60">CONNECTOR\JUMPER</gnm:Cell>
-        <gnm:Cell Row="7" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
-        <gnm:Cell Row="7" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
-        <gnm:Cell Row="7" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
-        <gnm:Cell Row="7" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="7" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="7" Col="6" ValueType="60">952-2265-ND</gnm:Cell>
+        <gnm:Cell Row="7" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/harwin-inc/M20-9990445/952-2265-ND/3728229</gnm:Cell>
+        <gnm:Cell Row="7" Col="8" ValueType="60">4 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold</gnm:Cell>
         <gnm:Cell Row="7" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="7" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="8" Col="0" ValueType="40">2</gnm:Cell>
@@ -242,10 +260,10 @@
         <gnm:Cell Row="8" Col="2" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="8" Col="3" ValueType="60">1X06/90</gnm:Cell>
         <gnm:Cell Row="8" Col="4" ValueType="60">CONNECTOR\JUMPER</gnm:Cell>
-        <gnm:Cell Row="8" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
-        <gnm:Cell Row="8" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
-        <gnm:Cell Row="8" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
-        <gnm:Cell Row="8" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="8" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="8" Col="6" ValueType="60">952-2247-ND</gnm:Cell>
+        <gnm:Cell Row="8" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/harwin-inc/M20-9960645/952-2247-ND/3728211</gnm:Cell>
+        <gnm:Cell Row="8" Col="8" ValueType="60">6 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole, Right Angle Gold</gnm:Cell>
         <gnm:Cell Row="8" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="8" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="9" Col="0" ValueType="40">1</gnm:Cell>
@@ -264,10 +282,10 @@
         <gnm:Cell Row="10" Col="2" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="10" Col="3" ValueType="60">1X07</gnm:Cell>
         <gnm:Cell Row="10" Col="4" ValueType="60">CONNECTOR\JUMPER</gnm:Cell>
-        <gnm:Cell Row="10" Col="5" ValueType="60">UNKNOWN SOURCE</gnm:Cell>
-        <gnm:Cell Row="10" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
-        <gnm:Cell Row="10" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
-        <gnm:Cell Row="10" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
+        <gnm:Cell Row="10" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
+        <gnm:Cell Row="10" Col="6" ValueType="60">S1011EC-07-ND</gnm:Cell>
+        <gnm:Cell Row="10" Col="7" ValueType="60">http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC007SAAN-RC/S1011EC-07-ND/2775247</gnm:Cell>
+        <gnm:Cell Row="10" Col="8" ValueType="60">7 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold</gnm:Cell>
         <gnm:Cell Row="10" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="10" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="11" Col="0" ValueType="40">1</gnm:Cell>

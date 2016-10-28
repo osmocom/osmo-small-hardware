@@ -1065,41 +1065,41 @@ design rules under a new name.</description>
 <element name="JP1" library="pinhead" package="1X04" value="" x="24.13" y="16.51" smashed="yes">
 <attribute name="NAME" x="19.1262" y="16.2687" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="19.05" y="13.335" size="1.27" layer="27"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="4 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin Inc." x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="M20-9990445" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="952-2265-ND" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="CONNECTOR\JUMPER" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/harwin-inc/M20-9990445/952-2265-ND/3728229" x="24.13" y="16.51" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP2" library="pinhead" package="1X06/90" value="" x="0" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="5.55625" y="21.74875" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="3.81" y="34.925" size="1.27" layer="27" rot="R180"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="6 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole, Right Angle Gold" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin Inc." x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="M20-9960645" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="952-2247-ND" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CONNECTOR\JUMPER" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/harwin-inc/M20-9960645/952-2247-ND/3728211" x="0" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP3" library="pinhead" package="1X06/90" value="" x="0" y="8.89" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.38125" y="0.3175" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="3.81" y="18.415" size="1.27" layer="27" rot="R180"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="6 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole, Right Angle Gold" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin Inc." x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="M20-9960645" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="952-2247-ND" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CONNECTOR\JUMPER" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/harwin-inc/M20-9960645/952-2247-ND/3728211" x="0" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP4" library="jumper" package="JP1" value="" x="24.13" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.36775" y="11.1125" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -1448,15 +1448,15 @@ design rules under a new name.</description>
 <element name="JP5" library="pinhead" package="1X07" value="" x="27.94" y="31.115" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.7038" y="32.4612" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="36.83" y="34.29" size="1.27" layer="27" rot="R180"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="7 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole Gold" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PRPC007SAAN-RC" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="S1011EC-07-ND" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CONNECTOR\JUMPER" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/sullins-connector-solutions/PRPC007SAAN-RC/S1011EC-07-ND/2775247" x="27.94" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>

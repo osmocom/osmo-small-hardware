@@ -2608,7 +2608,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 </library>
 </libraries>
 <attributes>
-<attribute name="VERSION" value="v1"/>
+<attribute name="VERSION" value="v2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -2879,18 +2879,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-TVS_High_Speed?"&
 <attribute name="SOURCEPARTNUMBER" value="1276-1044-1-ND"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
-<attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC1608J103CS/1276-5086-1-ND/3968058"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC1608J103CS"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-5086-1-ND"/>
-</part>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X6" device="/90">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="6 Positions Header, Unshrouded, Breakaway Connector 0.100&quot; (2.54mm) Through Hole, Right Angle Gold"/>
@@ -3359,18 +3347,6 @@ voltage mis-match</text>
 <attribute name="LINK" x="40.64" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="40.64" y="101.6"/>
-<instance part="R10" gate="G$1" x="38.1" y="58.42" rot="R90">
-<attribute name="DESCRIPTION" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCE" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="38.1" y="58.42" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND10" gate="1" x="38.1" y="50.8"/>
 <instance part="JP2" gate="A" x="241.3" y="88.9" rot="R180">
 <attribute name="DESCRIPTION" x="241.3" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="241.3" y="88.9" size="1.778" layer="96" display="off"/>
@@ -3613,13 +3589,17 @@ voltage mis-match</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
-<wire x1="45.72" y1="66.04" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="63.5" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
-<junction x="27.94" y="71.12"/>
-<label x="25.4" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="43.18" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<junction x="27.94" y="66.04"/>
+<label x="25.4" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U3" gate="G$1" pin="!SHDN"/>
+<wire x1="45.72" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="60.96" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<junction x="43.18" y="66.04"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
@@ -3709,10 +3689,6 @@ voltage mis-match</text>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="40.64" y1="106.68" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="1"/>
@@ -3938,16 +3914,6 @@ voltage mis-match</text>
 </segment>
 </net>
 <net name="!SUSPEND" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="!SHDN"/>
-<wire x1="45.72" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="60.96" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<label x="43.18" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="63.5" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<junction x="43.18" y="63.5"/>
-</segment>
 <segment>
 <pinref part="U2" gate="A" pin="!SUSPEND/RI_SCI"/>
 <wire x1="53.34" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>

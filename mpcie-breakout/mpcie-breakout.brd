@@ -3159,7 +3159,9 @@ design rules under a new name.</description>
 <wire x1="0" y1="36.322" x2="0" y2="30.48" width="0.3072" layer="16"/>
 <wire x1="0" y1="30.48" x2="-2.54" y2="27.94" width="0.3072" layer="16"/>
 <wire x1="-2.54" y1="27.94" x2="-7.874" y2="27.94" width="0.3072" layer="16"/>
-<wire x1="-7.874" y1="27.94" x2="-8.636" y2="28.702" width="0.3072" layer="16"/>
+<wire x1="-7.874" y1="27.94" x2="-8.128" y2="27.94" width="0.3072" layer="16"/>
+<wire x1="-8.128" y1="27.94" x2="-8.636" y2="28.448" width="0.3072" layer="16"/>
+<wire x1="-8.636" y1="28.448" x2="-8.636" y2="28.702" width="0.3072" layer="16"/>
 </signal>
 <signal name="USIM_RESET">
 <contactref element="SIM1" pad="2"/>
@@ -3173,7 +3175,9 @@ design rules under a new name.</description>
 <wire x1="0.762" y1="35.814" x2="0.762" y2="30.226" width="0.3072" layer="16"/>
 <wire x1="0.762" y1="30.226" x2="-2.286" y2="27.178" width="0.3072" layer="16"/>
 <wire x1="-2.286" y1="27.178" x2="-9.906" y2="27.178" width="0.3072" layer="16"/>
-<wire x1="-9.906" y1="27.178" x2="-11.176" y2="28.448" width="0.3072" layer="16"/>
+<wire x1="-9.906" y1="27.178" x2="-10.414" y2="27.178" width="0.3072" layer="16"/>
+<wire x1="-10.414" y1="27.178" x2="-11.176" y2="27.94" width="0.3072" layer="16"/>
+<wire x1="-11.176" y1="27.94" x2="-11.176" y2="28.448" width="0.3072" layer="16"/>
 </signal>
 <signal name="USIM_VPP">
 <contactref element="X1" pad="16"/>
@@ -3689,13 +3693,23 @@ design rules under a new name.</description>
 <approved hash="3,16,8bc4052205fc8b1a"/>
 <approved hash="3,16,bfecc9941e749670"/>
 <approved hash="3,1,79e464027bb26654"/>
+<approved hash="3,16,6adb322b2dd07520"/>
 <approved hash="3,16,550674575acd669c"/>
 <approved hash="3,16,5444254224075501"/>
 <approved hash="3,16,cba23cb23ca9cbb9"/>
-<approved hash="3,16,6adb322b2dd07520"/>
+<approved hash="3,16,02f5756bc5ebdd70"/>
+<approved hash="3,16,12fd560d563e12ce"/>
 <approved hash="3,16,55afbc15bc7755cd"/>
 <approved hash="3,16,ed8d25c82e77efcf"/>
+<approved hash="3,16,4a1323a923e24a58"/>
+<approved hash="3,16,a35cc6ae195185ae"/>
+<approved hash="3,1,bd7a50905211bffb"/>
+<approved hash="3,1,c3190acb123f4147"/>
+<approved hash="3,1,392adac0d88c3b66"/>
+<approved hash="3,1,34d686017e501bdf"/>
 <approved hash="3,16,5cec020a03885d6e"/>
+<approved hash="3,16,8ac0042604608a86"/>
+<approved hash="3,16,8ee2089f00479773"/>
 <approved hash="3,16,3a60b3dab3b63a0c"/>
 <approved hash="3,16,7a6a53d050e6795c"/>
 <approved hash="3,16,0b8c2666245c09b6"/>

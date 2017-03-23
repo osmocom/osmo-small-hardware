@@ -2786,17 +2786,74 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.8455" y="65.0815" size="1.016" layer="26" font="vector" ratio="14" rot="MR270"/>
 <attribute name="VALUE" x="36.2903" y="66.3575" size="0.508" layer="28" font="vector" ratio="10" rot="MR270"/>
 </element>
-<element name="X3" library="laforge" package="SMA-F-S-TH" value="" x="-15.24" y="23.368" rot="MR180"/>
-<element name="X4" library="laforge" package="SMA-F-S-TH" value="" x="-15.24" y="13.208" rot="MR180"/>
+<element name="X3" library="laforge" package="SMA-F-S-TH" value="" x="-15.24" y="23.368" rot="MR180">
+<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="A97593-ND" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981" x="-15.24" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="X4" library="laforge" package="SMA-F-S-TH" value="" x="-15.24" y="13.208" rot="MR180">
+<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="A97593-ND" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981" x="-15.24" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="Y3" library="laforge" package="HRS_UFL" value="" x="-8.128" y="23.368" rot="MR90">
 <attribute name="OC_DIGIKEY" value="H9161CT-ND" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="CONN UMC RCPT STR 50 OHM SMD" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Hirose Electric Co Ltd" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="U.FL-R-SMT(01)" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="H9161-ND" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="Y4" library="laforge" package="HRS_UFL" value="" x="-8.128" y="13.208" rot="MR90">
 <attribute name="OC_DIGIKEY" value="H9161CT-ND" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" value="CONN UMC RCPT STR 50 OHM SMD" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Hirose Electric Co Ltd" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="U.FL-R-SMT(01)" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="H9161-ND" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="X5" library="laforge" package="SMA-F-S-TH" value="" x="-3.302" y="4.826" rot="MR0"/>
+<element name="X5" library="laforge" package="SMA-F-S-TH" value="" x="-3.302" y="4.826" rot="MR0">
+<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="A97593-ND" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981" x="-3.302" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 <element name="Y5" library="laforge" package="HRS_UFL" value="" x="-3.302" y="11.684" rot="MR0">
 <attribute name="OC_DIGIKEY" value="H9161CT-ND" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="CONN UMC RCPT STR 50 OHM SMD" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Hirose Electric Co Ltd" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="U.FL-R-SMT(01)" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="H9161-ND" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>
 <signals>

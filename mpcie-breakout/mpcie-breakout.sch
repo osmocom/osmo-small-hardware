@@ -12525,11 +12525,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCEPARTNUMBER" value="H2959CT-ND"/>
 </part>
 <part name="M1" library="BOM-exclusive" deviceset="NUT" device="">
-<attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
-<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND"/>
 <attribute name="OC_DIGIKEY" value="H9161CT-ND"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A97593-ND"/>

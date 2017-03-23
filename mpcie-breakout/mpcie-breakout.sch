@@ -12928,10 +12928,13 @@ DIN A4, landscape with extra doc field</description>
 </part>
 <part name="X3" library="laforge" deviceset="SMA-F" device="-S-TH"/>
 <part name="X4" library="laforge" deviceset="SMA-F" device="-S-TH"/>
-<part name="X5" library="laforge" deviceset="HRS_UFL" device=""/>
-<part name="X6" library="laforge" deviceset="HRS_UFL" device=""/>
+<part name="Y3" library="laforge" deviceset="HRS_UFL" device=""/>
+<part name="Y4" library="laforge" deviceset="HRS_UFL" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="X5" library="laforge" deviceset="SMA-F" device="-S-TH"/>
+<part name="Y5" library="laforge" deviceset="HRS_UFL" device=""/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13420,10 +13423,13 @@ JP3 2-3: external 5V supply</text>
 </instance>
 <instance part="X3" gate="G" x="144.78" y="68.58"/>
 <instance part="X4" gate="G" x="144.78" y="45.72"/>
-<instance part="X5" gate="G$1" x="157.48" y="68.58" rot="MR0"/>
-<instance part="X6" gate="G$1" x="157.48" y="45.72" rot="MR0"/>
+<instance part="Y3" gate="G$1" x="157.48" y="68.58" rot="MR0"/>
+<instance part="Y4" gate="G$1" x="157.48" y="45.72" rot="MR0"/>
 <instance part="GND14" gate="1" x="149.86" y="58.42"/>
 <instance part="GND15" gate="1" x="149.86" y="35.56"/>
+<instance part="X5" gate="G" x="139.7" y="22.86"/>
+<instance part="Y5" gate="G$1" x="152.4" y="22.86" rot="MR0"/>
+<instance part="GND16" gate="1" x="144.78" y="12.7"/>
 </instances>
 <busses>
 </busses>
@@ -13629,7 +13635,7 @@ JP3 2-3: external 5V supply</text>
 </segment>
 <segment>
 <pinref part="X3" gate="G" pin="GND@1"/>
-<pinref part="X5" gate="G$1" pin="GND@1"/>
+<pinref part="Y3" gate="G$1" pin="GND@1"/>
 <wire x1="147.32" y1="73.66" x2="149.86" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="X3" gate="G" pin="GND@2"/>
 <wire x1="149.86" y1="73.66" x2="154.94" y2="73.66" width="0.1524" layer="91"/>
@@ -13642,7 +13648,7 @@ JP3 2-3: external 5V supply</text>
 <pinref part="X3" gate="G" pin="GND@4"/>
 <wire x1="149.86" y1="63.5" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="63.5" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="X5" gate="G$1" pin="GND@2"/>
+<pinref part="Y3" gate="G$1" pin="GND@2"/>
 <wire x1="149.86" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="149.86" y="66.04"/>
 <junction x="149.86" y="71.12"/>
@@ -13652,7 +13658,7 @@ JP3 2-3: external 5V supply</text>
 </segment>
 <segment>
 <pinref part="X4" gate="G" pin="GND@1"/>
-<pinref part="X6" gate="G$1" pin="GND@1"/>
+<pinref part="Y4" gate="G$1" pin="GND@1"/>
 <wire x1="147.32" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="X4" gate="G" pin="GND@2"/>
 <wire x1="149.86" y1="50.8" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
@@ -13665,13 +13671,36 @@ JP3 2-3: external 5V supply</text>
 <wire x1="147.32" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="X4" gate="G" pin="GND@4"/>
 <wire x1="147.32" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="X6" gate="G$1" pin="GND@2"/>
+<pinref part="Y4" gate="G$1" pin="GND@2"/>
 <wire x1="154.94" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
 <junction x="149.86" y="50.8"/>
 <junction x="149.86" y="48.26"/>
 <junction x="149.86" y="43.18"/>
 <junction x="149.86" y="40.64"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X5" gate="G" pin="GND@1"/>
+<pinref part="Y5" gate="G$1" pin="GND@1"/>
+<wire x1="142.24" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91" style="longdash"/>
+<wire x1="144.78" y1="27.94" x2="149.86" y2="27.94" width="0.1524" layer="91" style="longdash"/>
+<wire x1="144.78" y1="27.94" x2="144.78" y2="25.4" width="0.1524" layer="91" style="longdash"/>
+<pinref part="X5" gate="G" pin="GND@2"/>
+<wire x1="144.78" y1="25.4" x2="142.24" y2="25.4" width="0.1524" layer="91" style="longdash"/>
+<wire x1="144.78" y1="25.4" x2="144.78" y2="20.32" width="0.1524" layer="91" style="longdash"/>
+<pinref part="X5" gate="G" pin="GND@3"/>
+<wire x1="144.78" y1="20.32" x2="142.24" y2="20.32" width="0.1524" layer="91" style="longdash"/>
+<wire x1="144.78" y1="20.32" x2="144.78" y2="17.78" width="0.1524" layer="91" style="longdash"/>
+<pinref part="X5" gate="G" pin="GND@4"/>
+<wire x1="144.78" y1="17.78" x2="142.24" y2="17.78" width="0.1524" layer="91" style="longdash"/>
+<pinref part="Y5" gate="G$1" pin="GND@2"/>
+<wire x1="144.78" y1="17.78" x2="149.86" y2="17.78" width="0.1524" layer="91" style="longdash"/>
+<wire x1="144.78" y1="17.78" x2="144.78" y2="15.24" width="0.1524" layer="91" style="longdash"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<junction x="144.78" y="27.94"/>
+<junction x="144.78" y="25.4"/>
+<junction x="144.78" y="20.32"/>
+<junction x="144.78" y="17.78"/>
 </segment>
 </net>
 <net name="USIM_POWER" class="3">
@@ -14274,15 +14303,22 @@ JP3 2-3: external 5V supply</text>
 <net name="N$13" class="2">
 <segment>
 <pinref part="X3" gate="G" pin="1"/>
-<pinref part="X5" gate="G$1" pin="1"/>
+<pinref part="Y3" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="2">
 <segment>
 <pinref part="X4" gate="G" pin="1"/>
-<pinref part="X6" gate="G$1" pin="1"/>
+<pinref part="Y4" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="2">
+<segment>
+<pinref part="X5" gate="G" pin="1"/>
+<pinref part="Y5" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="22.86" x2="149.86" y2="22.86" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 </nets>

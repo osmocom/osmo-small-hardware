@@ -2770,12 +2770,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="36.2903" y="66.3575" size="0.508" layer="28" font="vector" ratio="10" rot="MR270"/>
 </element>
 <element name="X3" library="laforge" package="SMA-F-S-TH" value="" x="-15.24" y="23.368" rot="MR0"/>
-<element name="X4" library="laforge" package="SMA-F-S-TH" value="" x="-15.24" y="13.97" rot="MR180"/>
-<element name="X5" library="laforge" package="HRS_UFL" value="" x="-8.128" y="23.368" rot="MR90">
+<element name="X4" library="laforge" package="SMA-F-S-TH" value="" x="-15.24" y="13.208" rot="MR180"/>
+<element name="Y3" library="laforge" package="HRS_UFL" value="" x="-8.128" y="23.368" rot="MR90">
 <attribute name="OC_DIGIKEY" value="H9161CT-ND" x="-8.128" y="23.368" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="X6" library="laforge" package="HRS_UFL" value="" x="-8.128" y="13.97" rot="MR90">
-<attribute name="OC_DIGIKEY" value="H9161CT-ND" x="-8.128" y="13.97" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="Y4" library="laforge" package="HRS_UFL" value="" x="-8.128" y="13.208" rot="MR90">
+<attribute name="OC_DIGIKEY" value="H9161CT-ND" x="-8.128" y="13.208" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="X5" library="laforge" package="SMA-F-S-TH" value="" x="-3.302" y="4.826" rot="MR0"/>
+<element name="Y5" library="laforge" package="HRS_UFL" value="" x="-3.302" y="11.684" rot="MR0">
+<attribute name="OC_DIGIKEY" value="H9161CT-ND" x="-3.302" y="11.684" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2928,20 +2932,26 @@ design rules under a new name.</description>
 <contactref element="C10" pad="1"/>
 <contactref element="C11" pad="1"/>
 <contactref element="X3" pad="G1"/>
-<contactref element="X5" pad="GND@1"/>
+<contactref element="Y3" pad="GND@1"/>
 <contactref element="X3" pad="G2"/>
 <contactref element="X3" pad="G3"/>
 <contactref element="X3" pad="G4"/>
-<contactref element="X5" pad="GND@2"/>
+<contactref element="Y3" pad="GND@2"/>
 <contactref element="X4" pad="G1"/>
-<contactref element="X6" pad="GND@1"/>
+<contactref element="Y4" pad="GND@1"/>
 <contactref element="X4" pad="G2"/>
 <contactref element="X4" pad="G3"/>
 <contactref element="X4" pad="G4"/>
-<contactref element="X6" pad="GND@2"/>
-<via x="-15" y="5" extent="1-16" drill="3.2" diameter="5"/>
-<via x="-15" y="65" extent="1-16" drill="3.2" diameter="5"/>
-<via x="45" y="65" extent="1-16" drill="3.2" diameter="5"/>
+<contactref element="Y4" pad="GND@2"/>
+<via x="-15" y="5" extent="1-16" drill="3.2" diameter="6"/>
+<via x="-15" y="65" extent="1-16" drill="3.2" diameter="6"/>
+<via x="45" y="65" extent="1-16" drill="3.2" diameter="6"/>
+<contactref element="X5" pad="G1"/>
+<contactref element="Y5" pad="GND@1"/>
+<contactref element="X5" pad="G2"/>
+<contactref element="X5" pad="G3"/>
+<contactref element="X5" pad="G4"/>
+<contactref element="Y5" pad="GND@2"/>
 </signal>
 <signal name="USIM_POWER" class="3">
 <contactref element="X1" pad="8"/>
@@ -3498,13 +3508,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$13" class="2">
 <contactref element="X3" pad="C"/>
-<contactref element="X5" pad="SIG"/>
+<contactref element="Y3" pad="SIG"/>
 <wire x1="-15.24" y1="23.368" x2="-9.6305" y2="23.368" width="0.9" layer="16"/>
 </signal>
 <signal name="N$14" class="2">
 <contactref element="X4" pad="C"/>
-<contactref element="X6" pad="SIG"/>
-<wire x1="-15.24" y1="13.97" x2="-9.6305" y2="13.97" width="0.9" layer="16"/>
+<contactref element="Y4" pad="SIG"/>
+<wire x1="-15.24" y1="13.208" x2="-9.6305" y2="13.208" width="0.9" layer="16"/>
+</signal>
+<signal name="N$7" class="2">
+<contactref element="X5" pad="C"/>
+<contactref element="Y5" pad="SIG"/>
+<wire x1="-3.302" y1="10.1815" x2="-3.302" y2="4.826" width="0.9" layer="16"/>
 </signal>
 </signals>
 <errors>

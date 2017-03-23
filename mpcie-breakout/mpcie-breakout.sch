@@ -12525,9 +12525,14 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="SOURCEPARTNUMBER" value="H2959CT-ND"/>
 </part>
 <part name="M1" library="BOM-exclusive" deviceset="NUT" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1"/>
 <attribute name="OC_DIGIKEY" value="H9161CT-ND"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A97593-ND"/>
 </part>
 <part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
@@ -12930,25 +12935,25 @@ DIN A4, landscape with extra doc field</description>
 </part>
 <part name="X3" library="laforge" deviceset="SMA-F" device="-S-TH">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981"/>
+<attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="A97593-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A97594-ND"/>
 </part>
 <part name="X4" library="laforge" deviceset="SMA-F" device="-S-TH">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981"/>
+<attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="A97593-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A97594-ND"/>
 </part>
 <part name="Y3" library="laforge" deviceset="HRS_UFL" device="">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
@@ -12976,14 +12981,14 @@ DIN A4, landscape with extra doc field</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="X5" library="laforge" deviceset="SMA-F" device="-S-TH">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="CONN SMA JACK R/A 50 OHM PCB"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814400-1/A97593-ND/1755981"/>
+<attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814400-1"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="A97593-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A97594-ND"/>
 </part>
 <part name="Y5" library="laforge" deviceset="HRS_UFL" device="">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>

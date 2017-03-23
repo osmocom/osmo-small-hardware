@@ -13946,14 +13946,14 @@ JP3 2-3: external 5V supply</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PERST" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="PERST"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="66.04" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="W_DISABLE" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="W_DISABLE"/>
 <pinref part="JP2" gate="A" pin="2"/>

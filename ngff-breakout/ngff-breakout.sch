@@ -12483,7 +12483,7 @@ DIN A4, landscape with extra doc field</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="VERSION" value="v3"/>
+<attribute name="VERSION" value="v1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -13002,8 +13002,8 @@ DIN A4, landscape with extra doc field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="165.1" y="25.4" size="3.048" layer="97">miniPCIe breakout board
-(C) 2016 by Harald Welte &lt;laforge@gnumonks.org&gt;</text>
+<text x="165.1" y="25.4" size="3.048" layer="97">NGFF WWAN breakout board
+(C) 2017 by Harald Welte &lt;laforge@gnumonks.org&gt;</text>
 <wire x1="0" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="129.54" x2="129.54" y2="134.62" width="0.1524" layer="97" style="longdash"/>
 <wire x1="129.54" y1="134.62" x2="129.54" y2="180.34" width="0.1524" layer="97" style="longdash"/>

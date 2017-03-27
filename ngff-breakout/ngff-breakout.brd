@@ -149,16 +149,16 @@
 <wire x1="50" y1="0" x2="50" y2="70" width="0" layer="20"/>
 <wire x1="50" y1="70" x2="-20" y2="70" width="0" layer="20"/>
 <wire x1="-20" y1="70" x2="-20" y2="0" width="0" layer="20"/>
-<text x="4.318" y="17.78" size="1.778" layer="25" font="vector">miniPCIe breakout</text>
-<text x="4.318" y="9.906" size="1.778" layer="25" font="vector">(C) 2016 Harald Welte
+<text x="4.318" y="17.78" size="1.778" layer="25" font="vector">NGFF WWAN breakout</text>
+<text x="4.318" y="9.906" size="1.778" layer="25" font="vector">(C) 2017 Harald Welte
 Mfg: sysmocom GmbH
 License: CC-BY-SA</text>
-<text x="30.988" y="17.78" size="1.778" layer="25" font="vector">&gt;VERSION</text>
-<text x="18.796" y="5.588" size="1.778" layer="26" font="vector" rot="MR90">miniPCIe breakout</text>
-<text x="10.668" y="5.588" size="1.778" layer="26" font="vector" rot="MR90">(C) 2016 Harald Welte
+<text x="33.782" y="17.78" size="1.778" layer="25" font="vector">&gt;VERSION</text>
+<text x="18.796" y="5.588" size="1.778" layer="26" font="vector" rot="MR90">NGFF WWAN breakout</text>
+<text x="10.668" y="5.588" size="1.778" layer="26" font="vector" rot="MR90">(C) 2017 Harald Welte
 Mfg: sysmocom GmbH
 License: CC-BY-SA</text>
-<text x="18.796" y="32.004" size="1.778" layer="26" font="vector" rot="MR90">&gt;VERSION</text>
+<text x="18.796" y="34.798" size="1.778" layer="26" font="vector" rot="MR90">&gt;VERSION</text>
 <text x="1.6575" y="61.8375" size="1.778" layer="22" font="vector" ratio="10" rot="MR90">1</text>
 <text x="47.498" y="36.068" size="1.4224" layer="26" font="vector" ratio="14" rot="MR90">USB</text>
 <text x="47.498" y="21.844" size="1.4224" layer="26" font="vector" ratio="14" rot="MR90">DC IN</text>
@@ -2109,7 +2109,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="VERSION" value="v3"/>
+<attribute name="VERSION" value="v1"/>
 </attributes>
 <variantdefs>
 </variantdefs>

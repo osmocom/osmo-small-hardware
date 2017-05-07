@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3796,33 +3796,193 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="J1" library="con-amp" deviceset="557560-1" device="" value="PASSTHROUGH"/>
-<part name="J2" library="con-amp" deviceset="557560-1" device="" value="TAP"/>
-<part name="SW1" library="laforge" deviceset="SWITCH_4PDT" device="" value="CROSSOVER"/>
-<part name="SW2" library="laforge" deviceset="SWITCH_4PDT" device="" value="TERM"/>
+<part name="J1" library="con-amp" deviceset="557560-1" device="" value="PASSTHROUGH">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="CONN MOD JACK 8P8C R/A UNSHLD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5557560-1/A31449-ND/769593"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5557560-1"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A31449-ND"/>
+</part>
+<part name="J2" library="con-amp" deviceset="557560-1" device="" value="TAP">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="CONN MOD JACK 8P8C R/A UNSHLD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/te-connectivity-amp-connectors/5557560-1/A31449-ND/769593"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5557560-1"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A31449-ND"/>
+</part>
+<part name="SW1" library="laforge" deviceset="SWITCH_4PDT" device="" value="CROSSOVER">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="SWITCH SLIDE 4PDT 300MA 115V"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/te-connectivity-alcoswitch-switches/1-1825010-3/450-1633-ND/1202112"/>
+<attribute name="MANUFACTURER" value="TE Connectivity ALCOSWITCH Switches"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="1-1825010-3"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="450-1633-ND"/>
+</part>
+<part name="SW2" library="laforge" deviceset="SWITCH_4PDT" device="" value="TERM">
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="DESCRIPTION" value="SWITCH SLIDE 4PDT 300MA 115V"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/te-connectivity-alcoswitch-switches/1-1825010-3/450-1633-ND/1202112"/>
+<attribute name="MANUFACTURER" value="TE Connectivity ALCOSWITCH Switches"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="1-1825010-3"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="450-1633-ND"/>
+</part>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/yageo/RC0603FR-071KL/311-1.00KHRCT-ND/729790"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-071KL"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/yageo/RC0603FR-071KL/311-1.00KHRCT-ND/729790"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-071KL"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/yageo/RC0603FR-071KL/311-1.00KHRCT-ND/729790"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-071KL"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1.00KHRCT-ND"/>
+</part>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1k">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/yageo/RC0603FR-071KL/311-1.00KHRCT-ND/729790"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-071KL"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1.00KHRCT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="-1" x="22.86" y="68.58" rot="R180"/>
+<instance part="J1" gate="-1" x="22.86" y="68.58" rot="R180">
+<attribute name="DESCRIPTION" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="22.86" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J1" gate="-2" x="88.9" y="68.58" rot="MR180"/>
-<instance part="J2" gate="-1" x="38.1" y="149.86" rot="R90"/>
+<instance part="J2" gate="-1" x="38.1" y="149.86" rot="R90">
+<attribute name="DESCRIPTION" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="38.1" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J2" gate="-2" x="66.04" y="149.86" rot="R90"/>
-<instance part="SW1" gate="G$1" x="55.88" y="30.48"/>
-<instance part="SW2" gate="G$1" x="45.72" y="121.92" rot="R270"/>
+<instance part="SW1" gate="G$1" x="55.88" y="30.48">
+<attribute name="DESCRIPTION" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="55.88" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SW2" gate="G$1" x="45.72" y="121.92" rot="R270">
+<attribute name="DESCRIPTION" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="45.72" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="0"/>
-<instance part="R1" gate="G$1" x="27.94" y="106.68" rot="R90"/>
-<instance part="R2" gate="G$1" x="38.1" y="106.68" rot="R90"/>
-<instance part="R3" gate="G$1" x="48.26" y="106.68" rot="R90"/>
-<instance part="R4" gate="G$1" x="58.42" y="106.68" rot="R90"/>
+<instance part="R1" gate="G$1" x="27.94" y="106.68" rot="R90">
+<attribute name="DESCRIPTION" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="27.94" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="38.1" y="106.68" rot="R90">
+<attribute name="DESCRIPTION" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="38.1" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="48.26" y="106.68" rot="R90">
+<attribute name="DESCRIPTION" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="48.26" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="58.42" y="106.68" rot="R90">
+<attribute name="DESCRIPTION" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="58.42" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

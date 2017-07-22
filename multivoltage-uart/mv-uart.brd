@@ -155,6 +155,25 @@
 <text x="15.5575" y="7.3025" size="1.27" layer="26" font="vector" rot="MR0">&gt;VERSION</text>
 <text x="19.05" y="27.46375" size="1.016" layer="25" font="vector" ratio="15">multi-voltage UART</text>
 <text x="34.925" y="27.46375" size="1.016" layer="25" font="vector" ratio="12">&gt;VERSION</text>
+<text x="-7.62" y="3.33375" size="1.778" layer="48" font="vector" rot="R180">GND</text>
+<text x="-7.62" y="5.87375" size="1.778" layer="48" font="vector" rot="R180">SCI_RXD</text>
+<text x="-7.77875" y="8.41375" size="1.778" layer="48" font="vector" rot="R180">SCI_TXD</text>
+<text x="-7.77875" y="10.95375" size="1.778" layer="48" font="vector" rot="R180">SCI_CTS</text>
+<text x="-7.77875" y="13.49375" size="1.778" layer="48" font="vector" rot="R180">SCI_RTS</text>
+<text x="-7.77875" y="16.03375" size="1.778" layer="48" font="vector" rot="R180">VIO</text>
+<text x="-7.77875" y="20.0025" size="1.778" layer="48" font="vector" rot="R180">GND</text>
+<text x="-7.77875" y="22.5425" size="1.778" layer="48" font="vector" rot="R180">ECI_RXD</text>
+<text x="-7.77875" y="25.0825" size="1.778" layer="48" font="vector" rot="R180">ECI_TXD</text>
+<text x="-7.77875" y="27.46375" size="1.778" layer="48" font="vector" rot="R180">ECI_CTS</text>
+<text x="-7.77875" y="30.00375" size="1.778" layer="48" font="vector" rot="R180">ECI_RTS</text>
+<text x="-7.77875" y="32.7025" size="1.778" layer="48" font="vector" rot="R180">VIO</text>
+<text x="36.195" y="34.6075" size="1.778" layer="48" font="vector" rot="R90">GND</text>
+<text x="33.9725" y="34.44875" size="1.778" layer="48" font="vector" rot="R90">GPIO0_ECI</text>
+<text x="31.4325" y="34.44875" size="1.778" layer="48" font="vector" rot="R90">GPIO1_ECI</text>
+<text x="28.8925" y="34.44875" size="1.778" layer="48" font="vector" rot="R90">GPIO0_SCI</text>
+<text x="26.3525" y="34.44875" size="1.778" layer="48" font="vector" rot="R90">GPIO1_SCI</text>
+<text x="23.8125" y="34.29" size="1.778" layer="48" font="vector" rot="R90">GPIO2_SCI</text>
+<text x="21.2725" y="34.29" size="1.778" layer="48" font="vector" rot="R90">VIO</text>
 </plain>
 <libraries>
 <library name="rc-sysmocom">

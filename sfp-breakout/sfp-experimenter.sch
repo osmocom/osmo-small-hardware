@@ -9929,6 +9929,8 @@ Standard 4-pin 0.1" header</description>
 <sheet>
 <plain>
 <text x="81.28" y="96.52" size="3.81" layer="97">3,3 V LDO</text>
+<text x="162.56" y="10.16" size="2.54" layer="97">(C) 2018 sysmocom GmbH
+License: CC-BY-SA</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="114.3" y="127"/>
@@ -10917,4 +10919,10 @@ Standard 4-pin 0.1" header</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

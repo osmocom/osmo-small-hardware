@@ -2009,7 +2009,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="34.29" y="33.02" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="34.29" y="33.02" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="UNKNOWN CLASS" x="34.29" y="33.02" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="34.29" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/products/en?keywords=U77-A1114-100TCT-ND" x="34.29" y="33.02" size="1.778" layer="27" display="off"/>
 </element>
 <element name="H1" library="sfp-experimenter" package="3,2-PAD" value="MOUNT-PAD-ROUND3.2" x="5" y="5" smashed="yes">
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="5" y="5" size="1.778" layer="27" display="off"/>
@@ -2118,7 +2118,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="INDUCTOR" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="sfp-experimenter" package="_0603" value="100n" x="43.18" y="23.8125" smashed="yes">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="43.18" y="23.8125" size="1.778" layer="27" display="off"/>
@@ -2144,7 +2144,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="INDUCTOR" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="sfp-experimenter" package="_0603" value="100n" x="40.3225" y="45.085" smashed="yes" rot="R180">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="40.3225" y="45.085" size="1.778" layer="27" rot="R180" display="off"/>

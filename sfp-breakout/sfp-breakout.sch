@@ -13702,7 +13702,7 @@ Source: www.kingbright.com</description>
 <part name="L2" library="sfp-breakout" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -13725,7 +13725,7 @@ Source: www.kingbright.com</description>
 <part name="L1" library="sfp-breakout" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -14017,6 +14017,8 @@ Source: www.kingbright.com</description>
 <text x="121.92" y="93.98" size="3.81" layer="97">3,3 V LDO</text>
 <text x="162.56" y="10.16" size="2.54" layer="97">(C) 2018 sysmocom GmbH
 License: CC-BY-SA</text>
+<text x="160.02" y="38.1" size="1.778" layer="97">cage: U77-A1114-100T</text>
+<text x="160.02" y="35.306" size="1.778" layer="97">conn: UE75-A20-6000T</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="144.78" y="137.16"/>

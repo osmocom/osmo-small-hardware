@@ -2087,7 +2087,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="INDUCTOR" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="sfp-breakout" package="_0603" value="100n" x="46.355" y="33.02" smashed="yes" rot="R90">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="46.355" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2113,7 +2113,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="50.8" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="50.8" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="INDUCTOR" x="50.8" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="50.8" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND" x="50.8" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C7" library="sfp-breakout" package="_0603" value="100n" x="40.3225" y="45.085" smashed="yes" rot="R180">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="40.3225" y="45.085" size="1.778" layer="27" rot="R180" display="off"/>

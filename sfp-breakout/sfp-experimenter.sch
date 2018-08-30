@@ -13736,7 +13736,7 @@ Source: www.kingbright.com</description>
 <part name="SFP1" library="sfp-experimenter" deviceset="SFP_UNI" device="">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.de/products/en?keywords=U77-A1114-100TCT-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -13842,7 +13842,7 @@ Source: www.kingbright.com</description>
 <part name="L2" library="sfp-experimenter" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -13865,7 +13865,7 @@ Source: www.kingbright.com</description>
 <part name="L1" library="sfp-experimenter" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -14302,6 +14302,8 @@ Source: www.kingbright.com</description>
 <text x="162.56" y="10.16" size="2.54" layer="97">(C) 2018 sysmocom GmbH
 License: CC-BY-SA</text>
 <text x="119.38" y="96.52" size="3.81" layer="97">3,3 V LDO</text>
+<text x="116.84" y="15.24" size="1.778" layer="97">cage: U77-A1114-100T</text>
+<text x="116.84" y="12.446" size="1.778" layer="97">conn: UE75-A20-6000T</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="154.94" y="20.32"/>

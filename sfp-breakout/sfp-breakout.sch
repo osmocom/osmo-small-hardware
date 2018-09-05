@@ -14860,6 +14860,11 @@ License: CC-BY-SA</text>
 <junction x="86.36" y="137.16"/>
 <wire x1="86.36" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
 <junction x="78.74" y="160.02"/>
+<pinref part="X1" gate="G$1" pin="5"/>
+<wire x1="55.88" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="147.32" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="160.02" x2="68.58" y2="160.02" width="0.1524" layer="91"/>
+<junction x="68.58" y="160.02"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>

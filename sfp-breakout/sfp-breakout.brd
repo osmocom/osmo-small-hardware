@@ -2858,6 +2858,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="5.08" y="17.78" extent="1-16" drill="0.3"/>
 <wire x1="11.43" y1="16.9425" x2="11.43" y2="17.78" width="0.4064" layer="1"/>
 <via x="11.43" y="17.78" extent="1-16" drill="0.3"/>
+<contactref element="X1" pad="5"/>
 </signal>
 <signal name="TD_P" class="1">
 <contactref element="SFP1" pad="18"/>

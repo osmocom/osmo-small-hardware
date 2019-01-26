@@ -5892,6 +5892,10 @@ Created 2014-10-08, Karrer Zheng&lt;br&gt;
 <junction x="180.34" y="86.36"/>
 <junction x="180.34" y="88.9"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="WP"/>
+<wire x1="182.88" y1="96.52" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="96.52" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
+<junction x="180.34" y="91.44"/>
 </segment>
 <segment>
 <pinref part="X4" gate="G$1" pin="GND"/>

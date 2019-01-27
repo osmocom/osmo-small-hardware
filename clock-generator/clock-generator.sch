@@ -4922,7 +4922,7 @@ Created 2014-10-08, Karrer Zheng&lt;br&gt;
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="C5" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="0.10n"/>
-<part name="C4" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="1u"/>
+<part name="C4" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>

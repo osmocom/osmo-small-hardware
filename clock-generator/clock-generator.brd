@@ -181,15 +181,17 @@
 <wire x1="50" y1="0" x2="50" y2="100" width="0" layer="20"/>
 <wire x1="50" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<text x="30.9825" y="55.2075" size="1.27" layer="25" font="vector" ratio="14" rot="R180" align="top-right">osmo-clock-gen
+<text x="27.1575" y="54.315" size="1.27" layer="25" font="vector" ratio="14" rot="R180" align="top-right">osmo-clock-gen
+(C) 2019 Harald Welte
+Mfg: sysmocom GmbH
+OSHW / CC-BY-SA</text>
+<text x="49.3425" y="54.315" size="1.016" layer="26" font="vector" ratio="14" rot="MR0">osmo-clock-gen
 (C) 2019 by
 Harald Welte
+Mfg: sysmocom GmbH
 OSHW / CC-BY-SA</text>
-<text x="48.8325" y="57.885" size="1.016" layer="26" font="vector" rot="MR0">osmo-clock-gen
-(C) 2018 by Harald Welte
-OSHW / CC-BY-SA</text>
-<text x="46.665" y="53.55" size="1.016" layer="25" font="vector" ratio="14">&gt;REVISION</text>
-<text x="39.3975" y="53.55" size="1.016" layer="25" font="vector" ratio="14">Version:</text>
+<text x="46.665" y="52.6575" size="1.016" layer="25" font="vector" ratio="14">&gt;REVISION</text>
+<text x="39.27" y="52.6575" size="1.016" layer="25" font="vector" ratio="14">Version:</text>
 </plain>
 <libraries>
 <library name="rc-sysmocom">
@@ -1460,8 +1462,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -1612,12 +1614,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="18.796" y="77.6921" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="16.764" y="74.6124" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C4" library="rc-sysmocom" package="_0402" value="1u" x="26.416" y="25.908" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.448" y="25.6859" size="1.016" layer="25" font="vector" ratio="14"/>
-<attribute name="VALUE" x="27.686" y="27.2416" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<element name="C4" library="rc-sysmocom" package="_0603" value="1u" x="26.2885" y="26.163" smashed="yes" rot="R180">
+<attribute name="NAME" x="28.8305" y="25.6859" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="27.5585" y="27.4966" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C5" library="rc-sysmocom" package="_0402" value="0.10n" x="26.416" y="24.892" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.448" y="24.4159" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="27.938" y="24.2884" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="27.686" y="26.2256" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C6" library="rc-sysmocom" package="_0603" value="100n" x="14.224" y="60.96" smashed="yes" rot="R90">
@@ -1917,18 +1919,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="35.7632" y="75.3618" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="40.767" y="75.438" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="K2" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="694108106102" x="0" y="91.186" smashed="yes">
-<attribute name="DESCRIPTION" value="Power Barrel Connector Jack 2.50mm ID (0.098&quot;), 5.50mm OD (0.217&quot;) Surface Mount, Right Angle" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="RELAY" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Wurth Electronics Inc" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="694108106102" x="-17.272" y="113.284" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.903640625" y="85.3926" size="1.016" layer="25" font="vector" ratio="14" rot="SR0"/>
-<attribute name="VALUE" x="0.699640625" y="81.0726" size="2.032" layer="27" font="vector" ratio="13" rot="SR0"/>
+<element name="K2" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="694108106102" x="-1.275" y="90.931" smashed="yes">
+<attribute name="DESCRIPTION" value="Power Barrel Connector Jack 2.50mm ID (0.098&quot;), 5.50mm OD (0.217&quot;) Surface Mount, Right Angle" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="http://www.digikey.com/product-detail/en/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="RELAY" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Inc" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="694108106102" x="-18.547" y="113.029" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.628640625" y="85.1376" size="1.016" layer="25" font="vector" ratio="14" rot="SR0"/>
+<attribute name="VALUE" x="-0.575359375" y="80.8176" size="2.032" layer="27" font="vector" ratio="13" rot="SR0"/>
 </element>
 <element name="F1" library="littlefuse" package="1206L" value="" x="26.2895" y="93.726" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.8055" y="91.678" size="1.016" layer="25" font="vector" ratio="14"/>
@@ -2122,18 +2124,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="46.228" y="95.504" extent="1-16" drill="2.6" diameter="5"/>
 <wire x1="25.4" y1="88.011" x2="25.4" y2="88.138" width="0.254" layer="1"/>
 <wire x1="25.4" y1="88.138" x2="26.2885" y2="89.0265" width="0.254" layer="1"/>
-<via x="1.524" y="85.852" extent="1-16" drill="0.3"/>
+<via x="0.8865" y="85.852" extent="1-16" drill="0.3"/>
 <polygon width="0.6096" layer="16">
-<vertex x="1.27" y="86.868"/>
+<vertex x="0.6325" y="86.868"/>
 <vertex x="5.08" y="86.868"/>
 <vertex x="5.08" y="71.628"/>
 <vertex x="4.064" y="70.866"/>
-<vertex x="1.27" y="70.866"/>
+<vertex x="0.6325" y="70.866"/>
 </polygon>
-<via x="2.794" y="85.852" extent="1-16" drill="0.3"/>
+<via x="1.9015" y="85.852" extent="1-16" drill="0.3"/>
 <via x="3.81" y="82.55" extent="1-16" drill="0.3"/>
-<via x="1.524" y="84.582" extent="1-16" drill="0.3"/>
-<via x="2.794" y="84.582" extent="1-16" drill="0.3"/>
+<via x="0.8865" y="84.7095" extent="1-16" drill="0.3"/>
+<via x="1.9015" y="84.7095" extent="1-16" drill="0.3"/>
 <via x="3.81" y="83.82" extent="1-16" drill="0.3"/>
 <via x="1.778" y="71.374" extent="1-16" drill="0.3"/>
 <via x="2.794" y="71.374" extent="1-16" drill="0.3"/>
@@ -2160,8 +2162,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <polygon width="0.254" layer="16">
 <vertex x="21.844" y="22.098"/>
 <vertex x="21.844" y="27.94"/>
-<vertex x="28.448" y="27.94"/>
-<vertex x="28.448" y="25.4"/>
+<vertex x="28.703" y="27.94"/>
+<vertex x="28.703" y="25.655"/>
 <vertex x="27.686" y="24.638"/>
 <vertex x="25.908" y="24.638"/>
 <vertex x="25.146" y="25.4"/>
@@ -2172,7 +2174,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="25.4" y="27.432" extent="1-16" drill="0.3"/>
 <via x="26.67" y="27.432" extent="1-16" drill="0.3"/>
 <via x="27.94" y="27.432" extent="1-16" drill="0.3"/>
-<via x="27.94" y="26.162" extent="1-16" drill="0.3"/>
+<via x="28.3225" y="26.162" extent="1-16" drill="0.3"/>
 <wire x1="23.114" y1="23.114" x2="22.352" y2="22.352" width="0.254" layer="1"/>
 <via x="20.828" y="78.994" extent="1-16" drill="0.3"/>
 <via x="22.352" y="78.994" extent="1-16" drill="0.3"/>
@@ -2248,7 +2250,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="21.214" y1="22.114" x2="21.198" y2="21.336" width="0.254" layer="1"/>
 <wire x1="21.198" y1="21.336" x2="21.082" y2="21.336" width="0.254" layer="1"/>
 <wire x1="22.124" y1="21.214" x2="21.336" y2="21.188" width="0.254" layer="1"/>
-<wire x1="21.336" y1="21.188" x2="21.082" y2="20.066" width="0.254" layer="1"/>
+<wire x1="21.336" y1="21.188" x2="21.082" y2="20.066" width="0.6096" layer="1"/>
 <wire x1="23.624" y1="21.234" x2="23.624" y2="20.064" width="0.254" layer="1"/>
 <wire x1="23.624" y1="20.064" x2="23.622" y2="19.05" width="0.254" layer="1"/>
 <wire x1="25.014" y1="23.114" x2="26.0355" y2="23.114" width="0.254" layer="1"/>
@@ -2262,7 +2264,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="23.622" y1="19.9385" x2="23.622" y2="19.05" width="0.6096" layer="1"/>
 <wire x1="21.336" y1="21.336" x2="21.082" y2="21.336" width="0.6096" layer="1"/>
 <wire x1="21.082" y1="21.336" x2="20.32" y2="21.336" width="0.6096" layer="1"/>
-<wire x1="22.124" y1="21.214" x2="22.098" y2="21.24" width="0.3048" layer="1"/>
+<wire x1="22.124" y1="21.214" x2="22.098" y2="21.24" width="0.254" layer="1"/>
 <wire x1="22.098" y1="21.24" x2="22.098" y2="21.336" width="0.3048" layer="1"/>
 <wire x1="22.098" y1="21.336" x2="21.336" y2="21.336" width="0.3048" layer="1"/>
 <via x="26.0355" y="23.114" extent="1-16" drill="0.3"/>
@@ -2357,7 +2359,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="22.606" y1="42.672" x2="23.622" y2="42.672" width="0.6096" layer="1"/>
 <wire x1="22.606" y1="41.148" x2="23.622" y2="41.148" width="0.6096" layer="1"/>
 <wire x1="32.004" y1="64.008" x2="33.274" y2="64.008" width="0.6096" layer="1"/>
-<wire x1="25.908" y1="24.892" x2="25.908" y2="25.908" width="0.3048" layer="1"/>
+<wire x1="25.908" y1="24.892" x2="25.5265" y2="26.163" width="0.6096" layer="1"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="U4" pad="5"/>
@@ -2962,11 +2964,11 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <signal name="N$15">
 <contactref element="K2" pad="1-1"/>
 <contactref element="K2" pad="1"/>
-<wire x1="5" y1="96.686" x2="11.15" y2="96.686" width="1.9304" layer="1"/>
+<wire x1="3.725" y1="96.431" x2="9.875" y2="96.431" width="1.9304" layer="1"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="D11" pad="A"/>
-<wire x1="11.15" y1="96.686" x2="11.238" y2="96.774" width="1.6764" layer="1"/>
-<wire x1="11.238" y1="96.774" x2="7.874" y2="96.774" width="1.6764" layer="1"/>
+<wire x1="9.875" y1="96.431" x2="10.0905" y2="96.774" width="1.6764" layer="1"/>
+<wire x1="10.0905" y1="96.774" x2="7.874" y2="96.774" width="1.6764" layer="1"/>
 <via x="7.874" y="96.774" extent="1-16" drill="0.6"/>
 <wire x1="7.874" y1="96.774" x2="10.922" y2="93.726" width="1.6764" layer="16"/>
 <wire x1="10.922" y1="93.726" x2="17.526" y2="93.726" width="1.6764" layer="16"/>
@@ -3057,6 +3059,16 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="21.082" y1="91.44" x2="20.574" y2="91.44" width="1.016" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="19,1,5d5f2725da52a028"/>
+<approved hash="19,1,5d9f27e522225858"/>
+<approved hash="19,1,9d9ed7e4d220985a"/>
+<approved hash="19,1,9d5ed7242a50602a"/>
+<approved hash="19,1,9a1cd066d360991a"/>
+<approved hash="19,1,9cacd6d6d0e09a9a"/>
+<approved hash="19,1,1caa66d060e31a99"/>
+<approved hash="19,1,1a1a606063631919"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2019-01-26T18:28:55Z</dc:date>
+      <dc:date>2019-01-27T18:16:46Z</dc:date>
       <meta:creation-date>2019-01-16T20:26:33Z</meta:creation-date>
     </office:meta>
   </office:document-meta>
@@ -92,12 +92,32 @@
             <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="2" endCol="7" endRow="65535">
+        <gnm:StyleRegion startCol="0" startRow="2" endCol="9" endRow="2">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="8" startRow="2" endCol="255" endRow="5">
+        <gnm:StyleRegion startCol="0" startRow="3" endCol="4" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="4" endCol="7" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5" startRow="3" endCol="5" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="6" startRow="3" endCol="7" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="8" startRow="3" endCol="255" endRow="5">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -107,17 +127,17 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="8" startRow="8" endCol="15" endRow="10">
+        <gnm:StyleRegion startCol="8" startRow="8" endCol="255" endRow="9">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="8" startRow="11" endCol="11" endRow="12">
+        <gnm:StyleRegion startCol="8" startRow="10" endCol="11" endRow="11">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="8" startRow="13" endCol="15" endRow="15">
+        <gnm:StyleRegion startCol="8" startRow="12" endCol="15" endRow="15">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -142,6 +162,16 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="10" startRow="2" endCol="10" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="2" endCol="255" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
         <gnm:StyleRegion startCol="11" startRow="6" endCol="11" endRow="7">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
@@ -152,12 +182,12 @@
             <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="12" startRow="6" endCol="17" endRow="7">
+        <gnm:StyleRegion startCol="12" startRow="6" endCol="255" endRow="7">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="12" startRow="11" endCol="12" endRow="12">
+        <gnm:StyleRegion startCol="12" startRow="10" endCol="12" endRow="11">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -167,7 +197,7 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="13" startRow="11" endCol="15" endRow="12">
+        <gnm:StyleRegion startCol="13" startRow="10" endCol="255" endRow="11">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -177,17 +207,22 @@
             <gnm:Font Unit="10" Bold="1" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="16" startRow="8" endCol="255" endRow="65535">
+        <gnm:StyleRegion startCol="16" startRow="12" endCol="17" endRow="12">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="18" startRow="6" endCol="18" endRow="7">
+        <gnm:StyleRegion startCol="16" startRow="13" endCol="255" endRow="65535">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="19" startRow="6" endCol="255" endRow="7">
+        <gnm:StyleRegion startCol="18" startRow="12" endCol="19" endRow="12">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="20" startRow="12" endCol="255" endRow="12">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -203,8 +238,8 @@
         <gnm:RowInfo No="17" Unit="13.27" Count="2"/>
         <gnm:RowInfo No="20" Unit="13.27" Count="6"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="19" CursorRow="5">
-        <gnm:Selection startCol="19" startRow="5" endCol="19" endRow="5"/>
+      <gnm:Selections CursorCol="3" CursorRow="17">
+        <gnm:Selection startCol="3" startRow="17" endCol="3" endRow="17"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="1" Col="0" ValueType="60">SOIC14</gnm:Cell>
@@ -233,6 +268,8 @@
         <gnm:Cell Row="2" Col="7" ValueType="60">AIN0</gnm:Cell>
         <gnm:Cell Row="2" Col="9" ValueType="60">Y0</gnm:Cell>
         <gnm:Cell Row="2" Col="10" ValueType="60">VOUT</gnm:Cell>
+        <gnm:Cell Row="2" Col="18" ExprID="1">=K3</gnm:Cell>
+        <gnm:Cell Row="2" Col="19" ValueType="60">VCXO_CV</gnm:Cell>
         <gnm:Cell Row="3" Col="1" ValueType="40">19</gnm:Cell>
         <gnm:Cell Row="3" Col="2" ValueType="40">2</gnm:Cell>
         <gnm:Cell Row="3" Col="3" ValueType="60">PA03</gnm:Cell>
@@ -240,6 +277,8 @@
         <gnm:Cell Row="3" Col="6" ValueType="60">ADC/VREFA</gnm:Cell>
         <gnm:Cell Row="3" Col="7" ValueType="60">AIN1</gnm:Cell>
         <gnm:Cell Row="3" Col="9" ValueType="60">Y1</gnm:Cell>
+        <gnm:Cell Row="3" Col="18" ExprID="2">=F4</gnm:Cell>
+        <gnm:Cell Row="3" Col="19" ValueType="60">!INT</gnm:Cell>
         <gnm:Cell Row="4" Col="0" ValueType="40">14</gnm:Cell>
         <gnm:Cell Row="4" Col="1" ValueType="40">20</gnm:Cell>
         <gnm:Cell Row="4" Col="2" ValueType="40">3</gnm:Cell>
@@ -253,7 +292,7 @@
         <gnm:Cell Row="4" Col="12" ValueType="60">SC0/P0</gnm:Cell>
         <gnm:Cell Row="4" Col="13" ValueType="60">TC1/WO0</gnm:Cell>
         <gnm:Cell Row="4" Col="14" ValueType="60">TCC0/WO0</gnm:Cell>
-        <gnm:Cell Row="4" Col="18" ExprID="1">=L5</gnm:Cell>
+        <gnm:Cell Row="4" Col="18" ExprID="3">=L5</gnm:Cell>
         <gnm:Cell Row="4" Col="19" ValueType="60">SPI_SS</gnm:Cell>
         <gnm:Cell Row="5" Col="0" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="5" Col="1" ValueType="40">1</gnm:Cell>
@@ -267,7 +306,7 @@
         <gnm:Cell Row="5" Col="12" ValueType="60">SC0/P1</gnm:Cell>
         <gnm:Cell Row="5" Col="13" ValueType="60">TC1/WO1</gnm:Cell>
         <gnm:Cell Row="5" Col="14" ValueType="60">TCC0/WO1</gnm:Cell>
-        <gnm:Cell Row="5" Col="18" ExprID="2">=L6</gnm:Cell>
+        <gnm:Cell Row="5" Col="18" ExprID="3"/>
         <gnm:Cell Row="5" Col="19" ValueType="60">SPI_MISO</gnm:Cell>
         <gnm:Cell Row="6" Col="1" ValueType="40">2</gnm:Cell>
         <gnm:Cell Row="6" Col="2" ValueType="40">5</gnm:Cell>
@@ -280,7 +319,7 @@
         <gnm:Cell Row="6" Col="12" ValueType="60">SC0/P2</gnm:Cell>
         <gnm:Cell Row="6" Col="13" ValueType="60">TC2/WO0</gnm:Cell>
         <gnm:Cell Row="6" Col="14" ValueType="60">TCC0/WO2</gnm:Cell>
-        <gnm:Cell Row="6" Col="18" ExprID="3">=L7</gnm:Cell>
+        <gnm:Cell Row="6" Col="18" ExprID="3"/>
         <gnm:Cell Row="6" Col="19" ValueType="60">SPI_MOSI</gnm:Cell>
         <gnm:Cell Row="7" Col="1" ValueType="40">3</gnm:Cell>
         <gnm:Cell Row="7" Col="2" ValueType="40">6</gnm:Cell>
@@ -293,7 +332,7 @@
         <gnm:Cell Row="7" Col="12" ValueType="60">SC0/P3</gnm:Cell>
         <gnm:Cell Row="7" Col="13" ValueType="60">TC2/WO1</gnm:Cell>
         <gnm:Cell Row="7" Col="14" ValueType="60">TCC0/WO3</gnm:Cell>
-        <gnm:Cell Row="7" Col="18" ExprID="4">=L8</gnm:Cell>
+        <gnm:Cell Row="7" Col="18" ExprID="3"/>
         <gnm:Cell Row="7" Col="19" ValueType="60">SPI_SCK</gnm:Cell>
         <gnm:Cell Row="8" Col="0" ValueType="40">2</gnm:Cell>
         <gnm:Cell Row="8" Col="1" ValueType="40">4</gnm:Cell>
@@ -326,6 +365,8 @@
         <gnm:Cell Row="10" Col="13" ValueType="60">TC2/WO0</gnm:Cell>
         <gnm:Cell Row="10" Col="14" ValueType="60">TCC0/WO2</gnm:Cell>
         <gnm:Cell Row="10" Col="16" ValueType="60">GCLK_IO4</gnm:Cell>
+        <gnm:Cell Row="10" Col="18">=M13</gnm:Cell>
+        <gnm:Cell Row="10" Col="19" ValueType="60">UART_TX</gnm:Cell>
         <gnm:Cell Row="11" Col="2" ValueType="40">10</gnm:Cell>
         <gnm:Cell Row="11" Col="3" ValueType="60">PA11</gnm:Cell>
         <gnm:Cell Row="11" Col="5" ValueType="60">EXTINT3</gnm:Cell>
@@ -337,8 +378,8 @@
         <gnm:Cell Row="11" Col="13" ValueType="60">TC2/WO1</gnm:Cell>
         <gnm:Cell Row="11" Col="14" ValueType="60">TCC0/WO3</gnm:Cell>
         <gnm:Cell Row="11" Col="16" ValueType="60">GCLK_IO5</gnm:Cell>
-        <gnm:Cell Row="11" Col="18" ExprID="5">=M12</gnm:Cell>
-        <gnm:Cell Row="11" Col="19" ValueType="60">UART_TX</gnm:Cell>
+        <gnm:Cell Row="11" Col="18" ExprID="4">=M12</gnm:Cell>
+        <gnm:Cell Row="11" Col="19" ValueType="60">UART_RX</gnm:Cell>
         <gnm:Cell Row="12" Col="0" ValueType="40">4</gnm:Cell>
         <gnm:Cell Row="12" Col="1" ValueType="40">6</gnm:Cell>
         <gnm:Cell Row="12" Col="2" ValueType="40">11</gnm:Cell>
@@ -353,8 +394,6 @@
         <gnm:Cell Row="12" Col="13" ValueType="60">TC1/WO0</gnm:Cell>
         <gnm:Cell Row="12" Col="14" ValueType="60">TCC0/WO0</gnm:Cell>
         <gnm:Cell Row="12" Col="16" ValueType="60">GCLK_IO4</gnm:Cell>
-        <gnm:Cell Row="12" Col="18">=M13</gnm:Cell>
-        <gnm:Cell Row="12" Col="19" ValueType="60">UART_RX</gnm:Cell>
         <gnm:Cell Row="13" Col="0" ValueType="40">5</gnm:Cell>
         <gnm:Cell Row="13" Col="1" ValueType="40">7</gnm:Cell>
         <gnm:Cell Row="13" Col="2" ValueType="40">12</gnm:Cell>
@@ -379,6 +418,8 @@
         <gnm:Cell Row="14" Col="13" ValueType="60">TC1/WO0</gnm:Cell>
         <gnm:Cell Row="14" Col="14" ValueType="60">TCC0/WO6</gnm:Cell>
         <gnm:Cell Row="14" Col="16" ValueType="60">TCLK_IO2</gnm:Cell>
+        <gnm:Cell Row="14" Col="18" ExprID="5">=D15</gnm:Cell>
+        <gnm:Cell Row="14" Col="19" ValueType="60">!LED_YELLOW</gnm:Cell>
         <gnm:Cell Row="15" Col="2" ValueType="40">14</gnm:Cell>
         <gnm:Cell Row="15" Col="3" ValueType="60">PA17</gnm:Cell>
         <gnm:Cell Row="15" Col="5" ValueType="60">EXTINT1</gnm:Cell>
@@ -388,6 +429,8 @@
         <gnm:Cell Row="15" Col="13" ValueType="60">TC1/WO1</gnm:Cell>
         <gnm:Cell Row="15" Col="14" ValueType="60">TCC0/WO7</gnm:Cell>
         <gnm:Cell Row="15" Col="16" ValueType="60">GCLK_IO3</gnm:Cell>
+        <gnm:Cell Row="15" Col="18" ValueType="60">PA117</gnm:Cell>
+        <gnm:Cell Row="15" Col="19" ValueType="60">!OEB</gnm:Cell>
         <gnm:Cell Row="16" Col="1" ValueType="40">9</gnm:Cell>
         <gnm:Cell Row="16" Col="2" ValueType="40">15</gnm:Cell>
         <gnm:Cell Row="16" Col="3" ValueType="60">PA22</gnm:Cell>
@@ -399,7 +442,7 @@
         <gnm:Cell Row="16" Col="13" ValueType="60">TC1/WO0</gnm:Cell>
         <gnm:Cell Row="16" Col="14" ValueType="60">TCC0/WO4</gnm:Cell>
         <gnm:Cell Row="16" Col="16" ValueType="60">GCLK_IO1</gnm:Cell>
-        <gnm:Cell Row="16" Col="18">=L17</gnm:Cell>
+        <gnm:Cell Row="16" Col="18" ExprID="3"/>
         <gnm:Cell Row="16" Col="19" ValueType="60">I2C_SDA</gnm:Cell>
         <gnm:Cell Row="17" Col="1" ValueType="40">10</gnm:Cell>
         <gnm:Cell Row="17" Col="2" ValueType="40">16</gnm:Cell>
@@ -413,15 +456,15 @@
         <gnm:Cell Row="17" Col="14" ValueType="60">TCC0/WO5</gnm:Cell>
         <gnm:Cell Row="17" Col="15" ValueType="60">USB_SOF</gnm:Cell>
         <gnm:Cell Row="17" Col="16" ValueType="60">TCLK_IO2</gnm:Cell>
-        <gnm:Cell Row="17" Col="18">=L18</gnm:Cell>
+        <gnm:Cell Row="17" Col="18" ExprID="3"/>
         <gnm:Cell Row="17" Col="19" ValueType="60">I2C_SCL</gnm:Cell>
         <gnm:Cell Row="18" Col="2" ValueType="40">17</gnm:Cell>
         <gnm:Cell Row="18" Col="3" ValueType="60">PA27</gnm:Cell>
         <gnm:Cell Row="18" Col="5" ValueType="60">EXTINT7</gnm:Cell>
         <gnm:Cell Row="18" Col="9" ValueType="60">X10</gnm:Cell>
         <gnm:Cell Row="18" Col="16" ValueType="60">GCLK_IO0</gnm:Cell>
-        <gnm:Cell Row="18" Col="18" ExprID="6">=D19</gnm:Cell>
-        <gnm:Cell Row="18" Col="19" ValueType="60">VBUS</gnm:Cell>
+        <gnm:Cell Row="18" Col="18">=D19</gnm:Cell>
+        <gnm:Cell Row="18" Col="19" ValueType="60">VBUS_DET</gnm:Cell>
         <gnm:Cell Row="19" Col="0" ValueType="40">6</gnm:Cell>
         <gnm:Cell Row="19" Col="1" ValueType="40">11</gnm:Cell>
         <gnm:Cell Row="19" Col="2" ValueType="40">18</gnm:Cell>
@@ -438,7 +481,7 @@
         <gnm:Cell Row="20" Col="14" ValueType="60">TCC0/WO2</gnm:Cell>
         <gnm:Cell Row="20" Col="15" ValueType="60">SWCLK</gnm:Cell>
         <gnm:Cell Row="20" Col="16" ValueType="60">GCLK_IO0</gnm:Cell>
-        <gnm:Cell Row="20" Col="18" ExprID="7">=P21</gnm:Cell>
+        <gnm:Cell Row="20" Col="18" ExprID="6">=P21</gnm:Cell>
         <gnm:Cell Row="21" Col="0" ValueType="40">8</gnm:Cell>
         <gnm:Cell Row="21" Col="1" ValueType="40">13</gnm:Cell>
         <gnm:Cell Row="21" Col="2" ValueType="40">20</gnm:Cell>
@@ -450,7 +493,7 @@
         <gnm:Cell Row="21" Col="14" ValueType="60">TCC0/WO3</gnm:Cell>
         <gnm:Cell Row="21" Col="15" ValueType="60">SWDIO</gnm:Cell>
         <gnm:Cell Row="21" Col="16" ValueType="60">GCLK_IO0</gnm:Cell>
-        <gnm:Cell Row="21" Col="18" ExprID="8">=P22</gnm:Cell>
+        <gnm:Cell Row="21" Col="18" ExprID="6"/>
         <gnm:Cell Row="22" Col="0" ValueType="40">9</gnm:Cell>
         <gnm:Cell Row="22" Col="1" ValueType="40">14</gnm:Cell>
         <gnm:Cell Row="22" Col="2" ValueType="40">21</gnm:Cell>
@@ -463,7 +506,7 @@
         <gnm:Cell Row="22" Col="14" ValueType="60">TCC0/WO4</gnm:Cell>
         <gnm:Cell Row="22" Col="15" ValueType="60">USB_DM</gnm:Cell>
         <gnm:Cell Row="22" Col="16" ValueType="60">GCLK_IO0</gnm:Cell>
-        <gnm:Cell Row="22" Col="18" ExprID="9">=P23</gnm:Cell>
+        <gnm:Cell Row="22" Col="18" ExprID="6"/>
         <gnm:Cell Row="23" Col="0" ValueType="40">10</gnm:Cell>
         <gnm:Cell Row="23" Col="1" ValueType="40">15</gnm:Cell>
         <gnm:Cell Row="23" Col="2" ValueType="40">22</gnm:Cell>
@@ -475,7 +518,7 @@
         <gnm:Cell Row="23" Col="13" ValueType="60">TCC0/WO3</gnm:Cell>
         <gnm:Cell Row="23" Col="15" ValueType="60">USB_DP</gnm:Cell>
         <gnm:Cell Row="23" Col="16" ValueType="60">GCLK_IO0</gnm:Cell>
-        <gnm:Cell Row="23" Col="18" ExprID="10">=P24</gnm:Cell>
+        <gnm:Cell Row="23" Col="18" ExprID="6"/>
         <gnm:Cell Row="24" Col="0" ValueType="40">11</gnm:Cell>
         <gnm:Cell Row="24" Col="1" ValueType="40">16</gnm:Cell>
         <gnm:Cell Row="24" Col="2" ValueType="40">23</gnm:Cell>

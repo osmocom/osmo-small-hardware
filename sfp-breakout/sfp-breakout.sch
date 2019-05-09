@@ -89,6 +89,7 @@
 <layer number="134" name="Fräsung" color="2" fill="0" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
 <layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
 <layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
@@ -13550,8 +13551,49 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="BOM-exclusive">
+<packages>
+</packages>
+<symbols>
+<symbol name="SHIELD-COVER">
+<wire x1="-5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" style="shortdash"/>
+<text x="-5.08" y="6.096" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-2.032" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-4.064" y="2.286" size="0.8128" layer="97">shield-cover</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SHIELD-COVER" prefix="M">
+<gates>
+<gate name="G$1" symbol="SHIELD-COVER" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="CLASS" value="MECHANICAL" constant="no"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" constant="no"/>
+<attribute name="LINK" value="UNKNOWN LINK" constant="no"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" constant="no"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" constant="no"/>
+<attribute name="POPULATED" value="TRUE" constant="no"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" constant="no"/>
+<attribute name="SCHEM_BOM_ITEM" value="TRUE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" constant="no"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
+<attribute name="VERSION" value="v1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -13572,15 +13614,15 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="GND2" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="SFP1" library="sfp-breakout" deviceset="SFP_UNI" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN SFP RCPT 20POS SLD R/A SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/amphenol-icc-commercial-products/UE75-A20-6000T/UE75-A20-6000TCT-ND"/>
+<attribute name="MANUFACTURER" value="Amphenol ICC (Commercial Products)"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UE75-A20-6000T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="UE75-A20-6000TCT-ND"/>
 </part>
 <part name="H1" library="sfp-breakout" deviceset="MOUNT-PAD-ROUND" device="3.2">
 <attribute name="CLASS" value="HOLE"/>
@@ -13684,7 +13726,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
 </part>
@@ -13695,20 +13737,20 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="L2" library="sfp-breakout" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="FIXED IND 1NH 800MA 50 MOHM SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CIH10T1N0SNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-6301-1-ND"/>
 </part>
 <part name="C2" library="sfp-breakout" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -13717,21 +13759,21 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="GND7" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="L1" library="sfp-breakout" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/en/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="FIXED IND 1NH 800MA 50 MOHM SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CIH10T1N0SNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-6301-1-ND"/>
 </part>
 <part name="GND8" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="C7" library="sfp-breakout" deviceset="CAP_CERAMIC" device="_0603" value="100n">
@@ -13741,7 +13783,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
@@ -13752,7 +13794,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
 </part>
@@ -13761,14 +13803,14 @@ Source: www.kingbright.com</description>
 <part name="GND28" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="CT6032" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP TANT 100UF 6.3V 10% 2413"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/T491C107K006AT/399-8337-1-ND/3472060"/>
-<attribute name="MANUFACTURER" value="Kemet"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="T491C107K006AT"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 10%% 6.3V 2312"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/TPSC107K006R0150/478-1764-1-ND"/>
+<attribute name="MANUFACTURER" value="AVX Corporation"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TPSC107K006R0150"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="399-8337-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="478-1764-1-ND"/>
 </part>
 <part name="J1" library="sfp-breakout" deviceset="694108106102" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
@@ -13777,7 +13819,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Wurth Electronics Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="694108106102"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND"/>
 </part>
@@ -13788,7 +13830,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13799,7 +13841,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13810,7 +13852,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13822,7 +13864,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13833,7 +13875,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13844,7 +13886,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
 </part>
@@ -13855,7 +13897,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
@@ -13868,20 +13910,20 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="U1" library="sfp-breakout" deviceset="LDO" device="-MCP1825S">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="IC REG LIN 3.3V 500MA SOT223-3"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/MCP1825ST-3302E-DB/MCP1825ST-3302E-DBCT-ND/5013522"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MCP1825ST-3302E/DB"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="MCP1825ST-3302E/DBCT-ND"/>
 </part>
 <part name="D1" library="sfp-breakout" deviceset="DIODE-SCHOTTKY" device="-SMA" value="SS16T3G">
 <attribute name="CLASS" value="DIODE"/>
@@ -13896,8 +13938,19 @@ Source: www.kingbright.com</description>
 </part>
 <part name="D2" library="sfp-breakout" deviceset="DIODE-TVS" device="-SMA" value="824500500">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 5V 9.2V DO214AC"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/824500500/732-9974-1-ND/5871127"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="824500500"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="732-9974-1-ND"/>
+</part>
+<part name="X1" library="sfp-breakout" deviceset="PINHD-1X5" device="LOCK">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -13905,7 +13958,6 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="X1" library="sfp-breakout" deviceset="PINHD-1X5" device="LOCK"/>
 <part name="X3" library="sfp-breakout" deviceset="PINHD-1X4" device="LOCK">
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
@@ -13918,7 +13970,17 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND11" library="sfp-breakout" deviceset="GND" device=""/>
-<part name="X2" library="sfp-breakout" deviceset="PINHD-1X5" device="LOCK"/>
+<part name="X2" library="sfp-breakout" deviceset="PINHD-1X5" device="LOCK">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="GND12" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
 <attribute name="CLASS" value="TRANSISTOR"/>
@@ -14010,15 +14072,28 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND21" library="sfp-experimenter" deviceset="GND" device=""/>
+<part name="M1" library="BOM-exclusive" deviceset="SHIELD-COVER" device="" value="SFP_CAGE">
+<attribute name="CLASS" value="SHIELD COVER"/>
+<attribute name="DESCRIPTION" value="CONN SFP CAGE SLD R/A"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/amphenol-icc-commercial-products/U77-A1114-100T/U77-A1114-100TCT-ND"/>
+<attribute name="MANUFACTURER" value="Amphenol ICC (Commercial Products)"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="U77-A1114-100T"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="U77-A1114-100TCT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="121.92" y="93.98" size="3.81" layer="97">3,3 V LDO</text>
-<text x="162.56" y="10.16" size="2.54" layer="97">(C) 2018 sysmocom GmbH
+<text x="162.56" y="10.16" size="2.54" layer="97">(C) 2018, 2019 
+sysmocom GmbH
+
 License: CC-BY-SA</text>
 <text x="160.02" y="38.1" size="1.778" layer="97">cage: U77-A1114-100T</text>
 <text x="160.02" y="35.306" size="1.778" layer="97">conn: UE75-A20-6000T</text>
+<text x="248.92" y="22.86" size="2.54" layer="97">&gt;VERSION</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="144.78" y="137.16"/>
@@ -14169,15 +14244,15 @@ License: CC-BY-SA</text>
 <attribute name="LINK" x="104.14" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="SYM" x="114.3" y="35.56">
-<attribute name="DESCRIPTION" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="114.3" y="35.56" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="114.3" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="58.42" y="33.02" smashed="yes" rot="MR270">
 <attribute name="NAME" x="59.69" y="34.544" size="1.27" layer="95" font="vector" rot="MR180"/>
@@ -14196,15 +14271,15 @@ License: CC-BY-SA</text>
 <attribute name="VALUE" x="98.552" y="26.67" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="SYM" x="43.18" y="35.56">
-<attribute name="DESCRIPTION" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="43.18" y="35.56" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="43.18" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="50.8" y="25.4" smashed="yes">
 <attribute name="VALUE" x="45.212" y="26.67" size="1.778" layer="96"/>
@@ -14415,6 +14490,15 @@ License: CC-BY-SA</text>
 <instance part="X1" gate="G$1" x="48.26" y="139.7" smashed="yes">
 <attribute name="VALUE" x="43.18" y="132.08" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="45.72" y="150.622" size="1.778" layer="95"/>
+<attribute name="DESCRIPTION" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="48.26" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X3" gate="G$1" x="104.14" y="104.14" smashed="yes" rot="R270">
 <attribute name="VALUE" x="116.84" y="104.14" size="1.778" layer="96"/>
@@ -14433,6 +14517,15 @@ License: CC-BY-SA</text>
 <instance part="X2" gate="G$1" x="48.26" y="114.3" smashed="yes">
 <attribute name="VALUE" x="43.18" y="106.68" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="45.72" y="125.222" size="1.778" layer="95"/>
+<attribute name="DESCRIPTION" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="48.26" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="58.42" y="119.38" rot="R90"/>
 <instance part="T1" gate="G$1" x="243.84" y="99.06" smashed="yes">
@@ -14541,6 +14634,7 @@ License: CC-BY-SA</text>
 <attribute name="LINK" x="233.68" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="233.68" y="116.84"/>
+<instance part="M1" gate="G$1" x="157.48" y="149.86"/>
 </instances>
 <busses>
 </busses>

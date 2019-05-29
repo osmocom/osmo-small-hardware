@@ -11952,12 +11952,28 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="22.86" y1="33.02" x2="-25.4" y2="33.02" width="0.254" layer="94"/>
 <text x="-23.622" y="34.036" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="NGFF_PCIE">
+<pin name="PCIE_RX_P" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="PCIE_RX_N" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="PCIE_TX_P" x="-12.7" y="5.08" length="short" direction="out"/>
+<pin name="PCIE_TX_N" x="-12.7" y="2.54" length="short" direction="out"/>
+<pin name="PCIE_REFCLK_P" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="PCIE_REFCLK_N" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="!PCIE_CLKREQ" x="-12.7" y="-10.16" length="short" direction="oc"/>
+<pin name="!PCIE_PEWAKE" x="-12.7" y="-12.7" length="short" direction="oc"/>
+<pin name="!PCIE_PERST" x="-12.7" y="-15.24" length="short" direction="in"/>
+<wire x1="-10.16" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NGFF_B" prefix="NGFF">
 <description>m.2 / NGFF WWAN Connector</description>
 <gates>
 <gate name="G$1" symbol="NGFF_B" x="-15.24" y="-2.54"/>
+<gate name="G$2" symbol="NGFF_PCIE" x="-17.78" y="-63.5"/>
 </gates>
 <devices>
 <device name="" package="NGFF_B_AMP">
@@ -12004,6 +12020,15 @@ DIN A4, landscape with extra doc field</description>
 <connect gate="G$1" pin="USB3.0_TX_P" pad="31"/>
 <connect gate="G$1" pin="USB_D_N" pad="9"/>
 <connect gate="G$1" pin="USB_D_P" pad="7"/>
+<connect gate="G$2" pin="!PCIE_CLKREQ" pad="52"/>
+<connect gate="G$2" pin="!PCIE_PERST" pad="50"/>
+<connect gate="G$2" pin="!PCIE_PEWAKE" pad="54"/>
+<connect gate="G$2" pin="PCIE_REFCLK_N" pad="53"/>
+<connect gate="G$2" pin="PCIE_REFCLK_P" pad="55"/>
+<connect gate="G$2" pin="PCIE_RX_N" pad="47"/>
+<connect gate="G$2" pin="PCIE_RX_P" pad="49"/>
+<connect gate="G$2" pin="PCIE_TX_N" pad="41"/>
+<connect gate="G$2" pin="PCIE_TX_P" pad="43"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13059,6 +13084,7 @@ JP3 2-3: external 5V supply</text>
 <instance part="SIM1" gate="-DETECT" x="91.44" y="119.38"/>
 <instance part="GND17" gate="1" x="12.7" y="71.12" rot="R270"/>
 <instance part="GND18" gate="1" x="12.7" y="50.8" rot="R90"/>
+<instance part="NGFF1" gate="G$2" x="-20.32" y="139.7"/>
 </instances>
 <busses>
 </busses>

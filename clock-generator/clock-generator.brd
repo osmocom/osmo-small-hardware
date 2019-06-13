@@ -3040,6 +3040,19 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="42.62755" y="91.8337" size="1.1" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="43.8866" y="86.3539" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="C28" library="rc-sysmocom" package="_0603" value="100n" x="27.6225" y="38.4175" smashed="yes" rot="R180">
+<attribute name="POPULATED" value="TRUE" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="27.6225" y="38.4175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="28.8925" y="39.0525" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="29.21" y="39.9098" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="4">
@@ -4430,20 +4443,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <signal name="N$4">
 <contactref element="R20" pad="2"/>
 <contactref element="R19" pad="1"/>
-<contactref element="U2" pad="1"/>
 <wire x1="29.0195" y1="43.18" x2="29.0195" y2="41.5925" width="0.3048" layer="1"/>
-<wire x1="24.134" y1="34.8865" x2="24.388559375" y2="35.501059375" width="0.3048" layer="1" curve="-45.000146"/>
-<wire x1="24.388559375" y1="35.501059375" x2="25.0825" y2="36.195" width="0.3048" layer="1"/>
-<wire x1="25.0825" y1="36.195" x2="25.4" y2="36.9615125" width="0.3048" layer="1" curve="45"/>
-<wire x1="25.4" y1="36.9615125" x2="25.4" y2="37.1475" width="0.3048" layer="1"/>
-<wire x1="25.4" y1="37.1475" x2="25.62450625" y2="37.68950625" width="0.3048" layer="1" curve="-45"/>
-<wire x1="27.4909875" y1="38.4175" x2="26.9875" y2="38.4175" width="0.3048" layer="1"/>
-<wire x1="25.62450625" y1="37.68950625" x2="25.9034875" y2="37.9684875" width="0.3048" layer="1"/>
-<wire x1="25.9034875" y1="37.9684875" x2="26.9875" y2="38.4175" width="0.3048" layer="1" curve="-45"/>
-<wire x1="29.0195" y1="41.5925" x2="29.0195" y2="40.12561875" width="0.3048" layer="1"/>
-<wire x1="29.0195" y1="40.12561875" x2="28.575" y2="39.0525" width="0.3048" layer="1" curve="-45"/>
-<wire x1="27.4909875" y1="38.4175" x2="28.2575" y2="38.735" width="0.3048" layer="1" curve="45"/>
-<wire x1="28.2575" y1="38.735" x2="28.575" y2="39.0525" width="0.3048" layer="1"/>
+<contactref element="C28" pad="1"/>
+<wire x1="29.0195" y1="41.5925" x2="29.0195" y2="39.950525" width="0.3048" layer="1"/>
+<wire x1="29.0195" y1="39.950525" x2="28.3845" y2="38.4175" width="0.3048" layer="1" curve="-45"/>
 </signal>
 <signal name="N$2">
 <contactref element="R20" pad="1"/>
@@ -4453,6 +4456,17 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 </signal>
 <signal name="VDD_3V3" class="3">
 <contactref element="TC501" pad="4"/>
+</signal>
+<signal name="N$8">
+<contactref element="U2" pad="1"/>
+<contactref element="C28" pad="2"/>
+<wire x1="24.134" y1="34.8865" x2="24.388559375" y2="35.501059375" width="0.3048" layer="1" curve="-45.000146"/>
+<wire x1="26.8605" y1="38.4175" x2="26.4840125" y2="38.4175" width="0.3048" layer="1"/>
+<wire x1="26.4840125" y1="38.4175" x2="25.7175" y2="38.1" width="0.3048" layer="1" curve="45"/>
+<wire x1="25.7175" y1="38.1" x2="25.4" y2="37.3334875" width="0.3048" layer="1" curve="45"/>
+<wire x1="25.4" y1="37.3334875" x2="25.4" y2="36.83" width="0.3048" layer="1"/>
+<wire x1="24.388559375" y1="35.501059375" x2="25.17549375" y2="36.28799375" width="0.3048" layer="1"/>
+<wire x1="25.17549375" y1="36.28799375" x2="25.4" y2="36.83" width="0.3048" layer="1" curve="45"/>
 </signal>
 </signals>
 <errors>

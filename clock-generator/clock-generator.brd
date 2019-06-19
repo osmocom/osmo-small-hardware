@@ -3592,7 +3592,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="36.22675" y="57.8485" extent="1-16" drill="0.3"/>
 <via x="47.97425" y="53.721" extent="1-16" drill="0.3"/>
 <via x="36.60775" y="66.2305" extent="1-16" drill="0.3"/>
-<via x="18.3515" y="97.18675" extent="1-16" drill="0.3"/>
+<via x="13.589" y="95.91675" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="VDD" class="2">
 <contactref element="C21" pad="1"/>
@@ -5025,28 +5025,28 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,c7a398f27e59710c"/>
 <approved hash="5,1,91a400f5785e490a"/>
 <approved hash="5,1,46bc5c55ab7b0353"/>
-<approved hash="5,1,60bbf36a65baea97"/>
-<approved hash="5,1,ae3e530746ab9829"/>
 <approved hash="5,1,6e6cf200648ce41c"/>
 <approved hash="5,1,1eb4ffb2c8d1b968"/>
+<approved hash="5,1,60bbf36a65baea97"/>
+<approved hash="5,1,ae3e530746ab9829"/>
 <approved hash="6,1,ccc38fad777f127b"/>
 <approved hash="5,1,948e76bc6171c7e6"/>
 <approved hash="5,1,bdb36be474e97f2e"/>
 <approved hash="6,1,e32ae6f0e6bbe361"/>
 <approved hash="6,1,68f27d9012e3e58e"/>
 <approved hash="6,1,ad268e07430bc6cd"/>
-<approved hash="6,1,e7a8e6d2e69de7e7"/>
 <approved hash="6,1,0060611a66190763"/>
+<approved hash="6,1,e7a8e6d2e69de7e7"/>
+<approved hash="6,1,4e46032002e24f84"/>
 <approved hash="6,1,2b670642067c21c3"/>
 <approved hash="6,1,229983f7dbf8d682"/>
-<approved hash="6,1,4e46032002e24f84"/>
 <approved hash="6,1,bca85b2990de6fa9"/>
 <approved hash="5,1,b22f806b21e1cf6e"/>
 <approved hash="5,1,7a45e33f73836280"/>
 <approved hash="5,1,1d916de7bebf01e4"/>
 <approved hash="19,1,c9d9c1177352f984"/>
-<approved hash="19,1,189f64656a2516df"/>
 <approved hash="19,1,f9a9243e232bd8be"/>
+<approved hash="19,1,189f64656a2516df"/>
 <approved hash="6,1,f2dd6087d659d90f"/>
 <approved hash="5,1,d54319517f1f993b"/>
 <approved hash="6,1,392cdbf6ccdcda07"/>

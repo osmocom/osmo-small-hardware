@@ -2377,26 +2377,80 @@ design rules under a new name.</description>
 <element name="C1" library="rc-sysmocom" package="_0402" value="10p" x="31.445" y="59.738" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.9211" y="61.008" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="32.7786" y="58.468" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="31.445" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="rc-sysmocom" package="_0402" value="1u" x="32.715" y="59.738" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.1911" y="61.008" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="34.0486" y="58.468" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="32.715" y="59.738" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="rc-sysmocom" package="_0603" value="1u" x="11.684" y="52.804" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.2395" y="51.2165" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="10.1917" y="54.3915" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="11.684" y="52.804" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="rcl" package="SMC_B" value="100u; &gt;= 0.2Ohms" x="3.827" y="34.879" smashed="yes">
 <attribute name="NAME" x="6.621" y="34.371" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="1.922" y="32.339" size="1.016" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="399-18817-1-ND	" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/kemet/T495B107M010ATE350/399-18817-1-ND/9642352" x="3.827" y="34.879" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="rc-sysmocom" package="_0603" value="1u" x="3.522" y="45.676" smashed="yes" rot="R270">
 <attribute name="NAME" x="2.6375" y="44.9385" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="2.0297" y="47.2635" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="3.522" y="45.676" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="rc-sysmocom" package="_0603" value="1u" x="4.32" y="39.113" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.9195" y="38.5475" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="5.9075" y="40.6053" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="4.32" y="39.113" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C702" library="rc-sysmocom" package="C1812K" value="10u / 25V" x="4.26" y="21.59" smashed="yes" rot="R180">
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="4.26" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2441,27 +2495,91 @@ design rules under a new name.</description>
 <attribute name="OC_DIGIKEY" value="296-18056-1-ND" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="26.8888" y="16.1474" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="23.6572" y="15.0438" size="1.016" layer="27" ratio="10"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="IC" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/texas-instruments/SN74AVC4T245PWR/296-18056-1-ND/770944" x="25.74" y="18.93" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="K1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="694108106102" x="-1.27" y="8.43" smashed="yes">
 <attribute name="NAME" x="2.1894" y="0.426640625" size="1.016" layer="25" font="vector" ratio="14" rot="SR90"/>
 <attribute name="VALUE" x="-0.570359375" y="-1.6834" size="2.032" layer="27" font="vector" ratio="13" rot="SR0"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="RELAY" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="-1.27" y="8.43" size="1.778" layer="27" display="off"/>
 </element>
-<element name="MOD1" library="sc14cvmdect" package="MOD88" value="SC14CVMDECT" x="21.59" y="62.71" smashed="yes"/>
+<element name="MOD1" library="sc14cvmdect" package="MOD88" value="SC14CVMDECT" x="21.59" y="62.71" smashed="yes">
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="21.59" y="62.71" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R1" library="rc-sysmocom" package="_0603@2" value="1k" x="41.018" y="56.098" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.4685" y="57.8845" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="39.5257" y="57.6855" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="41.018" y="56.098" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="rc-sysmocom" package="_0603@2" value="10k" x="39.557" y="55.304" smashed="yes" rot="R270">
 <attribute name="NAME" x="40.0085" y="57.1545" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="38.0647" y="56.8915" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="39.557" y="55.304" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R3" library="rc-sysmocom" package="_0603@2" value="10k" x="30.34" y="21.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.7845" y="23.0345" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="31.8323" y="19.7325" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="30.34" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="rc-sysmocom" package="_0603@2" value="10k" x="32.09" y="21.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.5345" y="23.0345" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="33.5823" y="19.7325" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="32.09" y="21.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R705" library="rc-sysmocom" package="_0603@2" value="100k" x="8.495" y="25.029" smashed="yes" rot="R90">
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="8.495" y="25.029" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2479,80 +2597,272 @@ design rules under a new name.</description>
 <element name="U1" library="ldo" package="SOT223" value="LDO-TLV1117" x="4.39" y="28.9" smashed="yes">
 <attribute name="NAME" x="2.596" y="32.4062" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="9.5208" y="26.36" size="1.27" layer="27" ratio="17" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="IC" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/texas-instruments/TLV1117-33CDCYR/296-21112-1-ND/1217055" x="4.39" y="28.9" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="ldo" package="SOT23L" value="LDO_EN-AP2127K" x="4.479" y="42.018" smashed="yes">
 <attribute name="NAME" x="2.813" y="42.579" size="1.016" layer="25" font="vector" ratio="17" rot="R180"/>
 <attribute name="VALUE" x="7.908" y="40.113" size="1.27" layer="27" ratio="17" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="AP2127K-1.8TRG1" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="AP2127K-1.8TRG1DICT-ND	" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="IC" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/AP2127K-1.8TRG1/AP2127K-1.8TRG1DICT-ND/4505274/?itemSeq=301069147" x="4.479" y="42.018" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X1" library="laforge" package="HRS_UFL" value="" x="33.385" y="65.31" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="H9161CT-ND" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.957" y="65.516" size="1.016" layer="25" font="vector" ratio="14" rot="R90" align="center"/>
 <attribute name="VALUE" x="33.385" y="62.31" size="1.27" layer="27" align="center"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="33.385" y="65.31" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="X2" library="laforge" package="JACK2.5_SJ-2523" value="JACK2.5_SJ-2523" x="43.96" y="22.1" rot="R180">
 <attribute name="OC_DIGIKEY" value="CP-2523SJCT-ND" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="43.96" y="22.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X3" library="laforge" package="JACK2.5_SJ-2523" value="JACK2.5_SJ-2523" x="43.96" y="11.6" rot="R180">
 <attribute name="OC_DIGIKEY" value="CP-2523SJCT-ND" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="43.96" y="11.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X4" library="laforge" package="2X05" value="AUDIO" x="3.81" y="61.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.528" y="54.864" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="-0.635" y="67.79" size="1.27" layer="27" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/PRPC005DAAN-RC/S2011EC-05-ND/2775289" x="3.81" y="61.44" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="JP1" library="pinhead" package="2X09" value="" x="18.51" y="37.56" rot="R90"/>
-<element name="JP2" library="pinhead" package="2X09" value="" x="30.99" y="37.54" rot="R90"/>
+<element name="JP1" library="pinhead" package="2X09" value="" x="18.51" y="37.56" rot="R90">
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/sullins-connector-solutions/PRPC009DAAN-RC/S2011EC-09-ND/2775285" x="18.51" y="37.56" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="JP2" library="pinhead" package="2X09" value="" x="30.99" y="37.54" rot="R90">
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/sullins-connector-solutions/PRPC009DAAN-RC/S2011EC-09-ND/2775285" x="30.99" y="37.54" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C7" library="rc-sysmocom" package="_0603" value="1u" x="21.5" y="21.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.5475" y="20.1625" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="22.9923" y="20.1625" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="21.5" y="21.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C8" library="rc-sysmocom" package="_0603" value="1u" x="27.75" y="22.25"/>
+<element name="C8" library="rc-sysmocom" package="_0603" value="1u" x="27.75" y="22.25">
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="27.75" y="22.25" size="1.778" layer="27" display="off"/>
+</element>
 <element name="JP4" library="jumper" package="JP1" value="PON" x="4" y="51" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.001" y="48.06" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="6.54" y="53.921" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="4" y="51" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="X5" library="laforge" package="1X03_LOCK_LONGPADS" value="DEBUG" x="43.603" y="53.508" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.265" y="51.775" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="46.905" y="52.238" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="43.603" y="53.508" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="rc-sysmocom" package="_0402" value="1u" x="11.684" y="56.309" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.1759" y="56.944" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="10.3504" y="57.579" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="11.684" y="56.309" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP1" library="testpad" package="TP11R" value="TPTP11R" x="11.508" y="68.254" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="11.508" y="66.349" size="1" layer="37"/>
 <attribute name="NAME" x="11.0689" y="67.5279" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="11" y="67.746" size="0.0254" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="11.508" y="68.254" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP2" library="testpad" package="TP11R" value="TPTP11R" x="8.573" y="68.216" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="8.573" y="66.311" size="1" layer="37"/>
 <attribute name="NAME" x="7.7651" y="66.8241" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="8.065" y="67.708" size="0.0254" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="8.573" y="68.216" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP3" library="testpad" package="TP11R" value="TPTP11R" x="10.097" y="68.28" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="10.097" y="66.375" size="1" layer="37"/>
 <attribute name="NAME" x="9.6979" y="67.5419" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="9.589" y="67.772" size="0.0254" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="10.097" y="68.28" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP4" library="testpad" package="TP11R" value="TPTP11R" x="8.827" y="66.566" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" value="" x="8.827" y="64.661" size="1" layer="37"/>
 <attribute name="NAME" x="8.3649" y="65.7639" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="8.319" y="66.058" size="0.0254" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="8.827" y="66.566" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED1" library="led" package="CHIPLED_0603" value="" x="10.16" y="30.353" smashed="yes">
 <attribute name="NAME" x="11.938" y="29.21" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="12.065" y="29.083" size="1.27" layer="27" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="LED" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="10.16" y="30.353" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED2" library="led" package="CHIPLED_0603" value="" x="7.239" y="45.593" smashed="yes">
 <attribute name="NAME" x="9.017" y="44.323" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="9.144" y="44.323" size="1.27" layer="27" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="475-2794-1-ND	" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="LED" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/en/LY+L29K-J1K2-26-Z/475-2794-1-ND/1938961" x="7.239" y="45.593" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="rc-sysmocom" package="_0603@2" value="330" x="10.16" y="27.559" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.0015" y="26.2255" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="8.6677" y="29.1465" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="10.16" y="27.559" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="rc-sysmocom" package="_0603@2" value="0" x="7.239" y="42.799" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.1915" y="42.8625" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="5.7467" y="44.3865" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="7.239" y="42.799" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>

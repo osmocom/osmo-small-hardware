@@ -76,38 +76,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
-<layer number="113" name="Laser Schnitt" color="12" fill="1" visible="no" active="no"/>
-<layer number="114" name="Laser Fläche Gravur" color="15" fill="1" visible="no" active="no"/>
-<layer number="115" name="Laser Bohrungen" color="9" fill="1" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="133" name="Ritzung" color="1" fill="0" visible="no" active="no"/>
-<layer number="134" name="Fräsung" color="2" fill="0" visible="no" active="no"/>
-<layer number="142" name="BMRestrict" color="1" fill="9" visible="no" active="no"/>
-<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
-<layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
-<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
-<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
-<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
-<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
-<layer number="170" name="ProgrammierAdapter" color="7" fill="1" visible="no" active="no"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
-<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -11359,7 +11327,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <smd name="9" x="-7.25" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="11" x="-6.75" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="21" x="-4.25" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="12" x="-3.75" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="-3.75" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="25" x="-3.25" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="27" x="-2.75" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="29" x="-2.25" y="5.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
@@ -11391,9 +11359,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <smd name="6" x="-8" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="8" x="-7.5" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="10" x="-7" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="20" x="-5" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="22" x="-4.5" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
-<smd name="23" x="-4" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="-4.5" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="-4" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="24" x="-3.5" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="26" x="-3" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
 <smd name="28" x="-2.5" y="-2.275" dx="1.55" dy="0.3" layer="1" roundness="100" rot="R90"/>
@@ -11536,7 +11503,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="CONFIG_1" pad="69"/>
 <connect gate="G$1" pin="CONFIG_2" pad="75"/>
 <connect gate="G$1" pin="CONFIG_3" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3 5 11 27 33 39 51 57 71 73 P$1"/>
+<connect gate="G$1" pin="GND" pad="3 5 11 27 33 39 45 51 57 71 73 P$1"/>
 <connect gate="G$1" pin="I2C_IRQ_HW/UIM2_CLK_SIWI" pad="44"/>
 <connect gate="G$1" pin="I2C_SCL_HW/SIM_DET2_SIWI" pad="40"/>
 <connect gate="G$1" pin="I2C_SCL_SIWI" pad="58"/>
@@ -12897,7 +12864,7 @@ Various fiducial points for machine vision alignment.</description>
 <clearance class="2" value="0.152"/>
 </class>
 <class number="3" name="supply" width="0.6" drill="0">
-<clearance class="0" value="0.254"/>
+<clearance class="0" value="0.3"/>
 </class>
 </classes>
 <parts>

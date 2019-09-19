@@ -76,30 +76,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="113" name="Laser Schnitt" color="12" fill="1" visible="no" active="no"/>
-<layer number="114" name="Laser Fläche Gravur" color="15" fill="1" visible="no" active="no"/>
-<layer number="115" name="Laser Bohrungen" color="9" fill="1" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="133" name="Ritzung" color="1" fill="0" visible="no" active="no"/>
-<layer number="134" name="Fräsung" color="2" fill="0" visible="no" active="no"/>
-<layer number="142" name="BMRestrict" color="1" fill="9" visible="no" active="no"/>
-<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
-<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
-<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
-<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
-<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
-<layer number="170" name="ProgrammierAdapter" color="7" fill="1" visible="no" active="no"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
-<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
-<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -1956,22 +1932,6 @@ Source: www.kingbright.com</description>
 <wire x1="1.0573" y1="0.5557" x2="1.0573" y2="-0.5556" width="0.2032" layer="21"/>
 <wire x1="1.0573" y1="-0.5556" x2="-1.0573" y2="-0.5557" width="0.2032" layer="21"/>
 <wire x1="-1.0573" y1="-0.5557" x2="-1.0573" y2="0.5557" width="0.2032" layer="21"/>
-<smd name="1" x="-0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30"/>
-<smd name="2" x="0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30"/>
-<text x="-1.27" y="0.7939" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.27" y="-1.3336" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.0794" y1="-0.2381" x2="0.0794" y2="0.2381" layer="35"/>
-<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
-</package>
-<package name="_0402@1">
-<description>&lt;b&gt; 0402&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1016" layer="51"/>
-<wire x1="0.245" y1="-0.174" x2="-0.245" y2="-0.174" width="0.1016" layer="51"/>
-<wire x1="-1.0573" y1="0.5557" x2="1.0573" y2="0.5557" width="0.2032" layer="21"/>
-<wire x1="1.0573" y1="0.5557" x2="1.0573" y2="-0.5556" width="0.2032" layer="21"/>
-<wire x1="1.0573" y1="-0.5556" x2="-1.0573" y2="-0.5557" width="0.2032" layer="21"/>
-<wire x1="-1.0573" y1="-0.5557" x2="-1.0573" y2="0.5557" width="0.2032" layer="21"/>
 <smd name="1" x="-0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30" cream="no"/>
 <smd name="2" x="0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30" cream="no"/>
 <text x="-1.27" y="0.7939" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
@@ -2008,22 +1968,6 @@ Source: www.kingbright.com</description>
 <rectangle x1="0.2588" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 </package>
 <package name="_0603">
-<description>&lt;b&gt;0603&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.306" x2="0.432" y2="-0.306" width="0.1016" layer="51"/>
-<wire x1="0.432" y1="0.306" x2="-0.432" y2="0.306" width="0.1016" layer="51"/>
-<wire x1="-1.4605" y1="0.635" x2="1.4605" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.4605" y1="0.635" x2="1.4605" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="1.4605" y1="-0.635" x2="-1.4605" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.4605" y1="-0.635" x2="-1.4605" y2="0.635" width="0.2032" layer="21"/>
-<smd name="1" x="-0.762" y="0" dx="0.9" dy="0.8" layer="1" roundness="30"/>
-<smd name="2" x="0.762" y="0" dx="0.9" dy="0.8" layer="1" roundness="30"/>
-<text x="-1.5875" y="0.9525" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.5875" y="-1.4923" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4" x2="0.8382" y2="0.4" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4" x2="-0.4318" y2="0.4" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="_0603@1">
 <description>&lt;b&gt;0603&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.306" x2="0.432" y2="-0.306" width="0.1016" layer="51"/>
 <wire x1="0.432" y1="0.306" x2="-0.432" y2="0.306" width="0.1016" layer="51"/>
@@ -2172,7 +2116,7 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <vertex x="1.74625" y="-0.9525"/>
 </polygon>
 </package>
-<package name="1206@1">
+<package name="1206">
 <description>&lt;b&gt;1206 (3216 Metric)&lt;/b&gt;</description>
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -2206,7 +2150,70 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <vertex x="1.190625" y="-0.714375"/>
 </polygon>
 </package>
-<package name="_0805@1">
+<package name="2012">
+<description>&lt;b&gt;2012&lt;/b&gt;</description>
+<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.2032" layer="51"/>
+<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.2032" layer="51"/>
+<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-3.302" y1="1.524" x2="3.302" y2="1.524" width="0.2032" layer="21"/>
+<wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.2032" layer="21"/>
+<wire x1="3.302" y1="-1.524" x2="-3.302" y2="-1.524" width="0.2032" layer="21"/>
+<wire x1="-3.302" y1="-1.524" x2="-3.302" y2="1.524" width="0.2032" layer="21"/>
+<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" roundness="30" cream="no"/>
+<text x="-2.54" y="1.8415" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-1.397" y="-2.159" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
+<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
+<polygon width="0.3048" layer="31">
+<vertex x="-2.936875" y="1.190625"/>
+<vertex x="-2.936875" y="-1.190625"/>
+<vertex x="-1.905" y="-1.190625"/>
+<vertex x="-1.42875" y="0"/>
+<vertex x="-1.905" y="1.190625"/>
+</polygon>
+<polygon width="0.3048" layer="31">
+<vertex x="1.42875" y="0"/>
+<vertex x="1.905" y="1.190625"/>
+<vertex x="2.936875" y="1.190625"/>
+<vertex x="2.936875" y="-1.190625"/>
+<vertex x="1.905" y="-1.190625"/>
+</polygon>
+</package>
+<package name="2512">
+<description>&lt;b&gt;2512 (metric 6432)&lt;/b&gt;</description>
+<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.2032" layer="51"/>
+<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.2032" layer="51"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1" roundness="30" cream="no"/>
+<text x="-3.683" y="2.2225" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-1.3335" y="-2.6035" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
+<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
+<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
+<polygon width="0.3048" layer="31">
+<vertex x="-2.54" y="1.42875"/>
+<vertex x="-2.06375" y="0"/>
+<vertex x="-2.54" y="-1.42875"/>
+<vertex x="-3.4925" y="-1.42875"/>
+<vertex x="-3.4925" y="1.42875"/>
+</polygon>
+<polygon width="0.3048" layer="31">
+<vertex x="2.06375" y="0"/>
+<vertex x="2.54" y="1.42875"/>
+<vertex x="3.4925" y="1.42875"/>
+<vertex x="3.4925" y="-1.42875"/>
+<vertex x="2.54" y="-1.42875"/>
+</polygon>
+</package>
+<package name="_0805">
 <description>&lt;b&gt;0805&lt;/b&gt;</description>
 <wire x1="-0.41" y1="0.585" x2="0.41" y2="0.585" width="0.1016" layer="51"/>
 <wire x1="-0.41" y1="-0.585" x2="0.41" y2="-0.585" width="0.1016" layer="51"/>
@@ -2236,76 +2243,35 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <vertex x="0.873125" y="-0.555625"/>
 </polygon>
 </package>
-<package name="1206">
-<description>&lt;b&gt;1206 (3216 Metric)&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<wire x1="-2.4" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30"/>
-<text x="-2.54" y="1.143" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.5875" y="-1.905" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="2012">
-<description>&lt;b&gt;2012&lt;/b&gt;</description>
-<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.2032" layer="51"/>
-<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.2032" layer="51"/>
-<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="-3.302" y1="1.524" x2="3.302" y2="1.524" width="0.2032" layer="21"/>
-<wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.2032" layer="21"/>
-<wire x1="3.302" y1="-1.524" x2="-3.302" y2="-1.524" width="0.2032" layer="21"/>
-<wire x1="-3.302" y1="-1.524" x2="-3.302" y2="1.524" width="0.2032" layer="21"/>
-<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1" roundness="30"/>
-<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1" roundness="30"/>
-<text x="-2.54" y="1.8415" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.397" y="-2.159" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
-<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
-</package>
-<package name="2512">
-<description>&lt;b&gt;2512 (metric 6432)&lt;/b&gt;</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.2032" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.2032" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1" roundness="30"/>
-<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1" roundness="30"/>
-<text x="-3.683" y="2.2225" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.3335" y="-2.6035" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-</package>
-<package name="_0805">
-<description>&lt;b&gt;0805&lt;/b&gt;</description>
-<wire x1="-0.41" y1="0.585" x2="0.41" y2="0.585" width="0.1016" layer="51"/>
-<wire x1="-0.41" y1="-0.585" x2="0.41" y2="-0.585" width="0.1016" layer="51"/>
-<wire x1="-1.905" y1="0.889" x2="1.905" y2="0.889" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="0.889" x2="1.905" y2="-0.889" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-0.889" x2="-1.905" y2="-0.889" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-0.889" x2="-1.905" y2="0.889" width="0.2032" layer="21"/>
-<smd name="1" x="-1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30"/>
-<smd name="2" x="1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30"/>
-<text x="-1.905" y="1.27" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.9049" y="-1.651" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.65" x2="1.0564" y2="0.65" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.65" x2="-0.4168" y2="0.65" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<package name="1210">
+<description>&lt;b&gt;RESISTOR 1210&lt;/b&gt;</description>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="30" cream="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
+<polygon width="0.3048" layer="31">
+<vertex x="-1.905" y="1.11125"/>
+<vertex x="-1.905" y="-1.11125"/>
+<vertex x="-1.27" y="-1.11125"/>
+<vertex x="-0.79375" y="0"/>
+<vertex x="-1.27" y="1.11125"/>
+</polygon>
+<polygon width="0.3048" layer="31">
+<vertex x="1.905" y="1.11125"/>
+<vertex x="1.905" y="-1.11125"/>
+<vertex x="1.27" y="-1.11125"/>
+<vertex x="0.79375" y="0"/>
+<vertex x="1.27" y="1.11125"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -2468,6 +2434,15 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="1210" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAP_CERAMIC" prefix="C" uservalue="yes">
@@ -2532,7 +2507,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="1206@1">
+<device name="1206" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2559,7 +2534,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_0402" package="_0402@1">
+<device name="_0402" package="_0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2577,7 +2552,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_0603" package="_0603@1">
+<device name="_0603" package="_0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2595,7 +2570,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_0805" package="_0805@1">
+<device name="_0805" package="_0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>

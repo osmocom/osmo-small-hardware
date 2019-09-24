@@ -23,20 +23,20 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="14" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -2896,7 +2896,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K" x="39.464" y="47.371" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206" x="39.464" y="47.371" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="39.464" y="47.371" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="16.985" y="59.1185" size="1" layer="25" font="vector" ratio="18" rot="R90"/>
+<attribute name="NAME" x="17.3025" y="59.1185" size="1" layer="25" font="vector" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="19.779" y="53.4035" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C23" library="rc-sysmocom" package="1206" value="100u" x="55.372" y="49.1795" smashed="yes" rot="R180">
@@ -3013,7 +3013,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="15.2705" y="54.991" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="15.2705" y="54.991" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="15.2705" y="54.991" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="15.6515" y="59.1185" size="1" layer="25" font="vector" ratio="18" rot="R90"/>
+<attribute name="NAME" x="15.969" y="59.1185" size="1" layer="25" font="vector" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="17.1755" y="53.4035" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C22" library="rc-sysmocom" package="1206" value="100u" x="55.372" y="46.703" smashed="yes" rot="R180">
@@ -3659,7 +3659,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="POPULATED" value="TRUE" x="55.245" y="40.3225" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="RES 47K OHM 1%% 1/10W 0603" x="55.245" y="40.3225" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT47K0CT-ND" x="55.245" y="40.3225" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="53.34" y="40.79875" size="1" layer="25" font="vector" ratio="18" rot="R180"/>
+<attribute name="NAME" x="53.34" y="41.43375" size="1" layer="25" font="vector" ratio="18" rot="R180"/>
 <attribute name="VALUE" x="53.6575" y="38.8302" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="X4" library="laforge" package="2X05" value="" x="67.31" y="48.26" smashed="yes">

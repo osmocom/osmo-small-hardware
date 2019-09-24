@@ -3894,7 +3894,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="R6" pad="1"/>
 <contactref element="R14" pad="1"/>
 <wire x1="38.5125" y1="67.3405" x2="40.005" y2="65.0875" width="0.254" layer="1"/>
-<via x="40.1" y="64.8005" extent="1-16" drill="0.3"/>
 <via x="56.61" y="44.4805" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="USIM1_POWER">

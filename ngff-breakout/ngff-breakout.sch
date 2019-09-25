@@ -13178,7 +13178,7 @@ Various fiducial points for machine vision alignment.</description>
 </classes>
 <parts>
 <part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="SIM HOLDER"/>
 <attribute name="DESCRIPTION" value="CONN SIM CARD HINGED TYPE R/A"/>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033"/>
 <attribute name="MANUFACTURER" value="JAE Electronics"/>
@@ -13201,47 +13201,47 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="R16" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
-</part>
-<part name="R14" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
-<attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
-</part>
-<part name="R15" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
-<attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="CRGCQ 0402 47R 1%%"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND/"/>
+<attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND"/>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0402F47R"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
 </part>
-<part name="U2" library="ldo" deviceset="LDO" device="-MCP1827S" value="LD1085D2T33R">
-<attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="IC REG LINEAR 3.3V 3A D2PAK"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="LD1085D2T33R"/>
+<part name="R14" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0402F47R"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="497-1222-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
+</part>
+<part name="R15" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0402F47R"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
+</part>
+<part name="U2" library="ldo" deviceset="LDO" device="-MCP1827S" value="MCP1827S-3302E/EB">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="IC REG LINEAR 3.3V 1.5A 3DDPAK"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/MCP1827S-3302E-EB/MCP1827S-3302E-EB-ND/1223086"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="MCP1827S-3302E/EB-ND"/>
 </part>
 <part name="C13" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -13267,7 +13267,7 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="X5" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108106102" device="">
-<attribute name="CLASS" value="RELAY"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER"/>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628"/>
 <attribute name="MANUFACTURER" value="Wurth Electronics Inc."/>
@@ -13277,7 +13277,7 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND"/>
 </part>
-<part name="X6" library="jumper" deviceset="JP2E" device="">
+<part name="X6" library="jumper" deviceset="JP2E" device="" value="PINHD-1X3">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -13517,8 +13517,8 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-330GRCT-ND"/>
 </part>
-<part name="X7" library="laforge" deviceset="SMA-F" device="-S-TH">
-<attribute name="CLASS" value="CONNECTOR"/>
+<part name="X7" library="laforge" deviceset="SMA-F" device="-S-TH" value="5-1814832-1">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
@@ -13528,8 +13528,8 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A97594-ND"/>
 </part>
-<part name="X8" library="laforge" deviceset="SMA-F" device="-S-TH">
-<attribute name="CLASS" value="CONNECTOR"/>
+<part name="X8" library="laforge" deviceset="SMA-F" device="-S-TH" value="5-1814832-1">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
@@ -13541,8 +13541,8 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="X9" library="laforge" deviceset="SMA-F" device="-S-TH">
-<attribute name="CLASS" value="CONNECTOR"/>
+<part name="X9" library="laforge" deviceset="SMA-F" device="-S-TH" value="5-1814832-1">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
@@ -13554,15 +13554,15 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="NGFF1" library="con-ngff" deviceset="NGFF_B" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="CONN FEMALE 67POS 0.020 GOLD"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/2199119-3/A115899CT-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A115899CT-ND"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
@@ -13571,45 +13571,45 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="TVS DIODE 5V 7V 14UDFN"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/littelfuse-inc/SP3012-06UTG/F5914CT-ND"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SP3012-06UTG"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="F5914CT-ND"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="Y1" library="con-MHF4" deviceset="MHF4" device="">
-<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MM4829-2702RA4"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="Y2" library="con-MHF4" deviceset="MHF4" device="">
-<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MM4829-2702RA4"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND"/>
 </part>
 <part name="Y3" library="con-MHF4" deviceset="MHF4" device="">
-<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MM4829-2702RA4"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND"/>
 </part>
@@ -13618,16 +13618,16 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/9774020243R/732-7073-1-ND"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBE"/>
 </part>
-<part name="X2" library="InputOutputIO (rev19a)" deviceset="692121030100" device="">
+<part name="X2" library="InputOutputIO (rev19a)" deviceset="692121030100" device="" value="692121030100">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CONN RCPT USB3.0 TYPEA 9POS R/A"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/692121030100/732-3146-1-ND"/>
+<attribute name="MANUFACTURER" value="Wurth Electronics Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="732-3146-1-ND"/>
 </part>
 <part name="C5" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -13665,39 +13665,39 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="R18" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
+<attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0402F47R"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
 </part>
 <part name="R19" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
+<attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0402F47R"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
 </part>
 <part name="R17" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
+<attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0402F47R"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
 </part>
 <part name="SIM2" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="SIM HOLDER"/>
 <attribute name="DESCRIPTION" value="CONN SIM CARD HINGED TYPE R/A"/>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033"/>
 <attribute name="MANUFACTURER" value="JAE Electronics"/>
@@ -13761,9 +13761,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13772,9 +13772,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13794,9 +13794,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13805,9 +13805,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13816,9 +13816,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13847,7 +13847,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="X10" library="USB30-MICROB" deviceset="USB3.0-MICROB" device="" value="ZX360D-B-10P(30)">
-<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="CONN RCPT USB3.0 MICRO B SMD R/A"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/hirose-electric-co-ltd/ZX360D-B-10P-30/H125269DKR-ND"/>
 <attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
@@ -13869,16 +13869,16 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="ldo" deviceset="LDO_FIXED_EN" device="-MIC5365-YC5">
+<part name="U1" library="ldo" deviceset="LDO_FIXED_EN" device="-MIC5365-YC5" value="MIC5366-1.8YC5">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="IC REG LINEAR 1.8V 150MA SC70-5"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/MIC5366-1.8YC5-TR/576-3203-1-ND"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MIC5366-1.8YC5-TR"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="576-3203-1-ND"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C12" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
@@ -13908,9 +13908,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13969,9 +13969,9 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
@@ -13980,13 +13980,13 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A SMB"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/SD2114S040S5R0/478-7816-1-ND"/>
 <attribute name="MANUFACTURER" value="AVX Corporation"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SD2114S040S5R0"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="478-7816-1-ND"/>
 </part>
-<part name="X3" library="laforge" deviceset="PINHD-2X10" device="">
+<part name="X3" library="laforge" deviceset="PINHD-2X10" device="" value="PINHD-2X10">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -14077,7 +14077,17 @@ Various fiducial points for machine vision alignment.</description>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="X4" library="laforge" deviceset="PINHD-2X5" device=""/>
+<part name="X4" library="laforge" deviceset="PINHD-2X5" device="" value="PINHD-2X5">
+<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -14171,15 +14181,15 @@ SIM Card Slot</text>
 <instance part="R15" gate="G$1" x="177.8" y="81.28" smashed="yes">
 <attribute name="NAME" x="173.736" y="84.328" size="1.27" layer="95"/>
 <attribute name="VALUE" x="180.086" y="84.455" size="1.27" layer="96"/>
-<attribute name="DESCRIPTION" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCE" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="POPULATED" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="CLASS" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="LINK" x="177.8" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCE" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="POPULATED" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CLASS" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="177.8" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U2" gate="G$1" x="299.72" y="233.68">
 <attribute name="DESCRIPTION" x="299.72" y="233.68" size="1.778" layer="96" display="off"/>
@@ -14232,7 +14242,7 @@ SIM Card Slot</text>
 <attribute name="NAME" x="223.52" y="246.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="220.98" y="228.6" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="X6" gate="1" x="251.46" y="236.22" rot="R90">
+<instance part="X6" gate="1" x="251.46" y="236.22" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
@@ -14242,6 +14252,8 @@ SIM Card Slot</text>
 <attribute name="POPULATED" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="261.62" y="240.03" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="255.778" y="232.029" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND5" gate="1" x="233.68" y="233.68"/>
 <instance part="C11" gate="G$1" x="271.78" y="231.14" smashed="yes">
@@ -14605,7 +14617,7 @@ SIM Card Slot</text>
 <attribute name="LINK" x="281.94" y="111.76" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="M1" gate="G$1" x="353.06" y="198.12"/>
-<instance part="X2" gate="G$1" x="101.6" y="228.6">
+<instance part="X2" gate="G$1" x="101.6" y="228.6" smashed="yes">
 <attribute name="DESCRIPTION" x="101.6" y="228.6" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" x="101.6" y="228.6" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="101.6" y="228.6" size="1.27" layer="96" rot="MR180" display="off"/>
@@ -14615,6 +14627,8 @@ SIM Card Slot</text>
 <attribute name="POPULATED" x="101.6" y="228.6" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="101.6" y="228.6" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="101.6" y="228.6" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="NAME" x="98.96" y="237.26" size="1.778" layer="95"/>
+<attribute name="VALUE" x="93.98" y="205.74" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="83.82" y="203.2" smashed="yes" rot="MR90">
 <attribute name="SOURCE" x="83.82" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -15120,7 +15134,17 @@ SIM Card Slot</text>
 </instance>
 <instance part="GND21" gate="1" x="109.22" y="124.46"/>
 <instance part="GND28" gate="1" x="218.44" y="124.46"/>
-<instance part="X4" gate="A" x="185.42" y="101.6"/>
+<instance part="X4" gate="A" x="185.42" y="101.6">
+<attribute name="DESCRIPTION" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="185.42" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

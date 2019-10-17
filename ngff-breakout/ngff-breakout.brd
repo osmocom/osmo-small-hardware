@@ -9,7 +9,7 @@
 <grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="11" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="11" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,8 +22,8 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -4131,6 +4131,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="45.4975" y="77.5005" extent="1-16" drill="0.3"/>
 <via x="38.83" y="77.5005" extent="1-16" drill="0.3"/>
 <via x="63.5635" y="42.639" extent="1-16" drill="0.3"/>
+<contactref element="X2" pad="7"/>
+<via x="36.83" y="72.75425" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="USIM1_POWER">
 <contactref element="SIM1" pad="1"/>

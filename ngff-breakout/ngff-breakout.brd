@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -2550,7 +2550,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 <class number="3" name="supply" width="0.6" drill="0">
 <clearance class="0" value="0.3"/>
-<clearance class="3" value="0.3"/>
 </class>
 </classes>
 <designrules name="sysmocom-basista-4layer-prototype_smfc-values *">
@@ -5512,7 +5511,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="42.8625" y1="49.2125" x2="48.5775" y2="43.4975" width="0.3048" layer="16"/>
 <wire x1="48.5775" y1="43.4975" x2="48.5775" y2="41.91" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$3" class="3">
+<signal name="N$3">
 <contactref element="X5" pad="1-1"/>
 <contactref element="X5" pad="1"/>
 <contactref element="D2" pad="A"/>

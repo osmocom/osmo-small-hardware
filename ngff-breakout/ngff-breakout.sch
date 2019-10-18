@@ -17005,7 +17005,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 <class number="3" name="supply" width="0.6" drill="0">
 <clearance class="0" value="0.3"/>
-<clearance class="3" value="0.3"/>
 </class>
 </classes>
 <parts>
@@ -20373,7 +20372,7 @@ SIM Card Slot</text>
 <label x="163.576" y="80.01" size="0.8128" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="3">
+<net name="N$3" class="0">
 <segment>
 <pinref part="X5" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="A"/>

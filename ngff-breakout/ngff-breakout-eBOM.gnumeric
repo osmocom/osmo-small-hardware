@@ -25,20 +25,20 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2019-09-25T18:45:42Z</dc:date>
-      <meta:creation-date>2019-09-25T18:45:31Z</meta:creation-date>
+      <dc:date>2019-11-22T17:05:10Z</dc:date>
+      <meta:creation-date>2019-11-22T16:29:44Z</meta:creation-date>
     </office:meta>
   </office:document-meta>
   <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
   <gnm:SheetNameIndex>
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">ngff-breakout.sch</gnm:SheetName>
   </gnm:SheetNameIndex>
-  <gnm:Geometry Width="1440" Height="732"/>
+  <gnm:Geometry Width="1920" Height="955"/>
   <gnm:Sheets>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>ngff-breakout.sch</gnm:Name>
       <gnm:MaxCol>10</gnm:MaxCol>
-      <gnm:MaxRow>36</gnm:MaxRow>
+      <gnm:MaxRow>37</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -140,12 +140,32 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="26" endCol="5" endRow="35">
+        <gnm:StyleRegion startCol="0" startRow="26" endCol="5" endRow="26">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="27" endCol="5" endRow="32">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="33" endCol="1" endRow="33">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="34" endCol="5" endRow="35">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="0" startRow="36" endCol="255" endRow="65535">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="33" endCol="5" endRow="33">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -253,7 +273,7 @@
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="26" endCol="6" endRow="26">
-          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="1" StrikeThrough="0" Script="0">Sans</gnm:Font>
             <gnm:HyperLink type="GnmHLinkURL" target="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
@@ -297,7 +317,7 @@
         <gnm:StyleRegion startCol="6" startRow="33" endCol="6" endRow="33">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="1" StrikeThrough="0" Script="0">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-2-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="34" endCol="6" endRow="34">
@@ -337,7 +357,27 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="7" startRow="26" endCol="255" endRow="35">
+        <gnm:StyleRegion startCol="7" startRow="26" endCol="255" endRow="26">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="7" startRow="27" endCol="255" endRow="32">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="7" startRow="33" endCol="8" endRow="33">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="7" startRow="34" endCol="255" endRow="35">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="9" startRow="33" endCol="255" endRow="33">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -356,12 +396,12 @@
         <gnm:ColInfo No="9" Unit="58"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="12.75"/>
-      <gnm:Selections CursorCol="1" CursorRow="36">
-        <gnm:Selection startCol="1" startRow="36" endCol="1" endRow="36"/>
+      <gnm:Selections CursorCol="10" CursorRow="35">
+        <gnm:Selection startCol="10" startRow="35" endCol="10" endRow="35"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">ngff-breakout.sch</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">2019-09-25 18:44:17</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">2019-11-22 16:29:44</gnm:Cell>
         <gnm:Cell Row="0" Col="4" ValueType="60">EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft</gnm:Cell>
         <gnm:Cell Row="1" Col="0" ValueType="60">Qty</gnm:Cell>
         <gnm:Cell Row="1" Col="1" ValueType="60">Name</gnm:Cell>
@@ -385,8 +425,8 @@
         <gnm:Cell Row="2" Col="8" ValueType="60">CAP CER 0.1UF 16V 10% X7R 0603</gnm:Cell>
         <gnm:Cell Row="2" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="2" Col="10" ValueType="60"></gnm:Cell>
-        <gnm:Cell Row="3" Col="0" ValueType="40">8</gnm:Cell>
-        <gnm:Cell Row="3" Col="1" ValueType="60">C2, C3, C4, C7, C8, C9, C19, C25</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="40">9</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">C2, C3, C4, C7, C8, C9, C19, C25, C27</gnm:Cell>
         <gnm:Cell Row="3" Col="2" ValueType="60">33p</gnm:Cell>
         <gnm:Cell Row="3" Col="3" ValueType="60">_0402</gnm:Cell>
         <gnm:Cell Row="3" Col="4" ValueType="60">CAPACITOR</gnm:Cell>
@@ -647,7 +687,7 @@
         <gnm:Cell Row="26" Col="6" ValueType="60">RMCF0603FT10K0CT-ND</gnm:Cell>
         <gnm:Cell Row="26" Col="7" ValueType="60">https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND</gnm:Cell>
         <gnm:Cell Row="26" Col="8" ValueType="60">RES 10K OHM 1%% 1/10W 0603</gnm:Cell>
-        <gnm:Cell Row="26" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="26" Col="9" ValueType="60">FALSE</gnm:Cell>
         <gnm:Cell Row="26" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="27" Col="0" ValueType="40">4</gnm:Cell>
         <gnm:Cell Row="27" Col="1" ValueType="60">R2, R8, R22, R23</gnm:Cell>
@@ -721,8 +761,8 @@
         <gnm:Cell Row="33" Col="3" ValueType="60">SF7W008S1A-RESTR</gnm:Cell>
         <gnm:Cell Row="33" Col="4" ValueType="60">SIM HOLDER</gnm:Cell>
         <gnm:Cell Row="33" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
-        <gnm:Cell Row="33" Col="6" ValueType="60">670-2337-1-ND</gnm:Cell>
-        <gnm:Cell Row="33" Col="7" ValueType="60">http://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033</gnm:Cell>
+        <gnm:Cell Row="33" Col="6" ValueType="60">670-2985-2-ND</gnm:Cell>
+        <gnm:Cell Row="33" Col="7" ValueType="60">https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-2-ND</gnm:Cell>
         <gnm:Cell Row="33" Col="8" ValueType="60">CONN SIM CARD HINGED TYPE R/A</gnm:Cell>
         <gnm:Cell Row="33" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="33" Col="10" ValueType="60"></gnm:Cell>

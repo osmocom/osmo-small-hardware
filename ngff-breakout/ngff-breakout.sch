@@ -253,7 +253,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="OC_DIGIKEY" value="670-2337-1-ND" constant="no"/>
+<attribute name="OC_DIGIKEY" value="670-2985-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -270,7 +270,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="OC_DIGIKEY" value="670-2337-1-ND"/>
+<attribute name="OC_DIGIKEY" value="670-2985-1-ND"/>
 </technology>
 </technologies>
 </device>
@@ -11707,12 +11707,328 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.127" layer="51"/>
 <wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.127" layer="51"/>
 <text x="-11.25" y="-2" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<dimension x1="10.87" y1="1.835" x2="2.2225" y2="-40.27125" x3="22.8" y3="-19.218125" textsize="1.27" layer="48" dtype="vertical"/>
+<dimension x1="10.87" y1="1.835" x2="2.2225" y2="-40.27125" x3="22.8" y3="-19.218125" textsize="1.27" layer="47" dtype="vertical"/>
 <wire x1="-15" y1="-2.4" x2="15" y2="-2.4" width="0.127" layer="51"/>
 <wire x1="15" y1="-2.4" x2="15" y2="-40.165" width="0.127" layer="51"/>
 <wire x1="15" y1="-40.165" x2="-15" y2="-40.165" width="0.127" layer="51"/>
 <wire x1="-15" y1="-40.165" x2="-15" y2="-2.4" width="0.127" layer="51"/>
-<pad name="P$1" x="0" y="-40.39375" drill="3" diameter="5.5"/>
+<pad name="P$1" x="0" y="-40.39375" drill="2.6" diameter="5.5"/>
+<polygon width="0.127" layer="31">
+<vertex x="-0.3" y="-37.8525"/>
+<vertex x="-0.3" y="-38.7725"/>
+<vertex x="-0.3334" y="-38.7766"/>
+<vertex x="-0.3658" y="-38.7831"/>
+<vertex x="-0.4041" y="-38.7912"/>
+<vertex x="-0.4424" y="-38.8025"/>
+<vertex x="-0.4764" y="-38.8122"/>
+<vertex x="-0.5142" y="-38.8247"/>
+<vertex x="-0.5627" y="-38.8403"/>
+<vertex x="-0.6178" y="-38.8613"/>
+<vertex x="-0.649" y="-38.8748"/>
+<vertex x="-0.6841" y="-38.8899"/>
+<vertex x="-0.7219" y="-38.9077"/>
+<vertex x="-0.7715" y="-38.9326"/>
+<vertex x="-0.8179" y="-38.9585"/>
+<vertex x="-0.8541" y="-38.98"/>
+<vertex x="-0.908" y="-39.0135"/>
+<vertex x="-0.955" y="-39.0453"/>
+<vertex x="-1.037" y="-39.1079"/>
+<vertex x="-1.0925" y="-39.1559"/>
+<vertex x="-1.1459" y="-39.2045"/>
+<vertex x="-1.1821" y="-39.2406"/>
+<vertex x="-1.2128" y="-39.273"/>
+<vertex x="-1.2549" y="-39.3194"/>
+<vertex x="-1.297" y="-39.3717"/>
+<vertex x="-1.3207" y="-39.403"/>
+<vertex x="-1.3704" y="-39.4721"/>
+<vertex x="-1.4001" y="-39.519"/>
+<vertex x="-1.4292" y="-39.5676"/>
+<vertex x="-1.4653" y="-39.6312"/>
+<vertex x="-1.5004" y="-39.7046"/>
+<vertex x="-1.522" y="-39.7521"/>
+<vertex x="-1.5403" y="-39.7974"/>
+<vertex x="-1.5554" y="-39.8373"/>
+<vertex x="-1.5778" y="-39.9037"/>
+<vertex x="-1.5985" y="-39.9781"/>
+<vertex x="-1.6166" y="-40.0565"/>
+<vertex x="-1.62" y="-40.0925"/>
+<vertex x="-2.54" y="-40.0925"/>
+<vertex x="-2.5386" y="-40.0591"/>
+<vertex x="-2.5327" y="-40.0125"/>
+<vertex x="-2.5243" y="-39.9587"/>
+<vertex x="-2.5133" y="-39.9018"/>
+<vertex x="-2.49" y="-39.7943"/>
+<vertex x="-2.4775" y="-39.7445"/>
+<vertex x="-2.4635" y="-39.69"/>
+<vertex x="-2.444" y="-39.6253"/>
+<vertex x="-2.4171" y="-39.5449"/>
+<vertex x="-2.376" y="-39.4368"/>
+<vertex x="-2.355" y="-39.3856"/>
+<vertex x="-2.3324" y="-39.3327"/>
+<vertex x="-2.306" y="-39.2783"/>
+<vertex x="-2.2703" y="-39.2053"/>
+<vertex x="-2.2345" y="-39.1416"/>
+<vertex x="-2.1976" y="-39.0769"/>
+<vertex x="-2.1435" y="-38.9893"/>
+<vertex x="-2.0969" y="-38.9222"/>
+<vertex x="-2.0148" y="-38.8112"/>
+<vertex x="-1.9589" y="-38.7413"/>
+<vertex x="-1.8731" y="-38.6471"/>
+<vertex x="-1.8153" y="-38.5856"/>
+<vertex x="-1.7083" y="-38.4854"/>
+<vertex x="-1.6049" y="-38.3927"/>
+<vertex x="-1.4706" y="-38.2933"/>
+<vertex x="-1.3202" y="-38.1939"/>
+<vertex x="-1.1698" y="-38.1147"/>
+<vertex x="-1.0901" y="-38.074"/>
+<vertex x="-0.9836" y="-38.0274"/>
+<vertex x="-0.8826" y="-37.9862"/>
+<vertex x="-0.7785" y="-37.9536"/>
+<vertex x="-0.6845" y="-37.9233"/>
+<vertex x="-0.6107" y="-37.9047"/>
+<vertex x="-0.5322" y="-37.8868"/>
+<vertex x="-0.4514" y="-37.8713"/>
+<vertex x="-0.3893" y="-37.8612"/>
+<vertex x="-0.3255" y="-37.8534"/>
+<vertex x="-0.2984" y="-37.8503"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.3" y="-42.9325"/>
+<vertex x="0.3" y="-42.0125"/>
+<vertex x="0.3334" y="-42.0084"/>
+<vertex x="0.3658" y="-42.0019"/>
+<vertex x="0.4041" y="-41.9938"/>
+<vertex x="0.4424" y="-41.9825"/>
+<vertex x="0.4764" y="-41.9728"/>
+<vertex x="0.5142" y="-41.9603"/>
+<vertex x="0.5627" y="-41.9447"/>
+<vertex x="0.6178" y="-41.9237"/>
+<vertex x="0.649" y="-41.9102"/>
+<vertex x="0.6841" y="-41.8951"/>
+<vertex x="0.7219" y="-41.8773"/>
+<vertex x="0.7715" y="-41.8524"/>
+<vertex x="0.8179" y="-41.8265"/>
+<vertex x="0.8541" y="-41.805"/>
+<vertex x="0.908" y="-41.7715"/>
+<vertex x="0.955" y="-41.7397"/>
+<vertex x="1.037" y="-41.6771"/>
+<vertex x="1.0925" y="-41.6291"/>
+<vertex x="1.1459" y="-41.5805"/>
+<vertex x="1.1821" y="-41.5444"/>
+<vertex x="1.2128" y="-41.512"/>
+<vertex x="1.2549" y="-41.4656"/>
+<vertex x="1.297" y="-41.4133"/>
+<vertex x="1.3207" y="-41.382"/>
+<vertex x="1.3704" y="-41.3129"/>
+<vertex x="1.4001" y="-41.266"/>
+<vertex x="1.4292" y="-41.2174"/>
+<vertex x="1.4653" y="-41.1538"/>
+<vertex x="1.5004" y="-41.0804"/>
+<vertex x="1.522" y="-41.0329"/>
+<vertex x="1.5403" y="-40.9876"/>
+<vertex x="1.5554" y="-40.9477"/>
+<vertex x="1.5778" y="-40.8813"/>
+<vertex x="1.5985" y="-40.8069"/>
+<vertex x="1.6166" y="-40.7285"/>
+<vertex x="1.62" y="-40.6925"/>
+<vertex x="2.54" y="-40.6925"/>
+<vertex x="2.5386" y="-40.7259"/>
+<vertex x="2.5327" y="-40.7725"/>
+<vertex x="2.5243" y="-40.8263"/>
+<vertex x="2.5133" y="-40.8832"/>
+<vertex x="2.49" y="-40.9907"/>
+<vertex x="2.4775" y="-41.0405"/>
+<vertex x="2.4635" y="-41.095"/>
+<vertex x="2.444" y="-41.1597"/>
+<vertex x="2.4171" y="-41.2401"/>
+<vertex x="2.376" y="-41.3482"/>
+<vertex x="2.355" y="-41.3994"/>
+<vertex x="2.3324" y="-41.4523"/>
+<vertex x="2.306" y="-41.5067"/>
+<vertex x="2.2703" y="-41.5797"/>
+<vertex x="2.2345" y="-41.6434"/>
+<vertex x="2.1976" y="-41.7081"/>
+<vertex x="2.1435" y="-41.7957"/>
+<vertex x="2.0969" y="-41.8628"/>
+<vertex x="2.0148" y="-41.9738"/>
+<vertex x="1.9589" y="-42.0437"/>
+<vertex x="1.8731" y="-42.1379"/>
+<vertex x="1.8153" y="-42.1994"/>
+<vertex x="1.7083" y="-42.2996"/>
+<vertex x="1.6049" y="-42.3923"/>
+<vertex x="1.4706" y="-42.4917"/>
+<vertex x="1.3202" y="-42.5911"/>
+<vertex x="1.1698" y="-42.6703"/>
+<vertex x="1.0901" y="-42.711"/>
+<vertex x="0.9836" y="-42.7576"/>
+<vertex x="0.8826" y="-42.7988"/>
+<vertex x="0.7785" y="-42.8314"/>
+<vertex x="0.6845" y="-42.8617"/>
+<vertex x="0.6107" y="-42.8803"/>
+<vertex x="0.5322" y="-42.8982"/>
+<vertex x="0.4514" y="-42.9137"/>
+<vertex x="0.3893" y="-42.9238"/>
+<vertex x="0.3255" y="-42.9316"/>
+<vertex x="0.2984" y="-42.9347"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-2.54" y="-40.6925"/>
+<vertex x="-1.62" y="-40.6925"/>
+<vertex x="-1.6159" y="-40.7259"/>
+<vertex x="-1.6094" y="-40.7583"/>
+<vertex x="-1.6013" y="-40.7966"/>
+<vertex x="-1.59" y="-40.8349"/>
+<vertex x="-1.5803" y="-40.8689"/>
+<vertex x="-1.5678" y="-40.9067"/>
+<vertex x="-1.5522" y="-40.9552"/>
+<vertex x="-1.5312" y="-41.0103"/>
+<vertex x="-1.5177" y="-41.0415"/>
+<vertex x="-1.5026" y="-41.0766"/>
+<vertex x="-1.4848" y="-41.1144"/>
+<vertex x="-1.4599" y="-41.164"/>
+<vertex x="-1.434" y="-41.2104"/>
+<vertex x="-1.4125" y="-41.2466"/>
+<vertex x="-1.379" y="-41.3005"/>
+<vertex x="-1.3472" y="-41.3475"/>
+<vertex x="-1.2846" y="-41.4295"/>
+<vertex x="-1.2366" y="-41.485"/>
+<vertex x="-1.188" y="-41.5384"/>
+<vertex x="-1.1519" y="-41.5746"/>
+<vertex x="-1.1195" y="-41.6053"/>
+<vertex x="-1.0731" y="-41.6474"/>
+<vertex x="-1.0208" y="-41.6895"/>
+<vertex x="-0.9895" y="-41.7132"/>
+<vertex x="-0.9204" y="-41.7629"/>
+<vertex x="-0.8735" y="-41.7926"/>
+<vertex x="-0.8249" y="-41.8217"/>
+<vertex x="-0.7613" y="-41.8578"/>
+<vertex x="-0.6879" y="-41.8929"/>
+<vertex x="-0.6404" y="-41.9145"/>
+<vertex x="-0.5951" y="-41.9328"/>
+<vertex x="-0.5552" y="-41.9479"/>
+<vertex x="-0.4888" y="-41.9703"/>
+<vertex x="-0.4144" y="-41.991"/>
+<vertex x="-0.336" y="-42.0091"/>
+<vertex x="-0.3" y="-42.0125"/>
+<vertex x="-0.3" y="-42.9325"/>
+<vertex x="-0.3334" y="-42.9311"/>
+<vertex x="-0.38" y="-42.9252"/>
+<vertex x="-0.4338" y="-42.9168"/>
+<vertex x="-0.4907" y="-42.9058"/>
+<vertex x="-0.5982" y="-42.8825"/>
+<vertex x="-0.648" y="-42.87"/>
+<vertex x="-0.7025" y="-42.856"/>
+<vertex x="-0.7672" y="-42.8365"/>
+<vertex x="-0.8476" y="-42.8096"/>
+<vertex x="-0.9557" y="-42.7685"/>
+<vertex x="-1.0069" y="-42.7475"/>
+<vertex x="-1.0598" y="-42.7249"/>
+<vertex x="-1.1142" y="-42.6985"/>
+<vertex x="-1.1872" y="-42.6628"/>
+<vertex x="-1.2509" y="-42.627"/>
+<vertex x="-1.3156" y="-42.5901"/>
+<vertex x="-1.4032" y="-42.536"/>
+<vertex x="-1.4703" y="-42.4894"/>
+<vertex x="-1.5813" y="-42.4073"/>
+<vertex x="-1.6512" y="-42.3514"/>
+<vertex x="-1.7454" y="-42.2656"/>
+<vertex x="-1.8069" y="-42.2078"/>
+<vertex x="-1.9071" y="-42.1008"/>
+<vertex x="-1.9998" y="-41.9974"/>
+<vertex x="-2.0992" y="-41.8631"/>
+<vertex x="-2.1986" y="-41.7127"/>
+<vertex x="-2.2778" y="-41.5623"/>
+<vertex x="-2.3185" y="-41.4826"/>
+<vertex x="-2.3651" y="-41.3761"/>
+<vertex x="-2.4063" y="-41.2751"/>
+<vertex x="-2.4389" y="-41.171"/>
+<vertex x="-2.4692" y="-41.077"/>
+<vertex x="-2.4878" y="-41.0032"/>
+<vertex x="-2.5057" y="-40.9247"/>
+<vertex x="-2.5212" y="-40.8439"/>
+<vertex x="-2.5313" y="-40.7818"/>
+<vertex x="-2.5391" y="-40.718"/>
+<vertex x="-2.5422" y="-40.6909"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="2.54" y="-40.0925"/>
+<vertex x="1.62" y="-40.0925"/>
+<vertex x="1.6159" y="-40.0591"/>
+<vertex x="1.6094" y="-40.0267"/>
+<vertex x="1.6013" y="-39.9884"/>
+<vertex x="1.59" y="-39.9501"/>
+<vertex x="1.5803" y="-39.9161"/>
+<vertex x="1.5678" y="-39.8783"/>
+<vertex x="1.5522" y="-39.8298"/>
+<vertex x="1.5312" y="-39.7747"/>
+<vertex x="1.5177" y="-39.7435"/>
+<vertex x="1.5026" y="-39.7084"/>
+<vertex x="1.4848" y="-39.6706"/>
+<vertex x="1.4599" y="-39.621"/>
+<vertex x="1.434" y="-39.5746"/>
+<vertex x="1.4125" y="-39.5384"/>
+<vertex x="1.379" y="-39.4845"/>
+<vertex x="1.3472" y="-39.4375"/>
+<vertex x="1.2846" y="-39.3555"/>
+<vertex x="1.2366" y="-39.3"/>
+<vertex x="1.188" y="-39.2466"/>
+<vertex x="1.1519" y="-39.2104"/>
+<vertex x="1.1195" y="-39.1797"/>
+<vertex x="1.0731" y="-39.1376"/>
+<vertex x="1.0208" y="-39.0955"/>
+<vertex x="0.9895" y="-39.0718"/>
+<vertex x="0.9204" y="-39.0221"/>
+<vertex x="0.8735" y="-38.9924"/>
+<vertex x="0.8249" y="-38.9633"/>
+<vertex x="0.7613" y="-38.9272"/>
+<vertex x="0.6879" y="-38.8921"/>
+<vertex x="0.6404" y="-38.8705"/>
+<vertex x="0.5951" y="-38.8522"/>
+<vertex x="0.5552" y="-38.8371"/>
+<vertex x="0.4888" y="-38.8147"/>
+<vertex x="0.4144" y="-38.794"/>
+<vertex x="0.336" y="-38.7759"/>
+<vertex x="0.3" y="-38.7725"/>
+<vertex x="0.3" y="-37.8525"/>
+<vertex x="0.3334" y="-37.8539"/>
+<vertex x="0.38" y="-37.8598"/>
+<vertex x="0.4338" y="-37.8682"/>
+<vertex x="0.4907" y="-37.8792"/>
+<vertex x="0.5982" y="-37.9025"/>
+<vertex x="0.648" y="-37.915"/>
+<vertex x="0.7025" y="-37.929"/>
+<vertex x="0.7672" y="-37.9485"/>
+<vertex x="0.8476" y="-37.9754"/>
+<vertex x="0.9557" y="-38.0165"/>
+<vertex x="1.0069" y="-38.0375"/>
+<vertex x="1.0598" y="-38.0601"/>
+<vertex x="1.1142" y="-38.0865"/>
+<vertex x="1.1872" y="-38.1222"/>
+<vertex x="1.2509" y="-38.158"/>
+<vertex x="1.3156" y="-38.1949"/>
+<vertex x="1.4032" y="-38.249"/>
+<vertex x="1.4703" y="-38.2956"/>
+<vertex x="1.5813" y="-38.3777"/>
+<vertex x="1.6512" y="-38.4336"/>
+<vertex x="1.7454" y="-38.5194"/>
+<vertex x="1.8069" y="-38.5772"/>
+<vertex x="1.9071" y="-38.6842"/>
+<vertex x="1.9998" y="-38.7876"/>
+<vertex x="2.0992" y="-38.9219"/>
+<vertex x="2.1986" y="-39.0723"/>
+<vertex x="2.2778" y="-39.2227"/>
+<vertex x="2.3185" y="-39.3024"/>
+<vertex x="2.3651" y="-39.4089"/>
+<vertex x="2.4063" y="-39.5099"/>
+<vertex x="2.4389" y="-39.614"/>
+<vertex x="2.4692" y="-39.708"/>
+<vertex x="2.4878" y="-39.7818"/>
+<vertex x="2.5057" y="-39.8603"/>
+<vertex x="2.5212" y="-39.9411"/>
+<vertex x="2.5313" y="-40.0032"/>
+<vertex x="2.5391" y="-40.067"/>
+<vertex x="2.5422" y="-40.0941"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -17011,13 +17327,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
 <attribute name="CLASS" value="SIM HOLDER"/>
 <attribute name="DESCRIPTION" value="CONN SIM CARD HINGED TYPE R/A"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-2-ND"/>
 <attribute name="MANUFACTURER" value="JAE Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AE900"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AR900"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="670-2337-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="670-2985-2-ND"/>
 </part>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
 <attribute name="CLASS" value="LED"/>
@@ -17111,7 +17427,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X6" library="jumper" deviceset="JP2E" device="" value="PINHD-1X3">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH1-03-UA/2057-PH1-03-UA-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17445,9 +17761,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND"/>
 </part>
 <part name="M1" library="mech-parts" deviceset="MECHPART" device="">
-<attribute name="DESCRIPTION" value="NO DESCRIPTION-"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/9774020243R/732-7073-1-ND"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBE"/>
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SM3ZS067U310-NUT1-R1800/670-2864-1-ND/"/>
 </part>
 <part name="X2" library="InputOutputIO (rev19a)" deviceset="692121030100" device="" value="692121030100">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
@@ -17530,13 +17845,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SIM2" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
 <attribute name="CLASS" value="SIM HOLDER"/>
 <attribute name="DESCRIPTION" value="CONN SIM CARD HINGED TYPE R/A"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-2-ND"/>
 <attribute name="MANUFACTURER" value="JAE Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AE900"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AR900"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="670-2337-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="670-2985-2-ND"/>
 </part>
 <part name="C8" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -17637,7 +17952,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
-<attribute name="POPULATED" value="TRUE"/>
+<attribute name="POPULATED" value="FALSE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
@@ -17648,7 +17963,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
-<attribute name="POPULATED" value="TRUE"/>
+<attribute name="POPULATED" value="FALSE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
@@ -17691,7 +18006,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X1" library="laforge" deviceset="PINHD-2X4" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND/"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17820,7 +18135,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X3" library="laforge" deviceset="PINHD-2X10" device="" value="PINHD-2X10">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-20-UA/2057-PH2-20-UA-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17911,7 +18226,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X4" library="laforge" deviceset="PINHD-2X5" device="" value="PINHD-2X5">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-10-UA/2057-PH2-10-UA-ND"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17932,7 +18247,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SOURCEPARTNUMBER" value="1276-1272-1-ND"/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L-COPPER"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L-COPPER">
+<attribute name="CLASS" value="INDUCTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17977,6 +18302,8 @@ SIM Card Slot</text>
 </plain>
 <instances>
 <instance part="SIM1" gate="-CARD" x="58.42" y="134.62" smashed="yes">
+<attribute name="NAME" x="63.516" y="144.796" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.816" y="130.572" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
@@ -17986,8 +18313,6 @@ SIM Card Slot</text>
 <attribute name="POPULATED" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="58.42" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="63.516" y="144.796" size="1.778" layer="95"/>
-<attribute name="VALUE" x="50.816" y="130.572" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="38.1" y="55.88" rot="R90">
 <attribute name="DESCRIPTION" x="38.1" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
@@ -18554,6 +18879,8 @@ SIM Card Slot</text>
 <attribute name="VALUE" x="207.01" y="99.949" size="1.27" layer="96"/>
 </instance>
 <instance part="SIM2" gate="-CARD" x="167.64" y="134.62" smashed="yes">
+<attribute name="NAME" x="172.736" y="144.796" size="1.778" layer="95"/>
+<attribute name="VALUE" x="160.036" y="130.572" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
@@ -18563,8 +18890,6 @@ SIM Card Slot</text>
 <attribute name="POPULATED" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="167.64" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="172.736" y="144.796" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.036" y="130.572" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="152.4" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="151.13" y="125.476" size="1.27" layer="95" rot="R90"/>
@@ -19008,7 +19333,17 @@ SIM Card Slot</text>
 <attribute name="LINK" x="45.72" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND36" gate="1" x="45.72" y="193.04"/>
-<instance part="LOGO1" gate="G$1" x="281.94" y="81.28"/>
+<instance part="LOGO1" gate="G$1" x="281.94" y="81.28">
+<attribute name="DESCRIPTION" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="281.94" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

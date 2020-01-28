@@ -1795,7 +1795,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="DESCRIPTION" value="CAP CER 10000PF 25V X7R 0402" x="9.651" y="71.754" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B103KA5NNNC/1276-1057-1-ND/3889143" x="9.651" y="71.754" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="9.651" y="71.754" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.52425" y="72.77" size="1" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="11.84175" y="71.1825" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="8.0635" y="70.2617" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C6" library="rc-sysmocom" package="_0402" value="10n" x="19.05" y="57.277" smashed="yes" rot="R270">
@@ -2146,7 +2146,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="DESCRIPTION" value="RES SMD 100K OHM 5%% 1/10W 0603" x="9.906" y="73.1515" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603JR-07100KL/311-100KGRCT-ND/729645" x="9.906" y="73.1515" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="9.906" y="73.1515" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="11.938" y="71.31" size="1" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="11.6205" y="72.58" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="11.4935" y="74.6438" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R15" library="rc-sysmocom" package="_0603" value="100k" x="9.906" y="74.549" smashed="yes">

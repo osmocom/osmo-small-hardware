@@ -8041,14 +8041,14 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U4" library="atmel-arm" deviceset="ATSAMD21E" device="">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="IC REG LINEAR 3.3V 200MA TSOT5"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/analog-devices-inc/ADP151AUJZ-3.3-R7/ADP151AUJZ-3.3-R7CT-ND"/>
-<attribute name="MANUFACTURER" value="Analog Devices Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="ADP151AUJZ-3.3-R7"/>
+<attribute name="DESCRIPTION" value="IC MCU 32BIT 256KB FLASH 32QFN"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/ATSAMD21E18A-MUT/ATSAMD21E18A-MUTCT-ND"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="ATSAMD21E18A-MUT"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="ADP151AUJZ-3.3-R7CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="ATSAMD21E18A-MUTCT-ND"/>
 </part>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
@@ -10687,15 +10687,15 @@ OSHW / CC-BY-SA</text>
 </instance>
 <instance part="GND41" gate="1" x="106.68" y="66.04" rot="R90"/>
 <instance part="U4" gate="G$1" x="101.6" y="195.58">
-<attribute name="DESCRIPTION" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCE" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="POPULATED" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="CLASS" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="LINK" x="101.6" y="195.58" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="101.6" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND42" gate="1" x="147.32" y="157.48"/>
 <instance part="C23" gate="G$1" x="152.4" y="203.2" smashed="yes" rot="R90">

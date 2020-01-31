@@ -9,7 +9,7 @@
 <grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="11" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="11" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="14" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -2634,15 +2634,15 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <element name="U4" library="atmel-arm" package="QFN32_5X5" value="ATSAMD21E" x="24.99" y="73.4425" smashed="yes">
 <attribute name="NAME" x="23.72" y="76.6165" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="23.72" y="69.8875" size="0.4318" layer="27"/>
-<attribute name="DESCRIPTION" value="IC REG LINEAR 3.3V 200MA TSOT5" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Analog Devices Inc." x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="ADP151AUJZ-3.3-R7" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="IC MCU 32BIT 256KB FLASH 32QFN" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="ATSAMD21E18A-MUT" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="ADP151AUJZ-3.3-R7CT-ND" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="ATSAMD21E18A-MUTCT-ND" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="IC" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/analog-devices-inc/ADP151AUJZ-3.3-R7/ADP151AUJZ-3.3-R7CT-ND" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/ATSAMD21E18A-MUT/ATSAMD21E18A-MUTCT-ND" x="24.99" y="73.4425" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C14" library="rc-sysmocom" package="_0603" value="100n" x="27.14625" y="35.08375" smashed="yes">
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="27.14625" y="35.08375" size="1.016" layer="27" ratio="14" display="off"/>

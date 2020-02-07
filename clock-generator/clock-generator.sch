@@ -7575,27 +7575,27 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <attribute name="SOURCEPARTNUMBER" value="311-100KGRCT-ND"/>
 </part>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
-<part name="R8" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1k">
+<part name="R8" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4,7k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 1K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT1K00/RMCF0603FT1K00CT-ND/1942996"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT1K00"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT1K00CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-4.7KGRCT-ND"/>
 </part>
-<part name="R6" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1k">
+<part name="R6" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4,7k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 1K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT1K00/RMCF0603FT1K00CT-ND/1942996"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT1K00"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT1K00CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-4.7KGRCT-ND"/>
 </part>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="D2" library="laforge" deviceset="0603ESDA-TR" device="" value="">

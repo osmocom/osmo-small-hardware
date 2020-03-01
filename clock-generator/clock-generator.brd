@@ -3679,6 +3679,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="30.607" y1="75.1205" x2="30.48" y2="75.2475" width="0.3048" layer="1"/>
 <via x="30.48" y="75.2475" extent="1-16" drill="0.3"/>
 <wire x1="26.38425" y1="35.08375" x2="26.19375" y2="35.08375" width="0.3048" layer="1"/>
+<contactref element="TC1" pad="4"/>
+<wire x1="27.94" y1="84.7725" x2="27.6225" y2="84.455" width="0.3048" layer="1"/>
+<wire x1="27.6225" y1="84.455" x2="27.6225" y2="83.82" width="0.3048" layer="1"/>
+<via x="27.6225" y="83.82" extent="1-16" drill="0.3"/>
+<wire x1="27.6225" y1="83.82" x2="27.305" y2="84.1375" width="0.3048" layer="15"/>
+<wire x1="27.305" y1="84.1375" x2="27.305" y2="84.7725" width="0.3048" layer="15"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="U2" pad="5"/>
@@ -4670,9 +4676,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="R11" pad="1"/>
 <wire x1="27.6225" y1="44.6405" x2="27.6225" y2="43.48660625" width="0.3048" layer="1"/>
 <wire x1="27.6225" y1="43.48660625" x2="27.4955" y2="43.18" width="0.3048" layer="1" curve="-45"/>
-</signal>
-<signal name="VDD_3V3" class="3">
-<contactref element="TC1" pad="4"/>
 </signal>
 <signal name="N$8">
 <contactref element="U2" pad="1"/>

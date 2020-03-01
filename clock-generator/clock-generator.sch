@@ -11510,6 +11510,11 @@ OSHW / CC-BY-SA</text>
 <pinref part="SUPPLY9" gate="VDD" pin="VDD"/>
 <wire x1="251.46" y1="43.18" x2="251.46" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="TC1" gate="A" pin="4"/>
+<wire x1="256.54" y1="127" x2="261.62" y2="127" width="0.1524" layer="91"/>
+<label x="261.62" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="!OEB" class="2">
 <segment>
@@ -11777,13 +11782,6 @@ OSHW / CC-BY-SA</text>
 <wire x1="279.4" y1="30.48" x2="279.4" y2="38.1" width="0.1524" layer="91"/>
 <junction x="279.4" y="38.1"/>
 <pinref part="D18" gate="D$1" pin="P$2"/>
-</segment>
-</net>
-<net name="VDD_3V3" class="3">
-<segment>
-<pinref part="TC1" gate="A" pin="4"/>
-<wire x1="256.54" y1="127" x2="261.62" y2="127" width="0.1524" layer="91"/>
-<label x="261.62" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

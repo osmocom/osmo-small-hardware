@@ -182,49 +182,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="BOM-exclusive">
-<packages>
-</packages>
-<symbols>
-<symbol name="NUT">
-<text x="-2.54" y="-4.572" size="1.27" layer="95">&gt;NAME</text>
-<circle x="0" y="0" radius="1.04726875" width="0.254" layer="97"/>
-<wire x1="-1.778" y1="1.016" x2="0" y2="2.032" width="0.254" layer="97"/>
-<wire x1="0" y1="-2.032" x2="1.778" y2="-1.016" width="0.254" layer="97"/>
-<wire x1="0" y1="-2.032" x2="-1.778" y2="-1.016" width="0.254" layer="97"/>
-<wire x1="1.778" y1="1.016" x2="0" y2="2.032" width="0.254" layer="97"/>
-<wire x1="-1.778" y1="-1.016" x2="-1.778" y2="1.016" width="0.254" layer="97"/>
-<wire x1="1.778" y1="-1.016" x2="1.778" y2="1.016" width="0.254" layer="97"/>
-<text x="4.064" y="-2.54" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NUT" prefix="M" uservalue="yes">
-<description>nut</description>
-<gates>
-<gate name="G$1" symbol="NUT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="CLASS" value="MECHANICAL" constant="no"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" constant="no"/>
-<attribute name="LINK" value="UNKNOWN LINK" constant="no"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" constant="no"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" constant="no"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" constant="no"/>
-<attribute name="SCHEM_BOM_ITEM" value="TRUE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" constant="no"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SF7W008S1A-SIM">
 <packages>
 <package name="SF7W008S1A">
@@ -16322,12 +16279,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="M1" library="BOM-exclusive" deviceset="NUT" device="">
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/jae-electronics/MM60-EZH059-B5-R650/670-2277-1-ND"/>
-<attribute name="OC_DIGIKEY" value="H9161CT-ND"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="A97593-ND"/>
-</part>
 <part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="8 (6 + 2) Position Card Connector SIM Card Surface Mount, Right Angle Gold"/>
@@ -17406,9 +17357,6 @@ GPIO.0_ECI/DTR_ECI</text>
 DTR</text>
 </plain>
 <instances>
-<instance part="M1" gate="G$1" x="373.38" y="35.56">
-<attribute name="OC_DIGIKEY" x="373.38" y="35.56" size="3.81" layer="96" rot="MR0" display="off"/>
-</instance>
 <instance part="SIM1" gate="-CARD" x="96.52" y="208.28">
 <attribute name="DESCRIPTION" x="96.52" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="96.52" y="208.28" size="1.778" layer="96" display="off"/>

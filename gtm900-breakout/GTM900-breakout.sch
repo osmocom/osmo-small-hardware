@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="6" fill="1" visible="no" active="no"/>
-<layer number="59" name="tMark" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bMark" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="6" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tMark" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bMark" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -88,11 +88,16 @@
 <layer number="107" name="ShieldTop" color="12" fill="1" visible="no" active="no"/>
 <layer number="108" name="MeasuresWall" color="7" fill="1" visible="no" active="no"/>
 <layer number="109" name="SYSONDER" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="tStopDoku" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="bStopDoku" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="bTPoint" color="7" fill="1" visible="no" active="no"/>
 <layer number="114" name="Änderung" color="7" fill="1" visible="no" active="no"/>
+<layer number="115" name="Component" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
+<layer number="117" name="housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="PCB" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="Layout_Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="lotls" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="bTestdril" color="7" fill="1" visible="no" active="no"/>
@@ -100,7 +105,10 @@
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="Mods" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="References" color="4" fill="1" visible="no" active="no"/>
 <layer number="151" name="FaceHelp" color="5" fill="1" visible="no" active="no"/>
@@ -2004,60 +2012,6 @@ Source: www.kingbright.com</description>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="1206">
-<description>&lt;b&gt;1206 (3216 Metric)&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<wire x1="-2.4" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30"/>
-<text x="-2.54" y="1.143" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.5875" y="-1.905" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="1206@1">
-<description>&lt;b&gt;1206 (3216 Metric)&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<wire x1="-2.4" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30" cream="no"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30" cream="no"/>
-<text x="-2.54" y="1.143" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.5875" y="-1.905" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<polygon width="0.3048" layer="31">
-<vertex x="-1.984375" y="0.714375"/>
-<vertex x="-1.190625" y="0.714375"/>
-<vertex x="-0.714375" y="0"/>
-<vertex x="-1.190625" y="-0.714375"/>
-<vertex x="-1.984375" y="-0.714375"/>
-</polygon>
-<polygon width="0.3048" layer="31">
-<vertex x="0.714375" y="0"/>
-<vertex x="1.190625" y="0.714375"/>
-<vertex x="1.984375" y="0.714375"/>
-<vertex x="1.984375" y="-0.714375"/>
-<vertex x="1.190625" y="-0.714375"/>
-</polygon>
-</package>
 <package name="0603">
 <description>&lt;b&gt; 0603 (1608 Metric)&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.729" x2="1.473" y2="0.729" width="0.0508" layer="39"/>
@@ -2161,52 +2115,6 @@ Source: www.kingbright.com</description>
 <vertex x="2.54" y="-1.42875"/>
 </polygon>
 </package>
-<package name="_0402">
-<description>&lt;b&gt; 0402&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1016" layer="51"/>
-<wire x1="0.245" y1="-0.174" x2="-0.245" y2="-0.174" width="0.1016" layer="51"/>
-<wire x1="-1.0573" y1="0.5557" x2="1.0573" y2="0.5557" width="0.2032" layer="21"/>
-<wire x1="1.0573" y1="0.5557" x2="1.0573" y2="-0.5556" width="0.2032" layer="21"/>
-<wire x1="1.0573" y1="-0.5556" x2="-1.0573" y2="-0.5557" width="0.2032" layer="21"/>
-<wire x1="-1.0573" y1="-0.5557" x2="-1.0573" y2="0.5557" width="0.2032" layer="21"/>
-<smd name="1" x="-0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30"/>
-<smd name="2" x="0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30"/>
-<text x="-1.27" y="0.7939" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.27" y="-1.3336" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.0794" y1="-0.2381" x2="0.0794" y2="0.2381" layer="35"/>
-<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
-</package>
-<package name="_0402@1">
-<description>&lt;b&gt; 0402&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1016" layer="51"/>
-<wire x1="0.245" y1="-0.174" x2="-0.245" y2="-0.174" width="0.1016" layer="51"/>
-<wire x1="-1.0573" y1="0.5557" x2="1.0573" y2="0.5557" width="0.2032" layer="21"/>
-<wire x1="1.0573" y1="0.5557" x2="1.0573" y2="-0.5556" width="0.2032" layer="21"/>
-<wire x1="1.0573" y1="-0.5556" x2="-1.0573" y2="-0.5557" width="0.2032" layer="21"/>
-<wire x1="-1.0573" y1="-0.5557" x2="-1.0573" y2="0.5557" width="0.2032" layer="21"/>
-<smd name="1" x="-0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30" cream="no"/>
-<text x="-1.27" y="0.7939" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.27" y="-1.3336" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.0794" y1="-0.2381" x2="0.0794" y2="0.2381" layer="35"/>
-<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
-<polygon width="0.127" layer="31">
-<vertex x="-0.714375" y="0.238125"/>
-<vertex x="-0.396875" y="0.238125"/>
-<vertex x="-0.238125" y="0"/>
-<vertex x="-0.396875" y="-0.238125"/>
-<vertex x="-0.714375" y="-0.238125"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="0.238125" y="0"/>
-<vertex x="0.396875" y="0.238125"/>
-<vertex x="0.714375" y="0.238125"/>
-<vertex x="0.714375" y="-0.238125"/>
-<vertex x="0.396875" y="-0.238125"/>
-</polygon>
-</package>
 <package name="_0402MP">
 <description>&lt;b&gt;0402 MicroPitch&lt;p&gt;</description>
 <wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1016" layer="51"/>
@@ -2221,22 +2129,6 @@ Source: www.kingbright.com</description>
 <rectangle x1="0.2588" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 </package>
 <package name="_0603">
-<description>&lt;b&gt;0603&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.306" x2="0.432" y2="-0.306" width="0.1016" layer="51"/>
-<wire x1="0.432" y1="0.306" x2="-0.432" y2="0.306" width="0.1016" layer="51"/>
-<wire x1="-1.4605" y1="0.635" x2="1.4605" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.4605" y1="0.635" x2="1.4605" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="1.4605" y1="-0.635" x2="-1.4605" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.4605" y1="-0.635" x2="-1.4605" y2="0.635" width="0.2032" layer="21"/>
-<smd name="1" x="-0.762" y="0" dx="0.9" dy="0.8" layer="1" roundness="30"/>
-<smd name="2" x="0.762" y="0" dx="0.9" dy="0.8" layer="1" roundness="30"/>
-<text x="-1.5875" y="0.9525" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.5875" y="-1.4923" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4" x2="0.8382" y2="0.4" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4" x2="-0.4318" y2="0.4" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="_0603@1">
 <description>&lt;b&gt;0603&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.306" x2="0.432" y2="-0.306" width="0.1016" layer="51"/>
 <wire x1="0.432" y1="0.306" x2="-0.432" y2="0.306" width="0.1016" layer="51"/>
@@ -2278,52 +2170,6 @@ Source: www.kingbright.com</description>
 <rectangle x1="0.4318" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.4318" y2="0.4" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.25" x2="0.1999" y2="0.25" layer="35"/>
-</package>
-<package name="_0805">
-<description>&lt;b&gt;0805&lt;/b&gt;</description>
-<wire x1="-0.41" y1="0.585" x2="0.41" y2="0.585" width="0.1016" layer="51"/>
-<wire x1="-0.41" y1="-0.585" x2="0.41" y2="-0.585" width="0.1016" layer="51"/>
-<wire x1="-1.905" y1="0.889" x2="1.905" y2="0.889" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="0.889" x2="1.905" y2="-0.889" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-0.889" x2="-1.905" y2="-0.889" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-0.889" x2="-1.905" y2="0.889" width="0.2032" layer="21"/>
-<smd name="1" x="-1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30"/>
-<smd name="2" x="1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30"/>
-<text x="-1.905" y="1.27" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.9049" y="-1.651" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.65" x2="1.0564" y2="0.65" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.65" x2="-0.4168" y2="0.65" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
-<package name="_0805@1">
-<description>&lt;b&gt;0805&lt;/b&gt;</description>
-<wire x1="-0.41" y1="0.585" x2="0.41" y2="0.585" width="0.1016" layer="51"/>
-<wire x1="-0.41" y1="-0.585" x2="0.41" y2="-0.585" width="0.1016" layer="51"/>
-<wire x1="-1.905" y1="0.889" x2="1.905" y2="0.889" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="0.889" x2="1.905" y2="-0.889" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-0.889" x2="-1.905" y2="-0.889" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-0.889" x2="-1.905" y2="0.889" width="0.2032" layer="21"/>
-<smd name="1" x="-1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30" cream="no"/>
-<smd name="2" x="1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30" cream="no"/>
-<text x="-1.905" y="1.27" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-1.9049" y="-1.651" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.4064" y1="-0.65" x2="1.0564" y2="0.65" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.65" x2="-0.4168" y2="0.65" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<polygon width="0.127" layer="31">
-<vertex x="-1.508125" y="0.555625"/>
-<vertex x="-0.873125" y="0.555625"/>
-<vertex x="-0.47625" y="0"/>
-<vertex x="-0.873125" y="-0.555625"/>
-<vertex x="-1.508125" y="-0.555625"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="0.47625" y="0"/>
-<vertex x="0.873125" y="0.555625"/>
-<vertex x="1.508125" y="0.555625"/>
-<vertex x="1.508125" y="-0.555625"/>
-<vertex x="0.873125" y="-0.555625"/>
-</polygon>
 </package>
 <package name="_0805MP">
 <description>&lt;b&gt;0805 MicroPitch&lt;/b&gt;</description>
@@ -2368,14 +2214,108 @@ Source: www.kingbright.com</description>
 <vertex x="1.27" y="1.11125"/>
 </polygon>
 </package>
+<package name="1206">
+<description>&lt;b&gt;1206 (3216 Metric)&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<wire x1="-2.4" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="30" cream="no"/>
+<text x="-2.54" y="1.143" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-1.5875" y="-1.905" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<polygon width="0.3048" layer="31">
+<vertex x="-1.984375" y="0.714375"/>
+<vertex x="-1.190625" y="0.714375"/>
+<vertex x="-0.714375" y="0"/>
+<vertex x="-1.190625" y="-0.714375"/>
+<vertex x="-1.984375" y="-0.714375"/>
+</polygon>
+<polygon width="0.3048" layer="31">
+<vertex x="0.714375" y="0"/>
+<vertex x="1.190625" y="0.714375"/>
+<vertex x="1.984375" y="0.714375"/>
+<vertex x="1.984375" y="-0.714375"/>
+<vertex x="1.190625" y="-0.714375"/>
+</polygon>
+</package>
+<package name="_0402">
+<description>&lt;b&gt; 0402&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1016" layer="51"/>
+<wire x1="0.245" y1="-0.174" x2="-0.245" y2="-0.174" width="0.1016" layer="51"/>
+<wire x1="-1.0573" y1="0.5557" x2="1.0573" y2="0.5557" width="0.2032" layer="21"/>
+<wire x1="1.0573" y1="0.5557" x2="1.0573" y2="-0.5556" width="0.2032" layer="21"/>
+<wire x1="1.0573" y1="-0.5556" x2="-1.0573" y2="-0.5557" width="0.2032" layer="21"/>
+<wire x1="-1.0573" y1="-0.5557" x2="-1.0573" y2="0.5557" width="0.2032" layer="21"/>
+<smd name="1" x="-0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.6" dy="0.6" layer="1" roundness="30" cream="no"/>
+<text x="-1.27" y="0.7939" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-1.27" y="-1.3336" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.0794" y1="-0.2381" x2="0.0794" y2="0.2381" layer="35"/>
+<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
+<polygon width="0.127" layer="31">
+<vertex x="-0.714375" y="0.238125"/>
+<vertex x="-0.396875" y="0.238125"/>
+<vertex x="-0.238125" y="0"/>
+<vertex x="-0.396875" y="-0.238125"/>
+<vertex x="-0.714375" y="-0.238125"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.238125" y="0"/>
+<vertex x="0.396875" y="0.238125"/>
+<vertex x="0.714375" y="0.238125"/>
+<vertex x="0.714375" y="-0.238125"/>
+<vertex x="0.396875" y="-0.238125"/>
+</polygon>
+</package>
+<package name="_0805">
+<description>&lt;b&gt;0805&lt;/b&gt;</description>
+<wire x1="-0.41" y1="0.585" x2="0.41" y2="0.585" width="0.1016" layer="51"/>
+<wire x1="-0.41" y1="-0.585" x2="0.41" y2="-0.585" width="0.1016" layer="51"/>
+<wire x1="-1.905" y1="0.889" x2="1.905" y2="0.889" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0.889" x2="1.905" y2="-0.889" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-0.889" x2="-1.905" y2="-0.889" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-0.889" x2="-1.905" y2="0.889" width="0.2032" layer="21"/>
+<smd name="1" x="-1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="1.016" y="0" dx="1.2" dy="1.3" layer="1" roundness="30" cream="no"/>
+<text x="-1.905" y="1.27" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-1.9049" y="-1.651" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.65" x2="1.0564" y2="0.65" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.65" x2="-0.4168" y2="0.65" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<polygon width="0.127" layer="31">
+<vertex x="-1.508125" y="0.555625"/>
+<vertex x="-0.873125" y="0.555625"/>
+<vertex x="-0.47625" y="0"/>
+<vertex x="-0.873125" y="-0.555625"/>
+<vertex x="-1.508125" y="-0.555625"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.47625" y="0"/>
+<vertex x="0.873125" y="0.555625"/>
+<vertex x="1.508125" y="0.555625"/>
+<vertex x="1.508125" y="-0.555625"/>
+<vertex x="0.873125" y="-0.555625"/>
+</polygon>
+</package>
 <package name="C1808">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
 High volt MLC; no solder stop between for higher isolation&lt;br&gt;
 Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <wire x1="-1.4732" y1="0.9502" x2="1.4732" y2="0.9502" width="0.1016" layer="51"/>
 <wire x1="-1.4478" y1="-0.9502" x2="1.4732" y2="-0.9502" width="0.1016" layer="51"/>
-<smd name="1" x="-1.95" y="0" dx="1.6" dy="2.2" layer="1" roundness="30"/>
-<smd name="2" x="1.95" y="0" dx="1.6" dy="2.2" layer="1" roundness="30"/>
+<smd name="1" x="-1.95" y="0" dx="1.6" dy="2.2" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="1.95" y="0" dx="1.6" dy="2.2" layer="1" roundness="30" cream="no"/>
 <text x="-2.233" y="1.827" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.233" y="-2.842" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.275" y1="-1.015" x2="-1.225" y2="1.015" layer="51"/>
@@ -2389,6 +2329,76 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <vertex x="0.9525" y="1.27"/>
 <vertex x="0.9525" y="-1.27"/>
 <vertex x="-0.9525" y="-1.27"/>
+</polygon>
+<polygon width="0.2" layer="31">
+<vertex x="-2.619375" y="0.9525"/>
+<vertex x="-2.619375" y="-0.9525"/>
+<vertex x="-1.74625" y="-0.9525"/>
+<vertex x="-1.27" y="0"/>
+<vertex x="-1.74625" y="0.9525"/>
+</polygon>
+<polygon width="0.2" layer="31">
+<vertex x="1.27" y="0"/>
+<vertex x="1.74625" y="0.9525"/>
+<vertex x="2.54" y="0.9525"/>
+<vertex x="2.54" y="-0.9525"/>
+<vertex x="1.74625" y="-0.9525"/>
+</polygon>
+</package>
+<package name="C1210">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt; chip</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="30" cream="no"/>
+<text x="-1.397" y="1.651" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-1.397" y="-2.921" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<polygon width="0.2" layer="31">
+<vertex x="-2.06375" y="1.190625"/>
+<vertex x="-2.06375" y="-1.190625"/>
+<vertex x="-1.11125" y="-1.190625"/>
+<vertex x="-0.635" y="0"/>
+<vertex x="-1.11125" y="1.190625"/>
+</polygon>
+<polygon width="0.2" layer="31">
+<vertex x="0.635" y="0"/>
+<vertex x="1.11125" y="1.190625"/>
+<vertex x="2.06375" y="1.190625"/>
+<vertex x="2.06375" y="-1.190625"/>
+<vertex x="1.11125" y="-1.190625"/>
+</polygon>
+</package>
+<package name="C1812K">
+<description>&lt;b&gt;Ceramic Chip Capacitor KEMET 1812 reflow solder&lt;/b&gt;&lt;p&gt;
+Metric Code Size 4532</description>
+<wire x1="-2.175" y1="1.525" x2="2.175" y2="1.525" width="0.1016" layer="51"/>
+<wire x1="2.175" y1="-1.525" x2="-2.175" y2="-1.525" width="0.1016" layer="51"/>
+<smd name="1" x="-2.05" y="0" dx="1.8" dy="3.7" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="2.05" y="0" dx="1.8" dy="3.7" layer="1" roundness="30" cream="no"/>
+<text x="-2.25" y="2.10875" size="1.016" layer="25" ratio="17">&gt;NAME</text>
+<text x="-2.25" y="-3.13375" size="1.016" layer="27" ratio="17">&gt;VALUE</text>
+<rectangle x1="-2.25" y1="-1.6" x2="-1.65" y2="1.6" layer="51"/>
+<rectangle x1="1.65" y1="-1.6" x2="2.25" y2="1.6" layer="51"/>
+<polygon width="0.4064" layer="31">
+<vertex x="-2.69875" y="1.5875"/>
+<vertex x="-1.905" y="1.5875"/>
+<vertex x="-1.27" y="0"/>
+<vertex x="-1.905" y="-1.5875"/>
+<vertex x="-2.69875" y="-1.5875"/>
+</polygon>
+<polygon width="0.4064" layer="31">
+<vertex x="1.27" y="0"/>
+<vertex x="1.905" y="1.5875"/>
+<vertex x="2.69875" y="1.5875"/>
+<vertex x="2.69875" y="-1.5875"/>
+<vertex x="1.905" y="-1.5875"/>
 </polygon>
 </package>
 </packages>
@@ -2453,7 +2463,7 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="1206@1">
+<device name="1206" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2498,7 +2508,7 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_0402" package="_0402@1">
+<device name="_0402" package="_0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2516,7 +2526,7 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_0603" package="_0603@1">
+<device name="_0603" package="_0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2534,7 +2544,7 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_0805" package="_0805@1">
+<device name="_0805" package="_0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2707,6 +2717,24 @@ High volt MLC; no solder stop between for higher isolation</description>
 </technologies>
 </device>
 <device name="CAP_HV_1808" package="C1808">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-C1812" package="C1812K">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -16325,6 +16353,62 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="BOM-exclusive">
+<packages>
+</packages>
+<symbols>
+<symbol name="HEX-SPACER">
+<description>hex spacer</description>
+<text x="-2.54" y="-4.064" size="1.27" layer="95">&gt;NAME</text>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="-1.27" y1="-0.762" x2="-0.762" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="-0.762" y1="-0.762" x2="0.762" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="0.762" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="1.27" y1="-0.762" x2="1.27" y2="2.54" width="0.254" layer="97"/>
+<wire x1="1.27" y1="2.54" x2="0.762" y2="2.54" width="0.254" layer="97"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="97"/>
+<wire x1="-0.762" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="97"/>
+<wire x1="-0.508" y1="-0.762" x2="-0.508" y2="-1.524" width="0.254" layer="97"/>
+<wire x1="-0.508" y1="-1.524" x2="-0.508" y2="-2.032" width="0.254" layer="97"/>
+<wire x1="-0.508" y1="-2.032" x2="-0.508" y2="-2.286" width="0.254" layer="97"/>
+<wire x1="-0.508" y1="-2.286" x2="0.508" y2="-2.286" width="0.254" layer="97"/>
+<wire x1="0.508" y1="-2.286" x2="0.508" y2="-1.778" width="0.254" layer="97"/>
+<wire x1="0.508" y1="-1.778" x2="0.508" y2="-1.27" width="0.254" layer="97"/>
+<wire x1="0.508" y1="-1.27" x2="0.508" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="-0.762" width="0.254" layer="97"/>
+<wire x1="0.508" y1="-1.27" x2="-0.508" y2="-1.524" width="0.254" layer="97"/>
+<wire x1="0.508" y1="-1.778" x2="-0.508" y2="-2.032" width="0.254" layer="97"/>
+<text x="4.064" y="-2.54" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HEX-SPACER" prefix="M" uservalue="yes">
+<description>hex spacer</description>
+<gates>
+<gate name="G$1" symbol="HEX-SPACER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="CLASS" value="MECHANICAL" constant="no"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" constant="no"/>
+<attribute name="LINK" value="UNKNOWN LINK" constant="no"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" constant="no"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" constant="no"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" constant="no"/>
+<attribute name="SCHEM_BOM_ITEM" value="TRUE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" constant="no"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="VERSION" value="v1"/>
@@ -16346,14 +16430,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <parts>
 <part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="8 (6 + 2) Position Card Connector SIM Card Surface Mount, Right Angle Gold"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AE900/670-2337-1-ND/1284033"/>
+<attribute name="DESCRIPTION" value="CONN SIM CARD HINGED TYPE R/A"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-1-ND"/>
 <attribute name="MANUFACTURER" value="JAE Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AE900"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AR900"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="670-2337-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="670-2985-1-ND"/>
 </part>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
 <attribute name="CLASS" value="LED"/>
@@ -16379,8 +16463,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R3" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
+<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5%% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16390,8 +16474,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R2" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
+<attribute name="DESCRIPTION" value="RES SMD 47 OHM 5%% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16401,8 +16485,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="U2" library="ldo" deviceset="LDO_SHD_ADJ" device="MCP1827T-ADJE/ET" value="MCP1827T-ADJE/ET">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 3A D2PAK"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222"/>
+<attribute name="DESCRIPTION" value="IC REG LINEAR 3.3V 3A D2PAK"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222"/>
 <attribute name="MANUFACTURER" value="STMicroelectronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="LD1085D2T33R"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16412,42 +16496,42 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="C12" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="10µF 16V Ceramic Capacitor X5R 0805 (2012 Metric) 0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOQNNNG"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GRM21BR61C106KE15K/490-6473-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-6455-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-6473-1-ND"/>
 </part>
 <part name="C16" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="10µF 16V Ceramic Capacitor X5R 0805 (2012 Metric) 0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOQNNNG"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GRM21BR61C106KE15K/490-6473-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-6455-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-6473-1-ND"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="K1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108106102" device="">
-<attribute name="CLASS" value="RELAY"/>
-<attribute name="DESCRIPTION" value="Power Barrel Connector Jack 2.50mm ID (0.098&quot;), 5.50mm OD (0.217&quot;) Surface Mount, Right Angle"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628"/>
-<attribute name="MANUFACTURER" value="Wurth Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="694108106102"/>
+<part name="K1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108106102" device="" value="PJ-002BH-SMT-TR">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJCT-ND"/>
+<attribute name="MANUFACTURER" value="CUI Devices"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="CP-002BHPJCT-ND"/>
 </part>
 <part name="C11" library="rcl" deviceset="CPOL-EU" device="UD-8X10" value="470u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="470µF 6.3V Aluminum Capacitors Radial, Can - SMD  2000 Hrs @ 85°C"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720"/>
+<attribute name="DESCRIPTION" value="CAP ALUM 470UF 20%% 6.3V SMD"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720"/>
 <attribute name="MANUFACTURER" value="Nichicon"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UUR0J471MNL1GS"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16469,7 +16553,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C8" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16481,7 +16565,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C9" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 10PF 50V NP0 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/C0603C100J5GACTU/399-1049-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/C0603C100J5GACTU/399-1049-1-ND"/>
 <attribute name="MANUFACTURER" value="Kemet"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16492,7 +16576,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C7" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16502,9 +16586,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="C6" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
@@ -16514,7 +16598,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C3" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16525,7 +16609,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C2" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16536,7 +16620,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C4" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16550,7 +16634,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C1" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16572,8 +16656,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R6" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5%% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16584,9 +16668,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
@@ -16595,9 +16679,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="C10" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="100µF 6.3V Ceramic Capacitor X5R 1206 (3216 Metric) 0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
@@ -16607,7 +16691,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="X2" library="laforge" deviceset="SMA-F" device="-S-TH">
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16616,9 +16700,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SOURCEPARTNUMBER" value="A97594-ND"/>
 </part>
 <part name="X3" library="laforge" deviceset="HRS_UFL" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="CONN UMC RCPT STR 50 OHM SMD"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN U.FL RCPT STR 50 OHM SMD"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010"/>
 <attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="U.FL-R-SMT(01)"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16641,14 +16725,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R16" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="D1" library="laforge" deviceset="PESD5V0UBV" device="">
 <attribute name="CLASS" value="DIODE"/>
@@ -16696,51 +16780,51 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="SMBJP6KE6.8A-TPMSCT-ND"/>
 </part>
-<part name="D2" library="diodes-sysmocom" deviceset="DIODE-SCHOTTKY" device="-SMB" value="SD2114S040S5R0">
+<part name="D2" library="diodes-sysmocom" deviceset="DIODE-SCHOTTKY" device="-SMB" value="ACDBB540-HF">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A SMB"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/SD2114S040S5R0/478-7816-1-ND"/>
-<attribute name="MANUFACTURER" value="AVX Corporation"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SD2114S040S5R0"/>
+<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A DO214AA"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/comchip-technology/ACDBB540-HF/641-1898-2-ND"/>
+<attribute name="MANUFACTURER" value="Comchip Technology"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="ACDBB540-HF"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="478-7816-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="641-1898-2-ND"/>
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="FH12A-40S-0.5SH(55)" deviceset="FH12A-40S-0.5SH(55)" device="">
-<attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN FFC TOP 40POS 0.50MM R/A"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/hirose-electric-co-ltd/FH12A-40S-0-5SH-55/HFK140CT-ND/"/>
+<attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="FH12A-40S-0.5SH(55)"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="HFK140CT-ND"/>
 </part>
 <part name="D4" library="diodes-sysmocom" deviceset="TVSDIODE-BIDI" device="-0402" value="GG040205170N2P">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="TVS DIODE 5V 10V 0402"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/GG040205170N2P/478-10595-1-ND/"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 5V 15.5V 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/GG0402050R3C2P/478-10591-1-ND"/>
 <attribute name="MANUFACTURER" value="AVX Corporation"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GG040205170N2P"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="478-10595-1-ND"/>
-</part>
-<part name="B1" library="microbuilder" deviceset="SWITCH_TACT_SMT" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GG0402050R3C2P"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="478-10591-1-ND"/>
+</part>
+<part name="B1" library="microbuilder" deviceset="SWITCH_TACT_SMT" device="">
+<attribute name="CLASS" value="TACT SWITCH"/>
+<attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/EVQ-Q2M03W/P12946SCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="EVQ-Q2M03W"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="P12946SCT-ND"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
@@ -16749,13 +16833,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0715KL/311-15.0KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0715KL"/>
-<attribute name="POPULATED" value="TRUE"/>
+<attribute name="POPULATED" value="FALSE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-15.0KHRCT-ND"/>
 </part>
 <part name="T3" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
@@ -16768,8 +16852,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="R19" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5%% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16779,30 +16863,30 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R17" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="R18" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="U4" library="usb-uart" deviceset="CP2105-GM" device="">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="USB Bridge, USB to UART USB 2.0 UART Interface 24-QFN (4x4)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/silicon-labs/CP2105-F01-GM/336-2009-5-ND/2486179"/>
+<attribute name="DESCRIPTION" value="IC SGL USB-DL UART BRIDGE 24QFN"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/silicon-labs/CP2105-F01-GM/336-2009-5-ND/2486179"/>
 <attribute name="MANUFACTURER" value="Silicon Labs"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CP2105-F01-GM"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16812,8 +16896,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="X4" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="USB - mini B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle, Horizontal"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538"/>
+<attribute name="DESCRIPTION" value="CONN RCPT USB2.0 MINI B SMD R/A"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538"/>
 <attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UX60-MB-5ST"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16823,21 +16907,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="U5" library="laforge" deviceset="IP4234CZ6" device="">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="TVS DIODE 5.5VWM 6TSOP"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/nxp-semiconductors/IP4234CZ6,125/568-5869-1-ND/2531156"/>
-<attribute name="MANUFACTURER" value="NXP Semiconductors"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 5.5V 6TSOP"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/nxp-semiconductors/IP4234CZ6,125/568-5869-1-ND/2531156"/>
+<attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="IP4234CZ6,125"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="568-5869-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-4717-1-ND"/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="C21" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="0.10µF 16V Ceramic Capacitor X5R 0201 (0603 Metric) 0.024&quot; L x 0.012&quot; W (0.60mm x 0.30mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
@@ -16847,9 +16931,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="0.10µF 16V Ceramic Capacitor X5R 0201 (0603 Metric) 0.024&quot; L x 0.012&quot; W (0.60mm x 0.30mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
@@ -16858,33 +16942,33 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="C23" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="4.7u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="4.7µF 10V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A475KP8NNNC/1276-1044-1-ND/3889130"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10A475KP8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10A475MP8NNNC/1276-1905-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10A475MP8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1044-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1905-1-ND"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="C20" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="1µF 16V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C105KA93J/490-6412-1-ND/3845609"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM188R61C105KA93J"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 16V X5R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10A105KO8NNNC/1276-1034-1-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10A105KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-6412-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1034-1-ND"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="C24" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="0.10µF 16V Ceramic Capacitor X5R 0201 (0603 Metric) 0.024&quot; L x 0.012&quot; W (0.60mm x 0.30mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
@@ -16893,19 +16977,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R26" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1M">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 1M OHM 5% 1/20W 0201"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC0603J105CS/1276-3856-1-ND/3966828"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603J105CS"/>
+<attribute name="DESCRIPTION" value="RES SMD 1M OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-071ML/311-1-00MHRCT-ND/729791"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-071ML"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-3856-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1.00MHRCT-ND"/>
 </part>
 <part name="R25" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5%% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16915,14 +16999,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="C19" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="4.7u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="4.7µF 10V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A475KP8NNNC/1276-1044-1-ND/3889130"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10A475KP8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10A475MP8NNNC/1276-1905-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10A475MP8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1044-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1905-1-ND"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
@@ -16930,7 +17014,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C28" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16941,7 +17025,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C33" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16952,7 +17036,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C34" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -16973,15 +17057,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="B2" library="microbuilder" deviceset="SWITCH_TACT_SMT" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="CLASS" value="TACT SWITCH"/>
+<attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/EVQ-Q2M03W/P12946SCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="EVQ-Q2M03W"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="P12946SCT-ND"/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R22" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
@@ -16990,7 +17074,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0715KL/311-15.0KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0715KL"/>
-<attribute name="POPULATED" value="TRUE"/>
+<attribute name="POPULATED" value="FALSE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-15.0KHRCT-ND"/>
@@ -17000,7 +17084,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C25" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17012,19 +17096,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C32" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="10µF 16V Ceramic Capacitor X5R 0805 (2012 Metric) 0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOQNNNG"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GRM21BR61C106KE15K/490-6473-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-6455-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-6473-1-ND"/>
 </part>
 <part name="C29" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17035,20 +17119,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="C31" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="10u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="10µF 16V Ceramic Capacitor X5R 0805 (2012 Metric) 0.079&quot; L x 0.049&quot; W (2.00mm x 1.25mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21A106KOQNNNG/1276-6455-1-ND/5958083"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOQNNNG"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GRM21BR61C106KE15K/490-6473-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-6455-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-6473-1-ND"/>
 </part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="C30" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17058,20 +17142,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="U3" library="ldo" deviceset="LDO_FIXED_EN" device="-MIC5365-YC5" value="MIC5366">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="IC REG LINEAR 2.8V 150MA SC70-5"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/MIC5366-2-8YC5-TR/576-3209-1-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MIC5366-2.8YC5-TR"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="576-3209-1-ND"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5%% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17081,37 +17165,37 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R5" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT47K0/RMCF0603FT47K0CT-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 47K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0747KL/311-47-0KHRCT-ND/730200"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0747KL"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="311-47.0KHRCT-ND"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="1µF 16V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C105KA93J/490-6412-1-ND/3845609"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM188R61C105KA93J"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 16V X5R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10A105KO8NNNC/1276-1034-1-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10A105KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-6412-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1034-1-ND"/>
 </part>
 <part name="C15" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="1µF 16V Ceramic Capacitor X5R 0603 (1608 Metric) 0.063&quot; L x 0.031&quot; W (1.60mm x 0.80mm)"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C105KA93J/490-6412-1-ND/3845609"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM188R61C105KA93J"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 16V X5R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10A105KO8NNNC/1276-1034-1-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10A105KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-6412-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1034-1-ND"/>
 </part>
 <part name="TP1" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
@@ -17127,7 +17211,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C18" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17137,17 +17221,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R23" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5%% 1/16W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/susumu/RR0816P-102-D/RR08P1-0KDCT-ND/432724"/>
+<attribute name="MANUFACTURER" value="Susumu"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="RR08P1.0KDCT-ND"/>
 </part>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
@@ -17159,28 +17243,28 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R7" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="R20" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="T4" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
@@ -17192,41 +17276,41 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R9" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="R21" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="R13" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5%% 1/16W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/susumu/RR0816P-102-D/RR08P1-0KDCT-ND/432724"/>
+<attribute name="MANUFACTURER" value="Susumu"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="RR08P1.0KDCT-ND"/>
 </part>
 <part name="C13" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17247,19 +17331,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R27" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/AC0402JR-070RL/311-0.0LBCT-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0402ZT0R00/RMCF0402ZT0R00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0402ZT0R00CT-ND"/>
 </part>
 <part name="C26" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17270,7 +17354,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C27" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17279,7 +17363,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SOURCEPARTNUMBER" value="1276-1272-1-ND"/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="laforge" deviceset="PINHD-1X3" device="PTH"/>
+<part name="X1" library="laforge" deviceset="PINHD-1X3" device="PTH">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="TP2" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
@@ -17325,9 +17419,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="J1" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device=""/>
+<part name="J1" library="SparkFun-Connectors" deviceset="AUDIO-JACK3" device="">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="AUDIO JACK, 3.5 MM, RT, 4 CONDUC"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-devices/SJ2-3574A-SMT-TR/CP-SJ2-3574A-SMT-CT-ND"/>
+<attribute name="MANUFACTURER" value="CUI Devices"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SJ2-3574A-SMT-TR"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="CP-SJ2-3574A-SMT-CT-ND"/>
+</part>
 <part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
@@ -17339,30 +17443,30 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="R10" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="R8" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="22k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 22K OHM 1/10W 1% 0603 SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/MCR03ERTF2202/RHM22.0KCFCT-ND/2796472"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF2202"/>
+<attribute name="DESCRIPTION" value="RES SMD 22K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0722KL/311-22-0KHRCT-ND/730003"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM22.0KCFCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-22.0KHRCT-ND"/>
 </part>
 <part name="R11" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5%% 1/10W 0603"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
 <attribute name="POPULATED" value="TRUE"/>
@@ -17373,26 +17477,26 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R14" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/AC0402JR-070RL/311-0.0LBCT-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0402ZT0R00/RMCF0402ZT0R00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0402ZT0R00CT-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R24" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/AC0402JR-070RL/311-0.0LBCT-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0402ZT0R00/RMCF0402ZT0R00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0402ZT0R00CT-ND"/>
 </part>
 <part name="JP1" library="jumper" deviceset="JP2E" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
@@ -17406,6 +17510,38 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="M1" library="BOM-exclusive" deviceset="HEX-SPACER" device="">
+<attribute name="DESCRIPTION" value="RND STANDOFF M2X0.4 STEEL 3.5MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/w%C3%BCrth-elektronik/9774035243R/732-7088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="9774035243R"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="732-7088-1-ND"/>
+</part>
+<part name="M2" library="BOM-exclusive" deviceset="HEX-SPACER" device="">
+<attribute name="DESCRIPTION" value="RND STANDOFF M2X0.4 STEEL 3.5MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/w%C3%BCrth-elektronik/9774035243R/732-7088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="9774035243R"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="732-7088-1-ND"/>
+</part>
+<part name="M3" library="BOM-exclusive" deviceset="HEX-SPACER" device="">
+<attribute name="DESCRIPTION" value="RND STANDOFF M2X0.4 STEEL 3.5MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/w%C3%BCrth-elektronik/9774035243R/732-7088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="9774035243R"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="732-7088-1-ND"/>
+</part>
+<part name="M4" library="BOM-exclusive" deviceset="HEX-SPACER" device="">
+<attribute name="DESCRIPTION" value="RND STANDOFF M2X0.4 STEEL 3.5MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/w%C3%BCrth-elektronik/9774035243R/732-7088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="9774035243R"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="732-7088-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17505,6 +17641,8 @@ DTR</text>
 <attribute name="LINK" x="281.94" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="251.46" y="213.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="250.19" y="216.408" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="253.746" y="216.154" size="1.27" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="251.46" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="251.46" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="251.46" y="213.36" size="1.778" layer="96" display="off"/>
@@ -17514,8 +17652,6 @@ DTR</text>
 <attribute name="POPULATED" x="251.46" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="251.46" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="251.46" y="213.36" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="250.19" y="216.408" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="253.746" y="216.154" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C16" gate="G$1" x="307.34" y="213.36" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="307.34" y="213.36" size="1.778" layer="96" display="off"/>
@@ -17532,6 +17668,8 @@ DTR</text>
 </instance>
 <instance part="GND17" gate="1" x="281.94" y="198.12"/>
 <instance part="K1" gate="G$1" x="195.58" y="231.14" smashed="yes">
+<attribute name="NAME" x="185.42" y="233.68" size="1.778" layer="95"/>
+<attribute name="VALUE" x="195.58" y="223.52" size="1.778" layer="96" rot="R180"/>
 <attribute name="DESCRIPTION" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
@@ -17541,8 +17679,6 @@ DTR</text>
 <attribute name="POPULATED" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="185.42" y="233.68" size="1.778" layer="95"/>
-<attribute name="VALUE" x="195.58" y="223.52" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C11" gate="G$1" x="241.3" y="215.9" smashed="yes">
 <attribute name="DESCRIPTION" x="241.3" y="215.9" size="1.778" layer="96" display="off"/>
@@ -17611,17 +17747,17 @@ DTR</text>
 <attribute name="VALUE" x="212.344" y="169.926" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C6" gate="G$1" x="208.28" y="167.64" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="208.28" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="207.264" y="163.322" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="207.264" y="170.434" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="81.28" y="180.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.01" y="173.736" size="1.27" layer="95" rot="R90"/>
@@ -17705,7 +17841,6 @@ DTR</text>
 </instance>
 <instance part="GND12" gate="1" x="190.5" y="55.88"/>
 <instance part="C5" gate="G$1" x="203.2" y="167.64" smashed="yes" rot="R90">
-<attribute name="LINK" x="203.2" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="202.184" y="163.322" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="202.184" y="170.434" size="1.27" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
@@ -17716,6 +17851,7 @@ DTR</text>
 <attribute name="ROHSCERTIFICATE" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="231.14" y="167.64" smashed="yes" rot="R90">
 <attribute name="LINK" x="231.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
@@ -17831,8 +17967,6 @@ DTR</text>
 <attribute name="LINK" x="228.6" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="223.52" y="223.52" smashed="yes">
-<attribute name="NAME" x="222.25" y="228.727" size="1.778" layer="95"/>
-<attribute name="VALUE" x="222.504" y="225.933" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
@@ -17842,6 +17976,8 @@ DTR</text>
 <attribute name="POPULATED" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="222.758" y="227.584" size="1.27" layer="95"/>
+<attribute name="VALUE" x="222.758" y="225.552" size="1.27" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="106.68" y="99.06" rot="R90"/>
 <instance part="GND3" gate="1" x="50.8" y="99.06" rot="R270"/>
@@ -17860,15 +17996,15 @@ DTR</text>
 </instance>
 <instance part="D4" gate="D$1" x="358.14" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="354.838" y="162.56" size="1.27" layer="95" rot="R90"/>
-<attribute name="DESCRIPTION" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="358.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="B1" gate="G$1" x="251.46" y="25.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="251.46" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
@@ -18009,15 +18145,15 @@ DTR</text>
 <instance part="R5" gate="G$1" x="154.94" y="177.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="152.654" y="175.26" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="158.369" y="175.26" size="1.27" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="154.94" y="177.8" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="154.94" y="167.64"/>
 <instance part="C14" gate="G$1" x="266.7" y="167.64" rot="R90">
@@ -18082,17 +18218,17 @@ DTR</text>
 <attribute name="VALUE" x="241.3" y="38.1" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R7" gate="G$1" x="228.6" y="33.02" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="SOURCE" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="POPULATED" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="CLASS" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
-<attribute name="LINK" x="228.6" y="33.02" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="228.6" y="35.814" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="228.6" y="31.369" size="1.27" layer="96" rot="MR180"/>
+<attribute name="DESCRIPTION" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="228.6" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="330.2" y="99.06" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" x="330.2" y="99.06" size="1.27" layer="96" rot="MR270" display="off"/>
@@ -18175,6 +18311,15 @@ DTR</text>
 <instance part="X1" gate="G$1" x="144.78" y="101.6" smashed="yes" rot="R180">
 <attribute name="VALUE" x="147.32" y="109.22" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="142.24" y="109.982" size="1.778" layer="95"/>
+<attribute name="DESCRIPTION" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="144.78" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="134.62" y="96.52"/>
 <instance part="TP2" gate="G$1" x="43.18" y="68.58" smashed="yes">
@@ -18283,15 +18428,15 @@ DTR</text>
 </instance>
 <instance part="GND15" gate="1" x="251.46" y="76.2"/>
 <instance part="R14" gate="G$1" x="259.08" y="99.06">
-<attribute name="DESCRIPTION" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="SOURCE" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="POPULATED" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="CLASS" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
-<attribute name="LINK" x="259.08" y="99.06" size="1.27" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="259.08" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="33.02" y="68.58"/>
 <instance part="JP1" gate="1" x="215.9" y="223.52" rot="R90">
@@ -18306,6 +18451,10 @@ DTR</text>
 <attribute name="LINK" x="215.9" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="198.12" y="198.12"/>
+<instance part="M1" gate="G$1" x="116.84" y="15.24"/>
+<instance part="M2" gate="G$1" x="121.92" y="15.24"/>
+<instance part="M3" gate="G$1" x="127" y="15.24"/>
+<instance part="M4" gate="G$1" x="132.08" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -19556,7 +19705,17 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="264.16" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="269.24" y="116.84" rot="R90"/>
-<instance part="J1" gate="G$1" x="330.2" y="127" rot="MR0"/>
+<instance part="J1" gate="G$1" x="330.2" y="127" rot="MR0">
+<attribute name="DESCRIPTION" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="330.2" y="127" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R24" gate="G$1" x="27.94" y="134.62">
 <attribute name="DESCRIPTION" x="27.94" y="134.62" size="1.27" layer="96" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" x="27.94" y="134.62" size="1.27" layer="96" rot="R270" display="off"/>

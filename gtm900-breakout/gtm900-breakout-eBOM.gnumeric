@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2020-06-01T15:40:40Z</dc:date>
+      <dc:date>2020-06-04T15:10:01Z</dc:date>
       <meta:creation-date>2020-05-27T15:08:34Z</meta:creation-date>
     </office:meta>
   </office:document-meta>
@@ -130,7 +130,17 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="31" endCol="5" endRow="47">
+        <gnm:StyleRegion startCol="0" startRow="31" endCol="5" endRow="43">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="44" endCol="5" endRow="44">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="45" endCol="5" endRow="47">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -347,7 +357,7 @@
         <gnm:StyleRegion startCol="6" startRow="44" endCol="6" endRow="44">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="1" StrikeThrough="0" Script="0">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="http://www.digikey.de/product-detail/de/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="https://www.digikey.de/product-detail/de/microchip-technology/MCP1827T-ADJE-ET/MCP1827T-ADJE-ETCT-ND/8538072" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="45" endCol="6" endRow="45">
@@ -388,7 +398,17 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="7" startRow="31" endCol="255" endRow="47">
+        <gnm:StyleRegion startCol="7" startRow="31" endCol="255" endRow="43">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="7" startRow="44" endCol="255" endRow="44">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="7" startRow="45" endCol="255" endRow="47">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -407,8 +427,8 @@
         <gnm:ColInfo No="9" Unit="58"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="12.75"/>
-      <gnm:Selections CursorCol="6" CursorRow="42">
-        <gnm:Selection startCol="6" startRow="42" endCol="6" endRow="42"/>
+      <gnm:Selections CursorCol="3" CursorRow="45">
+        <gnm:Selection startCol="3" startRow="45" endCol="3" endRow="45"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">GTM900-breakout.sch</gnm:Cell>
@@ -880,12 +900,12 @@
         <gnm:Cell Row="44" Col="0" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="44" Col="1" ValueType="60">U2</gnm:Cell>
         <gnm:Cell Row="44" Col="2" ValueType="60">MCP1827T-ADJE/ET</gnm:Cell>
-        <gnm:Cell Row="44" Col="3" ValueType="60">TI_KTT_DPAK2</gnm:Cell>
+        <gnm:Cell Row="44" Col="3" ValueType="60">5DDPAK</gnm:Cell>
         <gnm:Cell Row="44" Col="4" ValueType="60">IC</gnm:Cell>
         <gnm:Cell Row="44" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
-        <gnm:Cell Row="44" Col="6" ValueType="60">497-1222-1-ND</gnm:Cell>
-        <gnm:Cell Row="44" Col="7" ValueType="60">http://www.digikey.de/product-detail/de/stmicroelectronics/LD1085D2T33R/497-1222-1-ND/586222</gnm:Cell>
-        <gnm:Cell Row="44" Col="8" ValueType="60">IC REG LINEAR 3.3V 3A D2PAK</gnm:Cell>
+        <gnm:Cell Row="44" Col="6" ValueType="60">MCP1827T-ADJE/ETCT-ND</gnm:Cell>
+        <gnm:Cell Row="44" Col="7" ValueType="60">https://www.digikey.de/product-detail/de/microchip-technology/MCP1827T-ADJE-ET/MCP1827T-ADJE-ETCT-ND/8538072</gnm:Cell>
+        <gnm:Cell Row="44" Col="8" ValueType="60">IC REG LIN POS ADJ 1.5A 5DDPAK</gnm:Cell>
         <gnm:Cell Row="44" Col="9" ValueType="60">TRUE</gnm:Cell>
         <gnm:Cell Row="44" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="45" Col="0" ValueType="40">1</gnm:Cell>

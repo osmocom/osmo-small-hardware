@@ -14361,14 +14361,12 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="M1" library="BOM-exclusive" deviceset="SHIELD-COVER" device="" value="SFP_CAGE">
-<attribute name="CLASS" value="SHIELD COVER"/>
 <attribute name="DESCRIPTION" value="CONN SFP CAGE SLD R/A"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/amphenol-icc-commercial-products/U77-A1114-100T/U77-A1114-100TCT-ND"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/amphenol-icc-commercial-products/U77-A1114-30L1/U77-A1114-30L1-ND"/>
 <attribute name="MANUFACTURER" value="Amphenol ICC (Commercial Products)"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="U77-A1114-100T"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="U77-A1114-30L1"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="U77-A1114-100TCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="U77-A1114-30L1-ND"/>
 </part>
 </parts>
 <sheets>
@@ -14379,7 +14377,7 @@ sysmocom GmbH
 
 License: CC-BY-SA</text>
 <text x="119.38" y="96.52" size="3.81" layer="97">3,3 V LDO</text>
-<text x="116.84" y="15.24" size="1.778" layer="97">cage: U77-A1114-100T</text>
+<text x="116.84" y="15.24" size="1.778" layer="97">cage: U77-A1114-30L1</text>
 <text x="116.84" y="12.446" size="1.778" layer="97">conn: UE75-A20-6000T</text>
 <text x="248.92" y="22.86" size="2.54" layer="97">&gt;VERSION</text>
 </plain>

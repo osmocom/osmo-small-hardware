@@ -30,7 +30,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -2213,15 +2213,15 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <element name="L2" library="sfp-experimenter" package="0603" value="1nH" x="40.3225" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.2675" y="42.81" size="1.2" layer="25" ratio="16"/>
 <attribute name="VALUE" x="41.8225" y="45.18" size="1.27" layer="27" rot="R180"/>
-<attribute name="DESCRIPTION" value="FIXED IND 1NH 800MA 50 MOHM SMD" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CIH10T1N0SNC" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="FIXED IND 1NH 500MA 50 MOHM SMD" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Abracon LLC" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-6301-1-ND" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="INDUCTOR" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND" x="40.3225" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="sfp-experimenter" package="_0603" value="100n" x="43.18" y="23.8125" smashed="yes">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="43.18" y="23.8125" size="1.778" layer="27" display="off"/>
@@ -2239,15 +2239,15 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <element name="L1" library="sfp-experimenter" package="0603" value="1nH" x="43.33875" y="19.3675" smashed="yes">
 <attribute name="NAME" x="46.60125" y="18.9975" size="1.2" layer="25" ratio="16"/>
 <attribute name="VALUE" x="41.83875" y="17.3675" size="1.27" layer="27"/>
-<attribute name="DESCRIPTION" value="FIXED IND 1NH 800MA 50 MOHM SMD" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CIH10T1N0SNC" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="FIXED IND 1NH 500MA 50 MOHM SMD" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Abracon LLC" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-6301-1-ND" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="INDUCTOR" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND" x="43.33875" y="19.3675" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="sfp-experimenter" package="_0603" value="100n" x="40.3225" y="45.085" smashed="yes" rot="R180">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="40.3225" y="45.085" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2304,64 +2304,64 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <element name="C6" library="rcl" package="CT6032" value="100u" x="44.2125" y="52.705" smashed="yes">
 <attribute name="NAME" x="46.91" y="48.26" size="1.2" layer="25" ratio="16"/>
 <attribute name="VALUE" x="41.6725" y="49.53" size="1.27" layer="27"/>
-<attribute name="DESCRIPTION" value="CAP TANT 100UF 10%% 6.3V 2312" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="AVX Corporation" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="TPSC107K006R0150" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAP TANT POLY 100UF 6.3V 2312" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="KEMET" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="T520C107M006ATE045" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="478-1764-1-ND" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="399-4658-1-ND" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/TPSC107K006R0150/478-1764-1-ND" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/kemet/T520C107M006ATE045/399-4658-1-ND/992091" x="44.2125" y="52.705" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="sfp-experimenter" package="694108106102" value="694108106102" x="16.1925" y="66.12" smashed="yes" rot="R270">
-<attribute name="MANUFACTURERPARTNUMBER" value="694108106102" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/694108106102/732-5933-1-ND" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Wurth Electronics Inc." x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="38.4175" y="83.5825" size="1" layer="27" ratio="19" rot="R270" display="off"/>
+<element name="J1" library="sfp-experimenter" package="694108106102" value="PJ-002BH-SMT-TR" x="16.1925" y="66.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.554640625" y="50.6581" size="1.2" layer="25" font="vector" ratio="16" rot="SR0"/>
 <attribute name="VALUE" x="6.0791" y="65.420359375" size="2.032" layer="27" font="vector" ratio="13" rot="SR270"/>
+<attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI Devices" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="CP-002BHPJCT-ND" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CONNECTOR\JUMPER" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJCT-ND" x="16.1925" y="66.12" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="sfp-experimenter" package="_0603" value="10k" x="36.195" y="20.955" smashed="yes" rot="R90">
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc." x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="36.195" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="NAME" x="37.465" y="19.685" size="1.2" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="37.6873" y="19.3675" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R2" library="sfp-experimenter" package="_0603" value="10k" x="33.655" y="20.955" smashed="yes" rot="R90">
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc." x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="33.655" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="NAME" x="35.56" y="22.5425" size="1.2" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="35.1473" y="19.3675" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R3" library="sfp-experimenter" package="_0603" value="10k" x="31.115" y="20.955" smashed="yes" rot="R90">
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc." x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="31.115" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="NAME" x="27.94" y="19.685" size="1.2" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="32.6073" y="19.3675" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
@@ -2380,27 +2380,27 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="UNKNOWN LINK" x="28.575" y="16.51" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="sfp-experimenter" package="_0603" value="10k" x="18.415" y="20.955" smashed="yes" rot="R90">
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc." x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="18.415" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="NAME" x="14.9225" y="20.955" size="1.2" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="19.9073" y="19.3675" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R5" library="sfp-experimenter" package="_0603" value="10k" x="26.035" y="20.955" smashed="yes" rot="R90">
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc." x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="26.035" y="20.955" size="1" layer="27" ratio="19" rot="R90" display="off"/>
 <attribute name="NAME" x="22.86" y="19.685" size="1.2" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="27.5273" y="19.3675" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
@@ -2627,30 +2627,30 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="VALUE" x="5.08" y="24.13" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="rc-sysmocom" package="_0603" value="10k" x="6.35" y="21.2725" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1/10W 1% 0603 SMD" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM10.0KCFCT-ND" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF1002" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/RHM10.0KCFCT-ND" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="13.0175" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="NAME" x="6.0325" y="23.495" size="1.2" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="4.8577" y="22.86" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827" x="6.35" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R9" library="rc-sysmocom" package="_0603" value="330" x="3.175" y="16.51" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 330 OHM 1/10W 1% 0603 SMD" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM330CFCT-ND" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF3300" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/RHM330CFCT-ND" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="5.3975" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="NAME" x="0.9525" y="17.93875" size="1.2" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="1.6827" y="18.0975" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5%% 1/10W 0603" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEYJ331V" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="P330GCT-ND" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND" x="3.175" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED1" library="led" package="CHIP-LED0603" value="KPH-1608SGC" x="5.715" y="16.51" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="10.795" y="18.415" size="1.2" layer="27" ratio="16" rot="R180" display="off"/>
@@ -2679,30 +2679,30 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="VALUE" x="12.3825" y="24.13" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R7" library="rc-sysmocom" package="_0603" value="10k" x="13.335" y="21.2725" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1/10W 1% 0603 SMD" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM10.0KCFCT-ND" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF1002" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/RHM10.0KCFCT-ND" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="20.0025" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="NAME" x="14.2875" y="23.495" size="1.2" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="11.8427" y="22.86" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827" x="13.335" y="21.2725" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R10" library="rc-sysmocom" package="_0603" value="330" x="10.4775" y="16.51" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 330 OHM 1/10W 1% 0603 SMD" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM330CFCT-ND" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF3300" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/RHM330CFCT-ND" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="12.7" y="21.2725" size="1.2" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="NAME" x="8.41375" y="18.25625" size="1.2" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="8.9852" y="18.0975" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5%% 1/10W 0603" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEYJ331V" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="P330GCT-ND" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND" x="10.4775" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED2" library="led" package="CHIP-LED0603" value="KPH-1608SGC" x="13.0175" y="16.51" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="18.0975" y="18.415" size="1.2" layer="27" ratio="16" rot="R180" display="off"/>
@@ -2731,17 +2731,17 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="VALUE" x="27.305" y="19.685" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R12" library="rc-sysmocom" package="_0603" value="100k" x="50.8" y="22.5425" smashed="yes" rot="R270">
-<attribute name="POPULATED" value="TRUE" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MCR03ERTF1003" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/RHM100KCFCT-ND" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RHM100KCFCT-ND" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 100K OHM 1/10W 1% 0603 SMD" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="50.8" y="22.5425" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="50.165" y="20.955" size="1.2" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="49.3077" y="24.13" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="KOA Speer Electronics, Inc." x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RK73H1JTTD1003F" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="2019-RK73H1JTTD1003FCT-ND" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/koa-speer-electronics-inc/RK73H1JTTD1003F/2019-RK73H1JTTD1003FCT-ND" x="50.8" y="22.5425" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="sfp-experimenter" package="_0603" value="DNP" x="50.8" y="28.2575" smashed="yes" rot="R270">
 <attribute name="POPULATED" value="FALSE" x="50.8" y="28.2575" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>

@@ -7473,14 +7473,14 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 </part>
 <part name="C27" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V X5R 0402"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05A104MP5NNNC/1276-1443-1-ND/3889529"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05A104MP5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1443-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="C28" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="4.7u">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -7706,8 +7706,8 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <attribute name="SOURCEPARTNUMBER" value="283-4156-1-ND"/>
 </part>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC2" library="EEPROM-24C0x" deviceset="24C0*" device="TS" technology="0">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<part name="IC2" library="EEPROM-24C0x" deviceset="24C0*" device="TS" technology="0" value="AT24C02C">
+<attribute name="CLASS" value="IC"/>
 <attribute name="DESCRIPTION" value="IC EEPROM 2K I2C 1MHZ 8TSSOP"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/AT24C02C-XHM-T/AT24C02C-XHM-TCT-ND/3178369"/>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
@@ -7809,7 +7809,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <attribute name="SOURCEPARTNUMBER" value="475-2665-1-ND"/>
 </part>
 <part name="M1" library="Mentor_lightpipe" deviceset="MENTOR_12701001" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="LIGHT GUIDE"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
@@ -7942,7 +7942,7 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="littlefuse" deviceset="POLYFUSE" device="-1206L" value="200mA">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="POLYFUSE"/>
 <attribute name="DESCRIPTION" value="PTC RESET FUSE 30V 200MA 1206"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/0ZCJ0020FF2E/507-1797-1-ND/4156228/?itemSeq=282618602"/>
 <attribute name="MANUFACTURER" value="Bel Fuse Inc."/>
@@ -8109,59 +8109,62 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="C18" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="C17" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="C16" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="C15" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC1" library="burr-brown" deviceset="OPA237" device="N" value="TLV9001">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<part name="IC1" library="burr-brown" deviceset="OPA237" device="N" value="TLV9001IDBVR">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="IC CMOS 1 CIRCUIT SOT23-5"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/texas-instruments/TLV9001IDBVR/296-TLV9001IDBVRCT-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TLV9001IDBVR"/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value=""/>
+<attribute name="OC_NEWARK" value=""/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="296-TLV9001IDBVRCT-ND"/>
 </part>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8179,18 +8182,18 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C8" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
@@ -8224,14 +8227,14 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 </part>
 <part name="C10" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R10" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
@@ -8259,14 +8262,14 @@ Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
 </part>
 <part name="C22" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 10V X5R 0402"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05A104MP5NNNC/1276-1443-1-ND/3889529"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05A104MP5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GCM155R71C104KA55J/490-7998-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GCM155R71C104KA55J"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1443-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-7998-1-ND"/>
 </part>
 <part name="C25" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -9199,16 +9202,16 @@ OSHW / CC-BY-SA</text>
 <instance part="GND1" gate="1" x="261.62" y="170.18" rot="R90"/>
 <instance part="IC1" gate="G$1" x="154.94" y="48.26" smashed="yes">
 <attribute name="NAME" x="157.48" y="43.815" size="1.778" layer="95"/>
-<attribute name="VALUE" x="157.48" y="40.64" size="1.778" layer="96"/>
-<attribute name="DESCRIPTION" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCE" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="POPULATED" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="CLASS" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="LINK" x="154.94" y="48.26" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="VALUE" x="153.67" y="40.386" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="154.94" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY8" gate="VDD" x="152.4" y="60.96"/>
 <instance part="GND2" gate="1" x="152.4" y="33.02"/>
@@ -11795,7 +11798,6 @@ OSHW / CC-BY-SA</text>
 <approved hash="104,2,297.18,215.9,IC2,VCC,VDD,,,"/>
 <approved hash="104,1,152.4,55.88,IC1,V+,VDD,,,"/>
 <approved hash="104,1,152.4,40.64,IC1,V-,GND,,,"/>
-<approved hash="106,2,256.54,127,VDD_3V3,,,,,"/>
 <approved hash="113,1,330.977,200.66,CLK1,,,,,"/>
 <approved hash="113,1,330.977,182.88,CLK2,,,,,"/>
 <approved hash="113,1,330.977,165.1,CLK3,,,,,"/>

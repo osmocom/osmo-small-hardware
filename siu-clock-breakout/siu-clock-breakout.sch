@@ -4005,9 +4005,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="C1" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603"/>
-<part name="C2" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603"/>
-<part name="C3" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603"/>
+<part name="C1" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C2" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C3" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -4033,7 +4033,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="C5" library="rc-sysmocom" deviceset="CPOL-EU" device="-1206" value="10-100u / 6.3V"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN"/>
-<part name="R4" library="rc-sysmocom" deviceset="RESISTOR" device="_0603"/>
+<part name="R4" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="X2" library="laforge" deviceset="SMA-F" device="-S-TH"/>
@@ -4064,7 +4064,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND"/>
 </part>
-<part name="R10" library="rc-sysmocom" deviceset="RESISTOR" device="_0603"/>
+<part name="R10" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="R11" library="rc-sysmocom" deviceset="RESISTOR" device="_0603"/>

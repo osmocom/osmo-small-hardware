@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2019-02-12T19:10:11Z</dc:date>
+      <dc:date>2020-09-08T16:20:16Z</dc:date>
       <meta:creation-date>2019-02-12T19:08:38Z</meta:creation-date>
     </office:meta>
   </office:document-meta>
@@ -33,12 +33,12 @@
   <gnm:SheetNameIndex>
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">sfp-breakout.sch</gnm:SheetName>
   </gnm:SheetNameIndex>
-  <gnm:Geometry Width="1440" Height="732"/>
+  <gnm:Geometry Width="1366" Height="518"/>
   <gnm:Sheets>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>sfp-breakout.sch</gnm:Name>
       <gnm:MaxCol>10</gnm:MaxCol>
-      <gnm:MaxRow>20</gnm:MaxRow>
+      <gnm:MaxRow>19</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -105,8 +105,13 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="15" endCol="255" endRow="17">
+        <gnm:StyleRegion startCol="0" startRow="15" endCol="255" endRow="15">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="16" endCol="7" endRow="17">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
@@ -159,7 +164,7 @@
         <gnm:StyleRegion startCol="6" startRow="8" endCol="6" endRow="8">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:FFFF" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="1" StrikeThrough="0" Script="0">Sans</gnm:Font>
-            <gnm:HyperLink type="GnmHLinkURL" target="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
+            <gnm:HyperLink type="GnmHLinkURL" target="https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND" tip="Left click once to follow this link.&#10;Middle click once to select this cell"/>
           </gnm:Style>
         </gnm:StyleRegion>
         <gnm:StyleRegion startCol="6" startRow="10" endCol="6" endRow="10">
@@ -219,6 +224,26 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="8" startRow="16" endCol="255" endRow="16">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="8" startRow="17" endCol="8" endRow="17">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="9" startRow="17" endCol="9" endRow="17">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="10" startRow="17" endCol="255" endRow="17">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:6666:0" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
       </gnm:Styles>
       <gnm:Cols DefaultSizePts="48">
         <gnm:ColInfo No="0" Unit="27"/>
@@ -233,8 +258,8 @@
         <gnm:ColInfo No="9" Unit="58"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="12.75"/>
-      <gnm:Selections CursorCol="1" CursorRow="32">
-        <gnm:Selection startCol="1" startRow="32" endCol="1" endRow="32"/>
+      <gnm:Selections CursorCol="1" CursorRow="24">
+        <gnm:Selection startCol="1" startRow="24" endCol="1" endRow="24"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="1" ValueType="60">sfp-breakout.sch</gnm:Cell>
@@ -323,11 +348,10 @@
         <gnm:Cell Row="8" Col="3" ValueType="60">0603</gnm:Cell>
         <gnm:Cell Row="8" Col="4" ValueType="60">INDUCTOR</gnm:Cell>
         <gnm:Cell Row="8" Col="5" ValueType="60">DIGIKEY</gnm:Cell>
-        <gnm:Cell Row="8" Col="6" ValueType="60">1276-6301-1-ND</gnm:Cell>
-        <gnm:Cell Row="8" Col="7" ValueType="60">https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CIH10T1N0SNC/1276-6301-1-ND</gnm:Cell>
-        <gnm:Cell Row="8" Col="8" ValueType="60">FIXED IND 1NH 800MA 50 MOHM SMD</gnm:Cell>
+        <gnm:Cell Row="8" Col="6" ValueType="60">535-11529-1-ND</gnm:Cell>
+        <gnm:Cell Row="8" Col="7" ValueType="60">https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND</gnm:Cell>
+        <gnm:Cell Row="8" Col="8" ValueType="60">FIXED IND 1NH 500MA 50 MOHM SMD</gnm:Cell>
         <gnm:Cell Row="8" Col="9" ValueType="60">TRUE</gnm:Cell>
-        <gnm:Cell Row="8" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="9" Col="0" ValueType="40">2</gnm:Cell>
         <gnm:Cell Row="9" Col="1" ValueType="60">LED1, LED2</gnm:Cell>
         <gnm:Cell Row="9" Col="2" ValueType="60">KPH-1608SGC</gnm:Cell>
@@ -425,7 +449,7 @@
         <gnm:Cell Row="17" Col="6" ValueType="60">UNKNOWN SOURCE PART NUMBER</gnm:Cell>
         <gnm:Cell Row="17" Col="7" ValueType="60">UNKNOWN LINK</gnm:Cell>
         <gnm:Cell Row="17" Col="8" ValueType="60">NO DESCRIPTION</gnm:Cell>
-        <gnm:Cell Row="17" Col="9" ValueType="60">TRUE</gnm:Cell>
+        <gnm:Cell Row="17" Col="9" ValueType="20">FALSE</gnm:Cell>
         <gnm:Cell Row="17" Col="10" ValueType="60"></gnm:Cell>
         <gnm:Cell Row="18" Col="0" ValueType="40">2</gnm:Cell>
         <gnm:Cell Row="18" Col="1" ValueType="60">T1, T2</gnm:Cell>

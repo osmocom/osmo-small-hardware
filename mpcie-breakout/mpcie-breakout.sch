@@ -4001,6 +4001,30 @@ High volt MLC; no solder stop between for higher isolation</description>
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.3" width="0.127" layer="21"/>
 <text x="-3" y="0" size="1.27" layer="25" rot="R90" align="center">&gt;NAME</text>
 <text x="3" y="0" size="1.27" layer="27" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="-0.9" y1="-0.95" x2="0.9" y2="1.27" layer="41"/>
+<rectangle x1="-0.9" y1="-0.95" x2="0.9" y2="1.27" layer="43"/>
+</package>
+<package name="SMA-F-S-TH-73251-2201">
+<description>Molex 73251-2201</description>
+<pad name="C" x="0" y="0" drill="1.5"/>
+<pad name="G1" x="-2.54" y="2.54" drill="1.5"/>
+<pad name="G2" x="2.54" y="2.54" drill="1.5"/>
+<pad name="G4" x="2.54" y="-2.54" drill="1.5"/>
+<pad name="G3" x="-2.54" y="-2.54" drill="1.5"/>
+<text x="-3.81" y="4.1275" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-5.3975" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-5.08" y1="3.25" x2="-16.51" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="3.25" x2="-16.51" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-3.25" x2="-5.08" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.5" x2="-5.08" y2="3.25" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.25" x2="-5.08" y2="-3.25" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-3.25" x2="-5.08" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="3.05" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.05" y1="3.5" x2="3.05" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.05" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-5.08" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4107,6 +4131,18 @@ High volt MLC; no solder stop between for higher isolation</description>
 </technologies>
 </device>
 <device name="-S-TH" package="SMA-F-S-TH">
+<connects>
+<connect gate="G" pin="1" pad="C"/>
+<connect gate="G" pin="GND@1" pad="G1"/>
+<connect gate="G" pin="GND@2" pad="G2"/>
+<connect gate="G" pin="GND@3" pad="G3"/>
+<connect gate="G" pin="GND@4" pad="G4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="73251-2201" package="SMA-F-S-TH-73251-2201">
 <connects>
 <connect gate="G" pin="1" pad="C"/>
 <connect gate="G" pin="GND@1" pad="G1"/>
@@ -12483,7 +12519,7 @@ DIN A4, landscape with extra doc field</description>
 </library>
 </libraries>
 <attributes>
-<attribute name="VERSION" value="v3"/>
+<attribute name="VERSION" value="v3.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>

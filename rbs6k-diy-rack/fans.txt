@@ -1,0 +1,2 @@
+The initial 9S1212P4F011 (12V, 70cfm) were insufficient;
+we later used MEC0384V2-0000-A99 (48V, 116cfm) and Sunon EEC0381B1-0000-A99

@@ -18361,15 +18361,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND"/>
 </part>
 <part name="X6" library="jumper" deviceset="JP2E" device="" value="PINHD-1X3">
-<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH1-03-UA/2057-PH1-03-UA-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 3POS 2.54MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH1-03-UA/2057-PH1-03-UA-ND"/>
+<attribute name="MANUFACTURER" value="Adam Tech"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH1-03-UA"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH1-03-UA-ND"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="CPOL-EU" device="UD-8X10" value="470u">
@@ -18637,15 +18637,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="NGFF1" library="con-ngff" deviceset="NGFF_B" device="_42-52" value="NGFF_B_42-52">
-<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="CONN FEMALE 67POS 0.020 GOLD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/2199119-3/A115899CT-ND"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/2199230-3/A115903CT-ND"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
+<attribute name="MANUFACTURERPARTNUMBER" value="2199230-3"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="A115899CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A115903CT-ND"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
@@ -18698,7 +18698,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="M1" library="mech-parts" deviceset="MECHPART" device="">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SM3ZS067U310-NUT1-R1800/670-2864-1-ND/"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SM3ZS067U410-NUT1-R1200/670-2865-1-ND"/>
 </part>
 <part name="X2" library="InputOutputIO (rev19a)" deviceset="692121030100" device="" value="692121030100">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
@@ -18940,15 +18940,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SOURCEPARTNUMBER" value="H125269DKR-ND"/>
 </part>
 <part name="X1" library="laforge" deviceset="PINHD-2X4" device="">
-<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND/"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 8POS 2.54MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND"/>
+<attribute name="MANUFACTURER" value="Adam Tech"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-08-UA"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-08-UA-ND"/>
 </part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="ldo" deviceset="LDO_FIXED_EN" device="-MIC5365-YC5" value="MIC5366-1.8YC5">
@@ -19069,15 +19069,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="SOURCEPARTNUMBER" value="478-7816-1-ND"/>
 </part>
 <part name="X3" library="laforge" deviceset="PINHD-2X10" device="" value="PINHD-2X10">
-<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-20-UA/2057-PH2-20-UA-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 8POS 2.54MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND"/>
+<attribute name="MANUFACTURER" value="Adam Tech"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-08-UA"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-08-UA-ND"/>
 </part>
 <part name="JP1" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
@@ -19160,15 +19160,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="X4" library="laforge" deviceset="PINHD-2X5" device="" value="PINHD-2X5">
-<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-10-UA/2057-PH2-10-UA-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 10POS 2.54MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-10-UA/2057-PH2-10-UA-ND"/>
+<attribute name="MANUFACTURER" value="Adam Tech"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-10-UA"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-10-UA-ND"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="C27" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
@@ -19386,6 +19386,8 @@ SIM Card Slot</text>
 <attribute name="VALUE" x="220.98" y="228.6" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="X6" gate="1" x="251.46" y="236.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="261.62" y="240.03" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="255.778" y="232.029" size="1.778" layer="96" rot="R180"/>
 <attribute name="DESCRIPTION" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
@@ -19395,8 +19397,6 @@ SIM Card Slot</text>
 <attribute name="POPULATED" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="251.46" y="236.22" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="261.62" y="240.03" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="255.778" y="232.029" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND5" gate="1" x="233.68" y="233.68"/>
 <instance part="C11" gate="G$1" x="271.78" y="231.14" smashed="yes">
@@ -19698,15 +19698,15 @@ SIM Card Slot</text>
 </instance>
 <instance part="GND16" gate="1" x="261.62" y="96.52"/>
 <instance part="NGFF1" gate="G$1" x="124.46" y="53.34">
-<attribute name="DESCRIPTION" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="124.46" y="53.34" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SIM1" gate="-DETECT" x="109.22" y="144.78" rot="R90"/>
 <instance part="GND17" gate="1" x="73.66" y="81.28" rot="R270"/>
@@ -20035,15 +20035,15 @@ SIM Card Slot</text>
 <attribute name="LINK" x="342.9" y="119.38" size="1.27" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="35.56" y="96.52">
-<attribute name="DESCRIPTION" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCE" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="POPULATED" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="CLASS" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="LINK" x="35.56" y="96.52" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="35.56" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND31" gate="1" x="50.8" y="96.52" rot="R90"/>
 <instance part="U1" gate="G$1" x="261.62" y="200.66">

@@ -3480,17 +3480,17 @@ einem neuen Namen ab.</description>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X6" library="jumper" package="JP2" value="PINHD-1X3" x="3.6195" y="48.782" smashed="yes" rot="SR270">
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH1-03-UA/2057-PH1-03-UA-ND" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
 <attribute name="NAME" x="0.8255" y="54.1795" size="1" layer="25" font="vector" ratio="16" rot="SR270"/>
 <attribute name="VALUE" x="-0.6985" y="52.338" size="1.27" layer="27" ratio="10" rot="SR270"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 3POS 2.54MM" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="MANUFACTURER" value="Adam Tech" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH1-03-UA" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH1-03-UA-ND" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH1-03-UA/2057-PH1-03-UA-ND" x="3.6195" y="48.782" size="1.778" layer="27" rot="SR270" display="off"/>
 </element>
 <element name="C11" library="rcl" package="UD-8X10_NICHICON" value="470u" x="11.2065" y="32.559" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.13" y="27.2885" size="1" layer="25" font="vector" ratio="16"/>
@@ -3795,13 +3795,13 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="25.294" y="48.48" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="DESCRIPTION" value="CONN FEMALE 67POS 0.020 GOLD" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="2199230-3" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="A115899CT-ND" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="A115903CT-ND" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/2199119-3/A115899CT-ND" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/2199230-3/A115903CT-ND" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D8" library="SP3012" package="UDFN-14" value="SP3012-6UTG" x="10.16" y="73.0225" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.62" y="75.4775" size="1" layer="25" ratio="16" rot="R270"/>
@@ -4132,15 +4132,15 @@ einem neuen Namen ab.</description>
 <element name="X1" library="laforge" package="2X04" value="PINHD-2X4" x="21.2725" y="86.2" smashed="yes">
 <attribute name="NAME" x="28.8925" y="88.74" size="1" layer="25" ratio="16" rot="SR180"/>
 <attribute name="VALUE" x="16.1925" y="81.755" size="1.27" layer="27"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 8POS 2.54MM" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Adam Tech" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-08-UA" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-08-UA-ND" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND/" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND" x="21.2725" y="86.2" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="ldo" package="SC70-5" value="MIC5366-1.8YC5" x="10.16" y="69.055" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.89" y="70.0075" size="1" layer="25" ratio="16" rot="R180"/>
@@ -4273,17 +4273,17 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="-0.3175" y="35.7975" size="1.016" layer="27" ratio="17" rot="R270"/>
 </element>
 <element name="X3" library="laforge" package="2X10" value="PINHD-2X10" x="31.115" y="5.3975" smashed="yes">
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-20-UA/2057-PH2-20-UA-ND" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.415" y="8.5725" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="18.415" y="0.9525" size="1.27" layer="27"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 8POS 2.54MM" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Adam Tech" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-08-UA" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-08-UA-ND" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="48.895" y="74.4525" smashed="yes">
 <attribute name="LINK" value="UNKNOWN LINK" x="48.895" y="75.0875" size="1.4224" layer="27" ratio="16" display="off"/>
@@ -4378,15 +4378,15 @@ einem neuen Namen ab.</description>
 <element name="X4" library="laforge" package="2X05" value="PINHD-2X5" x="67.31" y="58.26" smashed="yes">
 <attribute name="NAME" x="74.93" y="58.895" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="60.96" y="53.815" size="1.27" layer="27"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 10POS 2.54MM" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Adam Tech" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-10-UA" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-10-UA-ND" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/adam-tech/PH2-10-UA/2057-PH2-10-UA-ND" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-10-UA/2057-PH2-10-UA-ND" x="67.31" y="58.26" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="laforge" package="WEEE_BIN_TOP" value="" x="80.3275" y="59.53" smashed="yes" rot="MR0"/>
 <element name="U$2" library="laforge" package="WEEE_BIN" value="" x="80.3275" y="56.99" smashed="yes" rot="MR0"/>

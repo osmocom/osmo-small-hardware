@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -3795,7 +3795,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULATED" value="TRUE" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.5825" y="29.21" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="80.645" y="34.6075" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="78.74" y="33.655" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="Y4" library="con-MHF4" package="MURATA_HSC" value="MHF4" x="75.565" y="29.845" smashed="yes" rot="R90">
@@ -3808,7 +3808,7 @@ einem neuen Namen ab.</description>
 <attribute name="POPULATED" value="TRUE" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="75.565" y="26.845" size="1" layer="25" ratio="16" rot="R180" align="center"/>
+<attribute name="NAME" x="75.2475" y="26.845" size="1" layer="25" ratio="16" rot="R180" align="center"/>
 <attribute name="VALUE" x="75.565" y="32.845" size="1.27" layer="27" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="D9" library="diodes-sysmocom" package="_0402" value="GG040205170N2P" x="78.4225" y="30.48" smashed="yes" rot="R270">
@@ -4295,6 +4295,21 @@ einem neuen Namen ab.</description>
 <via x="6.6675" y="58.13175" extent="1-16" drill="0.3"/>
 <contactref element="NGFF1" pad="P$1"/>
 <contactref element="NGFF1" pad="P$2"/>
+<via x="88.6775" y="29.8755" extent="1-16" drill="0.3"/>
+<via x="88.6775" y="24.7955" extent="1-16" drill="0.3"/>
+<via x="84.2325" y="24.7955" extent="1-16" drill="0.3"/>
+<via x="79.47" y="24.7955" extent="1-16" drill="0.3"/>
+<via x="79.47" y="28.923" extent="1-16" drill="0.3"/>
+<via x="79.47" y="30.828" extent="1-16" drill="0.3"/>
+<via x="77.2475" y="30.828" extent="1-16" drill="0.3"/>
+<via x="77.2475" y="28.923" extent="1-16" drill="0.3"/>
+<via x="75.3425" y="32.4155" extent="1-16" drill="0.3"/>
+<via x="73.12" y="31.1455" extent="1-16" drill="0.3"/>
+<via x="73.12" y="28.6055" extent="1-16" drill="0.3"/>
+<via x="76.6125" y="27.3355" extent="1-16" drill="0.3"/>
+<via x="84.2325" y="34.3205" extent="1-16" drill="0.3"/>
+<via x="76.2635" y="85.9765" extent="1-16" drill="0.3"/>
+<via x="78.8035" y="81.5315" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="USIM1_POWER">
 <contactref element="SIM1" pad="1"/>

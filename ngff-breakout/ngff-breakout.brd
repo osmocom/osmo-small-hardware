@@ -29,23 +29,23 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -53,13 +53,13 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2737,11 +2737,11 @@ einem neuen Namen ab.</description>
 <attribute name="MANUFACTURER" value="JAE Electronics" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AR900" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="670-2985-2-ND" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="670-2985-1-ND" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CLASS" value="SIM HOLDER" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-2-ND" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="SIM CARD HOLDER" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-1-ND" x="72.2935" y="45.56" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED1" library="led" package="CHIP-LED0603" value="YELLOW" x="12.7" y="87.8815" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.23975" y="83.1215" size="1" layer="25" font="vector" ratio="16" rot="SR90"/>
@@ -2834,18 +2834,18 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="20.2565" y="47.16275" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="18.288" y="45.95865" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="X5" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="694108106102" x="-1.5" y="20.7785" smashed="yes">
+<element name="X5" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="PJ-002BH-SMT-TR" x="-1.5" y="20.7785" smashed="yes">
 <attribute name="NAME" x="9.474140625" y="2.5811" size="1" layer="25" font="vector" ratio="16" rot="SR0"/>
 <attribute name="VALUE" x="-0.800359375" y="-9.3349" size="2.032" layer="27" font="vector" ratio="13" rot="SR0"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Wurth Electronics Inc." x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="694108106102" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="CUI Devices" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="732-5933-1-ND" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="CP-002BHPJCT-ND" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/wurth-electronics-inc/694108106102/732-5933-1-ND/5047628" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJCT-ND" x="-1.5" y="20.7785" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X6" library="jumper" package="JP2" value="PINHD-1X3" x="3.6195" y="48.782" smashed="yes" rot="SR270">
 <attribute name="NAME" x="0.8255" y="54.1795" size="1" layer="25" font="vector" ratio="16" rot="SR270"/>
@@ -3120,44 +3120,44 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="13.74775" y="76.87275" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="11.2712" y="82.992" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="X7" library="laforge" package="SMA-F-S-TH" value="5-1814832-1" x="84.074" y="17.9375" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="A97594-ND" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="X7" library="laforge" package="SMA-F-S-TH" value="5-1814832-2" x="84.074" y="17.9375" smashed="yes" rot="R180">
 <attribute name="NAME" x="78.6765" y="21.1125" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="87.884" y="23.335" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="DESCRIPTION" value="SMA STR PCB SKT GZD" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-2" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="17-5-1814832-2CT-ND" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bestandsverifizierung anfordern" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-2/17-5-1814832-2CT-ND" x="84.074" y="17.9375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="X8" library="laforge" package="SMA-F-S-TH" value="5-1814832-1" x="69.3725" y="6.096" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="A97594-ND" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="X8" library="laforge" package="SMA-F-S-TH" value="5-1814832-2" x="69.3725" y="6.096" smashed="yes" rot="R90">
 <attribute name="NAME" x="72.5475" y="10.541" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="74.77" y="2.286" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="DESCRIPTION" value="SMA STR PCB SKT GZD" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-2" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="17-5-1814832-2CT-ND" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bestandsverifizierung anfordern" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-2/17-5-1814832-2CT-ND" x="69.3725" y="6.096" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="X9" library="laforge" package="SMA-F-S-TH" value="5-1814832-1" x="55.9435" y="6.063" smashed="yes">
-<attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="A97594-ND" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<element name="X9" library="laforge" package="SMA-F-S-TH" value="5-1814832-2" x="55.9435" y="6.063" smashed="yes">
 <attribute name="NAME" x="51.3715" y="10.7645" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="52.1335" y="0.6655" size="1.27" layer="27" font="vector" ratio="10"/>
+<attribute name="DESCRIPTION" value="SMA STR PCB SKT GZD" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-2" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="17-5-1814832-2CT-ND" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bestandsverifizierung anfordern" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-2/17-5-1814832-2CT-ND" x="55.9435" y="6.063" size="1.778" layer="27" display="off"/>
 </element>
 <element name="NGFF1" library="con-ngff" package="NGFF_3042_3052_NSOL" value="NGFF_B-NSOL" x="36.8615" y="67.9425" smashed="yes">
 <attribute name="NAME" x="25.294" y="48.48" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
@@ -3168,7 +3168,7 @@ einem neuen Namen ab.</description>
 <attribute name="SOURCEPARTNUMBER" value="A115903CT-ND" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS-konform" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="UNKNOWN CLASS" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/2199230-3/A115903CT-ND" x="36.8615" y="67.9425" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D8" library="SP3012" package="UDFN-14" value="SP3012-6UTG" x="10.16" y="73.0225" smashed="yes" rot="R270">
@@ -3176,64 +3176,64 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="7.9375" y="75.4775" size="0.8128" layer="27" ratio="12" rot="R270"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5V 7V 14UDFN" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SP3012-06UTG" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="F5914CT-ND" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CLASS" value="DIODE" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/littelfuse-inc/SP3012-06UTG/F5914CT-ND" x="10.16" y="73.0225" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Y1" library="con-MHF4" package="MURATA_HSC" value="MHF4" x="75.565" y="17.9375" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="75.565" y="14.9375" size="1" layer="25" ratio="16" rot="R180" align="center"/>
 <attribute name="VALUE" x="75.565" y="20.9375" size="1.27" layer="27" ratio="15" rot="R180" align="center"/>
+<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MM4829-2702RA4" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="75.565" y="17.9375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Y2" library="con-MHF4" package="MURATA_HSC" value="MHF4" x="69.3725" y="14.2875" smashed="yes">
-<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="66.3725" y="14.2875" size="1" layer="25" ratio="16" rot="R90" align="center"/>
 <attribute name="VALUE" x="72.3725" y="14.2875" size="1.27" layer="27" ratio="15" rot="R90" align="center"/>
+<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MM4829-2702RA4" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="69.3725" y="14.2875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Y3" library="con-MHF4" package="MURATA_HSC" value="MHF4" x="55.88" y="14.1275" smashed="yes">
-<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="52.88" y="14.1275" size="1" layer="25" ratio="16" rot="R90" align="center"/>
 <attribute name="VALUE" x="58.88" y="14.1275" size="1.27" layer="27" ratio="15" rot="R90" align="center"/>
+<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MM4829-2702RA4" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="55.88" y="14.1275" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X2" library="InputOutputIO (rev19a)" package="692121030100" value="692121030100" x="39.1475" y="80.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="42.1775" y="98.14" size="1.27" layer="27" rot="R180"/>
 <attribute name="NAME" x="47.0175" y="77.395" size="1" layer="25" ratio="16"/>
 <attribute name="DESCRIPTION" value="CONN RCPT USB3.0 TYPEA 9POS R/A" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Wurth Electronics Inc." x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="W&amp;#252;rth Elektronik" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="692121030100" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="732-3146-1-ND" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/692121030100/732-3146-1-ND" x="39.1475" y="80.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C5" library="rc-sysmocom" package="_0603" value="100n" x="49.69" y="82.7075" smashed="yes" rot="R90">
@@ -3320,11 +3320,11 @@ einem neuen Namen ab.</description>
 <attribute name="MANUFACTURER" value="JAE Electronics" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AR900" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="670-2985-2-ND" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="670-2985-1-ND" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CLASS" value="SIM HOLDER" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-2-ND" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="SIM CARD HOLDER" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/jae-electronics/SF7W008S1AR900/670-2985-1-ND" x="72.23" y="70.80125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C8" library="rc-sysmocom" package="_0402" value="33p" x="55.08625" y="74.295" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402" x="55.08625" y="69.85" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3492,7 +3492,7 @@ einem neuen Namen ab.</description>
 <attribute name="SOURCEPARTNUMBER" value="H125269DKR-ND" x="4.28625" y="76.19875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="4.28625" y="76.19875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="4.28625" y="76.19875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="4.28625" y="76.19875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="4.28625" y="76.19875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/hirose-electric-co-ltd/ZX360D-B-10P-30/H125269DKR-ND" x="4.28625" y="76.19875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="5.87375" y="81.27875" size="1" layer="25" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="1.74625" y="64.13375" size="1.27" layer="27" ratio="12"/>
@@ -3643,15 +3643,15 @@ einem neuen Namen ab.</description>
 <element name="X3" library="laforge" package="2X10" value="PINHD-2X10" x="31.115" y="5.3975" smashed="yes">
 <attribute name="NAME" x="18.415" y="8.5725" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="18.415" y="0.9525" size="1.27" layer="27"/>
-<attribute name="DESCRIPTION" value="CONN HEADER VERT 8POS 2.54MM" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 20POS 2.54MM" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Adam Tech" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="PH2-08-UA" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-20-UA" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="2057-PH2-08-UA-ND" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-20-UA-ND" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="CONNECTOR" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-20-UA/2057-PH2-20-UA-ND" x="31.115" y="5.3975" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP1" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="48.895" y="74.4525" smashed="yes">
 <attribute name="LINK" value="UNKNOWN LINK" x="48.895" y="75.0875" size="1.4224" layer="27" ratio="16" display="off"/>
@@ -3785,31 +3785,31 @@ einem neuen Namen ab.</description>
 <attribute name="LINK" value="UNKNOWN LINK" x="60.96" y="26.59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$7" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="" x="60.96" y="26.59"/>
-<element name="X11" library="laforge" package="SMA-F-S-TH" value="5-1814832-1" x="84.1375" y="29.845" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="A97594-ND" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="X11" library="laforge" package="SMA-F-S-TH" value="5-1814832-2" x="84.1375" y="29.845" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.645" y="34.6075" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="78.74" y="33.655" size="1.27" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DESCRIPTION" value="SMA STR PCB SKT GZD" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-2" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="17-5-1814832-2CT-ND" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bestandsverifizierung anfordern" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/5-1814832-2/17-5-1814832-2CT-ND" x="84.1375" y="29.845" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Y4" library="con-MHF4" package="MURATA_HSC" value="MHF4" x="75.565" y="29.845" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CLASS" value="CONNECTOR\JUMPER" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="76.835" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="75.2475" y="26.845" size="1" layer="25" ratio="16" rot="R180" align="center"/>
 <attribute name="VALUE" x="75.565" y="32.845" size="1.27" layer="27" ratio="15" rot="R180" align="center"/>
+<attribute name="DESCRIPTION" value="CONN HSC RCPT STR 50 OHM SMD" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="MM4829-2702RA4" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="490-8447-1-ND" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/MM4829-2702RA4/490-8447-1-ND" x="75.565" y="29.845" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D9" library="diodes-sysmocom" package="_0402" value="GG040205170N2P" x="78.4225" y="30.48" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="TVS DIODE 5V 10V 0402" x="71.4375" y="38.735" size="1.778" layer="27" rot="R270" display="off"/>

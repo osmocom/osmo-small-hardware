@@ -26,9 +26,6 @@ contributions.  Please see
 https://osmocom.org/projects/cellular-infrastructure/wiki/Gerrit for
 more details
 
-The current patch queue for osmo-hlr can be seen at
-https://gerrit.osmocom.org/#/q/project:osmo-hlr+status:open
-
 
 clock-converter
 ---------------

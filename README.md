@@ -8,12 +8,12 @@ Source Mobile Communications project.
 GIT Repository
 --------------
 
-You can clone from the official osmo-hlr.git repository using
+You can clone from the official osmo-small-hardware repository using
 
-	git clone git://git.osmocom.org/osmo-hlr.git
-	git clone https://git.osmocom.org/osmo-hlr.git
+	git clone git://git.osmocom.org/osmo-small-hardware
+	git clone https://git.osmocom.org/osmo-small-hardware
 
-There is a cgit interface at https://git.osmocom.org/osmo-hlr/
+There is a cgit interface at https://git.osmocom.org/osmo-small-hardware/
 
 Contributing
 ------------

@@ -5,6 +5,9 @@ This repository contains a number of OSHW (open source hardware)
 designs.  They are part of the [Osmocom](https://osmocom.org/) Open
 Source Mobile Communications project.
 
+Most of the designs are done in EAGLE CAD; the schematics and board
+design files as well as the BOM are contained in this repository.
+
 GIT Repository
 --------------
 

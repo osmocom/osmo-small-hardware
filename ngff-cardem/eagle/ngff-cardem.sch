@@ -76,98 +76,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="100" name="Release" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Heatsink" color="1" fill="7" visible="no" active="no"/>
-<layer number="102" name="tMarkings" color="1" fill="7" visible="no" active="no"/>
-<layer number="103" name="bMarkings" color="1" fill="7" visible="no" active="no"/>
-<layer number="104" name="tSchirm" color="7" fill="4" visible="no" active="no"/>
-<layer number="105" name="bSchirm" color="7" fill="5" visible="no" active="no"/>
-<layer number="106" name="shield" color="11" fill="1" visible="no" active="no"/>
-<layer number="107" name="ShieldTop" color="12" fill="1" visible="no" active="no"/>
-<layer number="108" name="MeasuresWall" color="7" fill="1" visible="no" active="no"/>
-<layer number="109" name="SYSONDER" color="7" fill="1" visible="no" active="no"/>
-<layer number="110" name="bBPL" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="tStopDoku" color="7" fill="1" visible="no" active="no"/>
-<layer number="112" name="bStopDoku" color="7" fill="1" visible="no" active="no"/>
-<layer number="113" name="bTPoint" color="7" fill="1" visible="no" active="no"/>
-<layer number="114" name="Änderung" color="7" fill="1" visible="no" active="no"/>
-<layer number="115" name="Laser Bohrungen" color="9" fill="1" visible="no" active="no"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
-<layer number="121" name="lotls" color="7" fill="1" visible="no" active="no"/>
-<layer number="122" name="bTestdril" color="7" fill="1" visible="no" active="no"/>
-<layer number="123" name="BOHRFILM" color="7" fill="1" visible="no" active="no"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Koordinaten" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="130" name="vermassung" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
-<layer number="133" name="Ritzung" color="1" fill="0" visible="no" active="no"/>
-<layer number="134" name="Fräsung" color="2" fill="0" visible="no" active="no"/>
-<layer number="140" name="land_pattern" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="141" name="freihand" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="142" name="BMRestrict" color="1" fill="9" visible="no" active="no"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="147" name="deckel_neu" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="148" name="Document_mirrored" color="7" fill="1" visible="no" active="no"/>
-<layer number="150" name="References" color="4" fill="1" visible="no" active="no"/>
-<layer number="151" name="FaceHelp" color="5" fill="1" visible="no" active="no"/>
-<layer number="152" name="FaceFrame" color="6" fill="1" visible="no" active="no"/>
-<layer number="153" name="FacePlate" color="2" fill="1" visible="no" active="no"/>
-<layer number="154" name="FaceLabel" color="7" fill="1" visible="no" active="no"/>
-<layer number="156" name="gesam-Maß" color="1" fill="7" visible="no" active="no"/>
-<layer number="157" name="FaceMchng" color="3" fill="1" visible="no" active="no"/>
-<layer number="158" name="FaceMMeas" color="3" fill="1" visible="no" active="no"/>
-<layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
-<layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
-<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
-<layer number="170" name="ProgrammierAdapter" color="7" fill="1" visible="no" active="no"/>
-<layer number="194" name="Schematicdocumentation" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="195" name="Netlinks" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Bauteile" color="7" fill="1" visible="no" active="no"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
-<layer number="201" name="bBauteile" color="1" fill="7" visible="no" active="no"/>
-<layer number="202" name="value" color="7" fill="1" visible="no" active="no"/>
-<layer number="203" name="no" color="7" fill="1" visible="no" active="no"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
-<layer number="210" name="tPNR" color="7" fill="1" visible="no" active="no"/>
-<layer number="211" name="bPNR" color="7" fill="1" visible="no" active="no"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
-<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
-<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
-<layer number="220" name="ausheb_u" color="7" fill="1" visible="no" active="no"/>
-<layer number="221" name="ausheb_o" color="7" fill="1" visible="no" active="no"/>
-<layer number="222" name="frontpla" color="7" fill="1" visible="no" active="no"/>
-<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
-<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="230" name="animation_path" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
-<layer number="248" name="PLCDoku" color="7" fill="1" visible="no" active="no"/>
-<layer number="249" name="MillDoku" color="7" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
-<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="no"/>
-<layer number="253" name="BR-LS" color="7" fill="1" visible="no" active="no"/>
-<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
-<layer number="255" name="ZchnBlatt" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -19560,17 +19468,6 @@ octal FET bus switch</description>
 <attribute name="SOURCEPARTNUMBER" value="511-1648-1-ND"/>
 <variant name="LEDs bott" populate="no"/>
 </part>
-<part name="LED101" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
-<attribute name="CLASS" value="LED"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
-</part>
 <part name="R112" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
@@ -20221,6 +20118,18 @@ octal FET bus switch</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="507-1803-1-ND"/>
 </part>
+<part name="LED1" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN">
+<attribute name="CLASS" value="LED"/>
+<attribute name="DESCRIPTION" value="LED YELLOW CLEAR 2PLCC SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/rohm-semiconductor/SML-Z14YTT86A/511-1648-1-ND/"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SML-Z14YTT86A"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="511-1648-1-ND"/>
+<variant name="LEDs bott" populate="no"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -20242,17 +20151,6 @@ octal FET bus switch</description>
 <text x="111.76" y="231.14" size="3.81" layer="97" ratio="10">SIM Slot</text>
 </plain>
 <instances>
-<instance part="LED101" gate="G$1" x="50.8" y="83.82" rot="R90">
-<attribute name="DESCRIPTION" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCE" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="POPULATED" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="CLASS" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="LINK" x="50.8" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
 <instance part="R112" gate="G$1" x="190.5" y="104.14" smashed="yes">
 <attribute name="DESCRIPTION" x="190.5" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="190.5" y="104.14" size="1.778" layer="96" display="off"/>
@@ -20979,6 +20877,19 @@ octal FET bus switch</description>
 <attribute name="CLASS" x="370.84" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="370.84" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="LED1" gate="G$1" x="50.8" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.26" y="90.932" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="58.166" y="87.757" size="1.778" layer="96" rot="R180"/>
+<attribute name="DESCRIPTION" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCE" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="POPULATED" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="CLASS" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="50.8" y="83.82" size="1.27" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21229,9 +21140,9 @@ octal FET bus switch</description>
 <wire x1="408.94" y1="96.52" x2="421.64" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED101" gate="G$1" pin="A"/>
-<wire x1="48.26" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <label x="45.72" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="45.72" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="NGFF101" gate="G$1" pin="3.3V"/>
@@ -21435,9 +21346,9 @@ octal FET bus switch</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED101" gate="G$1" pin="C"/>
 <pinref part="R102" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="USB3.0_TX_N" class="1">
@@ -23529,7 +23440,6 @@ detection</text>
 <text x="464.82" y="83.82" size="2.54" layer="97">ngff-cardem
 (C) 2021 sysmocom GmbH</text>
 <text x="246.38" y="190.5" size="2.1844" layer="97">FIXME: proper floppy header (171825-4)</text>
-<text x="444.5" y="271.78" size="2.1844" layer="97">FIXME: proper floppy header (171825-4)</text>
 <text x="432.562" y="242.316" size="1.778" layer="97">PVX003A0X3-SRZ: tunableLoop: R=180R; C=8200p 
 (max. dVout: 50mV; max. dIout: 2,5A)</text>
 <text x="432.562" y="252.476" size="1.778" layer="97">PVX003A0X3-SRZ: trim: 4.44kOhm</text>

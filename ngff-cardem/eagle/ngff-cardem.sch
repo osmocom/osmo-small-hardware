@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="3" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="3" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="6" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tMark" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bMark" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="6" fill="1" visible="no" active="no"/>
+<layer number="59" name="tMark" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bMark" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -76,6 +76,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -18068,77 +18069,6 @@ Source: 008-0260-0_E.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TPS22965">
-<packages>
-<package name="S-PWSON-N8">
-<description>TI DSG (S-PWSON-N8) Plastic Small Outline No-Lead</description>
-<smd name="1" x="-0.75" y="-1" dx="0.28" dy="0.6" layer="1" roundness="30" stop="no"/>
-<smd name="2" x="-0.25" y="-0.95" dx="0.28" dy="0.5" layer="1" roundness="30" stop="no"/>
-<smd name="3" x="0.25" y="-0.95" dx="0.28" dy="0.5" layer="1" roundness="30" stop="no"/>
-<smd name="4" x="0.75" y="-0.95" dx="0.28" dy="0.5" layer="1" roundness="30" stop="no"/>
-<smd name="5" x="0.75" y="0.95" dx="0.28" dy="0.5" layer="1" roundness="30" stop="no"/>
-<smd name="6" x="0.25" y="0.95" dx="0.28" dy="0.5" layer="1" roundness="30" stop="no"/>
-<smd name="7" x="-0.25" y="0.95" dx="0.28" dy="0.5" layer="1" roundness="30" stop="no"/>
-<smd name="8" x="-0.75" y="0.95" dx="0.28" dy="0.5" layer="1" roundness="30" stop="no"/>
-<smd name="EXP" x="0" y="0" dx="1.6" dy="0.9" layer="1" roundness="30" stop="no" cream="no"/>
-<rectangle x1="-0.96" y1="-1.27" x2="-0.54" y2="-0.63" layer="29"/>
-<rectangle x1="-0.46" y1="-1.27" x2="-0.04" y2="-0.63" layer="29"/>
-<rectangle x1="0.04" y1="-1.27" x2="0.46" y2="-0.63" layer="29"/>
-<rectangle x1="0.54" y1="-1.27" x2="0.96" y2="-0.63" layer="29"/>
-<rectangle x1="-0.96" y1="0.63" x2="-0.54" y2="1.27" layer="29"/>
-<rectangle x1="-0.46" y1="0.63" x2="-0.04" y2="1.27" layer="29"/>
-<rectangle x1="0.04" y1="0.63" x2="0.46" y2="1.27" layer="29"/>
-<rectangle x1="0.54" y1="0.63" x2="0.96" y2="1.27" layer="29"/>
-<rectangle x1="-0.87" y1="-0.52" x2="0.87" y2="0.52" layer="29"/>
-<wire x1="-1.1" y1="1.1" x2="1.1" y2="1.1" width="0.127" layer="21"/>
-<wire x1="1.1" y1="1.1" x2="1.1" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-1.1" x2="-1.1" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-1.1" x2="-1.1" y2="1.1" width="0.127" layer="21"/>
-<circle x="-1.25" y="-1" radius="0.1" width="0.1" layer="51"/>
-<text x="-1.25" y="-0.75" size="1.016" layer="25" rot="R90">&gt;NAME</text>
-<wire x1="-0.3175" y1="0" x2="0.2475" y2="0" width="0.6096" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LOAD_SW">
-<pin name="VIN" x="-10.16" y="7.62" length="short" direction="pwr"/>
-<pin name="VBIAS" x="-10.16" y="2.54" length="short" direction="pas"/>
-<pin name="ON" x="-10.16" y="-5.08" length="short" direction="in"/>
-<pin name="GND" x="10.16" y="-5.08" length="short" direction="pwr" rot="R180"/>
-<pin name="CT" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="VOUT" x="10.16" y="7.62" length="short" direction="pwr" rot="R180"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="11.176" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TPS22965" prefix="IC">
-<description>TI TPS22965 Single Channel, Ultra-Low Resistance Load Switch</description>
-<gates>
-<gate name="G$1" symbol="LOAD_SW" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="S-PWSON-N8">
-<connects>
-<connect gate="G$1" pin="CT" pad="6"/>
-<connect gate="G$1" pin="GND" pad="5 EXP"/>
-<connect gate="G$1" pin="ON" pad="3"/>
-<connect gate="G$1" pin="VBIAS" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="1 2"/>
-<connect gate="G$1" pin="VOUT" pad="7 8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-molex">
 <description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -18589,6 +18519,121 @@ octal FET bus switch</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TPS22958">
+<packages>
+<package name="VSSOP8-POWERPAD">
+<description>TI PowerPAD 8VSSOP (DGN0008G)</description>
+<text x="-2.54" y="2.405" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.8575" y="-3.3575" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<smd name="1" x="-2.25" y="0.975" dx="1.5" dy="0.4" layer="1" roundness="80" stop="no"/>
+<smd name="2" x="-2.2" y="0.325" dx="1.4" dy="0.4" layer="1" roundness="80" stop="no"/>
+<smd name="3" x="-2.2" y="-0.325" dx="1.4" dy="0.4" layer="1" roundness="80" stop="no"/>
+<smd name="4" x="-2.2" y="-0.975" dx="1.4" dy="0.4" layer="1" roundness="80" stop="no"/>
+<smd name="5" x="2.2" y="-0.975" dx="1.4" dy="0.4" layer="1" roundness="80" stop="no"/>
+<smd name="6" x="2.2" y="-0.325" dx="1.4" dy="0.4" layer="1" roundness="80" stop="no"/>
+<smd name="7" x="2.2" y="0.325" dx="1.4" dy="0.4" layer="1" roundness="80" stop="no"/>
+<smd name="8" x="2.2" y="0.975" dx="1.4" dy="0.4" layer="1" roundness="80" stop="no"/>
+<circle x="-1.625" y="1.625" radius="0.1" width="0.127" layer="21"/>
+<smd name="EXP" x="0" y="0" dx="1.9" dy="2.15" layer="1" roundness="50" cream="no"/>
+<polygon width="0.127" layer="31">
+<vertex x="-0.25875" y="0.79375"/>
+<vertex x="-0.69375" y="0.79375" curve="90"/>
+<vertex x="-0.79375" y="0.69375"/>
+<vertex x="-0.79375" y="0.25875" curve="90"/>
+<vertex x="-0.69375" y="0.15875"/>
+<vertex x="-0.25875" y="0.15875" curve="90"/>
+<vertex x="-0.15875" y="0.25875"/>
+<vertex x="-0.15875" y="0.69375" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.79375" y="0.25875"/>
+<vertex x="0.79375" y="0.69375" curve="90"/>
+<vertex x="0.69375" y="0.79375"/>
+<vertex x="0.25875" y="0.79375" curve="90"/>
+<vertex x="0.15875" y="0.69375"/>
+<vertex x="0.15875" y="0.25875" curve="90"/>
+<vertex x="0.25875" y="0.15875"/>
+<vertex x="0.69375" y="0.15875" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.15875" y="-0.25875"/>
+<vertex x="-0.15875" y="-0.69375" curve="-90"/>
+<vertex x="-0.25875" y="-0.79375"/>
+<vertex x="-0.69375" y="-0.79375" curve="-90"/>
+<vertex x="-0.79375" y="-0.69375"/>
+<vertex x="-0.79375" y="-0.25875" curve="-90"/>
+<vertex x="-0.69375" y="-0.15875"/>
+<vertex x="-0.25875" y="-0.15875" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="0.69375" y="-0.15875"/>
+<vertex x="0.25875" y="-0.15875" curve="90"/>
+<vertex x="0.15875" y="-0.25875"/>
+<vertex x="0.15875" y="-0.69375" curve="90"/>
+<vertex x="0.25875" y="-0.79375"/>
+<vertex x="0.69375" y="-0.79375" curve="90"/>
+<vertex x="0.79375" y="-0.69375"/>
+<vertex x="0.79375" y="-0.25875" curve="90"/>
+</polygon>
+<wire x1="-2.85" y1="0.975" x2="-1.625" y2="0.975" width="0.47" layer="29"/>
+<wire x1="-2.76625" y1="0.325" x2="-1.625" y2="0.325" width="0.47" layer="29"/>
+<wire x1="-2.76625" y1="-0.325" x2="-1.625" y2="-0.325" width="0.47" layer="29"/>
+<wire x1="-2.76625" y1="-0.975" x2="-1.625" y2="-0.975" width="0.47" layer="29"/>
+<wire x1="1.625" y1="0.975" x2="2.76625" y2="0.975" width="0.47" layer="29"/>
+<wire x1="1.625" y1="0.325" x2="2.76625" y2="0.325" width="0.47" layer="29"/>
+<wire x1="1.625" y1="-0.325" x2="2.76625" y2="-0.325" width="0.47" layer="29"/>
+<wire x1="1.625" y1="-0.975" x2="2.76625" y2="-0.975" width="0.47" layer="29"/>
+<circle x="-1.625" y="1.625" radius="0.1" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<circle x="-1.625" y="1.625" radius="0.1" width="0.127" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LOAD_SW">
+<pin name="VIN" x="-10.16" y="7.62" length="short" direction="pwr"/>
+<pin name="VBIAS" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="ON" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="GND" x="10.16" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="CT" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="VOUT" x="10.16" y="7.62" length="short" direction="pwr" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.112" y="11.43" size="1.6764" layer="95">&gt;NAME</text>
+<text x="-7.112" y="-8.636" size="1.6764" layer="96" align="top-left">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS22958" prefix="IC">
+<description>IC PWR SWITCH N-CHAN 1:1 8MSOP &lt;p&gt;
+14mOhm, 6A</description>
+<gates>
+<gate name="G$1" symbol="LOAD_SW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-DGN" package="VSSOP8-POWERPAD">
+<connects>
+<connect gate="G$1" pin="CT" pad="7"/>
+<connect gate="G$1" pin="GND" pad="6 EXP"/>
+<connect gate="G$1" pin="ON" pad="2"/>
+<connect gate="G$1" pin="VBIAS" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1 4"/>
+<connect gate="G$1" pin="VOUT" pad="5 8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19963,16 +20008,16 @@ octal FET bus switch</description>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="IC302" library="TPS22965" deviceset="TPS22965" device="">
+<part name="IC302" library="TPS22958" deviceset="TPS22958" device="-DGN">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
-<attribute name="DESCRIPTION" value="IC PWR SWITCH N-CHAN 1:1 8WSON"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/texas-instruments/TPS22965TDSGTQ1/296-50585-1-ND/9685724"/>
-<attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="TPS22965TDSGTQ1"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/texas-instruments/TPS22958DGNR/296-47367-1-ND"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="296-50585-1-ND"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND162" library="supply1" deviceset="GND" device=""/>
 <part name="C311" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
@@ -23443,6 +23488,7 @@ detection</text>
 <text x="432.562" y="242.316" size="1.778" layer="97">PVX003A0X3-SRZ: tunableLoop: R=180R; C=8200p 
 (max. dVout: 50mV; max. dIout: 2,5A)</text>
 <text x="432.562" y="252.476" size="1.778" layer="97">PVX003A0X3-SRZ: trim: 4.44kOhm</text>
+<text x="417.322" y="206.756" size="1.778" layer="97">FIXME: 1n for 5ms</text>
 </plain>
 <instances>
 <instance part="C301" gate="G$1" x="236.22" y="274.32" smashed="yes">

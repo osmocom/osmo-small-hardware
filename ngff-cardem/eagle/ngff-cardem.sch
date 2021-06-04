@@ -24319,11 +24319,19 @@ detection</text>
 <label x="208.28" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FREE_(SIMPRES2)" class="0">
+<net name="FORMER_SIMPRES2" class="0">
 <segment>
 <pinref part="U202" gate="G$1" pin="PGMM0/XOUT32/CTS0/PA8"/>
 <wire x1="205.74" y1="210.82" x2="223.52" y2="210.82" width="0.1524" layer="91"/>
 <label x="223.52" y="210.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="U$1" pin="!FLAG"/>
+<wire x1="279.4" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
+<label x="274.32" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="276.86" y1="121.92" x2="274.32" y2="121.92" width="0.1524" layer="91"/>
+<junction x="276.86" y="121.92"/>
 </segment>
 </net>
 <net name="!ST_UART2_RST" class="0">
@@ -24338,7 +24346,7 @@ detection</text>
 <label x="251.46" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="EN_ST_SIM_VDD)" class="0">
+<net name="EN_ST_SIM_VDD" class="0">
 <segment>
 <pinref part="U202" gate="G$1" pin="URXD1/AD6/PB2"/>
 <wire x1="205.74" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
@@ -24493,16 +24501,6 @@ detection</text>
 <pinref part="U202" gate="G$1" pin="PWML2/TIOB1/TK/PA16"/>
 <wire x1="205.74" y1="190.5" x2="213.36" y2="190.5" width="0.1524" layer="91"/>
 <label x="213.36" y="190.5" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC1" gate="U$1" pin="!FLAG"/>
-<wire x1="279.4" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
-<label x="274.32" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="121.92" x2="274.32" y2="121.92" width="0.1524" layer="91"/>
-<junction x="276.86" y="121.92"/>
 </segment>
 </net>
 </nets>

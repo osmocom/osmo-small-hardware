@@ -77,6 +77,19 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -295,6 +308,28 @@ DIN A3, landscape with location and doc. field</description>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="JACK2.5_SJ-2523">
+<smd name="1" x="-4.3" y="-3.2741" dx="2.4" dy="2.94" layer="1" rot="R180"/>
+<smd name="3" x="-1.6" y="2.9997" dx="2.4" dy="2.94" layer="1" rot="R180"/>
+<smd name="2" x="5.4" y="-3.4239" dx="2.4" dy="2.94" layer="1" rot="R180"/>
+<hole x="-2.9997" y="0" drill="1"/>
+<hole x="2.9997" y="0" drill="1"/>
+<wire x1="-6" y1="-2.5" x2="6" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-2.5" x2="-6" y2="-2" width="0.127" layer="21"/>
+<wire x1="-6" y1="-2" x2="-6" y2="2" width="0.127" layer="21"/>
+<wire x1="-6" y1="2" x2="-6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="2.5" x2="6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="6" y1="2.5" x2="6" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="2" x2="-7.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="2" x2="-7.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-2" x2="-6" y2="-2" width="0.127" layer="21"/>
+<text x="0.6" y="3.1" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.7" y="-4.1" size="1.27" layer="25">&gt;NAME</text>
+<circle x="-3" y="0" radius="0.647575" width="0.127" layer="41"/>
+<circle x="3" y="0" radius="0.647575" width="0.127" layer="41"/>
+<circle x="-3" y="0" radius="0.647575" width="0.127" layer="42"/>
+<circle x="3" y="0" radius="0.647575" width="0.127" layer="42"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TVS_5_BIDIR">
@@ -354,6 +389,23 @@ DIN A3, landscape with location and doc. field</description>
 <pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="JACK2.5STEREO">
+<wire x1="0" y1="2.54" x2="1.524" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="1.016" x2="2.032" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0.508" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-5.08" x2="4.064" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="4.064" y1="-1.524" x2="4.572" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-2.54" x2="2.54" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="3.048" y2="-1.524" width="0.1524" layer="94"/>
+<text x="-2.54" y="4.064" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-8.89" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="5.207" y1="-2.667" x2="6.604" y2="2.667" layer="94"/>
+<pin name="RING" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="TIP" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="MIDDLE" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -445,6 +497,24 @@ Standard 3-pin 0.1" header</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JACK2.5_SJ-2523">
+<description>CUI Inc. SJ-2523-SMT</description>
+<gates>
+<gate name="G$1" symbol="JACK2.5STEREO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JACK2.5_SJ-2523">
+<connects>
+<connect gate="G$1" pin="MIDDLE" pad="3"/>
+<connect gate="G$1" pin="RING" pad="1"/>
+<connect gate="G$1" pin="TIP" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21085,6 +21155,28 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
 </part>
+<part name="X3" library="laforge" deviceset="JACK2.5_SJ-2523" device="">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="CONN JACK STEREO 2.5MM SMD R/A"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-inc/SJ-2523-SMT-TR/CP-2523SJCT-ND/669702"/>
+<attribute name="MANUFACTURER" value="CUI Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SJ-2523-SMT-TR"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="CP-2523SJCT-ND"/>
+</part>
+<part name="R3" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="RES SMD 47R 0402 1%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0402F47R/A129611CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0402F47R"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -23421,6 +23513,30 @@ detection</text>
 <attribute name="CLASS" x="276.86" y="127" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="276.86" y="127" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="X3" gate="G$1" x="297.18" y="175.26">
+<attribute name="DESCRIPTION" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="297.18" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="215.9" y="208.28" smashed="yes">
+<attribute name="NAME" x="212.852" y="210.312" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="220.726" y="208.915" size="1.27" layer="96"/>
+<attribute name="DESCRIPTION" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCE" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="POPULATED" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CLASS" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="215.9" y="208.28" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23780,12 +23896,12 @@ detection</text>
 <segment>
 <pinref part="R212" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="210.82" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U202" gate="G$1" pin="NPCS1/URXD0/PA9"/>
-<wire x1="205.74" y1="208.28" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
 <label x="248.92" y="208.28" size="1.27" layer="95" rot="R90" xref="yes"/>
-<junction x="256.54" y="208.28"/>
 <pinref part="IC203" gate="G$1" pin="2B"/>
 <wire x1="256.54" y1="208.28" x2="264.16" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="208.28" x2="256.54" y2="208.28" width="0.1524" layer="91"/>
+<junction x="256.54" y="208.28"/>
 </segment>
 </net>
 <net name="ST_DTXD" class="0">
@@ -24051,15 +24167,6 @@ detection</text>
 <pinref part="IC203" gate="G$1" pin="2A"/>
 <pinref part="X202" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="208.28" x2="289.56" y2="208.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$75" class="0">
-<segment>
-<pinref part="IC203" gate="G$1" pin="1A"/>
-<wire x1="284.48" y1="203.2" x2="287.02" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="203.2" x2="287.02" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="X202" gate="G$1" pin="2"/>
-<wire x1="287.02" y1="205.74" x2="289.56" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_3V3" class="2">
@@ -24501,6 +24608,25 @@ detection</text>
 <pinref part="U202" gate="G$1" pin="PWML2/TIOB1/TK/PA16"/>
 <wire x1="205.74" y1="190.5" x2="213.36" y2="190.5" width="0.1524" layer="91"/>
 <label x="213.36" y="190.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="UART_TX0" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="MIDDLE"/>
+<wire x1="284.48" y1="172.72" x2="292.1" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="IC203" gate="G$1" pin="1A"/>
+<wire x1="284.48" y1="172.72" x2="284.48" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="X202" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="205.74" x2="284.48" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="205.74" x2="284.48" y2="203.2" width="0.1524" layer="91"/>
+<junction x="284.48" y="203.2"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="U202" gate="G$1" pin="NPCS1/URXD0/PA9"/>
+<wire x1="210.82" y1="208.28" x2="205.74" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

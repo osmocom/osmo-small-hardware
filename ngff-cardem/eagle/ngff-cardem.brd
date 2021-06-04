@@ -4260,7 +4260,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="8.11375" y="20.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="OSRAM Opto Semiconductors Inc." x="8.11375" y="20.5" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="475-2683-1-ND" x="8.11375" y="20.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.84375" y="17.0075" size="1" layer="25" ratio="19"/>
+<attribute name="NAME" x="6.20875" y="17.6425" size="1" layer="25" ratio="19"/>
 <attribute name="VALUE" x="5.57375" y="17.325" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="LED102" library="LED-PLCC2" package="PLCC2-MIN" value="LEDPLCC2-MIN" x="14.00125" y="20.5" smashed="yes">
@@ -4273,7 +4273,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="14.00125" y="20.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="14.00125" y="20.5" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="511-1648-1-ND" x="14.00125" y="20.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.36625" y="17.0075" size="1" layer="25" ratio="19"/>
+<attribute name="NAME" x="13.68375" y="17.6425" size="1" layer="25" ratio="19"/>
 <attribute name="VALUE" x="11.46125" y="17.325" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R112" library="rc-sysmocom" package="_0402" value="47" x="35.27425" y="60.961" smashed="yes" rot="R180">
@@ -4338,7 +4338,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU" x="73.597" y="49.07225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="CAP CER 10PF 50V NP0 0603" x="73.597" y="49.07225" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="73.597" y="49.07225" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="71.501" y="45.609" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="71.5485" y="46.4185" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="69.5647" y="45.57975" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C111" library="rc-sysmocom" package="_0603@1" value="100n" x="73.9145" y="43.99225" smashed="yes" rot="R90">
@@ -4351,7 +4351,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="76.4545" y="43.99225" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603" x="76.4545" y="43.99225" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="76.4545" y="43.99225" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="74.19975" y="45.609" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="74.819" y="43.27525" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="75.4068" y="42.40475" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C118" library="rc-sysmocom" package="_0402@1" value="33p" x="43.9425" y="43.278" smashed="yes" rot="R270">
@@ -4429,7 +4429,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="86.901" y="49.5275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603" x="86.901" y="49.5275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="86.901" y="49.5275" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="87.7875" y="50.673" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="88.7425" y="47.91075" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="85.4087" y="51.115" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="C109" library="rc-sysmocom" package="1206@1" value="100u" x="77.662" y="48.309" smashed="yes" rot="R270">
@@ -4558,7 +4558,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="29.68625" y="47.785" size="1" layer="27" ratio="16" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="29.68625" y="47.785" size="1" layer="27" ratio="16" rot="R180" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="29.68625" y="47.785" size="1" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="NAME" x="31.59125" y="47.465" size="1" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="31.27375" y="47.7825" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="31.27375" y="49.2773" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="X102" library="USB30-MICROB" package="ZX360D-B" value="ZX360D-B-10P(30)" x="85.5675" y="35.72" smashed="yes" rot="R90">
@@ -4610,7 +4610,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="CAPACITOR" x="81.50125" y="46.26125" size="1" layer="27" ratio="16" rot="R180" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="81.50125" y="46.26125" size="1" layer="27" ratio="16" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="81.50125" y="46.26125" size="1" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="NAME" x="83.2475" y="45.15" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="83.1225" y="45.81375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="83.08875" y="47.75355" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R103" library="rc-sysmocom" package="_0603" value="10k" x="76.835" y="71.88" smashed="yes" rot="R270">
@@ -4780,7 +4780,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/vishay-dale/CRCW0603100KFKEA/541-100KHCT-ND" x="85.565" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="85.565" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="541-100KHCT-ND" x="85.565" y="49.53" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="85.885" y="51.435" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="84.77375" y="47.625" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="84.0727" y="51.1175" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="Q201" library="crystal" package="HC49UP" value="12MHz" x="13.290459375" y="90.61514375" smashed="yes" rot="R225">
@@ -5774,7 +5774,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="20.6375" y="61.595" extent="1-16" drill="0.3"/>
 <wire x1="95.25" y1="78.962" x2="98.7425" y2="80.613" width="0" layer="19" extent="1-1"/>
 <wire x1="84.93125" y1="71.12" x2="95.09125" y2="78.2" width="0" layer="19" extent="1-1"/>
-<wire x1="26.797" y1="64.39" x2="32.2905" y2="62.38875" width="0" layer="19" extent="1-1"/>
 <wire x1="16.637" y1="-3.5425" x2="24.73375" y2="3.18" width="0" layer="19" extent="1-1"/>
 <wire x1="16.383" y1="-5.18" x2="16.637" y2="-3.5425" width="0" layer="19" extent="1-1"/>
 <wire x1="16.9545" y1="-6.7125" x2="16.383" y2="-5.18" width="0" layer="19" extent="1-1"/>
@@ -6577,6 +6576,23 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="33.9725" y1="66.675" x2="34.6075" y2="67.31" width="0.3048" layer="1"/>
 <wire x1="34.6075" y1="67.31" x2="35.8775" y2="67.31" width="0.3048" layer="1"/>
 <wire x1="35.8775" y1="67.31" x2="36.0225" y2="67.455" width="0.3048" layer="1"/>
+<contactref element="X3" pad="2"/>
+<wire x1="32.385" y1="37.7825" x2="32.385" y2="53.6575" width="0.3048" layer="16"/>
+<wire x1="13.0175" y1="18.415" x2="32.385" y2="37.7825" width="0.3048" layer="16"/>
+<wire x1="13.0175" y1="14.2875" x2="13.0175" y2="18.415" width="0.3048" layer="1"/>
+<wire x1="11.7475" y1="13.0175" x2="13.0175" y2="14.2875" width="0.3048" layer="1"/>
+<wire x1="11.7475" y1="10.795" x2="11.75" y2="10.5461" width="0.3048" layer="1"/>
+<wire x1="36.195" y1="53.6575" x2="32.385" y2="53.6575" width="0.3048" layer="1"/>
+<wire x1="36.195" y1="54.61" x2="36.195" y2="53.6575" width="0.3048" layer="16"/>
+<wire x1="34.6075" y1="56.1975" x2="36.195" y2="54.61" width="0.3048" layer="16"/>
+<wire x1="34.6075" y1="64.135" x2="34.6075" y2="56.1975" width="0.3048" layer="16"/>
+<wire x1="33.9725" y1="64.77" x2="33.9725" y2="64.897" width="0.3048" layer="16"/>
+<via x="32.385" y="53.6575" extent="1-16" drill="0.3"/>
+<via x="13.0175" y="18.415" extent="1-16" drill="0.3"/>
+<via x="36.195" y="53.6575" extent="1-16" drill="0.3"/>
+<wire x1="34.6075" y1="64.135" x2="34.6075" y2="64.262" width="0.6096" layer="16"/>
+<wire x1="34.6075" y1="64.262" x2="33.9725" y2="64.897" width="0.6096" layer="16"/>
+<wire x1="11.7475" y1="10.795" x2="11.7475" y2="13.0175" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$45">
 <contactref element="U202" pad="20"/>
@@ -7060,7 +7076,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="53.0225" y1="39.6875" x2="53.0225" y2="32.0675" width="0.3048" layer="16"/>
 <wire x1="62.77" y1="31.82925" x2="61.1825" y2="31.82925" width="0.3048" layer="1"/>
 <via x="53.0225" y="32.0675" extent="1-16" drill="0.3"/>
-<wire x1="72.0725" y1="51.7525" x2="80.645" y2="51.7525" width="0.3048" layer="16"/>
+<wire x1="72.0725" y1="51.7525" x2="80.645" y2="51.7525" width="0.4064" layer="16"/>
 <via x="80.645" y="51.7525" extent="1-16" drill="0.3"/>
 <wire x1="77.818" y1="67.349290625" x2="77.7875" y2="67.318790625" width="0.3048" layer="1"/>
 <wire x1="77.7875" y1="67.318790625" x2="77.7875" y2="67.2625" width="0.3048" layer="1"/>
@@ -7633,13 +7649,34 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="X3" pad="3"/>
 <contactref element="IC203" pad="1"/>
 <contactref element="X202" pad="2"/>
-<wire x1="4.75" y1="16.9697" x2="36.5125" y2="64.643" width="0" layer="19" extent="1-1"/>
 <wire x1="38.3225" y1="68.265" x2="38.3225" y2="67.5325" width="0.3048" layer="1"/>
 <wire x1="38.3225" y1="67.5325" x2="37.7825" y2="66.9925" width="0.3048" layer="1"/>
 <wire x1="37.7825" y1="66.9925" x2="37.1475" y2="66.9925" width="0.3048" layer="1"/>
 <wire x1="37.1475" y1="66.9925" x2="36.5125" y2="66.3575" width="0.3048" layer="1"/>
 <wire x1="36.5125" y1="66.3575" x2="36.5125" y2="66.04" width="0.3048" layer="1"/>
 <wire x1="36.5125" y1="66.04" x2="36.5125" y2="64.643" width="0.8128" layer="1"/>
+<wire x1="33.02" y1="46.6725" x2="33.655" y2="47.3075" width="0.3048" layer="16"/>
+<wire x1="33.02" y1="37.465" x2="33.02" y2="46.6725" width="0.3048" layer="16"/>
+<wire x1="13.0175" y1="17.4625" x2="33.02" y2="37.465" width="0.3048" layer="16"/>
+<wire x1="12.065" y1="17.4625" x2="13.0175" y2="17.4625" width="0.3048" layer="16"/>
+<wire x1="4.445" y1="17.145" x2="4.7625" y2="17.4625" width="0.3048" layer="1"/>
+<wire x1="4.445" y1="17.145" x2="4.75" y2="16.9697" width="0.3048" layer="1"/>
+<wire x1="34.925" y1="48.5775" x2="33.655" y2="47.3075" width="0.3048" layer="1"/>
+<wire x1="37.1475" y1="48.5775" x2="34.925" y2="48.5775" width="0.3048" layer="1"/>
+<wire x1="37.1475" y1="51.7525" x2="37.1475" y2="48.5775" width="0.3048" layer="16"/>
+<wire x1="37.465" y1="52.07" x2="37.1475" y2="51.7525" width="0.3048" layer="16"/>
+<wire x1="37.465" y1="56.515" x2="37.465" y2="52.07" width="0.3048" layer="16"/>
+<wire x1="35.2425" y1="58.7375" x2="37.465" y2="56.515" width="0.3048" layer="16"/>
+<wire x1="35.2425" y1="63.1825" x2="35.2425" y2="58.7375" width="0.3048" layer="16"/>
+<wire x1="36.5125" y1="64.4525" x2="36.5125" y2="64.643" width="0.3048" layer="16"/>
+<via x="33.655" y="47.3075" extent="1-16" drill="0.3"/>
+<via x="12.065" y="17.4625" extent="1-16" drill="0.3"/>
+<via x="37.1475" y="48.5775" extent="1-16" drill="0.3"/>
+<wire x1="35.2425" y1="63.1825" x2="35.8775" y2="63.8175" width="0.3048" layer="16"/>
+<wire x1="35.8775" y1="63.8175" x2="35.8775" y2="64.008" width="0.6096" layer="16"/>
+<wire x1="35.8775" y1="64.008" x2="36.5125" y2="64.643" width="0.6096" layer="16"/>
+<wire x1="4.7625" y1="17.4625" x2="6.985" y2="17.4625" width="0.6096" layer="1"/>
+<wire x1="6.985" y1="17.4625" x2="12.065" y2="17.4625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R3" pad="1"/>

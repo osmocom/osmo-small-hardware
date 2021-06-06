@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -106,11 +106,11 @@
 <wire x1="33.465" y1="1.5925" x2="27.75" y2="1.5925" width="0.254" layer="51" style="dashdot"/>
 <wire x1="46.99" y1="0.3225" x2="41.91" y2="0.3225" width="0.254" layer="51" style="shortdash"/>
 <text x="72.92975" y="8.71475" size="1" layer="25" font="vector" ratio="16" rot="SR90">DC IN</text>
-<text x="62.517" y="59.30775" size="1" layer="25" font="vector" ratio="16">!RESET</text>
-<text x="62.4535" y="64.2925" size="1" layer="25" font="vector" ratio="16">!W_DIS</text>
+<text x="80.0405" y="65.78725" size="1" layer="25" font="vector" ratio="16" rot="R180">!RESET</text>
+<text x="80.4215" y="71.75625" size="1" layer="25" font="vector" ratio="16" rot="R180">!W_DIS</text>
 <text x="26.83" y="37.7825" size="1" layer="25" ratio="16" rot="R270">SIM1</text>
-<text x="62.4535" y="66.8325" size="1" layer="25" font="vector" ratio="16">PWR_ON</text>
-<text x="62.4535" y="61.7525" size="1" layer="25" font="vector" ratio="16">!GPS_DIS</text>
+<text x="81.0565" y="74.1375" size="1" layer="25" font="vector" ratio="16" rot="R180">PWR_ON</text>
+<text x="80.4215" y="68.74" size="1" layer="25" font="vector" ratio="16" rot="R180">!GPS_DIS</text>
 <text x="25.527" y="96.2" size="1.2" layer="1" font="vector" ratio="16">NGFF-cardem</text>
 <text x="25.5905" y="94.2645" size="1.2" layer="1" font="vector" ratio="16">(C) 2021 sysmocom GmbH</text>
 <text x="38.862" y="96.16825" size="1.2" layer="1" font="vector" ratio="16">&gt;VERSION</text>
@@ -3134,6 +3134,62 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2X04">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="7" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-5.08" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
+<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 <attribute name="VERSION" value="v1"/>
@@ -3839,7 +3895,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="VALUE" x="2.24" y="28.2577" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R213" library="rc-sysmocom" package="_0603" value="10k" x="9.78" y="81.5975" smashed="yes" rot="R270">
-<attribute name="NAME" x="3.90625" y="86.6775" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="6.12875" y="82.8675" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="8.2877" y="83.185" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603" x="9.78" y="81.5975" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="9.78" y="81.5975" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3883,7 +3939,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="SOURCEPARTNUMBER" value="732-6126-1-ND" x="11.3675" y="81.5975" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="11.3675" y="81.5975" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="74279220601" x="11.3675" y="81.5975" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.0175" y="86.6775" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="7.24" y="82.8675" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="9.7165" y="83.5024" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="DCDC301" library="DC-DC_CONVERTER" package="DC-DC_CON-ALLPADS" value="PVX003A0X3-SRZ" x="40.1325" y="10.165" smashed="yes" rot="R180">
@@ -3908,7 +3964,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="SOURCEPARTNUMBER" value="311-100KHRCT-ND" x="40.825" y="26.3525" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="40.825" y="26.3525" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07100KL" x="40.825" y="26.3525" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.5925" y="23.68" size="1" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="42.545" y="25.215" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="39.2375" y="24.8602" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C304" library="rc-sysmocom" package="_0603@1" value="100n" x="27.4275" y="3.81" smashed="yes">
@@ -4028,18 +4084,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="29.3686" y="89.82125" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="28.0036" y="87.0575" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="X202" library="laforge" package="1X03_LOCK" value="2.54mm" x="33.9725" y="64.77" smashed="yes">
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="CONNECTOR" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.9575" y="64.4525" size="1" layer="25" ratio="16"/>
-<attribute name="POGOPIN" value="" x="33.9725" y="64.77" size="1.778" layer="27" display="off"/>
+<element name="X202" library="laforge" package="1X03_LOCK" value="2.54mm" x="32.385" y="64.77" smashed="yes">
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.37" y="64.4525" size="1" layer="25" ratio="16"/>
+<attribute name="POGOPIN" value="" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C122" library="rc-sysmocom" package="_0402@1" value="10n" x="95.25" y="79.47" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.9164" y="81.0575" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -4173,7 +4229,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="18.035" y="66.9925" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="T101" library="transistor" package="SOT23-BEC" value="BC847" x="56.705" y="27.6175" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.2775" y="25.0875" size="1" layer="25" ratio="16"/>
+<attribute name="NAME" x="55.3725" y="29.215" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="53.53" y="29.5225" size="1.27" layer="27" rot="R270"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc." x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4212,7 +4268,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJCT-ND" x="91.9175" y="18.6675" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R123" library="rc-sysmocom" package="_0603" value="DNP" x="51.245" y="29.215" smashed="yes" rot="R270">
-<attribute name="NAME" x="50.99" y="27.6175" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="50.4775" y="29.655" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="49.7527" y="30.8025" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DESCRIPTION" value="RES SMD 0 OHM JUMPER 1/10W 0603" x="51.245" y="29.215" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="51.245" y="29.215" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4234,7 +4290,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="POPULATED" value="TRUE" x="8.51" y="81.5975" size="1.778" layer="27" ratio="14" rot="R270" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="8.51" y="81.5975" size="1.778" layer="27" ratio="14" rot="R270" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100KL/311-100KHRCT-ND/" x="8.51" y="81.5975" size="1.778" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="NAME" x="2.795" y="86.6775" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="5.0175" y="82.8675" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="7.0177" y="83.185" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="LED202" library="LED-PLCC2" package="PLCC2-MIN" value="LEDPLCC2-MIN-red" x="8.11375" y="26.55" smashed="yes">
@@ -4522,31 +4578,31 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="52.26125" y="31.00375" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="48.7052" y="34.17875" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R106" library="rc-sysmocom" package="_0603" value="10k" x="78.5825" y="68.5475" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="78.5825" y="68.5475" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="NAME" x="76.83375" y="69.02375" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
-<attribute name="VALUE" x="80.17" y="70.0398" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<element name="R106" library="rc-sysmocom" package="_0603" value="10k" x="78.5825" y="66.96" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="78.5825" y="66.96" size="1.27" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="NAME" x="77.15125" y="67.43625" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="80.17" y="68.4523" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R109" library="rc-sysmocom" package="_0603" value="10k" x="79.0575" y="71.88" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="79.0575" y="71.88" size="1" layer="27" ratio="16" rot="R90" display="off"/>
-<attribute name="NAME" x="78.4225" y="70.13625" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="80.5498" y="70.2925" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<element name="R109" library="rc-sysmocom" package="_0603" value="10k" x="78.615" y="69.85" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="78.615" y="69.85" size="1" layer="27" ratio="16" rot="R180" display="off"/>
+<attribute name="NAME" x="77.18375" y="70.485" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="80.2025" y="71.3423" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R113" library="rc-sysmocom" package="_0603" value="DNP" x="29.68625" y="47.785" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="29.68625" y="47.785" size="1" layer="27" ratio="16" rot="R180" display="off"/>
@@ -4575,7 +4631,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="VALUE" x="88.1075" y="47.785" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="U301" library="ldo" package="SC70-5" value="MIC5366-1.8YC5" x="81.50125" y="48.80125" smashed="yes">
-<attribute name="NAME" x="79.91375" y="47.21375" size="1" layer="25" ratio="16" rot="R90"/>
+<attribute name="NAME" x="79.91375" y="48.0075" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="78.96125" y="45.94375" size="1.27" layer="27" ratio="14"/>
 <attribute name="DESCRIPTION" value="IC REG LINEAR 1.8V 150MA SC70-5" x="81.50125" y="48.80125" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Microchip Technology" x="81.50125" y="48.80125" size="1.778" layer="27" display="off"/>
@@ -4597,7 +4653,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="CAPACITOR" x="81.5325" y="51.02125" size="1" layer="27" ratio="16" rot="R180" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="81.5325" y="51.02125" size="1" layer="27" ratio="16" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="81.5325" y="51.02125" size="1" layer="27" ratio="16" rot="R180" display="off"/>
-<attribute name="NAME" x="80.42125" y="51.895" size="1" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="79.78625" y="52.2125" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="83.12" y="52.51355" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C307" library="rc-sysmocom" package="_0603@1" value="100n" x="81.50125" y="46.26125" smashed="yes" rot="R180">
@@ -4613,18 +4669,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="83.1225" y="45.81375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="83.08875" y="47.75355" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R103" library="rc-sysmocom" package="_0603" value="10k" x="76.835" y="71.88" smashed="yes" rot="R270">
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="76.835" y="71.88" size="1" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="NAME" x="75.88375" y="70.61125" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="75.3427" y="73.4675" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<element name="R103" library="rc-sysmocom" package="_0603" value="10k" x="76.5175" y="76.80125" smashed="yes" rot="R270">
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC " x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="76.5175" y="76.80125" size="1" layer="27" ratio="16" rot="R270" display="off"/>
+<attribute name="NAME" x="76.995" y="78.54875" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="VALUE" x="75.0252" y="78.38875" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R104" library="rc-sysmocom" package="_0603" value="10k" x="62.77" y="32.59125" smashed="yes" rot="R270">
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND" x="62.77" y="32.59125" size="1.016" layer="27" ratio="16" rot="R270" display="off"/>
@@ -4661,18 +4717,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="70.7075" y="46.785" size="1.4224" layer="27" ratio="16" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="70.7075" y="46.785" size="1.4224" layer="27" ratio="16" rot="R180" display="off"/>
 </element>
-<element name="R108" library="rc-sysmocom" package="_0603" value="100k" x="79.0575" y="75.375" smashed="yes" rot="R270">
-<attribute name="SOURCE" value="DIGIKEY" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay Dale" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/vishay-dale/CRCW0603100KFKEA/541-100KHCT-ND" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CRCW0603100KFKEA" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="541-100KHCT-ND" x="79.0575" y="75.375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="77.63" y="76.96125" size="1" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="77.5652" y="76.9625" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<element name="R108" library="rc-sysmocom" package="_0603" value="100k" x="78.105" y="76.80375" smashed="yes" rot="R270">
+<attribute name="SOURCE" value="DIGIKEY" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/vishay-dale/CRCW0603100KFKEA/541-100KHCT-ND" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRCW0603100KFKEA" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="541-100KHCT-ND" x="78.105" y="76.80375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="80.83625" y="75.4075" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="VALUE" x="76.6127" y="78.39125" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R117" library="rc-sysmocom" package="_0603" value="4.7k" x="48.73625" y="32.59125" smashed="yes" rot="R90">
 <attribute name="SOURCE" value="DIGIKEY" x="48.73625" y="32.59125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4741,7 +4797,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURER" value="" x="91.2825" y="66.135" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="" x="91.2825" y="66.135" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="" x="91.2825" y="66.135" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="78.4875" y="80.645" size="1.1" layer="25" ratio="14" rot="R180"/>
+<attribute name="NAME" x="81.6625" y="80.9625" size="1.1" layer="25" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="81.44" y="86.7725" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="C201" library="rc-sysmocom" package="_0603@1" value="100n" x="80.1675" y="88.17" smashed="yes" rot="R270">
@@ -4927,7 +4983,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087" x="31.7825" y="62.38875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="31.7825" y="62.38875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND" x="31.7825" y="62.38875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.38485" y="63.37375" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="30.16235" y="63.05625" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="33.0525" y="63.72235" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R205" library="rc-sysmocom" package="_0603" value="10k" x="26.035" y="64.39">
@@ -5047,40 +5103,31 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="POPULATED" value="TRUE" x="67.4675" y="47.64" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="67.4675" y="47.64" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
 </element>
-<element name="X2" library="SparkFun-Connectors" package="2X03" value="PINHD-2X3-SP" x="83.66125" y="71.12" rot="R270">
-<attribute name="SOURCEPARTNUMBER" value="WM17457-ND" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="CONN HEADER SMD 6POS 2.54MM" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="CLASS" value="CONNECTOR" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/molex-llc/0015910060/WM17457-ND/614773" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Molex" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="0015910060" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="83.66125" y="71.12" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<element name="IC1" library="FPF2109" package="SOT23-5" value="FPF2109" x="4.445" y="73.9775" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="IC PWR SWITCH P-CHAN 1:1 SOT23-5" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="FPF2109" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="FPF2109CT-ND" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="IC" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/on-semiconductor/FPF2109/FPF2109CT-ND" x="4.445" y="73.9775" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="4.1275" y="72.0725" size="1.016" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="7.62" y="72.0725" size="0.8128" layer="27" ratio="12" rot="R90"/>
 </element>
-<element name="IC1" library="FPF2109" package="SOT23-5" value="FPF2109" x="4.445" y="75.2475" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="IC PWR SWITCH P-CHAN 1:1 SOT23-5" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="FPF2109" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="FPF2109CT-ND" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CLASS" value="IC" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/on-semiconductor/FPF2109/FPF2109CT-ND" x="4.445" y="75.2475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="4.1275" y="73.3425" size="1.016" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="7.62" y="73.3425" size="0.8128" layer="27" ratio="12" rot="R90"/>
-</element>
-<element name="R4" library="rc-sysmocom" package="_0603" value="10k" x="75.2475" y="75.8825" rot="R270">
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="75.2475" y="75.8825" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<element name="R4" library="rc-sysmocom" package="_0603" value="10k" x="74.93" y="76.835" smashed="yes" rot="R270">
+<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="74.93" y="76.835" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="NAME" x="75.40625" y="79.375" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="73.4377" y="78.4225" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R5" library="rc-sysmocom" package="_0603" value="4.7k" x="52.705" y="29.21" smashed="yes" rot="R90">
 <attribute name="SOURCEPARTNUMBER" value="311-4.7KGRCT-ND" x="52.705" y="29.21" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
@@ -5092,7 +5139,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L" x="52.705" y="29.21" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="52.705" y="29.21" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="52.705" y="29.21" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
-<attribute name="NAME" x="52.3875" y="27.6225" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
+<attribute name="NAME" x="53.6575" y="29.5275" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="54.1973" y="27.6225" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="IC2" library="FPF2109" package="SOT23-5" value="FPF2109" x="5.08" y="65.7225" rot="R90">
@@ -5119,18 +5166,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="-3.54" y="69.0675" size="0.8128" layer="25" ratio="18" rot="R90"/>
 <attribute name="VALUE" x="-0.748" y="69.0675" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R7" library="rc-sysmocom" package="_0603" value="10k" x="4.445" y="77.7875" smashed="yes" rot="R180">
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="4.445" y="77.7875" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="NAME" x="2.2225" y="76.2" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
-<attribute name="VALUE" x="6.0325" y="79.2798" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<element name="R7" library="rc-sysmocom" package="_0603" value="10k" x="4.445" y="76.5175" smashed="yes" rot="R180">
+<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="4.445" y="76.5175" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="NAME" x="2.2225" y="74.93" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="6.0325" y="78.0098" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R6" library="rc-sysmocom" package="_0603" value="10k" x="4.7625" y="68.58" smashed="yes" rot="R180">
 <attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND" x="4.7625" y="68.58" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
@@ -5145,44 +5192,44 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="2.8575" y="67.945" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="6.35" y="70.0723" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R8" library="rc-sysmocom" package="_0603" value="30k" x="5.3975" y="79.6925" smashed="yes" rot="R180">
-<attribute name="SOURCEPARTNUMBER" value="311-30KGRCT-ND" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RES SMD 30K OHM 5%% 1/10W 0603" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603JR-0730KL/311-30KGRCT-ND/729715" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0730KL" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="5.3975" y="75.2475" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="NAME" x="6.0325" y="84.1375" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
-<attribute name="VALUE" x="6.985" y="81.1848" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<element name="R8" library="rc-sysmocom" package="_0603" value="30k" x="5.3975" y="78.4225" smashed="yes" rot="R180">
+<attribute name="SOURCEPARTNUMBER" value="311-30KGRCT-ND" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 30K OHM 5%% 1/10W 0603" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603JR-0730KL/311-30KGRCT-ND/729715" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0730KL" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="5.3975" y="73.9775" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="NAME" x="2.8575" y="83.5025" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="6.985" y="79.9148" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="R9" library="rc-sysmocom" package="_0603" value="47k" x="5.3975" y="82.8675" smashed="yes">
-<attribute name="SOURCEPARTNUMBER" value="311-47KGRCT-ND" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="DESCRIPTION" value="RES SMD 47K OHM 5%% 1/10W 0603" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603JR-0747KL/311-47KGRCT-ND/729741" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747KL" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="5.3975" y="87.3125" size="1.016" layer="27" ratio="14" display="off"/>
-<attribute name="NAME" x="6.0325" y="86.0425" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
-<attribute name="VALUE" x="3.81" y="81.3752" size="0.508" layer="27" font="vector" ratio="10"/>
+<element name="R9" library="rc-sysmocom" package="_0603" value="47k" x="5.3975" y="81.5975" smashed="yes">
+<attribute name="SOURCEPARTNUMBER" value="311-47KGRCT-ND" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 47K OHM 5%% 1/10W 0603" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603JR-0747KL/311-47KGRCT-ND/729741" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747KL" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="5.3975" y="86.0425" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="NAME" x="2.8575" y="85.4075" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="3.81" y="80.1052" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="C8" library="rc-sysmocom" package="_0603@1" value="DNP" x="5.3975" y="81.28" smashed="yes" rot="R180">
-<attribute name="SOURCEPARTNUMBER" value="311-1352-1-ND" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 1000PF 16V 10% X7R 0402" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="CLASS" value="CAPACITOR" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CC0402KRX7R7BB102/311-1352-1-ND" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CC0402KRX7R7BB102" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="POPULATED" value="FALSE" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="5.3975" y="90.17" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
-<attribute name="NAME" x="6.0325" y="85.09" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
-<attribute name="VALUE" x="6.985" y="82.7723" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<element name="C8" library="rc-sysmocom" package="_0603@1" value="DNP" x="5.3975" y="80.01" smashed="yes" rot="R180">
+<attribute name="SOURCEPARTNUMBER" value="311-1352-1-ND" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 1000PF 16V 10% X7R 0402" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CC0402KRX7R7BB102/311-1352-1-ND" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CC0402KRX7R7BB102" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="POPULATED" value="FALSE" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="5.3975" y="88.9" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="NAME" x="2.8575" y="84.455" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="6.985" y="81.5023" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="TP2" library="testpad" package="TP14R" value="TPTP14R" x="4.7625" y="57.15" smashed="yes">
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="4.7625" y="57.15" size="1.016" layer="27" ratio="14" display="off"/>
@@ -5198,18 +5245,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="2.3376" y="58.485" size="1.016" layer="25" ratio="14" rot="SR270"/>
 <attribute name="VALUE" x="4.2545" y="56.388" size="0.0254" layer="27"/>
 </element>
-<element name="R2" library="rc-sysmocom" package="_0603" value="10k" x="2.2225" y="80.3275" smashed="yes" rot="R270">
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="2.2225" y="80.3275" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="NAME" x="1.5875" y="80.9625" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
-<attribute name="VALUE" x="0.7302" y="81.915" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
+<element name="R2" library="rc-sysmocom" package="_0603" value="10k" x="2.2225" y="79.0575" smashed="yes" rot="R270">
+<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="2.2225" y="79.0575" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="NAME" x="1.5875" y="79.6925" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="0.7302" y="80.645" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="X3" library="laforge" package="JACK2.5_SJ-2523" value="JACK2.5_SJ-2523" x="6.35" y="13.97">
 <attribute name="SOURCEPARTNUMBER" value="CP-2523SJCT-ND" x="-9.525" y="30.48" size="1.016" layer="27" ratio="14" display="off"/>
@@ -5235,6 +5282,59 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="33.8136" y="72.0725" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="34.9886" y="69.5325" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
+<element name="T1" library="transistor" package="SOT23-BEC" value="BC847" x="53.6575" y="24.13" smashed="yes" rot="R270">
+<attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Nexperia USA Inc." x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<attribute name="NAME" x="51.7525" y="25.7175" size="1.27" layer="25"/>
+<attribute name="VALUE" x="50.4825" y="26.035" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C1" library="rc-sysmocom" package="_0402@1" value="33p" x="57.15" y="22.5425" smashed="yes">
+<attribute name="SOURCEPARTNUMBER" value="1276-1272-1-ND" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05C330JB5NNNC/1276-1272-1-ND/3889358" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc." x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="NAME" x="58.42" y="22.0664" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="VALUE" x="55.88" y="21.2089" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R10" library="rc-sysmocom" package="_0603" value="DNP" x="49.8475" y="23.1775" smashed="yes">
+<attribute name="SOURCEPARTNUMBER" value="P0.0GCT-ND" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 0 OHM JUMPER 1/10W 0603" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-3GEY0R00V/P0-0GCT-ND/134711" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEY0R00V" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="49.8475" y="18.7325" size="1.016" layer="27" ratio="14" display="off"/>
+<attribute name="NAME" x="48.26" y="23.495" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="48.26" y="21.6852" size="0.508" layer="27" font="vector" ratio="10"/>
+</element>
+<element name="R12" library="rc-sysmocom" package="_0603" value="4.7k" x="49.8475" y="25.0825" smashed="yes" rot="R180">
+<attribute name="SOURCEPARTNUMBER" value="311-4.7KGRCT-ND" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="LINK" value="http://www.digikey.de/product-detail/de/RC0603JR-074K7L/311-4.7KGRCT-ND" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>
+<attribute name="NAME" x="48.26" y="25.4" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
+<attribute name="VALUE" x="51.435" y="26.5748" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+</element>
+<element name="JP1" library="pinhead" package="2X04" value="" x="83.66" y="69.5475" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND" class="3">
@@ -5589,10 +5689,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="67.0435" y1="38.3665" x2="66.9925" y2="38.4175" width="0.3048" layer="1"/>
 <wire x1="66.5435" y1="37.1775" x2="66.5435" y2="38.6035" width="0.3048" layer="1"/>
 <wire x1="66.5435" y1="38.6035" x2="66.675" y2="38.735" width="0.3048" layer="1"/>
-<wire x1="67.0435" y1="37.1775" x2="67.0435" y2="36.144" width="0.3048" layer="1"/>
-<wire x1="67.0435" y1="36.144" x2="67.31" y2="35.8775" width="0.3048" layer="1"/>
-<wire x1="66.5435" y1="37.1775" x2="66.5435" y2="36.3265" width="0.3048" layer="1"/>
-<wire x1="66.5435" y1="36.3265" x2="66.9925" y2="35.8775" width="0.3048" layer="1"/>
 <via x="68.0725" y="36.07075" extent="1-16" drill="0.3"/>
 <via x="69.9775" y="36.07075" extent="1-16" drill="0.3"/>
 <via x="66.8025" y="38.92825" extent="1-16" drill="0.3"/>
@@ -5609,12 +5705,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="56.96" y="46.23075" extent="1-16" drill="0.3"/>
 <via x="50.45125" y="46.23075" extent="1-16" drill="0.3"/>
 <via x="82.995" y="48.77075" extent="1-16" drill="0.3"/>
-<wire x1="79.0575" y1="76.137" x2="79.027" y2="76.137" width="0.4064" layer="1"/>
-<wire x1="79.027" y1="76.137" x2="77.94625" y2="76.1675" width="0.4064" layer="1"/>
-<via x="77.94625" y="76.1675" extent="1-16" drill="0.3"/>
+<wire x1="78.105" y1="77.56575" x2="78.7095" y2="77.407" width="0.4064" layer="1"/>
+<wire x1="78.7095" y1="77.407" x2="79.21625" y2="77.12" width="0.4064" layer="1"/>
+<via x="79.21625" y="77.12" extent="1-16" drill="0.3"/>
 <wire x1="37.113" y1="44.548" x2="37.113" y2="41.627" width="1.27" layer="1"/>
-<via x="37.11625" y="39.722" extent="1-16" drill="0.3"/>
-<via x="37.11625" y="46.3895" extent="1-16" drill="0.3"/>
+<via x="37.75125" y="40.0395" extent="1-16" drill="0.3"/>
+<via x="37.75125" y="46.707" extent="1-16" drill="0.3"/>
 <via x="30.13125" y="45.59575" extent="1-16" drill="0.3"/>
 <wire x1="29.41125" y1="45.72" x2="30.007" y2="45.72" width="0.3048" layer="1"/>
 <wire x1="30.007" y1="45.72" x2="30.13125" y2="45.59575" width="0.3048" layer="1"/>
@@ -5662,8 +5758,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="21.90875" y="86.83625" extent="1-16" drill="0.3"/>
 <via x="26.03625" y="86.83625" extent="1-16" drill="0.3"/>
 <contactref element="X1" pad="6"/>
-<contactref element="X2" pad="4"/>
-<contactref element="X2" pad="6"/>
 <contactref element="IC1" pad="2"/>
 <wire x1="77.75375" y1="40.39625" x2="77.555" y2="40.39625" width="0.2" layer="1"/>
 <wire x1="76.835" y1="40.64" x2="77.75375" y2="40.39625" width="0.2" layer="1"/>
@@ -5749,11 +5843,11 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="8.415" y="73.66" extent="1-16" drill="0.3"/>
 <via x="7.78" y="72.7075" extent="1-16" drill="0.3"/>
 <via x="7.43" y="65.757" extent="1-16" drill="0.3"/>
-<via x="6.98625" y="75.2475" extent="1-16" drill="0.3"/>
-<via x="4.605" y="73.025" extent="1-16" drill="0.3"/>
-<via x="6.8275" y="77.47" extent="1-16" drill="0.3"/>
-<via x="2.3825" y="83.5025" extent="1-16" drill="0.3"/>
-<via x="3.6525" y="84.7725" extent="1-16" drill="0.3"/>
+<via x="6.98625" y="73.9775" extent="1-16" drill="0.3"/>
+<via x="4.605" y="71.755" extent="1-16" drill="0.3"/>
+<via x="6.51" y="77.1525" extent="1-16" drill="0.3"/>
+<via x="3.335" y="82.8675" extent="1-16" drill="0.3"/>
+<via x="5.875" y="86.995" extent="1-16" drill="0.3"/>
 <via x="7.27125" y="59.407" extent="1-16" drill="0.3"/>
 <via x="7.4625" y="69.85" extent="1-16" drill="0.3"/>
 <via x="7.43" y="62.582" extent="1-16" drill="0.3"/>
@@ -5772,8 +5866,31 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="20.63675" y1="62.38875" x2="20.63675" y2="61.59575" width="0.254" layer="1"/>
 <wire x1="20.63675" y1="61.59575" x2="20.6375" y2="61.595" width="0.254" layer="1"/>
 <via x="20.6375" y="61.595" extent="1-16" drill="0.3"/>
+<contactref element="T1" pad="E"/>
+<contactref element="C1" pad="2"/>
+<contactref element="R10" pad="2"/>
+<via x="63.945" y="27.945" extent="1-16" drill="0.3"/>
+<via x="63.6275" y="20.6425" extent="1-16" drill="0.3"/>
+<via x="66.1675" y="30.485" extent="1-16" drill="0.3"/>
+<via x="74.105" y="30.485" extent="1-16" drill="0.3"/>
+<via x="80.455" y="30.485" extent="1-16" drill="0.3"/>
+<via x="86.4875" y="30.485" extent="1-16" drill="0.3"/>
+<wire x1="52.5575" y1="23.18" x2="52.5575" y2="22.3725" width="0.4064" layer="1"/>
+<wire x1="52.5575" y1="22.3725" x2="52.705" y2="22.225" width="0.4064" layer="1"/>
+<via x="52.705" y="22.225" extent="1-16" drill="0.3"/>
+<via x="43.815" y="28.8925" extent="1-16" drill="0.3"/>
+<via x="48.26" y="27.305" extent="1-16" drill="0.3"/>
+<wire x1="66.5435" y1="37.1775" x2="66.5435" y2="36.431709375" width="0.254" layer="1"/>
+<wire x1="66.5435" y1="36.431709375" x2="66.61789375" y2="36.25210625" width="0.254" layer="1" curve="44.999502"/>
+<wire x1="66.61789375" y1="36.25210625" x2="66.91810625" y2="35.95189375" width="0.254" layer="1"/>
+<wire x1="67.0435" y1="37.1775" x2="67.0435" y2="36.318125" width="0.254" layer="1"/>
+<contactref element="JP1" pad="6"/>
+<contactref element="JP1" pad="8"/>
+<contactref element="JP1" pad="4"/>
+<via x="48.22875" y="46.23075" extent="1-16" drill="0.3"/>
+<via x="48.22875" y="48.45325" extent="1-16" drill="0.3"/>
 <wire x1="95.25" y1="78.962" x2="98.7425" y2="80.613" width="0" layer="19" extent="1-1"/>
-<wire x1="84.93125" y1="71.12" x2="95.09125" y2="78.2" width="0" layer="19" extent="1-1"/>
+<wire x1="84.93" y1="70.8175" x2="95.09125" y2="78.2" width="0" layer="19" extent="1-1"/>
 <wire x1="16.637" y1="-3.5425" x2="24.73375" y2="3.18" width="0" layer="19" extent="1-1"/>
 <wire x1="16.383" y1="-5.18" x2="16.637" y2="-3.5425" width="0" layer="19" extent="1-1"/>
 <wire x1="16.9545" y1="-6.7125" x2="16.383" y2="-5.18" width="0" layer="19" extent="1-1"/>
@@ -5823,8 +5940,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="3.7799" y1="64.7725" x2="3.49" y2="64.7725" width="0.4064" layer="1"/>
 <wire x1="3.49" y1="64.7725" x2="2.54" y2="65.0875" width="0.4064" layer="1"/>
 <contactref element="IC1" pad="5"/>
-<wire x1="2.54" y1="65.0875" x2="2.54" y2="73.6926" width="0.4064" layer="1"/>
-<wire x1="2.54" y1="73.6926" x2="3.1449" y2="74.2975" width="0.4064" layer="1"/>
+<wire x1="2.54" y1="65.0875" x2="2.54" y2="72.4226" width="0.4064" layer="1"/>
+<wire x1="2.54" y1="72.4226" x2="3.1449" y2="73.0275" width="0.4064" layer="1"/>
 <contactref element="TP2" pad="TP"/>
 <wire x1="4.7625" y1="57.15" x2="4.7625" y2="63.7899" width="0.4064" layer="1"/>
 <wire x1="4.7625" y1="63.7899" x2="3.7799" y2="64.7725" width="0.4064" layer="1"/>
@@ -5977,8 +6094,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="15.4" y1="81.28" x2="19.5275" y2="77.1525" width="0.4064" layer="1"/>
 <wire x1="19.5275" y1="77.1525" x2="19.5275" y2="75.2475" width="0.4064" layer="1"/>
 <via x="19.5275" y="75.2475" extent="1-16" drill="0.3"/>
-<via x="19.5275" y="71.4375" extent="1-16" drill="0.3"/>
-<wire x1="19.5275" y1="71.4375" x2="19.595" y2="71.37" width="0.3048" layer="1"/>
+<via x="19.21" y="71.755" extent="1-16" drill="0.3"/>
+<wire x1="19.21" y1="71.755" x2="19.595" y2="71.37" width="0.3048" layer="1"/>
 <wire x1="19.595" y1="71.37" x2="19.595" y2="70.1325" width="0.3048" layer="1"/>
 <wire x1="21.095" y1="81.6325" x2="21.095" y2="82.69" width="0.254" layer="1"/>
 <wire x1="21.095" y1="82.69" x2="21.2725" y2="82.8675" width="0.254" layer="1"/>
@@ -5987,7 +6104,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="21.095" y1="81.6325" x2="21.095" y2="78.245" width="0.254" layer="1"/>
 <wire x1="21.095" y1="78.245" x2="20.0025" y2="77.1525" width="0.254" layer="1"/>
 <wire x1="20.0025" y1="77.1525" x2="19.5275" y2="77.1525" width="0.254" layer="1"/>
-<wire x1="19.5275" y1="71.4375" x2="19.5275" y2="75.2475" width="0" layer="19" extent="1-1"/>
+<wire x1="19.21" y1="71.755" x2="19.5275" y2="75.2475" width="0" layer="19" extent="1-1"/>
 <wire x1="14.095" y1="76.1325" x2="15.4" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$69">
@@ -6570,29 +6687,30 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <signal name="N$68">
 <contactref element="IC203" pad="6"/>
 <contactref element="X202" pad="1"/>
-<wire x1="33.9725" y1="64.897" x2="33.9725" y2="66.04" width="0.8128" layer="1"/>
-<wire x1="36.0225" y1="68.265" x2="36.0225" y2="67.455" width="0.3048" layer="1"/>
-<wire x1="33.9725" y1="66.04" x2="33.9725" y2="66.675" width="0.3048" layer="1"/>
-<wire x1="33.9725" y1="66.675" x2="34.6075" y2="67.31" width="0.3048" layer="1"/>
-<wire x1="34.6075" y1="67.31" x2="35.8775" y2="67.31" width="0.3048" layer="1"/>
-<wire x1="35.8775" y1="67.31" x2="36.0225" y2="67.455" width="0.3048" layer="1"/>
+<wire x1="32.385" y1="64.897" x2="32.385" y2="66.04" width="0.8128" layer="1"/>
+<wire x1="32.385" y1="66.04" x2="32.385" y2="66.675" width="0.3048" layer="1"/>
+<wire x1="32.385" y1="66.675" x2="33.9725" y2="68.2625" width="0.3048" layer="1"/>
 <contactref element="X3" pad="2"/>
-<wire x1="32.385" y1="37.7825" x2="32.385" y2="53.6575" width="0.3048" layer="16"/>
+<wire x1="32.385" y1="37.7825" x2="32.385" y2="53.0225" width="0.3048" layer="16"/>
+<wire x1="32.385" y1="53.0225" x2="32.0675" y2="53.34" width="0.3048" layer="16"/>
+<wire x1="32.0675" y1="53.34" x2="32.0675" y2="53.975" width="0.3048" layer="16"/>
 <wire x1="13.0175" y1="18.415" x2="32.385" y2="37.7825" width="0.3048" layer="16"/>
 <wire x1="13.0175" y1="14.2875" x2="13.0175" y2="18.415" width="0.3048" layer="1"/>
 <wire x1="11.7475" y1="13.0175" x2="13.0175" y2="14.2875" width="0.3048" layer="1"/>
 <wire x1="11.7475" y1="10.795" x2="11.75" y2="10.5461" width="0.3048" layer="1"/>
-<wire x1="36.195" y1="53.6575" x2="32.385" y2="53.6575" width="0.3048" layer="1"/>
-<wire x1="36.195" y1="54.61" x2="36.195" y2="53.6575" width="0.3048" layer="16"/>
+<wire x1="36.195" y1="53.975" x2="32.0675" y2="53.975" width="0.3048" layer="1"/>
+<wire x1="36.195" y1="54.61" x2="36.195" y2="53.975" width="0.3048" layer="16"/>
 <wire x1="34.6075" y1="56.1975" x2="36.195" y2="54.61" width="0.3048" layer="16"/>
 <wire x1="34.6075" y1="64.135" x2="34.6075" y2="56.1975" width="0.3048" layer="16"/>
-<wire x1="33.9725" y1="64.77" x2="33.9725" y2="64.897" width="0.3048" layer="16"/>
-<via x="32.385" y="53.6575" extent="1-16" drill="0.3"/>
+<wire x1="33.9725" y1="64.77" x2="32.385" y2="64.897" width="0.3048" layer="16"/>
+<via x="32.0675" y="53.975" extent="1-16" drill="0.3"/>
 <via x="13.0175" y="18.415" extent="1-16" drill="0.3"/>
-<via x="36.195" y="53.6575" extent="1-16" drill="0.3"/>
+<via x="36.195" y="53.975" extent="1-16" drill="0.3"/>
 <wire x1="34.6075" y1="64.135" x2="34.6075" y2="64.262" width="0.6096" layer="16"/>
-<wire x1="34.6075" y1="64.262" x2="33.9725" y2="64.897" width="0.6096" layer="16"/>
+<wire x1="34.6075" y1="64.262" x2="32.385" y2="64.897" width="0.6096" layer="16"/>
 <wire x1="11.7475" y1="10.795" x2="11.7475" y2="13.0175" width="0.6096" layer="1"/>
+<wire x1="33.9725" y1="68.2625" x2="36.02" y2="68.2625" width="0.3048" layer="1"/>
+<wire x1="36.02" y1="68.2625" x2="36.0225" y2="68.265" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$45">
 <contactref element="U202" pad="20"/>
@@ -6600,9 +6718,27 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="17.595" y1="70.1325" x2="17.595" y2="68.1945" width="0.254" layer="1"/>
 <wire x1="17.595" y1="68.1945" x2="18.035" y2="67.7545" width="0.254" layer="1"/>
 </signal>
-<signal name="_PERST">
+<signal name="PERST">
 <contactref element="U202" pad="25"/>
 <wire x1="20.095" y1="70.64" x2="20.095" y2="70.1325" width="0.3048" layer="1"/>
+<contactref element="R10" pad="1"/>
+<contactref element="R12" pad="2"/>
+<wire x1="49.0855" y1="23.1775" x2="49.0855" y2="25.0825" width="0.4064" layer="1"/>
+<wire x1="49.0855" y1="25.0825" x2="49.0855" y2="27.7495" width="0.3048" layer="1"/>
+<wire x1="49.0855" y1="27.7495" x2="42.545" y2="34.29" width="0.3048" layer="1"/>
+<via x="42.545" y="34.29" extent="1-16" drill="0.3"/>
+<wire x1="42.545" y1="34.29" x2="37.465" y2="34.29" width="0.3048" layer="16"/>
+<wire x1="37.465" y1="34.29" x2="35.56" y2="36.195" width="0.3048" layer="16"/>
+<wire x1="35.56" y1="36.195" x2="35.56" y2="52.705" width="0.3048" layer="16"/>
+<wire x1="33.02" y1="55.245" x2="33.02" y2="58.7375" width="0.3048" layer="16"/>
+<wire x1="35.56" y1="52.705" x2="33.02" y2="55.245" width="0.3048" layer="16"/>
+<wire x1="22.86" y1="68.8975" x2="22.5425" y2="68.8975" width="0.3048" layer="16"/>
+<wire x1="33.02" y1="58.7375" x2="22.86" y2="68.8975" width="0.3048" layer="16"/>
+<wire x1="22.5425" y1="68.8975" x2="20.0025" y2="71.4375" width="0.3048" layer="16"/>
+<wire x1="20.095" y1="70.64" x2="20.095" y2="72.615" width="0.254" layer="1"/>
+<wire x1="20.095" y1="72.615" x2="20.0025" y2="72.7075" width="0.254" layer="1"/>
+<via x="20.0025" y="72.7075" extent="1-16" drill="0.3"/>
+<wire x1="20.0025" y1="72.7075" x2="20.0025" y2="71.4375" width="0.3048" layer="16"/>
 </signal>
 <signal name="V_MODEM" class="2">
 <contactref element="C118" pad="1"/>
@@ -6637,6 +6773,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <vertex x="67.42375" y="44.24625"/>
 <vertex x="66.7375" y="44.24625"/>
 <vertex x="66.73875" y="46.94375"/>
+<vertex x="73.66" y="46.99"/>
+<vertex x="74.6125" y="47.9425"/>
+<vertex x="79.6925" y="47.9425"/>
+<vertex x="80.645" y="46.99"/>
 <vertex x="81.28" y="46.99"/>
 </polygon>
 <polygon width="0.254" layer="1" thermals="no">
@@ -6653,9 +6793,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="38.545" y1="36.195" x2="40.64" y2="38.1" width="3.81" layer="15"/>
 <wire x1="40.64" y1="38.1" x2="40.545" y2="49.7525" width="3.81" layer="15"/>
 <wire x1="40.545" y1="49.7525" x2="42.7675" y2="52.2925" width="3.81" layer="15"/>
-<wire x1="42.7675" y1="52.2925" x2="76.105" y2="52.2925" width="3.81" layer="15"/>
-<wire x1="76.105" y1="52.2925" x2="79.28" y2="49.1175" width="3.81" layer="15"/>
-<wire x1="79.28" y1="49.1175" x2="79.28" y2="46.625" width="3.81" layer="15"/>
+<wire x1="42.7675" y1="52.2925" x2="65.8175" y2="52.2925" width="3.81" layer="15"/>
 <via x="79.28" y="46.625" extent="1-16" drill="0.3"/>
 <polygon width="0.3048" layer="1" thermals="no">
 <vertex x="38.9575" y="45.46625"/>
@@ -6670,67 +6808,103 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="78.645" y="45.355" extent="1-16" drill="0.3"/>
 <via x="79.915" y="45.355" extent="1-16" drill="0.3"/>
 <wire x1="79.28" y1="46.9425" x2="79.28" y2="46.625" width="0.3048" layer="1"/>
-<contactref element="R109" pad="2"/>
 <via x="39.815" y="35.8775" extent="1-16" drill="0.3"/>
-<wire x1="80.85125" y1="47.90125" x2="80.85125" y2="46.99" width="0.6096" layer="1"/>
+<wire x1="80.85125" y1="47.90125" x2="80.85125" y2="46.99" width="0.5" layer="1"/>
 <wire x1="80.85125" y1="46.99" x2="80.85125" y2="46.37325" width="0.6096" layer="1"/>
 <wire x1="80.85125" y1="46.37325" x2="80.73925" y2="46.26125" width="0.4064" layer="1"/>
 <wire x1="82.15125" y1="47.95125" x2="82.15125" y2="47.22625" width="0.3048" layer="1"/>
 <wire x1="82.15125" y1="47.22625" x2="81.915" y2="46.99" width="0.3048" layer="1"/>
 <wire x1="81.915" y1="46.99" x2="80.85125" y2="46.99" width="0.3048" layer="1"/>
-<wire x1="79.0575" y1="72.642" x2="79.977" y2="72.642" width="0.4064" layer="1"/>
-<wire x1="79.977" y1="72.642" x2="80.01" y2="72.675" width="0.4064" layer="1"/>
-<via x="80.01" y="72.675" extent="1-16" drill="0.3"/>
-<wire x1="80.01" y1="72.675" x2="79.375" y2="72.675" width="0.6096" layer="16"/>
-<wire x1="79.375" y1="72.675" x2="79.0575" y2="72.3575" width="0.6096" layer="16"/>
-<wire x1="79.0575" y1="72.3575" x2="79.0575" y2="55.5625" width="0.6096" layer="16"/>
-<wire x1="79.0575" y1="55.5625" x2="76.2" y2="53.0225" width="0.6096" layer="16"/>
-<via x="76.2" y="53.0225" extent="1-16" drill="0.3"/>
-<wire x1="76.2" y1="53.0225" x2="76.2" y2="52.3875" width="0.6096" layer="15"/>
-<wire x1="76.2" y1="52.3875" x2="76.105" y2="52.2925" width="0.4064" layer="15"/>
+<via x="76.5175" y="74.8975" extent="1-16" drill="0.3"/>
+<wire x1="79.0575" y1="72.7075" x2="79.0575" y2="67.6275" width="0.4064" layer="16"/>
+<wire x1="79.0575" y1="67.6275" x2="77.7875" y2="66.3575" width="0.4064" layer="16"/>
+<wire x1="77.7875" y1="66.3575" x2="73.3425" y2="66.3575" width="0.4064" layer="16"/>
+<wire x1="73.3425" y1="66.3575" x2="68.8975" y2="61.9125" width="0.4064" layer="16"/>
+<wire x1="68.8975" y1="61.9125" x2="68.8975" y2="51.1175" width="0.4064" layer="16"/>
+<via x="68.8975" y="51.1175" extent="1-16" drill="0.3"/>
 <contactref element="LED1" pad="A"/>
 <wire x1="14.6025" y1="30.795" x2="12.446" y2="28.6385" width="0.3048" layer="1"/>
 <wire x1="12.446" y1="26.55" x2="12.446" y2="28.6385" width="0.3048" layer="1"/>
 <wire x1="40.545" y1="38.9575" x2="40.64" y2="38.1" width="0.8128" layer="15"/>
 <contactref element="R4" pad="1"/>
-<wire x1="75.2475" y1="76.6445" x2="75.2475" y2="77.7875" width="0.3048" layer="1"/>
-<via x="75.2475" y="77.7875" extent="1-16" drill="0.3"/>
-<wire x1="75.2475" y1="77.7875" x2="75.2475" y2="76.452" width="0.3048" layer="16"/>
-<wire x1="75.2475" y1="76.452" x2="79.0575" y2="72.642" width="0.3048" layer="16"/>
-<wire x1="79.0575" y1="72.642" x2="79.977" y2="72.642" width="0.3048" layer="16"/>
-<wire x1="79.977" y1="72.642" x2="80.01" y2="72.675" width="0.3048" layer="16"/>
+<contactref element="R103" pad="2"/>
+<wire x1="74.93" y1="77.597" x2="74.93" y2="78.74" width="0.4064" layer="1"/>
+<via x="74.93" y="78.74" extent="1-16" drill="0.3"/>
+<wire x1="74.93" y1="78.74" x2="74.93" y2="77.7875" width="0.4064" layer="16"/>
+<wire x1="76.5175" y1="74.8975" x2="76.5175" y2="76.03925" width="0.3048" layer="1"/>
+<wire x1="74.93" y1="77.597" x2="74.93" y2="77.47" width="0.3048" layer="1"/>
+<wire x1="74.93" y1="77.47" x2="75.565" y2="76.835" width="0.3048" layer="1"/>
+<wire x1="75.565" y1="76.835" x2="75.8825" y2="76.835" width="0.3048" layer="1"/>
+<wire x1="76.5175" y1="76.03925" x2="76.5175" y2="76.2" width="0.3048" layer="1"/>
+<wire x1="76.5175" y1="76.2" x2="75.8825" y2="76.835" width="0.3048" layer="1"/>
+<wire x1="79.0575" y1="72.7075" x2="76.8675" y2="74.8975" width="0.4064" layer="16"/>
+<wire x1="76.5175" y1="74.8975" x2="76.8675" y2="74.8975" width="0.4064" layer="16"/>
+<wire x1="65.8175" y1="52.2925" x2="65.88125" y2="52.22875" width="3.81" layer="15"/>
+<wire x1="65.88125" y1="52.22875" x2="71.5313" y2="46.5787" width="3.81" layer="15"/>
+<wire x1="71.5313" y1="46.5787" x2="75.56616875" y2="46.5787" width="3.81" layer="15"/>
+<wire x1="79.28" y1="46.625" x2="75.61246875" y2="46.625" width="3.81" layer="15"/>
+<wire x1="75.61246875" y1="46.625" x2="75.56616875" y2="46.5787" width="3.81" layer="15"/>
+<via x="79.5975" y="47.5775" extent="1-16" drill="0.3"/>
+<wire x1="68.8975" y1="51.1175" x2="66.9925" y2="51.1175" width="0.3048" layer="15"/>
+<wire x1="66.9925" y1="51.1175" x2="65.88125" y2="52.22875" width="0.3048" layer="15"/>
 <wire x1="36.8075" y1="32.8075" x2="14.6025" y2="30.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!NGFF_RESET">
 <contactref element="NGFF101" pad="67"/>
 <via x="50.07" y="35.3075" extent="1-16" drill="0.3"/>
-<wire x1="50.07" y1="35.3075" x2="50.07" y2="35.625" width="0.3048" layer="16"/>
-<wire x1="50.07" y1="35.625" x2="51.6575" y2="37.2125" width="0.3048" layer="16"/>
 <wire x1="51.0435" y1="37.1775" x2="51.0435" y2="36.281" width="0.3048" layer="1"/>
-<wire x1="51.0435" y1="36.281" x2="50.07" y2="35.3075" width="0.3048" layer="1"/>
 <contactref element="R107" pad="1"/>
-<wire x1="51.6575" y1="37.2125" x2="51.6575" y2="41.815" width="0.3048" layer="16"/>
+<wire x1="51.0435" y1="36.281" x2="50.07" y2="35.3075" width="0.3048" layer="1"/>
 <wire x1="50.07" y1="35.3075" x2="50.07" y2="33.48075" width="0.3048" layer="1"/>
 <wire x1="50.07" y1="33.48075" x2="50.1975" y2="33.35325" width="0.3048" layer="1"/>
+<contactref element="T1" pad="C"/>
+<contactref element="C1" pad="1"/>
+<wire x1="56.7055" y1="22.606" x2="56.642" y2="22.5425" width="0.4064" layer="1"/>
+<wire x1="50.07" y1="35.3075" x2="50.07" y2="31.5275" width="0.3048" layer="16"/>
+<wire x1="50.07" y1="31.5275" x2="52.705" y2="28.8925" width="0.3048" layer="16"/>
+<wire x1="52.705" y1="28.8925" x2="52.705" y2="24.765" width="0.3048" layer="16"/>
+<wire x1="52.705" y1="24.765" x2="54.9275" y2="22.5425" width="0.3048" layer="16"/>
+<via x="54.9275" y="22.5425" extent="1-16" drill="0.3"/>
+<wire x1="54.9275" y1="22.5425" x2="54.9275" y2="23.96" width="0.4064" layer="1"/>
+<wire x1="54.9275" y1="23.96" x2="54.7575" y2="24.13" width="0.4064" layer="1"/>
+<contactref element="JP1" pad="7"/>
+<wire x1="54.9275" y1="22.5425" x2="56.642" y2="22.5425" width="0.3048" layer="1"/>
+<wire x1="60.0075" y1="51.435" x2="60.0075" y2="49.8475" width="0.3048" layer="1"/>
+<wire x1="67.31" y1="58.7375" x2="60.0075" y2="51.435" width="0.3048" layer="1"/>
+<wire x1="75.39" y1="58.7375" x2="67.31" y2="58.7375" width="0.3048" layer="1"/>
+<wire x1="50.8" y1="44.7675" x2="50.8" y2="36.0375" width="0.3048" layer="16"/>
+<wire x1="49.53" y1="46.0375" x2="50.8" y2="44.7675" width="0.3048" layer="16"/>
+<wire x1="49.53" y1="47.625" x2="49.53" y2="46.0375" width="0.3048" layer="16"/>
+<wire x1="51.435" y1="49.53" x2="49.53" y2="47.625" width="0.3048" layer="16"/>
+<wire x1="59.69" y1="49.53" x2="51.435" y2="49.53" width="0.3048" layer="16"/>
+<wire x1="60.0075" y1="49.8475" x2="59.69" y2="49.53" width="0.3048" layer="1"/>
+<via x="59.69" y="49.53" extent="1-16" drill="0.3"/>
+<wire x1="50.8" y1="36.0375" x2="50.07" y2="35.3075" width="0.3048" layer="16"/>
+<wire x1="82.39" y1="65.7375" x2="81.4225" y2="64.77" width="0.6096" layer="1"/>
+<wire x1="75.39" y1="58.7375" x2="81.4225" y2="64.77" width="0.3048" layer="1"/>
 </signal>
 <signal name="!W_DISABLE">
 <contactref element="NGFF101" pad="8"/>
 <contactref element="R109" pad="1"/>
-<wire x1="65.0875" y1="62.8325" x2="73.025" y2="70.77" width="0.3048" layer="1"/>
-<wire x1="73.025" y1="70.77" x2="73.025" y2="71.0875" width="0.3048" layer="1"/>
-<wire x1="79.088" y1="71.0875" x2="79.0575" y2="71.118" width="0.4064" layer="1"/>
-<via x="73.025" y="71.0875" extent="1-16" drill="0.3"/>
-<wire x1="73.025" y1="71.0875" x2="80.9625" y2="71.0875" width="0.3048" layer="15"/>
+<wire x1="65.0875" y1="62.8325" x2="72.0725" y2="69.8175" width="0.3048" layer="1"/>
+<wire x1="72.0725" y1="69.8175" x2="72.0725" y2="70.4525" width="0.3048" layer="1"/>
+<via x="72.0725" y="70.4525" extent="1-16" drill="0.3"/>
+<wire x1="72.0725" y1="70.4525" x2="80.6775" y2="70.4525" width="0.3048" layer="15"/>
 <wire x1="65.7935" y1="44.7275" x2="65.7935" y2="46.284" width="0.3048" layer="1"/>
 <wire x1="65.7935" y1="46.284" x2="65.0875" y2="46.99" width="0.3048" layer="1"/>
 <via x="65.0875" y="46.99" extent="1-16" drill="0.3"/>
 <wire x1="65.0875" y1="46.99" x2="65.0875" y2="58.69" width="0.3048" layer="16"/>
 <via x="65.0875" y="58.69" extent="1-16" drill="0.3"/>
 <wire x1="65.0875" y1="58.69" x2="65.0875" y2="62.8325" width="0.3048" layer="1"/>
-<contactref element="X2" pad="3"/>
-<wire x1="80.9625" y1="71.0875" x2="82.35875" y2="71.0875" width="0.8128" layer="15"/>
-<wire x1="82.35875" y1="71.0875" x2="82.39125" y2="71.12" width="0.8128" layer="15"/>
-<wire x1="80.9625" y1="71.0875" x2="79.088" y2="71.0875" width="0" layer="19" extent="1-15"/>
+<contactref element="JP1" pad="3"/>
+<wire x1="80.6775" y1="70.4525" x2="81.28" y2="70.8025" width="0.3048" layer="15"/>
+<wire x1="81.28" y1="70.8025" x2="82.375" y2="70.8025" width="0.6096" layer="15"/>
+<wire x1="82.375" y1="70.8025" x2="82.39" y2="70.8175" width="0.6096" layer="15"/>
+<wire x1="82.39" y1="70.8175" x2="81.295" y2="70.8175" width="0.6096" layer="1"/>
+<wire x1="81.295" y1="70.8175" x2="81.28" y2="70.8025" width="0.6096" layer="1"/>
+<wire x1="81.28" y1="70.8025" x2="81.5975" y2="70.8025" width="0.4064" layer="1"/>
+<wire x1="79.377" y1="69.85" x2="80.3295" y2="70.8025" width="0.3048" layer="1"/>
+<wire x1="80.3295" y1="70.8025" x2="81.5975" y2="70.8025" width="0.3048" layer="1"/>
 </signal>
 <signal name="_USIM1_DATA">
 <contactref element="R112" pad="1"/>
@@ -6768,13 +6942,20 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="85.5675" y1="48.7655" x2="85.565" y2="48.768" width="0.6" layer="1"/>
 <wire x1="85.565" y1="48.768" x2="86.8985" y2="48.768" width="0.6" layer="1"/>
 <wire x1="86.8985" y1="48.768" x2="86.901" y2="48.7655" width="0.6" layer="1"/>
-<wire x1="88.425" y1="42.3875" x2="88.4175" y2="44.82" width="0" layer="19" extent="1-1"/>
-<wire x1="88.425" y1="40.00625" x2="88.425" y2="42.3875" width="0" layer="19" extent="1-1"/>
-<wire x1="85.5675" y1="45.08625" x2="88.4175" y2="44.82" width="0" layer="19" extent="1-1"/>
-<wire x1="88.425" y1="36.99" x2="88.425" y2="40.00625" width="0" layer="19" extent="1-1"/>
-<wire x1="88.425" y1="34.60875" x2="88.425" y2="36.99" width="0" layer="19" extent="1-1"/>
-<wire x1="88.4175" y1="32.22" x2="88.425" y2="34.60875" width="0" layer="19" extent="1-1"/>
-<wire x1="85.5675" y1="32.545" x2="88.4175" y2="32.22" width="0" layer="19" extent="1-1"/>
+<wire x1="85.5675" y1="45.08625" x2="86.67625" y2="45.08625" width="0.8128" layer="1"/>
+<wire x1="86.67625" y1="45.08625" x2="86.995" y2="44.7675" width="0.8128" layer="1"/>
+<wire x1="86.995" y1="44.7675" x2="88.365" y2="44.7675" width="0.8128" layer="1"/>
+<wire x1="88.365" y1="44.7675" x2="88.4175" y2="44.82" width="0.6096" layer="1"/>
+<wire x1="88.365" y1="44.7675" x2="88.365" y2="42.4475" width="0.8128" layer="1"/>
+<wire x1="88.365" y1="42.4475" x2="88.425" y2="42.3875" width="0.6096" layer="1"/>
+<wire x1="88.425" y1="42.3875" x2="88.425" y2="40.00625" width="0.8128" layer="1"/>
+<wire x1="88.425" y1="40.00625" x2="88.425" y2="36.99" width="0.8128" layer="1"/>
+<wire x1="88.425" y1="36.99" x2="88.425" y2="34.60875" width="0.8128" layer="1"/>
+<wire x1="88.425" y1="34.60875" x2="88.425" y2="32.2275" width="0.8128" layer="1"/>
+<wire x1="88.425" y1="32.2275" x2="88.4175" y2="32.22" width="0.6096" layer="1"/>
+<wire x1="85.5675" y1="32.545" x2="86.835" y2="32.545" width="0.8128" layer="1"/>
+<wire x1="88.4175" y1="32.22" x2="87.16" y2="32.22" width="0.8128" layer="1"/>
+<wire x1="87.16" y1="32.22" x2="86.835" y2="32.545" width="0.8128" layer="1"/>
 </signal>
 <signal name="PCM_CLK">
 <contactref element="NGFF101" pad="20"/>
@@ -6976,30 +7157,20 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <signal name="PWR_ON">
 <contactref element="NGFF101" pad="6"/>
 <contactref element="R108" pad="2"/>
-<wire x1="66.04" y1="62.8325" x2="75.2475" y2="72.04" width="0.3048" layer="1"/>
-<wire x1="80.9625" y1="73.6275" x2="80.01" y2="74.58" width="0.4064" layer="1"/>
-<wire x1="80.01" y1="74.58" x2="79.0905" y2="74.58" width="0.4064" layer="1"/>
-<wire x1="79.0905" y1="74.58" x2="79.0575" y2="74.613" width="0.4064" layer="1"/>
-<wire x1="75.2475" y1="72.04" x2="75.2475" y2="73.6275" width="0.3048" layer="1"/>
-<via x="75.2475" y="73.6275" extent="1-16" drill="0.3"/>
-<wire x1="75.2475" y1="73.6275" x2="80.9625" y2="73.6275" width="0.3048" layer="15"/>
+<wire x1="66.04" y1="62.8325" x2="74.93" y2="71.7225" width="0.3048" layer="1"/>
+<via x="74.93" y="71.7225" extent="1-16" drill="0.3"/>
+<wire x1="74.93" y1="71.7225" x2="75.5325" y2="72.3575" width="0.3048" layer="15"/>
 <wire x1="66.2935" y1="44.7275" x2="66.2935" y2="47.689" width="0.3048" layer="1"/>
 <wire x1="66.2935" y1="47.689" x2="66.04" y2="47.9425" width="0.3048" layer="1"/>
 <via x="66.04" y="47.9425" extent="1-16" drill="0.3"/>
-<wire x1="66.04" y1="47.9425" x2="66.04" y2="57.7375" width="0.3048" layer="16"/>
-<via x="66.04" y="57.7375" extent="1-16" drill="0.3"/>
-<wire x1="66.04" y1="57.7375" x2="66.04" y2="62.8325" width="0.3048" layer="1"/>
-<contactref element="X2" pad="1"/>
-<wire x1="80.9625" y1="73.6275" x2="82.35875" y2="73.6275" width="0.8128" layer="1"/>
-<wire x1="82.35875" y1="73.6275" x2="82.39125" y2="73.66" width="0.8128" layer="1"/>
-<wire x1="80.9625" y1="73.6275" x2="82.39125" y2="73.66" width="0.8128" layer="15"/>
-<contactref element="R4" pad="2"/>
+<wire x1="66.04" y1="47.9425" x2="66.04" y2="59.96" width="0.3048" layer="16"/>
+<via x="66.04" y="59.96" extent="1-16" drill="0.3"/>
+<wire x1="66.04" y1="59.96" x2="66.04" y2="62.8325" width="0.3048" layer="1"/>
 <contactref element="T101" pad="C"/>
 <contactref element="C124" pad="1"/>
 <wire x1="57.805" y1="27.6175" x2="57.932" y2="27.7445" width="0.3048" layer="1"/>
 <wire x1="57.932" y1="27.7445" x2="59.5625" y2="27.7445" width="0.3048" layer="1"/>
 <wire x1="59.5625" y1="27.7445" x2="59.59925" y2="27.78125" width="0.3048" layer="1"/>
-<wire x1="75.2475" y1="73.6275" x2="75.2475" y2="75.1205" width="0.3048" layer="1"/>
 <wire x1="59.59925" y1="27.78125" x2="61.11875" y2="27.78125" width="0.3048" layer="1"/>
 <wire x1="61.11875" y1="27.78125" x2="61.2775" y2="27.94" width="0.3048" layer="1"/>
 <via x="61.2775" y="27.94" extent="1-16" drill="0.3"/>
@@ -7010,6 +7181,19 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="66.04" y="43.18" extent="1-16" drill="0.3"/>
 <wire x1="66.2935" y1="44.7275" x2="66.2935" y2="43.4335" width="0.3048" layer="1"/>
 <wire x1="66.2935" y1="43.4335" x2="66.04" y2="43.18" width="0.3048" layer="1"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="80.9625" y1="73.3425" x2="82.375" y2="73.3425" width="0.6096" layer="15"/>
+<wire x1="82.375" y1="73.3425" x2="82.39" y2="73.3575" width="0.6096" layer="15"/>
+<wire x1="81.2475" y1="73.3425" x2="81.2625" y2="73.3575" width="0.6096" layer="1"/>
+<wire x1="81.2625" y1="73.3575" x2="82.39" y2="73.3575" width="0.6096" layer="1"/>
+<contactref element="R4" pad="2"/>
+<wire x1="74.93" y1="71.7225" x2="74.93" y2="76.073" width="0.4064" layer="1"/>
+<wire x1="80.93" y1="73.31" x2="80.9625" y2="73.3425" width="0.3048" layer="15"/>
+<wire x1="81.2475" y1="73.3425" x2="81.2475" y2="73.375" width="0.4064" layer="1"/>
+<wire x1="81.2475" y1="73.375" x2="78.58075" y2="76.04175" width="0.4064" layer="1"/>
+<wire x1="78.105" y1="76.04175" x2="78.58075" y2="76.04175" width="0.4064" layer="1"/>
+<wire x1="75.5325" y1="72.3575" x2="76.485" y2="73.31" width="0.3048" layer="15"/>
+<wire x1="76.485" y1="73.31" x2="80.93" y2="73.31" width="0.3048" layer="15"/>
 </signal>
 <signal name="!BODY_SAR">
 <contactref element="NGFF101" pad="25"/>
@@ -7032,17 +7216,31 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="62.5475" y1="57.7525" x2="62.5475" y2="57.7375" width="0.3048" layer="16"/>
 <via x="62.5475" y="57.7375" extent="1-16" drill="0.3"/>
 <wire x1="62.5475" y1="57.7375" x2="62.5475" y2="61.5625" width="0.3048" layer="1"/>
-<contactref element="X2" pad="5"/>
-<wire x1="80.9625" y1="68.5475" x2="82.35875" y2="68.5475" width="0.8128" layer="15"/>
-<wire x1="82.35875" y1="68.5475" x2="82.39125" y2="68.58" width="0.8128" layer="15"/>
-<wire x1="80.9625" y1="68.5475" x2="79.3445" y2="68.5475" width="0" layer="19" extent="1-15"/>
+<contactref element="JP1" pad="5"/>
+<wire x1="82.39" y1="68.2775" x2="81.2325" y2="68.2775" width="0.6096" layer="15"/>
+<wire x1="80.9625" y1="68.5475" x2="81.2325" y2="68.2775" width="0.3048" layer="15"/>
+<wire x1="82.39" y1="68.2775" x2="82.375" y2="68.2625" width="0.6096" layer="1"/>
+<wire x1="82.375" y1="68.2625" x2="81.28" y2="68.2625" width="0.6096" layer="1"/>
+<wire x1="81.28" y1="68.2625" x2="80.647" y2="68.2625" width="0.3048" layer="1"/>
+<wire x1="80.647" y1="68.2625" x2="79.3445" y2="66.96" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="NGFF101" pad="10"/>
 <contactref element="R102" pad="2"/>
-<wire x1="65.2935" y1="44.7275" x2="65.2935" y2="44.021" width="0.3048" layer="1"/>
-<wire x1="65.2935" y1="44.021" x2="64.135" y2="42.8625" width="0.3048" layer="1"/>
-<wire x1="18.575" y1="29.591" x2="64.135" y2="42.8625" width="0" layer="19" extent="1-1"/>
+<wire x1="33.9725" y1="42.545" x2="33.9725" y2="45.4025" width="0.3048" layer="1"/>
+<wire x1="20.955" y1="29.5275" x2="33.9725" y2="42.545" width="0.3048" layer="1"/>
+<wire x1="18.7325" y1="29.5275" x2="20.955" y2="29.5275" width="0.3048" layer="1"/>
+<wire x1="18.7325" y1="29.5275" x2="18.575" y2="29.591" width="0.3048" layer="1"/>
+<wire x1="62.23" y1="44.1325" x2="64.4525" y2="46.355" width="0.3048" layer="16"/>
+<wire x1="53.6575" y1="44.1325" x2="62.23" y2="44.1325" width="0.3048" layer="16"/>
+<wire x1="50.4825" y1="47.3075" x2="53.6575" y2="44.1325" width="0.3048" layer="16"/>
+<wire x1="50.165" y1="47.625" x2="50.4825" y2="47.3075" width="0.3048" layer="1"/>
+<wire x1="36.195" y1="47.625" x2="50.165" y2="47.625" width="0.3048" layer="1"/>
+<wire x1="33.9725" y1="45.4025" x2="36.195" y2="47.625" width="0.3048" layer="1"/>
+<via x="64.4525" y="46.355" extent="1-16" drill="0.3"/>
+<via x="50.4825" y="47.3075" extent="1-16" drill="0.3"/>
+<wire x1="65.2935" y1="44.7275" x2="65.2935" y2="45.514" width="0.3048" layer="1"/>
+<wire x1="65.2935" y1="45.514" x2="64.4525" y2="46.355" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="X102" pad="4"/>
@@ -7063,43 +7261,55 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="R107" pad="2"/>
 <contactref element="R104" pad="2"/>
 <contactref element="R117" pad="1"/>
-<wire x1="80.85125" y1="49.65125" x2="80.85125" y2="51.258" width="0.6096" layer="1"/>
+<wire x1="80.85125" y1="49.65125" x2="80.85125" y2="51.258" width="0.5" layer="1"/>
 <wire x1="80.85125" y1="51.258" x2="80.7705" y2="51.02125" width="0.4064" layer="1"/>
 <wire x1="80.7705" y1="51.02125" x2="80.74125" y2="51.33875" width="0.6096" layer="1"/>
 <wire x1="80.645" y1="51.7525" x2="80.645" y2="51.33875" width="0.4064" layer="1"/>
 <wire x1="80.645" y1="51.33875" x2="80.74125" y2="51.33875" width="0.4064" layer="1"/>
-<wire x1="77.818" y1="67.349290625" x2="77.818" y2="68.545" width="0.4064" layer="1"/>
-<wire x1="77.818" y1="68.545" x2="77.8205" y2="68.5475" width="0.6096" layer="1"/>
 <wire x1="72.0725" y1="51.7525" x2="64.135" y2="43.4975" width="0.3048" layer="16"/>
 <wire x1="64.135" y1="43.4975" x2="56.8325" y2="43.4975" width="0.3048" layer="16"/>
 <wire x1="56.8325" y1="43.4975" x2="53.0225" y2="39.6875" width="0.3048" layer="16"/>
 <wire x1="53.0225" y1="39.6875" x2="53.0225" y2="32.0675" width="0.3048" layer="16"/>
 <wire x1="62.77" y1="31.82925" x2="61.1825" y2="31.82925" width="0.3048" layer="1"/>
 <via x="53.0225" y="32.0675" extent="1-16" drill="0.3"/>
-<wire x1="72.0725" y1="51.7525" x2="80.645" y2="51.7525" width="0.4064" layer="16"/>
+<wire x1="72.0725" y1="51.7525" x2="79.6925" y2="51.7525" width="0.4064" layer="16"/>
 <via x="80.645" y="51.7525" extent="1-16" drill="0.3"/>
-<wire x1="77.818" y1="67.349290625" x2="77.7875" y2="67.318790625" width="0.3048" layer="1"/>
-<wire x1="77.7875" y1="67.318790625" x2="77.7875" y2="67.2625" width="0.3048" layer="1"/>
-<via x="77.7875" y="67.2625" extent="1-16" drill="0.3"/>
-<wire x1="77.7875" y1="67.2625" x2="72.0725" y2="61.5475" width="0.4064" layer="16"/>
-<wire x1="72.0725" y1="61.5475" x2="72.0725" y2="51.7525" width="0.4064" layer="16"/>
+<wire x1="79.6925" y1="51.7525" x2="80.645" y2="51.7525" width="0.4064" layer="16"/>
+<wire x1="84.7725" y1="63.135" x2="84.455" y2="63.5" width="0.4064" layer="16"/>
 <wire x1="48.73625" y1="31.82925" x2="50.1975" y2="31.82925" width="0.3048" layer="1"/>
 <wire x1="50.1975" y1="31.82925" x2="52.78425" y2="31.82925" width="0.3048" layer="1"/>
 <wire x1="52.78425" y1="31.82925" x2="53.0225" y2="32.0675" width="0.3048" layer="1"/>
 <wire x1="61.1825" y1="31.82925" x2="53.26075" y2="31.82925" width="0.3048" layer="1"/>
 <wire x1="53.26075" y1="31.82925" x2="53.0225" y2="32.0675" width="0.3048" layer="1"/>
+<contactref element="R109" pad="2"/>
+<contactref element="X1" pad="5"/>
+<wire x1="84.93" y1="60.6575" x2="84.93" y2="62.39" width="0.8128" layer="16"/>
+<wire x1="84.93" y1="62.39" x2="84.93" y2="62.9775" width="0.4064" layer="16"/>
+<wire x1="84.93" y1="62.9775" x2="84.7725" y2="63.135" width="0.4064" layer="16"/>
+<wire x1="80.645" y1="51.7525" x2="80.645" y2="61.9125" width="0.4064" layer="16"/>
+<wire x1="80.645" y1="61.9125" x2="80.9625" y2="62.23" width="0.4064" layer="16"/>
+<wire x1="80.9625" y1="62.23" x2="82.2325" y2="63.5" width="0.4064" layer="16"/>
+<wire x1="82.2325" y1="63.5" x2="84.455" y2="63.5" width="0.4064" layer="16"/>
+<wire x1="80.645" y1="51.7525" x2="79.6925" y2="51.7525" width="0.6096" layer="1"/>
+<via x="79.6925" y="51.7525" extent="1-16" drill="0.3"/>
+<wire x1="80.9625" y1="62.23" x2="79.0575" y2="64.135" width="0.4064" layer="16"/>
+<via x="79.0575" y="64.135" extent="1-16" drill="0.3"/>
+<wire x1="79.0575" y1="64.135" x2="77.8205" y2="65.372" width="0.4064" layer="1"/>
+<wire x1="77.8205" y1="65.372" x2="77.8205" y2="66.96" width="0.4064" layer="1"/>
+<wire x1="77.8205" y1="66.96" x2="77.853" y2="66.9925" width="0.4064" layer="1"/>
+<wire x1="77.853" y1="66.9925" x2="77.853" y2="69.85" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="R103" pad="1"/>
-<wire x1="79.36" y1="77.755" x2="77.7875" y2="77.755" width="0.4064" layer="1"/>
-<wire x1="77.7875" y1="77.755" x2="76.835" y2="76.8025" width="0.4064" layer="1"/>
-<wire x1="76.835" y1="76.8025" x2="76.835" y2="72.642" width="0.4064" layer="1"/>
-<wire x1="79.36" y1="77.755" x2="81.5975" y2="75.5175" width="0.4064" layer="1"/>
-<wire x1="81.5975" y1="75.5175" x2="84.47" y2="75.5175" width="0.4064" layer="1"/>
+<wire x1="79.0425" y1="78.7075" x2="77.1525" y2="78.7075" width="0.4064" layer="1"/>
+<wire x1="79.0425" y1="78.7075" x2="82.2325" y2="75.5175" width="0.4064" layer="1"/>
+<wire x1="82.2325" y1="75.5175" x2="84.47" y2="75.5175" width="0.4064" layer="1"/>
 <wire x1="84.47" y1="75.5175" x2="84.93" y2="75.0575" width="0.4064" layer="1"/>
-<contactref element="X2" pad="2"/>
 <wire x1="84.93" y1="75.0575" x2="84.93" y2="73.66125" width="0.8128" layer="1"/>
-<wire x1="84.93" y1="73.66125" x2="84.93125" y2="73.66" width="0.8128" layer="1"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="84.93" y1="73.66125" x2="84.93" y2="73.3575" width="0.6096" layer="1"/>
+<wire x1="76.5175" y1="77.56325" x2="76.583" y2="78.138" width="0.4064" layer="1"/>
+<wire x1="76.583" y1="78.138" x2="77.1525" y2="78.7075" width="0.4064" layer="1"/>
 </signal>
 <signal name="_USIM1_CLK">
 <contactref element="R110" pad="1"/>
@@ -7203,9 +7413,9 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="36.83" y1="26.67" x2="34.6075" y2="28.8925" width="0.3048" layer="16"/>
 <wire x1="34.6075" y1="28.8925" x2="34.6075" y2="50.8" width="0.3048" layer="16"/>
 <wire x1="34.6075" y1="50.8" x2="34.6075" y2="52.705" width="0.3048" layer="16"/>
-<wire x1="23.8125" y1="67.6275" x2="22.225" y2="67.6275" width="0.3048" layer="16"/>
-<wire x1="32.0675" y1="59.3725" x2="23.8125" y2="67.6275" width="0.3048" layer="16"/>
-<wire x1="32.0675" y1="55.245" x2="32.0675" y2="59.3725" width="0.3048" layer="16"/>
+<wire x1="23.1775" y1="67.6275" x2="22.225" y2="67.6275" width="0.3048" layer="16"/>
+<wire x1="32.0675" y1="58.7375" x2="23.1775" y2="67.6275" width="0.3048" layer="16"/>
+<wire x1="32.0675" y1="55.245" x2="32.0675" y2="58.7375" width="0.3048" layer="16"/>
 <wire x1="34.6075" y1="52.705" x2="32.0675" y2="55.245" width="0.3048" layer="16"/>
 <wire x1="21.595" y1="70.1325" x2="21.595" y2="68.2575" width="0.3048" layer="1"/>
 <wire x1="21.595" y1="68.2575" x2="22.225" y2="67.6275" width="0.3048" layer="1"/>
@@ -7333,14 +7543,14 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="37.592" y1="72.39" x2="39.0525" y2="72.39" width="0.3048" layer="1"/>
 <via x="39.0525" y="72.39" extent="1-16" drill="0.3"/>
 <contactref element="R6" pad="2"/>
-<via x="6.35" y="73.3425" extent="1-16" drill="0.3"/>
+<via x="6.35" y="72.0725" extent="1-16" drill="0.3"/>
 <contactref element="R2" pad="1"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="6.35" y1="73.3425" x2="6.35" y2="73.7925" width="0.4064" layer="1"/>
-<wire x1="6.35" y1="73.7925" x2="5.845" y2="74.2975" width="0.4064" layer="1"/>
-<wire x1="2.2225" y1="81.0895" x2="2.2225" y2="81.915" width="0.4064" layer="1"/>
-<wire x1="2.2225" y1="81.915" x2="2.54" y2="82.2325" width="0.4064" layer="1"/>
-<via x="2.54" y="82.2325" extent="1-16" drill="0.3"/>
+<wire x1="6.35" y1="72.0725" x2="6.35" y2="72.5225" width="0.4064" layer="1"/>
+<wire x1="6.35" y1="72.5225" x2="5.845" y2="73.0275" width="0.4064" layer="1"/>
+<wire x1="2.2225" y1="79.8195" x2="2.2225" y2="80.645" width="0.4064" layer="1"/>
+<wire x1="2.2225" y1="80.645" x2="2.54" y2="80.9625" width="0.4064" layer="1"/>
+<via x="2.54" y="80.9625" extent="1-16" drill="0.3"/>
 <wire x1="4.0005" y1="68.58" x2="4.0005" y2="69.4055" width="0.4064" layer="1"/>
 <wire x1="4.0005" y1="69.4055" x2="4.445" y2="69.85" width="0.4064" layer="1"/>
 <via x="4.445" y="69.85" extent="1-16" drill="0.3"/>
@@ -7401,12 +7611,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="U202" pad="31"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="R2" pad="2"/>
-<wire x1="2.2225" y1="79.5655" x2="2.2225" y2="76.5175" width="0.4064" layer="1"/>
-<wire x1="3.1449" y1="76.1975" x2="2.5425" y2="76.1975" width="0.4064" layer="1"/>
-<wire x1="2.5425" y1="76.1975" x2="2.2225" y2="76.5175" width="0.4064" layer="1"/>
-<wire x1="3.1449" y1="76.1975" x2="4.4425" y2="76.1975" width="0.4064" layer="1"/>
-<wire x1="4.4425" y1="76.1975" x2="4.445" y2="76.2" width="0.4064" layer="1"/>
-<via x="4.445" y="76.2" extent="1-16" drill="0.3"/>
+<wire x1="2.2225" y1="78.2955" x2="2.2225" y2="75.2475" width="0.4064" layer="1"/>
+<wire x1="3.1449" y1="74.9275" x2="2.5425" y2="74.9275" width="0.4064" layer="1"/>
+<wire x1="2.5425" y1="74.9275" x2="2.2225" y2="75.2475" width="0.4064" layer="1"/>
+<wire x1="3.1449" y1="74.9275" x2="4.4425" y2="74.9275" width="0.4064" layer="1"/>
+<wire x1="4.4425" y1="74.9275" x2="4.445" y2="74.93" width="0.4064" layer="1"/>
+<via x="4.445" y="74.93" extent="1-16" drill="0.3"/>
 <wire x1="20.6375" y1="64.135" x2="22.86" y2="66.3575" width="0.3048" layer="1"/>
 <wire x1="16.51" y1="64.135" x2="20.6375" y2="64.135" width="0.3048" layer="1"/>
 <wire x1="14.2875" y1="64.135" x2="16.51" y2="64.135" width="0.3048" layer="16"/>
@@ -7414,8 +7624,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="10.795" y1="68.8975" x2="10.795" y2="67.6275" width="0.3048" layer="1"/>
 <wire x1="7.3025" y1="68.8975" x2="10.795" y2="68.8975" width="0.3048" layer="16"/>
 <wire x1="5.3975" y1="70.8025" x2="7.3025" y2="68.8975" width="0.3048" layer="16"/>
-<wire x1="5.3975" y1="75.2475" x2="5.3975" y2="70.8025" width="0.3048" layer="16"/>
-<wire x1="4.445" y1="76.2" x2="5.3975" y2="75.2475" width="0.3048" layer="16"/>
+<wire x1="5.3975" y1="73.9775" x2="5.3975" y2="70.8025" width="0.3048" layer="16"/>
+<wire x1="4.445" y1="74.93" x2="5.3975" y2="73.9775" width="0.3048" layer="16"/>
 <via x="16.51" y="64.135" extent="1-16" drill="0.3"/>
 <via x="14.2875" y="64.135" extent="1-16" drill="0.3"/>
 <via x="10.795" y="68.8975" extent="1-16" drill="0.3"/>
@@ -7448,12 +7658,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="15.875" y="77.7875" extent="1-16" drill="0.3"/>
 <wire x1="14.095" y1="77.6325" x2="15.72" y2="77.6325" width="0.254" layer="1"/>
 <wire x1="15.72" y1="77.6325" x2="15.875" y2="77.7875" width="0.254" layer="1"/>
-<wire x1="5.7451" y1="76.1975" x2="6.3475" y2="76.1975" width="0.3048" layer="1"/>
-<wire x1="6.3475" y1="76.1975" x2="6.35" y2="76.2" width="0.3048" layer="1"/>
-<wire x1="5.7451" y1="77.2494" x2="5.207" y2="77.7875" width="0.3048" layer="1"/>
-<wire x1="9.525" y1="78.4225" x2="7.3025" y2="76.2" width="0.3048" layer="1"/>
-<wire x1="7.3025" y1="76.2" x2="6.35" y2="76.2" width="0.3048" layer="1"/>
-<wire x1="5.7451" y1="77.2494" x2="5.7451" y2="76.1975" width="0.3048" layer="1"/>
+<wire x1="5.7451" y1="74.9275" x2="6.3475" y2="74.9275" width="0.3048" layer="1"/>
+<wire x1="6.3475" y1="74.9275" x2="6.35" y2="74.93" width="0.3048" layer="1"/>
+<wire x1="5.7451" y1="75.9794" x2="5.207" y2="76.5175" width="0.3048" layer="1"/>
+<wire x1="9.525" y1="78.4225" x2="7.3025" y2="74.93" width="0.3048" layer="1"/>
+<wire x1="7.3025" y1="74.93" x2="6.35" y2="74.93" width="0.3048" layer="1"/>
+<wire x1="5.7451" y1="75.9794" x2="5.7451" y2="74.9275" width="0.3048" layer="1"/>
 </signal>
 <signal name="!CONNECT_MDM_SIM">
 <contactref element="IC202" pad="1"/>
@@ -7514,12 +7724,11 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="46.37075" y1="33.35325" x2="46.355" y2="33.3375" width="0.3048" layer="1"/>
 <via x="46.355" y="33.3375" extent="1-16" drill="0.3"/>
 <wire x1="46.355" y1="33.3375" x2="41.5925" y2="38.1" width="0.3048" layer="16"/>
-<wire x1="41.5925" y1="38.1" x2="37.465" y2="38.1" width="0.3048" layer="16"/>
-<wire x1="37.465" y1="38.1" x2="36.195" y2="39.37" width="0.3048" layer="16"/>
-<wire x1="36.195" y1="39.37" x2="36.195" y2="52.3875" width="0.3048" layer="16"/>
-<wire x1="36.195" y1="52.3875" x2="36.5125" y2="52.705" width="0.3048" layer="16"/>
-<via x="36.5125" y="52.705" extent="1-16" drill="0.3"/>
-<wire x1="36.5125" y1="52.705" x2="30.1625" y2="52.705" width="0.3048" layer="1"/>
+<wire x1="41.5925" y1="38.1" x2="38.1" y2="38.1" width="0.3048" layer="16"/>
+<wire x1="38.1" y1="38.1" x2="36.83" y2="39.37" width="0.3048" layer="16"/>
+<wire x1="36.83" y1="39.37" x2="36.83" y2="52.705" width="0.3048" layer="16"/>
+<via x="36.83" y="52.705" extent="1-16" drill="0.3"/>
+<wire x1="36.83" y1="52.705" x2="30.1625" y2="52.705" width="0.3048" layer="1"/>
 <wire x1="30.1625" y1="52.705" x2="27.305" y2="49.8475" width="0.3048" layer="1"/>
 </signal>
 <signal name="VOUT" class="2">
@@ -7549,9 +7758,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <vertex x="36.16375" y="12.705"/>
 </polygon>
 </signal>
-<signal name="VCC" class="3">
-<contactref element="X1" pad="5"/>
-</signal>
 <signal name="N$5">
 <contactref element="IC201" pad="1"/>
 </signal>
@@ -7569,13 +7775,13 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="11.43" y1="79.0575" x2="10.795" y2="79.0575" width="0.254" layer="16"/>
 <via x="10.795" y="79.0575" extent="1-16" drill="0.3"/>
 <wire x1="10.795" y1="79.0575" x2="8.255" y2="79.0575" width="0.3048" layer="1"/>
-<wire x1="7.62" y1="79.6925" x2="8.255" y2="79.0575" width="0.3048" layer="1"/>
+<wire x1="7.62" y1="78.4225" x2="8.255" y2="79.0575" width="0.3048" layer="1"/>
 <contactref element="C8" pad="1"/>
 <contactref element="R9" pad="2"/>
 <contactref element="R8" pad="1"/>
-<wire x1="6.1595" y1="79.6925" x2="7.62" y2="79.6925" width="0.3048" layer="1"/>
-<wire x1="6.1595" y1="79.6925" x2="6.1595" y2="81.28" width="0.3048" layer="1"/>
-<wire x1="6.1595" y1="81.28" x2="6.1595" y2="82.8675" width="0.3048" layer="1"/>
+<wire x1="6.1595" y1="78.4225" x2="7.62" y2="78.4225" width="0.3048" layer="1"/>
+<wire x1="6.1595" y1="78.4225" x2="6.1595" y2="80.01" width="0.3048" layer="1"/>
+<wire x1="6.1595" y1="80.01" x2="6.1595" y2="81.5975" width="0.3048" layer="1"/>
 </signal>
 <signal name="!PWR_ON">
 <contactref element="R123" pad="1"/>
@@ -7585,15 +7791,15 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="42.545" y="35.8775" extent="1-16" drill="0.3"/>
 <wire x1="42.545" y1="35.8775" x2="40.9575" y2="37.465" width="0.3048" layer="16"/>
 <wire x1="40.9575" y1="37.465" x2="37.1475" y2="37.465" width="0.3048" layer="16"/>
-<wire x1="37.1475" y1="37.465" x2="35.56" y2="39.0525" width="0.3048" layer="16"/>
-<wire x1="35.56" y1="39.0525" x2="35.56" y2="53.0225" width="0.3048" layer="16"/>
-<wire x1="35.56" y1="53.0225" x2="33.02" y2="55.5625" width="0.3048" layer="16"/>
-<wire x1="33.02" y1="55.5625" x2="33.02" y2="59.69" width="0.3048" layer="16"/>
-<wire x1="33.02" y1="59.69" x2="20.955" y2="71.755" width="0.3048" layer="16"/>
+<wire x1="37.1475" y1="37.465" x2="36.195" y2="38.4175" width="0.3048" layer="16"/>
+<wire x1="36.195" y1="38.4175" x2="36.195" y2="53.0225" width="0.3048" layer="16"/>
+<wire x1="36.195" y1="53.0225" x2="33.655" y2="55.5625" width="0.3048" layer="16"/>
+<wire x1="33.655" y1="55.5625" x2="33.655" y2="59.055" width="0.3048" layer="16"/>
+<wire x1="33.655" y1="59.055" x2="20.955" y2="71.755" width="0.3048" layer="16"/>
 <wire x1="20.595" y1="70.1325" x2="20.595" y2="71.7125" width="0.254" layer="1"/>
-<wire x1="20.595" y1="71.7125" x2="20.6375" y2="71.755" width="0.254" layer="1"/>
-<via x="20.6375" y="71.755" extent="1-16" drill="0.3"/>
-<wire x1="20.955" y1="71.755" x2="20.6375" y2="71.755" width="0.3048" layer="16"/>
+<wire x1="20.595" y1="71.7125" x2="20.955" y2="72.0725" width="0.254" layer="1"/>
+<via x="20.955" y="72.0725" extent="1-16" drill="0.3"/>
+<wire x1="20.955" y1="71.755" x2="20.955" y2="72.0725" width="0.3048" layer="16"/>
 <contactref element="R5" pad="2"/>
 <wire x1="52.705" y1="29.972" x2="51.25" y2="29.972" width="0.3048" layer="1"/>
 <wire x1="51.25" y1="29.972" x2="51.245" y2="29.977" width="0.3048" layer="1"/>
@@ -7610,8 +7816,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="57.15" y1="47.3075" x2="54.2925" y2="47.3075" width="0.4064" layer="1"/>
 <wire x1="54.2925" y1="47.3075" x2="46.6725" y2="54.9275" width="0.4064" layer="1"/>
 <contactref element="IC2" pad="1"/>
-<via x="3.4925" y="79.6925" extent="1-16" drill="0.3"/>
-<wire x1="3.4925" y1="79.6925" x2="3.4925" y2="64.4525" width="0.4064" layer="16"/>
+<via x="3.4925" y="78.4225" extent="1-16" drill="0.3"/>
+<wire x1="3.4925" y1="78.4225" x2="3.4925" y2="64.4525" width="0.4064" layer="16"/>
 <wire x1="3.4925" y1="64.4525" x2="6.35" y2="62.23" width="0.4064" layer="16"/>
 <wire x1="46.6725" y1="54.9275" x2="28.8925" y2="54.9275" width="0.4064" layer="1"/>
 <wire x1="28.8925" y1="54.9275" x2="28.2575" y2="54.2925" width="0.4064" layer="1"/>
@@ -7624,7 +7830,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="6.48" y1="64.7725" x2="6.48" y2="62.36" width="0.4064" layer="1"/>
 <wire x1="6.48" y1="62.36" x2="6.35" y2="62.23" width="0.4064" layer="1"/>
 <contactref element="R8" pad="2"/>
-<wire x1="4.6355" y1="79.6925" x2="3.4925" y2="79.6925" width="0.3048" layer="1"/>
+<wire x1="4.6355" y1="78.4225" x2="3.4925" y2="78.4225" width="0.3048" layer="1"/>
 </signal>
 <signal name="EN_MDM_SIM_VDD">
 <contactref element="IC2" pad="3"/>
@@ -7637,9 +7843,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="16.1925" y1="66.675" x2="17.145" y2="67.6275" width="0.3048" layer="1"/>
 <wire x1="17.095" y1="70.1325" x2="17.095" y2="67.6775" width="0.254" layer="1"/>
 <wire x1="17.095" y1="67.6775" x2="17.145" y2="67.6275" width="0.254" layer="1"/>
-<wire x1="6.6675" y1="67.6275" x2="7.62" y2="67.6275" width="0.3048" layer="16"/>
-<wire x1="7.62" y1="67.6275" x2="7.9375" y2="67.945" width="0.3048" layer="16"/>
-<wire x1="7.9375" y1="67.945" x2="13.335" y2="67.945" width="0.3048" layer="16"/>
+<wire x1="6.6675" y1="67.6275" x2="6.985" y2="67.945" width="0.3048" layer="16"/>
+<wire x1="6.985" y1="67.945" x2="13.335" y2="67.945" width="0.3048" layer="16"/>
 <wire x1="5.5245" y1="68.58" x2="5.715" y2="68.58" width="0.4064" layer="1"/>
 <wire x1="5.715" y1="68.58" x2="6.6675" y2="67.6275" width="0.4064" layer="1"/>
 <wire x1="6.3801" y1="66.6725" x2="6.6675" y2="66.9599" width="0.4064" layer="1"/>
@@ -7651,10 +7856,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="X202" pad="2"/>
 <wire x1="38.3225" y1="68.265" x2="38.3225" y2="67.5325" width="0.3048" layer="1"/>
 <wire x1="38.3225" y1="67.5325" x2="37.7825" y2="66.9925" width="0.3048" layer="1"/>
-<wire x1="37.7825" y1="66.9925" x2="37.1475" y2="66.9925" width="0.3048" layer="1"/>
-<wire x1="37.1475" y1="66.9925" x2="36.5125" y2="66.3575" width="0.3048" layer="1"/>
-<wire x1="36.5125" y1="66.3575" x2="36.5125" y2="66.04" width="0.3048" layer="1"/>
-<wire x1="36.5125" y1="66.04" x2="36.5125" y2="64.643" width="0.8128" layer="1"/>
+<wire x1="37.7825" y1="66.9925" x2="35.56" y2="66.9925" width="0.3048" layer="1"/>
+<wire x1="35.56" y1="66.9925" x2="34.925" y2="66.3575" width="0.3048" layer="1"/>
+<wire x1="34.925" y1="66.3575" x2="34.925" y2="66.04" width="0.3048" layer="1"/>
+<wire x1="34.925" y1="66.04" x2="34.925" y2="64.643" width="0.8128" layer="1"/>
 <wire x1="33.02" y1="46.6725" x2="33.655" y2="47.3075" width="0.3048" layer="16"/>
 <wire x1="33.02" y1="37.465" x2="33.02" y2="46.6725" width="0.3048" layer="16"/>
 <wire x1="13.0175" y1="17.4625" x2="33.02" y2="37.465" width="0.3048" layer="16"/>
@@ -7662,19 +7867,17 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="4.445" y1="17.145" x2="4.7625" y2="17.4625" width="0.3048" layer="1"/>
 <wire x1="4.445" y1="17.145" x2="4.75" y2="16.9697" width="0.3048" layer="1"/>
 <wire x1="34.925" y1="48.5775" x2="33.655" y2="47.3075" width="0.3048" layer="1"/>
-<wire x1="37.1475" y1="48.5775" x2="34.925" y2="48.5775" width="0.3048" layer="1"/>
-<wire x1="37.1475" y1="51.7525" x2="37.1475" y2="48.5775" width="0.3048" layer="16"/>
-<wire x1="37.465" y1="52.07" x2="37.1475" y2="51.7525" width="0.3048" layer="16"/>
-<wire x1="37.465" y1="56.515" x2="37.465" y2="52.07" width="0.3048" layer="16"/>
-<wire x1="35.2425" y1="58.7375" x2="37.465" y2="56.515" width="0.3048" layer="16"/>
-<wire x1="35.2425" y1="63.1825" x2="35.2425" y2="58.7375" width="0.3048" layer="16"/>
-<wire x1="36.5125" y1="64.4525" x2="36.5125" y2="64.643" width="0.3048" layer="16"/>
+<wire x1="37.7825" y1="48.5775" x2="34.925" y2="48.5775" width="0.3048" layer="1"/>
+<wire x1="37.7825" y1="54.2925" x2="37.7825" y2="48.5775" width="0.3048" layer="16"/>
+<wire x1="35.2425" y1="56.8325" x2="37.7825" y2="54.2925" width="0.3048" layer="16"/>
+<wire x1="35.2425" y1="63.1825" x2="35.2425" y2="56.8325" width="0.3048" layer="16"/>
+<wire x1="36.5125" y1="64.4525" x2="34.925" y2="64.643" width="0.3048" layer="16"/>
 <via x="33.655" y="47.3075" extent="1-16" drill="0.3"/>
 <via x="12.065" y="17.4625" extent="1-16" drill="0.3"/>
-<via x="37.1475" y="48.5775" extent="1-16" drill="0.3"/>
+<via x="37.7825" y="48.5775" extent="1-16" drill="0.3"/>
 <wire x1="35.2425" y1="63.1825" x2="35.8775" y2="63.8175" width="0.3048" layer="16"/>
 <wire x1="35.8775" y1="63.8175" x2="35.8775" y2="64.008" width="0.6096" layer="16"/>
-<wire x1="35.8775" y1="64.008" x2="36.5125" y2="64.643" width="0.6096" layer="16"/>
+<wire x1="35.8775" y1="64.008" x2="34.925" y2="64.643" width="0.6096" layer="16"/>
 <wire x1="4.7625" y1="17.4625" x2="6.985" y2="17.4625" width="0.6096" layer="1"/>
 <wire x1="6.985" y1="17.4625" x2="12.065" y2="17.4625" width="0.3048" layer="1"/>
 </signal>
@@ -7690,6 +7893,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="23.1775" y="71.755" extent="1-16" drill="0.3"/>
 <wire x1="22.595" y1="70.1325" x2="22.595" y2="71.1725" width="0.3048" layer="1"/>
 <wire x1="22.595" y1="71.1725" x2="23.1775" y2="71.755" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="T1" pad="B"/>
+<contactref element="R12" pad="1"/>
+<wire x1="50.6095" y1="25.0825" x2="52.555" y2="25.0825" width="0.4064" layer="1"/>
+<wire x1="52.555" y1="25.0825" x2="52.5575" y2="25.08" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <errors>

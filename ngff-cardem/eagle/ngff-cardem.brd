@@ -9,7 +9,7 @@
 <grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="3" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="3" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,8 +22,8 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -3087,6 +3087,165 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="OSHW-LOGO-M_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M">
+<polygon width="0.15" layer="25">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-L_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
+<vertex x="1.2751" y="-2.0407"/>
+<vertex x="2.1548" y="-2.758"/>
+<vertex x="2.758" y="-2.1548"/>
+<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
+<vertex x="2.3446" y="-0.5413"/>
+<vertex x="3.4739" y="-0.4265"/>
+<vertex x="3.4739" y="0.4265"/>
+<vertex x="2.3446" y="0.5413" curve="18.998791"/>
+<vertex x="2.0407" y="1.2751"/>
+<vertex x="2.758" y="2.1548"/>
+<vertex x="2.1548" y="2.758"/>
+<vertex x="1.2751" y="2.0407" curve="18.998791"/>
+<vertex x="0.5413" y="2.3446"/>
+<vertex x="0.4265" y="3.4739"/>
+<vertex x="-0.4265" y="3.4739"/>
+<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
+<vertex x="-1.2751" y="2.0407"/>
+<vertex x="-2.1548" y="2.758"/>
+<vertex x="-2.758" y="2.1548"/>
+<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
+<vertex x="-2.3446" y="0.5413"/>
+<vertex x="-3.4739" y="0.4265"/>
+<vertex x="-3.4739" y="-0.4265"/>
+<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
+<vertex x="-2.0407" y="-1.2751"/>
+<vertex x="-2.758" y="-2.1548"/>
+<vertex x="-2.1548" y="-2.758"/>
+<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
+<vertex x="-0.9209" y="-2.2231"/>
+<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
+<vertex x="-1.0938" y="0" curve="-247.497204"/>
+<vertex x="0.4186" y="-1.0105"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-L">
+<polygon width="0.15" layer="25">
+<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
+<vertex x="1.2751" y="-2.0407"/>
+<vertex x="2.1548" y="-2.758"/>
+<vertex x="2.758" y="-2.1548"/>
+<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
+<vertex x="2.3446" y="-0.5413"/>
+<vertex x="3.4739" y="-0.4265"/>
+<vertex x="3.4739" y="0.4265"/>
+<vertex x="2.3446" y="0.5413" curve="18.998791"/>
+<vertex x="2.0407" y="1.2751"/>
+<vertex x="2.758" y="2.1548"/>
+<vertex x="2.1548" y="2.758"/>
+<vertex x="1.2751" y="2.0407" curve="18.998791"/>
+<vertex x="0.5413" y="2.3446"/>
+<vertex x="0.4265" y="3.4739"/>
+<vertex x="-0.4265" y="3.4739"/>
+<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
+<vertex x="-1.2751" y="2.0407"/>
+<vertex x="-2.1548" y="2.758"/>
+<vertex x="-2.758" y="2.1548"/>
+<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
+<vertex x="-2.3446" y="0.5413"/>
+<vertex x="-3.4739" y="0.4265"/>
+<vertex x="-3.4739" y="-0.4265"/>
+<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
+<vertex x="-2.0407" y="-1.2751"/>
+<vertex x="-2.758" y="-2.1548"/>
+<vertex x="-2.1548" y="-2.758"/>
+<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
+<vertex x="-0.9209" y="-2.2231"/>
+<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
+<vertex x="-1.0938" y="0" curve="-247.497204"/>
+<vertex x="0.4186" y="-1.0105"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 <attribute name="VERSION" value="v1"/>
@@ -3359,18 +3518,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="RESISTOR" x="16.36875" y="17.3875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07330RL/311-330HRCT-ND" x="16.36875" y="17.3875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED301" library="led" package="CHIP-LED0603" value="KPH-1608SGC" x="31.511875" y="91.7525" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.95625" y="89.778125" size="1" layer="25" ratio="16"/>
-<attribute name="VALUE" x="30.876875" y="89.8475" size="1" layer="27" ratio="11"/>
-<attribute name="DESCRIPTION" value="LED green" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="CLASS" value="LED" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="31.511875" y="91.7525" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED301" library="led" package="CHIP-LED0603" value="KPH-1608SGC" x="31.353125" y="91.7625" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.44875" y="90.879375" size="1" layer="25" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="31.988125" y="93.6675" size="1" layer="27" ratio="11" rot="R180"/>
+<attribute name="DESCRIPTION" value="LED green" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="LED" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D302" library="diodes-sysmocom" package="SMBDIODE" value="SMBJ13A" x="66.39" y="12.3875" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.896875" y="12.298125" size="1" layer="25" ratio="16" rot="R90"/>
@@ -3786,18 +3945,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="CAPACITOR" x="27.4275" y="6.0325" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL31A476MPHNNNE/1276-3063-1-ND/" x="27.4275" y="6.0325" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R302" library="rc-sysmocom" package="_0603" value="330" x="34.29" y="91.7525" smashed="yes">
+<element name="R302" library="rc-sysmocom" package="_0603" value="330" x="34.29" y="91.7625" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.195" y="91.445" size="1" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="32.7025" y="90.2602" size="0.508" layer="27" font="vector" ratio="10"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 1%% 1/10W 0603" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07330RL" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="311-330HRCT-ND" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07330RL/311-330HRCT-ND" x="34.29" y="91.7525" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="35.8775" y="93.2548" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 1%% 1/10W 0603" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07330RL" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-330HRCT-ND" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07330RL/311-330HRCT-ND" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R304" library="rc-sysmocom" package="_0603" value="4.42k" x="55.055" y="20.6425" smashed="yes">
 <attribute name="DESCRIPTION" value="RES SMD 4.42KOHM 0.1%% 1/10W 0603" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
@@ -5100,6 +5259,20 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="77.62875" y="79.85125" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="75.8825" y="76.6127" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
+<element name="U$3" library="SparkFun-Aesthetics" package="OSHW-LOGO-M_COPPER" value="" x="113.3475" y="54.7675" rot="MR0"/>
+<element name="U$4" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="113.3475" y="54.7675" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L_COPPER" value="OSHW-LOGOL-COPPER" x="113.3475" y="46.5925">
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="INDUCTOR" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="113.3475" y="46.5925" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$7" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="" x="113.3475" y="46.5925"/>
 </elements>
 <signals>
 <signal name="GND" class="3">
@@ -5182,7 +5355,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="18.575" y="76.835" extent="1-16" drill="0.3"/>
 <via x="15.4" y="80.01" extent="1-16" drill="0.3"/>
 <contactref element="D101" pad="2"/>
-<contactref element="R302" pad="2"/>
 <contactref element="C218" pad="2"/>
 <contactref element="R305" pad="2"/>
 <contactref element="IC203" pad="2"/>
@@ -6139,7 +6311,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="16.42" y1="75.6325" x2="16.67" y2="75.8825" width="0.3048" layer="1"/>
 <wire x1="16.67" y1="75.8825" x2="16.9875" y2="76.5175" width="0.3048" layer="1"/>
 <via x="16.9875" y="76.5175" extent="1-16" drill="0.3"/>
-<contactref element="LED301" pad="A"/>
 <wire x1="16.8275" y1="79.0575" x2="16.8275" y2="86.0425" width="0.3048" layer="16"/>
 <wire x1="17.78" y1="78.105" x2="16.8275" y2="79.0575" width="0.3048" layer="16"/>
 <wire x1="17.78" y1="77.1525" x2="17.78" y2="78.105" width="0.3048" layer="16"/>
@@ -6148,8 +6319,9 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="22.5425" y1="91.7575" x2="29.845" y2="91.7575" width="0.3048" layer="16"/>
 <wire x1="16.8275" y1="86.0425" x2="22.5425" y2="91.7575" width="0.3048" layer="16"/>
 <via x="29.845" y="91.7575" extent="1-16" drill="0.3"/>
-<wire x1="29.845" y1="91.7575" x2="30.756875" y2="91.7575" width="0.3048" layer="1"/>
-<wire x1="30.756875" y1="91.7575" x2="30.761875" y2="91.7525" width="0.3048" layer="1"/>
+<contactref element="LED301" pad="C"/>
+<wire x1="30.603125" y1="91.7625" x2="29.85" y2="91.7625" width="0.3048" layer="1"/>
+<wire x1="29.85" y1="91.7625" x2="29.845" y2="91.7575" width="0.3048" layer="1"/>
 </signal>
 <signal name="!SLOT_RST">
 <contactref element="D101" pad="6"/>
@@ -6374,11 +6546,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="33.7825" y1="11.1175" x2="33.7825" y2="17.59" width="0.6096" layer="16"/>
 <wire x1="33.7825" y1="17.59" x2="36.835" y2="20.6425" width="0.6096" layer="16"/>
 <wire x1="46.4825" y1="20.6425" x2="36.835" y2="20.6425" width="0.6096" layer="16"/>
-</signal>
-<signal name="N$4">
-<contactref element="LED301" pad="C"/>
-<contactref element="R302" pad="1"/>
-<wire x1="32.261875" y1="91.7525" x2="33.528" y2="91.7525" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="C312" pad="2"/>
@@ -7433,6 +7600,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="29.9725" y="3.81" extent="1-16" drill="0.3"/>
 <via x="31.8775" y="3.81" extent="1-16" drill="0.3"/>
 <via x="32.83" y="6.0325" extent="1-16" drill="0.3"/>
+<contactref element="R302" pad="1"/>
+<wire x1="35.052" y1="91.7625" x2="35.052" y2="90.9955" width="0.3048" layer="1"/>
+<wire x1="35.052" y1="90.9955" x2="35.2425" y2="90.805" width="0.3048" layer="1"/>
+<via x="35.2425" y="90.805" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="ST_UART2_IO">
 <contactref element="U202" pad="47"/>
@@ -7595,7 +7766,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="36.83" y1="52.3875" x2="29.845" y2="52.3875" width="0.3048" layer="1"/>
 <wire x1="29.845" y1="52.3875" x2="27.305" y2="49.8475" width="0.3048" layer="1"/>
 </signal>
-<signal name="!SET_SLOT_DET">
+<signal name="!SET_SIM_DET">
 <contactref element="IC201" pad="1"/>
 <contactref element="R13" pad="2"/>
 <contactref element="U202" pad="22"/>
@@ -7842,6 +8013,11 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="24.765" y="60.96" extent="1-16" drill="0.3"/>
 <wire x1="23.7847" y1="60.9975" x2="24.7275" y2="60.9975" width="0.3048" layer="1"/>
 <wire x1="24.7275" y1="60.9975" x2="24.765" y2="60.96" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="LED301" pad="A"/>
+<contactref element="R302" pad="2"/>
+<wire x1="32.103125" y1="91.7625" x2="33.528" y2="91.7625" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <errors>

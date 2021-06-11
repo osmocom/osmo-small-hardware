@@ -24134,9 +24134,7 @@ detection</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="C201" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="172.72" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="172.72" x2="22.86" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="172.72" x2="22.86" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="172.72" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="172.72" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R203" gate="G$1" pin="1"/>
@@ -24146,12 +24144,6 @@ detection</text>
 <pinref part="X201" gate="S" pin="S1"/>
 <wire x1="30.48" y1="175.26" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
 <junction x="30.48" y="172.72"/>
-<pinref part="X201" gate="S" pin="S3"/>
-<wire x1="25.4" y1="175.26" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="172.72"/>
-<pinref part="X201" gate="S" pin="S2"/>
-<wire x1="27.94" y1="175.26" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<junction x="27.94" y="172.72"/>
 </segment>
 </net>
 <net name="_USB_D_N1" class="1">
@@ -25180,14 +25172,41 @@ detection</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="101,2,198.12,7.62,IC201-1OE_4,B,,,,"/>
+<approved hash="101,2,198.12,12.7,IC201-1OE_4,A,,,,"/>
+<approved hash="101,2,162.56,7.62,IC201-1OE_2,B,,,,"/>
+<approved hash="101,2,162.56,12.7,IC201-1OE_2,A,,,,"/>
+<approved hash="101,2,180.34,7.62,IC201-1OE_3,B,,,,"/>
+<approved hash="101,2,180.34,12.7,IC201-1OE_3,A,,,,"/>
+<approved hash="102,1,231.14,195.58,UIM_PWR,MDM_UIM_VDD,,,,"/>
+<approved hash="104,2,137.16,154.94,U202,VDDIN,VCC_3V3,,,"/>
+<approved hash="104,2,137.16,170.18,U202,VDDIO,VCC_3V3,,,"/>
+<approved hash="104,2,137.16,167.64,U202,VDDIO,VCC_3V3,,,"/>
+<approved hash="104,2,137.16,165.1,U202,VDDIO,VCC_3V3,,,"/>
+<approved hash="104,1,177.8,205.74,NGFF101G$1,3.3V,V_MODEM,,,"/>
 <approved hash="202,1,231.14,149.86,NGFF101G$1,I2C_IRQ_HW/UIM2_CLK_SIWI,,,,"/>
+<approved hash="114,1,204.47,174.858,NGFF101,G$2,PCIE_RX_P,,,"/>
+<approved hash="114,1,204.47,174.858,NGFF101,G$2,PCIE_RX_N,,,"/>
+<approved hash="114,1,204.47,174.858,NGFF101,G$2,PCIE_REFCLK_P,,,"/>
+<approved hash="114,1,204.47,174.858,NGFF101,G$2,PCIE_REFCLK_N,,,"/>
+<approved hash="114,1,204.47,174.858,NGFF101,G$2,!PCIE_PERST,,,"/>
+<approved hash="104,1,109.22,76.2,SIM101-HOLDER,VCC,SLOT_VDD,,,"/>
+<approved hash="104,1,137.16,73.66,SIM101-HOLDER,VPP,N$62,,,"/>
 <approved hash="202,2,33.02,185.42,X201,4,,,,"/>
+<approved hash="104,3,261.62,185.42,IC302,VIN,VCC_3V3,,,"/>
+<approved hash="104,3,261.62,180.34,IC302,VBIAS,VCC_3V3,,,"/>
+<approved hash="104,3,281.94,185.42,IC302,VOUT,V_MODEM,,,"/>
+<approved hash="104,2,304.8,127,IC1,OUT,SLOT_VDD,,,"/>
 <approved hash="202,2,335.28,116.84,IC2,!FLAG,,,,"/>
+<approved hash="104,2,360.68,121.92,IC2,OUT,SLOT_VDD,,,"/>
 <approved hash="106,1,335.28,177.8,N$17,,,,,"/>
-<approved hash="110,2,297.18,40.64,MDM_SIM_DET,N$23,,,,"/>
-<approved hash="110,2,297.18,40.64,N$23,MDM_SIM_DET,,,,"/>
-<approved hash="110,2,297.18,40.64,N$5,MDM_SIM_DET,,,,"/>
-<approved hash="110,2,297.18,40.64,N$5,N$23,,,,"/>
+<approved hash="106,1,137.16,73.66,N$62,,,,,"/>
+<approved hash="106,2,198.12,152.4,SCL,,,,,"/>
+<approved hash="106,2,198.12,154.94,SDA,,,,,"/>
+<approved hash="113,2,193.571,130.071,FRAME601,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
+<approved hash="113,1,168.868,111.891,JP1,,,,,"/>
+<approved hash="113,3,287.551,196.111,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

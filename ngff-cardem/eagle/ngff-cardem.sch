@@ -25474,6 +25474,9 @@ detection</text>
 <approved hash="104,2,304.8,127,IC1,OUT,SLOT_VDD,,,"/>
 <approved hash="202,2,335.28,116.84,IC2,!FLAG,,,,"/>
 <approved hash="104,2,360.68,121.92,IC2,OUT,SLOT_VDD,,,"/>
+<approved hash="104,3,261.62,142.24,IC3,VIN,VCC_3V3,,,"/>
+<approved hash="104,3,261.62,137.16,IC3,VBIAS,VCC_3V3,,,"/>
+<approved hash="104,3,281.94,142.24,IC3,VOUT,V_MODEM,,,"/>
 <approved hash="106,1,335.28,177.8,N$17,,,,,"/>
 <approved hash="106,1,137.16,73.66,N$62,,,,,"/>
 <approved hash="106,2,198.12,152.4,SCL,,,,,"/>

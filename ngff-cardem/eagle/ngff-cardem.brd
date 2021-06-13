@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="3" fill="3" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="3" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,23 +22,23 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -46,11 +46,11 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -105,7 +105,7 @@
 <wire x1="53.15" y1="1.5925" x2="47.435" y2="1.5925" width="0.254" layer="51" style="dashdot"/>
 <wire x1="33.465" y1="1.5925" x2="27.75" y2="1.5925" width="0.254" layer="51" style="dashdot"/>
 <wire x1="46.99" y1="0.3225" x2="41.91" y2="0.3225" width="0.254" layer="51" style="shortdash"/>
-<text x="72.92975" y="8.71475" size="1" layer="25" font="vector" ratio="16" rot="SR90">DC IN</text>
+<text x="69.11975" y="19.82725" size="1" layer="25" font="vector" ratio="16" rot="SR90">DC IN</text>
 <text x="80.0405" y="67.05725" size="1" layer="25" font="vector" ratio="16" rot="R180">!RESET</text>
 <text x="80.4215" y="73.02625" size="1" layer="25" font="vector" ratio="16" rot="R180">!W_DIS</text>
 <text x="26.83" y="37.7825" size="1" layer="25" ratio="16" rot="R270">SIM1</text>
@@ -114,8 +114,8 @@
 <text x="25.527" y="96.2" size="1.2" layer="1" font="vector" ratio="16">NGFF-cardem</text>
 <text x="25.5905" y="94.2645" size="1.2" layer="1" font="vector" ratio="16">(C) 2021 sysmocom GmbH</text>
 <text x="38.862" y="96.16825" size="1.2" layer="1" font="vector" ratio="16">&gt;VERSION</text>
-<text x="88.58375" y="29.59225" size="1" layer="25" font="vector" ratio="16" rot="SR180">USB3.0</text>
-<text x="75.2475" y="4.8425" size="1.778" layer="25" ratio="16" rot="SR90">6V max!</text>
+<text x="81.34475" y="31.74875" size="1" layer="25" font="vector" ratio="16" rot="SR90">USB3.0</text>
+<text x="73.025" y="13.05" size="1.778" layer="25" ratio="16" rot="SR90">12V</text>
 <text x="25.8445" y="97.475" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">NGFG-cardem</text>
 <text x="22.733" y="95.75925" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">(C) 2021 sysmocom GmbH</text>
 <text x="22.6695" y="97.50675" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">&gt;VERSION</text>
@@ -130,6 +130,7 @@
 <dimension x1="5.87375" y1="26.5275" x2="-7.62" y2="0" x3="-7.62" y3="13.26375" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
 <dimension x1="8.59" y1="43.88" x2="-10.4775" y2="0" x3="-11.1125" y3="21.94" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
 <dimension x1="5" y1="5" x2="-0.9525" y2="0" x3="-0.9525" y3="2.5" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
+<text x="73.025" y="26.0675" size="1.778" layer="25" ratio="16" rot="SR90">5V</text>
 </plain>
 <libraries>
 <library name="laforge">
@@ -1466,6 +1467,36 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <vertex x="0.714375" y="0.238125"/>
 <vertex x="0.714375" y="-0.238125"/>
 <vertex x="0.396875" y="-0.238125"/>
+</polygon>
+</package>
+<package name="1210">
+<description>&lt;b&gt;RESISTOR 1210&lt;/b&gt;</description>
+<wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
+<wire x1="-0.913" y1="-1.219" x2="0.939" y2="-1.219" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="30" cream="no"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="30" cream="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.3081" x2="-0.9009" y2="1.2918" layer="51"/>
+<rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
+<polygon width="0.3048" layer="31">
+<vertex x="-1.905" y="1.11125"/>
+<vertex x="-1.905" y="-1.11125"/>
+<vertex x="-1.27" y="-1.11125"/>
+<vertex x="-0.79375" y="0"/>
+<vertex x="-1.27" y="1.11125"/>
+</polygon>
+<polygon width="0.3048" layer="31">
+<vertex x="1.905" y="1.11125"/>
+<vertex x="1.905" y="-1.11125"/>
+<vertex x="1.27" y="-1.11125"/>
+<vertex x="0.79375" y="0"/>
+<vertex x="1.27" y="1.11125"/>
 </polygon>
 </package>
 <package name="_0603">
@@ -3153,53 +3184,57 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="171826-4">
 <packages>
 <package name="171826-4">
-<wire x1="5.08" y1="0" x2="5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="5.08" y1="3.175" x2="4.445" y2="3.175" width="0.254" layer="21"/>
-<wire x1="4.445" y1="3.175" x2="4.445" y2="2.54" width="0.254" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="3.175" y2="2.54" width="0.254" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.175" y2="3.175" width="0.254" layer="21"/>
-<wire x1="3.175" y1="3.175" x2="1.905" y2="3.175" width="0.254" layer="21"/>
-<wire x1="1.905" y1="3.175" x2="1.905" y2="2.54" width="0.254" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="0.635" y2="2.54" width="0.254" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.254" layer="21"/>
-<wire x1="0.635" y1="3.175" x2="-0.635" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.254" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.905" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-1.905" y1="3.175" x2="-3.175" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="3.175" x2="-3.175" y2="2.54" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-4.445" y2="2.54" width="0.254" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-4.445" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-4.445" y1="3.175" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="3.175" x2="-5.08" y2="0" width="0.254" layer="21"/>
-<wire x1="-5.08" y1="0" x2="-4.191" y2="0" width="0.254" layer="21"/>
-<wire x1="-4.191" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
-<wire x1="3.81" y1="0" x2="5.08" y2="0" width="0.254" layer="21"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="-8.001" width="0.254" layer="21"/>
-<wire x1="3.81" y1="-8.001" x2="3.556" y2="-8.509" width="0.254" layer="21"/>
-<wire x1="3.556" y1="-8.509" x2="-0.0508" y2="-8.509" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-8.001" width="0.254" layer="21"/>
-<wire x1="-3.81" y1="-8.001" x2="-3.556" y2="-8.509" width="0.254" layer="21"/>
-<wire x1="-3.556" y1="-8.509" x2="0.0508" y2="-8.509" width="0.254" layer="21"/>
-<wire x1="1.27" y1="0" x2="0.889" y2="0" width="0.254" layer="51"/>
-<wire x1="-4.191" y1="0" x2="-4.191" y2="-6.223" width="0.254" layer="21"/>
-<wire x1="-4.191" y1="-6.223" x2="-3.8608" y2="-6.5786" width="0.254" layer="21"/>
-<wire x1="4.191" y1="0" x2="4.191" y2="-6.223" width="0.254" layer="21"/>
-<wire x1="4.191" y1="-6.223" x2="3.8608" y2="-6.5786" width="0.254" layer="21"/>
-<text x="5.1801" y="8.0279" size="1.016" layer="25" ratio="10" rot="R180">&gt;NAME</text>
-<text x="3.3259" y="1.6779" size="1.27" layer="21" ratio="14" rot="R270">1</text>
-<text x="-4.2433" y="1.8049" size="1.27" layer="21" ratio="14" rot="R270">4</text>
-<text x="5.9421" y="2.6401" size="0.8128" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
-<pad name="4" x="-3.75" y="5" drill="0.9" shape="long" rot="R90"/>
-<pad name="3" x="-1.25" y="5" drill="0.9" shape="long" rot="R90"/>
-<pad name="2" x="1.25" y="5" drill="0.9" shape="long" rot="R90"/>
-<pad name="1" x="3.75" y="5" drill="0.9" shape="long" rot="R90"/>
-<wire x1="-3.75" y1="5" x2="-3.75" y2="2.5" width="0.8128" layer="51"/>
-<wire x1="-1.25" y1="5" x2="-1.25" y2="2.5" width="0.8128" layer="51"/>
-<wire x1="1.25" y1="5" x2="1.25" y2="2.5" width="0.8128" layer="51"/>
-<wire x1="3.75" y1="5" x2="3.75" y2="2.5" width="0.8128" layer="51"/>
-<dimension x1="3.556" y1="-8.509" x2="3.75" y2="5" x3="13.75" y3="-1.7545" textsize="1.27" layer="47" dtype="vertical"/>
-<dimension x1="-5.08" y1="0" x2="5.08" y2="0" x3="0" y3="11.25" textsize="1.27" layer="47" dtype="horizontal"/>
+<wire x1="6.25" y1="-3.75" x2="6.25" y2="-1.825" width="0.254" layer="21"/>
+<wire x1="6.25" y1="-1.825" x2="4.445" y2="-1.825" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-1.825" x2="-6.25" y2="-1.825" width="0.254" layer="21"/>
+<wire x1="-6.25" y1="-1.825" x2="-6.25" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="-6.25" y1="-3.75" x2="-4.091" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="-4.091" y1="-3.75" x2="-3.409" y2="-3.75" width="0.254" layer="21"/>
+<text x="-6.9721" y="-5.1801" size="1.016" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="7.0759" y="0.4279" size="1.27" layer="21" ratio="14" rot="R270">1</text>
+<text x="-9.2433" y="0.5549" size="1.27" layer="21" ratio="14" rot="R270">4</text>
+<text x="7.8079" y="-5.1401" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+<pad name="4" x="-3.75" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="3" x="-1.25" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="2" x="1.25" y="0" drill="0.9" shape="long" rot="R90"/>
+<pad name="1" x="3.75" y="0" drill="0.9" shape="long" rot="R90"/>
+<wire x1="-3.409" y1="-3.75" x2="-1.591" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="-1.591" y1="-3.75" x2="-0.909" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="-0.909" y1="-3.75" x2="0.909" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="0.909" y1="-3.75" x2="1.591" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="1.591" y1="-3.75" x2="3.409" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="3.409" y1="-3.75" x2="4.091" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="4.091" y1="-3.75" x2="6.25" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="-3.75" y1="0" x2="-3.75" y2="-1.875" width="0.8128" layer="21"/>
+<wire x1="-1.25" y1="0" x2="-1.25" y2="-1.875" width="0.8128" layer="21"/>
+<wire x1="1.25" y1="0" x2="1.25" y2="-1.875" width="0.8128" layer="21"/>
+<wire x1="3.75" y1="0" x2="3.75" y2="-1.875" width="0.8128" layer="21"/>
+<wire x1="-1.591" y1="-3.75" x2="-1.591" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="-1.591" y1="-10.598" x2="-1.25" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="-0.909" y1="-3.75" x2="-0.909" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="-0.909" y1="-10.598" x2="-1.25" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="0.909" y1="-3.75" x2="0.909" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="0.909" y1="-10.598" x2="1.25" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="1.591" y1="-3.75" x2="1.591" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="1.591" y1="-10.598" x2="1.25" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="3.409" y1="-3.75" x2="3.409" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="3.409" y1="-10.598" x2="3.75" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="4.091" y1="-3.75" x2="4.091" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="4.091" y1="-10.598" x2="3.75" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="-4.091" y1="-3.75" x2="-4.091" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="-4.091" y1="-10.598" x2="-3.75" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="-3.409" y1="-3.75" x2="-3.409" y2="-10.598" width="0.254" layer="21"/>
+<wire x1="-3.409" y1="-10.598" x2="-3.75" y2="-10.9536" width="0.254" layer="21"/>
+<wire x1="-6.25" y1="-1.825" x2="-6.25" y2="2.5" width="0.254" layer="21"/>
+<wire x1="-6.25" y1="2.5" x2="-5" y2="2.5" width="0.254" layer="21"/>
+<wire x1="6.25" y1="-1.825" x2="6.25" y2="2.5" width="0.254" layer="21"/>
+<wire x1="6.25" y1="2.5" x2="5" y2="2.5" width="0.254" layer="21"/>
+<wire x1="-5" y1="-1.875" x2="-5" y2="2.5" width="0.254" layer="21"/>
+<wire x1="5" y1="2.5" x2="5" y2="-1.875" width="0.254" layer="21"/>
+<wire x1="-6.25" y1="-3.75" x2="-6.25" y2="-11.25" width="0.254" layer="21"/>
+<wire x1="-6.25" y1="-11.25" x2="6.25" y2="-11.25" width="0.254" layer="21"/>
+<wire x1="6.25" y1="-11.25" x2="6.25" y2="-3.75" width="0.254" layer="21"/>
+<rectangle x1="-6.35" y1="-11.43" x2="6.35" y2="2.54" layer="39"/>
 </package>
 </packages>
 </library>
@@ -3488,18 +3523,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="LED" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D302" library="diodes-sysmocom" package="SMBDIODE" value="SMBJ13A" x="66.39" y="12.3875" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.896875" y="12.298125" size="1" layer="25" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="70.2" y="10.4825" size="1" layer="27" ratio="11" rot="R90"/>
-<attribute name="DESCRIPTION" value="TVS DIODE 13V 21.5V SMB" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SMBJ13A-13-F" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="SMBJ13A-FDICT-ND" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CLASS" value="DIODE" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/diodes-incorporated/SMBJ13A-13-F/SMBJ13A-FDICT-ND" x="66.39" y="12.3875" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D302" library="diodes-sysmocom" package="SMBDIODE" value="SMBJ13A" x="66.39" y="11.435" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.896875" y="8.488125" size="1" layer="25" ratio="16" rot="R90"/>
+<attribute name="VALUE" x="70.2" y="9.53" size="1" layer="27" ratio="11" rot="R90"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 13V 21.5V SMB" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SMBJ13A-13-F" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="SMBJ13A-FDICT-ND" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="DIODE" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/diodes-incorporated/SMBJ13A-13-F/SMBJ13A-FDICT-ND" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="FID1" library="dicons" package="VISION_REF15" value="" x="10" y="97.5" smashed="yes"/>
 <element name="FID2" library="dicons" package="VISION_REF15" value="" x="10" y="2.5" smashed="yes"/>
@@ -3566,7 +3601,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="SOURCEPARTNUMBER" value="ATSAM3S4BA-AU-ND" x="34.45" y="75.8825" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="34.45" y="75.8825" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="ATSAM3S4BA-AU" x="34.45" y="75.8825" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.67" y="69.9225" size="1" layer="25" ratio="16"/>
+<attribute name="NAME" x="25.67" y="70.24" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="19.5275" y="77.7875" size="0.8128" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C211" library="rc-sysmocom" package="_0402" value="100n" x="21.27375" y="83.97875" smashed="yes" rot="R270">
@@ -3631,7 +3666,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND" x="-12.8575" y="92.71" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="-12.8575" y="92.71" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC" x="-12.8575" y="92.71" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.6525" y="69.85" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="17.30375" y="67.6275" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="14.4475" y="67.2464" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="C214" library="rc-sysmocom" package="_0402" value="100n" x="27.465" y="78.105" smashed="yes" rot="R180">
@@ -4019,18 +4054,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="59.5" y="18.7375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="56.325" y="19.1502" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="D301" library="diodes-sysmocom" package="SMBDIODE" value="STPS5L60U" x="68.1125" y="6.0375" smashed="yes">
+<element name="D301" library="diodes-sysmocom" package="SMBDIODE" value="STPS5L60U" x="68.1125" y="5.085" smashed="yes">
 <attribute name="NAME" x="72.7025" y="3.66" size="1" layer="25" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="65.5725" y="2.2275" size="1.016" layer="27" ratio="17"/>
-<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 5A SMB" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="STPS5L60U" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="497-16321-1-ND" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="DIODE" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stmicroelectronics/STPS5L60U/497-16321-1-ND" x="68.1125" y="6.0375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="65.5725" y="1.275" size="1.016" layer="27" ratio="17"/>
+<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 5A SMB" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="STPS5L60U" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="497-16321-1-ND" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="DIODE" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stmicroelectronics/STPS5L60U/497-16321-1-ND" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SH301" library="shorts" package="SHORT_TOP-50" value="SHORT-HT5" x="40.79875" y="27.94" smashed="yes" rot="R180">
 <attribute name="BOM" value="no" x="40.79875" y="27.94" size="1" layer="27" ratio="18" rot="R180" display="off"/>
@@ -4099,7 +4134,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND" x="18.035" y="66.9925" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="T101" library="transistor" package="SOT23-BEC" value="BC847" x="56.705" y="27.6175" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.3725" y="29.215" size="1" layer="25" ratio="16"/>
+<attribute name="NAME" x="56.325" y="25.0875" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="53.53" y="29.5225" size="1.27" layer="27" rot="R270"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc." x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4125,7 +4160,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="VALUE" x="60.8961" y="26.9825" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="J301" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="PJ-002BH-SMT-TR" x="91.9175" y="18.6675" smashed="yes" rot="R180">
-<attribute name="NAME" x="82.149640625" y="26.3681" size="1" layer="25" font="vector" ratio="16" rot="SR0"/>
+<attribute name="NAME" x="77.8031" y="14.052859375" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="91.217859375" y="28.7809" size="2.032" layer="27" font="vector" ratio="13" rot="SR180"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER" x="91.9175" y="18.6675" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="CUI Devices" x="91.9175" y="18.6675" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4277,7 +4312,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="76.4545" y="43.99225" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603" x="76.4545" y="43.99225" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="76.4545" y="43.99225" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="74.819" y="43.59275" size="1" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="74.819" y="43.91025" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="75.4068" y="42.40475" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C118" library="rc-sysmocom" package="_0402" value="33p" x="43.9425" y="43.278" smashed="yes" rot="R270">
@@ -4410,7 +4445,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-amp-connectors/2199230-3/A115903CT-ND" x="58.2935" y="42.4525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D103" library="SP3012" package="UDFN-14" value="SP3012-6UTG" x="80.23375" y="39.89625" smashed="yes" rot="R90">
-<attribute name="NAME" x="79.78625" y="37.80625" size="1" layer="25" ratio="16" rot="R270"/>
+<attribute name="NAME" x="80.98625" y="43.72125" size="1" layer="25" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="82.45625" y="37.44125" size="0.8128" layer="27" ratio="12" rot="R90"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5V 7V 14UDFN" x="80.23375" y="39.89625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="80.23375" y="39.89625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4445,7 +4480,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform" x="50.1975" y="32.59125" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc" x="50.1975" y="32.59125" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND" x="50.1975" y="32.59125" size="1.27" layer="27" ratio="16" rot="R270" display="off"/>
-<attribute name="NAME" x="52.26125" y="31.00375" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="51.94375" y="31.32125" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="48.7052" y="34.17875" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R106" library="rc-sysmocom" package="_0603" value="10k" x="78.5825" y="68.23" smashed="yes" rot="R180">
@@ -4497,7 +4532,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="POPULATED" value="TRUE" x="85.5675" y="35.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CONNECTOR" x="85.5675" y="35.72" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/hirose-electric-co-ltd/ZX360D-B-10P-30/H125269DKR-ND" x="85.5675" y="35.72" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="82.39" y="34.13" size="1" layer="25" ratio="16" rot="R270"/>
+<attribute name="NAME" x="80.01125" y="31.75125" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="88.1075" y="47.785" size="1.27" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="U301" library="ldo" package="SC70-5" value="MIC5366-1.8YC5" x="81.50125" y="48.80125" smashed="yes">
@@ -4754,18 +4789,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="40.45" y="30.98" size="1.016" layer="25" ratio="14"/>
 <attribute name="VALUE" x="41.14" y="27.75" size="1.016" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C311" library="rc-sysmocom" package="_0603" value="100n" x="37.7825" y="34.735" smashed="yes" rot="R180">
-<attribute name="CLASS" value="CAPACITOR" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="43.18" y="28.7025" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C311" library="rc-sysmocom" package="_0603" value="1n" x="37.7825" y="34.735" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.6875" y="36.64" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="36.2273" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10B102KB8NNNC/1276-1018-1-ND" x="37.7825" y="34.735" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C308" library="Wurth_Elektronik_Passive_Capacitors_rev15a" package="4.2X1.9X2.8(BXCXA)" value="330u" x="26.7975" y="12.065" smashed="yes">
 <attribute name="CLASS" value="CAPACITOR" x="26.7975" y="12.065" size="1.778" layer="27" display="off"/>
@@ -4965,7 +5000,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L" x="52.705" y="29.21" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="52.705" y="29.21" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform" x="52.705" y="29.21" size="1.016" layer="27" ratio="14" rot="R90" display="off"/>
-<attribute name="NAME" x="53.6575" y="29.5275" size="1.016" layer="25" font="vector" ratio="14"/>
+<attribute name="NAME" x="53.6575" y="29.845" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="54.1973" y="27.6225" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="IC2" library="FPF2109" package="SOT23-5" value="FPF2109" x="5.08" y="64.4525" smashed="yes" rot="R90">
@@ -5213,9 +5248,44 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="LINK" value="UNKNOWN LINK" x="14.605" y="10.3975" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$7" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="" x="14.605" y="10.3975" rot="MR0"/>
-<element name="U$3" library="171826-4" package="171826-4" value="171826-4-RA" x="82.265" y="24.065" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.6704" y="19.9674" size="1.016" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="79.6249" y="30.0071" size="0.8128" layer="27" ratio="10"/>
+<element name="X2" library="171826-4" package="171826-4" value="171826-4-RA" x="76.835" y="21.86" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="CONNECTOR" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="74.3296" y="15.3401" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="81.9751" y="29.6679" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
+</element>
+<element name="R15" library="rc-sysmocom" package="1210" value="0R" x="72.0725" y="23.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="70.485" y="24.4" size="1.016" layer="25" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="75.2475" y="20.59" size="1.27" layer="27" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="72.0725" y="23.13" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R16" library="rc-sysmocom" package="1210" value="0R" x="72.0725" y="20.2725" smashed="yes" rot="R90">
+<attribute name="NAME" x="70.485" y="16.4625" size="1.016" layer="25" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="75.2475" y="17.7325" size="1.27" layer="27" rot="R90"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="72.0725" y="20.2725" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -5328,8 +5398,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <vertex x="59.2225" y="11.7525"/>
 <vertex x="60.805" y="13.335"/>
 <vertex x="67.6275" y="13.335"/>
-<vertex x="67.6275" y="15.24"/>
-<vertex x="64.9375" y="17.4675"/>
+<vertex x="67.6275" y="14.605"/>
+<vertex x="64.3025" y="17.4675"/>
 <vertex x="41.4025" y="17.4625"/>
 <vertex x="41.4025" y="24.4525"/>
 <vertex x="34.4175" y="24.4525"/>
@@ -5450,11 +5520,15 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 </polygon>
 <contactref element="J301" pad="3"/>
 <contactref element="J301" pad="2"/>
-<polygon width="0.6096" layer="1">
-<vertex x="74.1375" y="26.3525"/>
+<polygon width="0.6096" layer="1" thermals="no">
+<vertex x="74.7725" y="23.765"/>
+<vertex x="78.74" y="23.765"/>
+<vertex x="80.01" y="26.3525"/>
 <vertex x="88.7425" y="26.3525"/>
 <vertex x="88.7425" y="21.9075"/>
-<vertex x="74.1375" y="21.9075"/>
+<vertex x="80.01" y="21.9075"/>
+<vertex x="78.74" y="19.955"/>
+<vertex x="74.7725" y="19.955"/>
 </polygon>
 <via x="60.56375" y="16.8325" extent="1-16" drill="0.3"/>
 <via x="58.61125" y="16.8325" extent="1-16" drill="0.3"/>
@@ -5501,10 +5575,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <vertex x="83.345" y="88.5825"/>
 <vertex x="88.7425" y="88.5825"/>
 <vertex x="88.7425" y="29.845"/>
-<vertex x="72.36" y="29.845"/>
-<vertex x="71.025" y="28.575"/>
-<vertex x="71.025" y="20.32"/>
-<vertex x="70.39" y="19.685"/>
+<vertex x="68.2325" y="29.845"/>
+<vertex x="64.9925" y="26.3525"/>
+<vertex x="64.9925" y="20.32"/>
+<vertex x="64.3575" y="19.685"/>
 <vertex x="47.1175" y="19.685"/>
 <vertex x="43.3075" y="23.495"/>
 <vertex x="43.3075" y="30.7975"/>
@@ -5715,8 +5789,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="T1" pad="E"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R10" pad="2"/>
-<via x="63.945" y="27.945" extent="1-16" drill="0.3"/>
-<via x="63.6275" y="20.6425" extent="1-16" drill="0.3"/>
+<via x="65.215" y="27.945" extent="1-16" drill="0.3"/>
+<via x="60.77" y="24.135" extent="1-16" drill="0.3"/>
 <via x="66.1675" y="30.485" extent="1-16" drill="0.3"/>
 <via x="74.105" y="30.485" extent="1-16" drill="0.3"/>
 <via x="80.455" y="30.485" extent="1-16" drill="0.3"/>
@@ -5748,7 +5822,6 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="31.2425" y="57.97825" extent="1-16" drill="0.3"/>
 <via x="27.27375" y="61.47075" extent="1-16" drill="0.3"/>
 <via x="19.1775" y="61.47075" extent="1-16" drill="0.3"/>
-<via x="19.4475" y="59.49075" extent="1-16" drill="0.3"/>
 <via x="13.78" y="60.20075" extent="1-16" drill="0.3"/>
 <via x="13.78" y="57.66075" extent="1-16" drill="0.3"/>
 <via x="25.5275" y="56.70825" extent="1-16" drill="0.3"/>
@@ -5850,11 +5923,23 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="72.37875" y="36.07075" extent="1-16" drill="0.3"/>
 <wire x1="73.226225" y1="40.276153125" x2="74.93395625" y2="40.276153125" width="0.185" layer="1"/>
 <wire x1="74.93395625" y1="40.276153125" x2="74.93" y2="40.3225" width="0.185" layer="1" curve="-45"/>
-<contactref element="U$3" pad="3"/>
-<contactref element="U$3" pad="2"/>
-<via x="68.39" y="20.6425" extent="1-16" drill="0.3"/>
-<via x="69.9775" y="26.675" extent="1-16" drill="0.3"/>
-<wire x1="80.7675" y1="24.1675" x2="77.265" y2="25.315" width="0" layer="19" extent="1-1"/>
+<via x="62.3575" y="20.6425" extent="1-16" drill="0.3"/>
+<via x="63.945" y="24.135" extent="1-16" drill="0.3"/>
+<via x="32.0675" y="31.4325" extent="1-16" drill="0.3"/>
+<via x="32.0675" y="33.9725" extent="1-16" drill="0.3"/>
+<via x="34.6075" y="33.9725" extent="1-16" drill="0.3"/>
+<via x="33.81375" y="39.37" extent="1-16" drill="0.3"/>
+<via x="33.81375" y="46.0375" extent="1-16" drill="0.3"/>
+<via x="26.06625" y="69.78625" extent="1-16" drill="0.3"/>
+<via x="28.60625" y="66.29375" extent="1-16" drill="0.3"/>
+<via x="21.30375" y="65.02375" extent="1-16" drill="0.3"/>
+<via x="21.55875" y="8.26" extent="1-16" drill="0.3"/>
+<via x="23.78125" y="4.7675" extent="1-16" drill="0.3"/>
+<contactref element="X2" pad="3"/>
+<contactref element="X2" pad="2"/>
+<wire x1="76.835" y1="23.11" x2="76.835" y2="22.5425" width="0.3048" layer="16"/>
+<wire x1="76.835" y1="22.5425" x2="76.835" y2="21.2725" width="2.1844" layer="16"/>
+<wire x1="76.835" y1="21.2725" x2="76.835" y2="20.6375" width="0.4064" layer="16"/>
 </signal>
 <signal name="MDM_UIM_CLK">
 <contactref element="IC202" pad="13"/>
@@ -5933,16 +6018,24 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="J301" pad="1"/>
 <contactref element="J301" pad="1-1"/>
 <polygon width="0.6096" layer="1">
-<vertex x="69.185" y="15.24"/>
-<vertex x="69.185" y="3.81"/>
-<vertex x="74.455" y="3.81"/>
+<vertex x="69.185" y="15.1925"/>
+<vertex x="69.215" y="7.3025"/>
+<vertex x="68.55" y="6.32"/>
+<vertex x="68.55" y="2.54"/>
+<vertex x="73.185" y="2.54"/>
 <vertex x="81.1225" y="10.4775"/>
 <vertex x="88.7425" y="10.4775"/>
 <vertex x="88.7425" y="14.2875"/>
 <vertex x="88.425" y="15.24"/>
 </polygon>
-<contactref element="U$3" pad="4"/>
-<wire x1="80.7675" y1="13.1675" x2="77.265" y2="20.315" width="0" layer="19" extent="1-1"/>
+<contactref element="R15" pad="1"/>
+<contactref element="R16" pad="2"/>
+<wire x1="72.0725" y1="21.6725" x2="69.72" y2="21.6725" width="0.6096" layer="1"/>
+<wire x1="69.72" y1="21.6725" x2="68.3925" y2="21.6725" width="3" layer="1"/>
+<wire x1="68.3925" y1="21.6725" x2="67.945" y2="21.225" width="2.54" layer="1"/>
+<wire x1="67.945" y1="21.225" x2="67.945" y2="17.7325" width="3" layer="1"/>
+<wire x1="67.945" y1="17.7325" x2="72.0725" y2="14.24" width="3" layer="1"/>
+<wire x1="72.0725" y1="21.73" x2="72.0725" y2="21.6725" width="0.4064" layer="1"/>
 </signal>
 <signal name="PSE_OUT1">
 </signal>
@@ -6447,16 +6540,16 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="R304" pad="1"/>
 <wire x1="54.293" y1="20.6425" x2="52.9595" y2="20.6425" width="0.6" layer="1"/>
 <via x="42.355" y="18.57875" extent="1-16" drill="0.3"/>
-<via x="36.005" y="15.5625" extent="1-16" drill="0.3"/>
-<wire x1="35.5225" y1="14.645" x2="35.5225" y2="15.08" width="0.4064" layer="1"/>
-<wire x1="35.5225" y1="15.08" x2="36.005" y2="15.5625" width="0.4064" layer="1"/>
+<via x="36.005" y="17.15" extent="1-16" drill="0.3"/>
+<wire x1="35.5225" y1="14.645" x2="35.5225" y2="16.6675" width="0.4064" layer="1"/>
 <wire x1="54.293" y1="20.6425" x2="54.293" y2="20.29325" width="0.4064" layer="1"/>
 <wire x1="54.293" y1="20.29325" x2="54.2925" y2="19.685" width="0.4064" layer="1"/>
 <wire x1="54.2925" y1="19.685" x2="53.18625" y2="18.57875" width="0.4064" layer="1"/>
 <wire x1="53.18625" y1="18.57875" x2="42.355" y2="18.57875" width="0.4064" layer="1"/>
 <wire x1="42.355" y1="18.57875" x2="37.31125" y2="18.57875" width="0.4064" layer="16"/>
 <wire x1="37.31125" y1="18.57875" x2="36.005" y2="17.2725" width="0.4064" layer="16"/>
-<wire x1="36.005" y1="15.5625" x2="36.005" y2="17.2725" width="0.4064" layer="16"/>
+<wire x1="36.005" y1="17.15" x2="36.005" y2="17.2725" width="0.4064" layer="16"/>
+<wire x1="35.5225" y1="16.6675" x2="36.005" y2="17.15" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="DCDC301" pad="10"/>
@@ -6515,14 +6608,14 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="5.715" y1="36.83" x2="9.525" y2="33.02" width="0.3048" layer="16"/>
 <contactref element="NGFF101" pad="10"/>
 <contactref element="R102" pad="2"/>
-<wire x1="33.9725" y1="42.545" x2="33.9725" y2="45.4025" width="0.3048" layer="1"/>
+<wire x1="33.9725" y1="42.545" x2="33.9725" y2="45.085" width="0.3048" layer="1"/>
 <wire x1="26.035" y1="34.6075" x2="33.9725" y2="42.545" width="0.3048" layer="1"/>
 <wire x1="62.23" y1="44.1325" x2="64.4525" y2="46.355" width="0.3048" layer="16"/>
 <wire x1="53.6575" y1="44.1325" x2="62.23" y2="44.1325" width="0.3048" layer="16"/>
 <wire x1="50.4825" y1="47.3075" x2="53.6575" y2="44.1325" width="0.3048" layer="16"/>
 <wire x1="50.165" y1="47.625" x2="50.4825" y2="47.3075" width="0.3048" layer="1"/>
-<wire x1="36.195" y1="47.625" x2="50.165" y2="47.625" width="0.3048" layer="1"/>
-<wire x1="33.9725" y1="45.4025" x2="36.195" y2="47.625" width="0.3048" layer="1"/>
+<wire x1="36.5125" y1="47.625" x2="50.165" y2="47.625" width="0.3048" layer="1"/>
+<wire x1="33.9725" y1="45.085" x2="36.5125" y2="47.625" width="0.3048" layer="1"/>
 <via x="64.4525" y="46.355" extent="1-16" drill="0.3"/>
 <via x="50.4825" y="47.3075" extent="1-16" drill="0.3"/>
 <wire x1="65.2935" y1="44.7275" x2="65.2935" y2="45.514" width="0.3048" layer="1"/>
@@ -6645,8 +6738,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <vertex x="41.72" y="10.165"/>
 <vertex x="41.72" y="2.545"/>
 <vertex x="67.16" y="2.545"/>
-<vertex x="67.16" y="10.8"/>
-<vertex x="62.58" y="10.8"/>
+<vertex x="67.16" y="10.165"/>
+<vertex x="62.58" y="10.165"/>
 <vertex x="59.92875" y="8.895"/>
 <vertex x="55.325" y="8.895"/>
 <vertex x="54.289465625" y="10.165"/>
@@ -6661,6 +6754,9 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="DCDC301" pad="2"/>
 <contactref element="C303" pad="2"/>
 <contactref element="DCDC301" pad="1"/>
+<via x="42.355" y="3.4975" extent="1-16" drill="0.3"/>
+<via x="44.26" y="3.4975" extent="1-16" drill="0.3"/>
+<via x="47.7525" y="8.26" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$68">
 <contactref element="IC203" pad="6"/>
@@ -7264,13 +7360,13 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="77.8205" y1="68.23" x2="77.853" y2="68.2625" width="0.4064" layer="1"/>
 <wire x1="77.853" y1="68.2625" x2="77.853" y2="71.12" width="0.4064" layer="1"/>
 <contactref element="IC201" pad="2"/>
-<wire x1="79.0575" y1="65.405" x2="70.485" y2="65.405" width="0.4064" layer="1"/>
-<wire x1="70.485" y1="65.405" x2="60.96" y2="55.88" width="0.4064" layer="1"/>
+<wire x1="79.0575" y1="65.405" x2="73.9775" y2="65.405" width="0.4064" layer="1"/>
+<wire x1="73.9775" y1="65.405" x2="64.4525" y2="55.88" width="0.4064" layer="1"/>
 <wire x1="12.0372" y1="61.6475" x2="12.48875" y2="61.6475" width="0.3048" layer="1"/>
 <wire x1="12.48875" y1="61.6475" x2="13.0175" y2="61.2775" width="0.3048" layer="1"/>
 <wire x1="13.0175" y1="61.2775" x2="13.97" y2="61.2775" width="0.3048" layer="1"/>
 <wire x1="13.97" y1="61.2775" x2="14.9225" y2="60.325" width="0.3048" layer="1"/>
-<wire x1="60.96" y1="55.88" x2="54.61" y2="55.88" width="0.4064" layer="1"/>
+<wire x1="64.4525" y1="55.88" x2="54.61" y2="55.88" width="0.4064" layer="1"/>
 <via x="54.61" y="55.88" extent="1-16" drill="0.3"/>
 <wire x1="54.61" y1="55.88" x2="41.91" y2="55.88" width="0.4064" layer="16"/>
 <wire x1="41.91" y1="55.88" x2="40.005" y2="53.975" width="0.4064" layer="16"/>
@@ -7403,9 +7499,9 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="U202" pad="28"/>
 <wire x1="37.465" y1="26.67" x2="36.83" y2="26.67" width="0.3048" layer="16"/>
 <wire x1="36.83" y1="26.67" x2="33.655" y2="29.845" width="0.3048" layer="16"/>
-<wire x1="33.655" y1="29.845" x2="33.655" y2="36.5125" width="0.3048" layer="16"/>
-<wire x1="33.655" y1="36.5125" x2="34.6075" y2="37.465" width="0.3048" layer="16"/>
-<wire x1="34.6075" y1="37.465" x2="34.6075" y2="50.8" width="0.3048" layer="16"/>
+<wire x1="33.655" y1="29.845" x2="33.655" y2="35.8775" width="0.3048" layer="16"/>
+<wire x1="33.655" y1="35.8775" x2="34.6075" y2="36.83" width="0.3048" layer="16"/>
+<wire x1="34.6075" y1="36.83" x2="34.6075" y2="50.8" width="0.3048" layer="16"/>
 <wire x1="34.6075" y1="50.8" x2="34.6075" y2="52.705" width="0.3048" layer="16"/>
 <wire x1="32.0675" y1="60.6425" x2="31.4325" y2="61.2775" width="0.3048" layer="16"/>
 <wire x1="31.4325" y1="61.2775" x2="28.575" y2="61.2775" width="0.3048" layer="16"/>
@@ -7983,6 +8079,40 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="LED301" pad="A"/>
 <contactref element="R302" pad="2"/>
 <wire x1="32.103125" y1="91.7625" x2="33.528" y2="91.7625" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$23">
+<contactref element="R16" pad="1"/>
+<contactref element="X2" pad="4"/>
+<wire x1="76.835" y1="18.11" x2="72.6475" y2="18.11" width="2.54" layer="1"/>
+<wire x1="72.6475" y1="18.11" x2="72.0725" y2="18.3675" width="2.54" layer="1"/>
+<wire x1="72.0725" y1="18.3675" x2="72.0725" y2="18.8725" width="0.3048" layer="1"/>
+<wire x1="76.835" y1="18.11" x2="73.3425" y2="18.11" width="2.54" layer="16"/>
+<wire x1="73.3425" y1="18.11" x2="72.72" y2="18.11" width="2.54" layer="16"/>
+<wire x1="72.72" y1="18.11" x2="72.7075" y2="18.0975" width="2.54" layer="16"/>
+<via x="74.295" y="18.7325" extent="1-16" drill="0.3"/>
+<wire x1="73.3425" y1="18.11" x2="73.6725" y2="18.11" width="0.4064" layer="16"/>
+<wire x1="73.6725" y1="18.11" x2="74.295" y2="18.7325" width="0.4064" layer="16"/>
+<via x="74.93" y="17.4625" extent="1-16" drill="0.3"/>
+<via x="73.3425" y="17.4625" extent="1-16" drill="0.3"/>
+<wire x1="73.3425" y1="17.4625" x2="73.3425" y2="18.11" width="0.4064" layer="16"/>
+<wire x1="74.295" y1="18.7325" x2="74.295" y2="18.0975" width="0.4064" layer="16"/>
+<wire x1="74.295" y1="18.0975" x2="74.93" y2="17.4625" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$24">
+<contactref element="X2" pad="1"/>
+<contactref element="R15" pad="2"/>
+<wire x1="76.835" y1="25.61" x2="72.33" y2="25.61" width="2.54" layer="1"/>
+<wire x1="72.33" y1="25.61" x2="72.0725" y2="25.3525" width="2.54" layer="1"/>
+<wire x1="72.0725" y1="25.3525" x2="72.0725" y2="24.53" width="0.6096" layer="1"/>
+<wire x1="76.835" y1="25.61" x2="72.9175" y2="25.61" width="2.54" layer="16"/>
+<via x="73.66" y="26.3525" extent="1-16" drill="0.3"/>
+<wire x1="72.9175" y1="25.61" x2="72.815" y2="25.61" width="2.54" layer="16"/>
+<wire x1="72.9175" y1="25.61" x2="73.66" y2="26.3525" width="0.4064" layer="16"/>
+<via x="73.9775" y="24.765" extent="1-16" drill="0.3"/>
+<via x="74.93" y="26.3525" extent="1-16" drill="0.3"/>
+<wire x1="72.9175" y1="25.61" x2="73.1325" y2="25.61" width="0.4064" layer="16"/>
+<wire x1="73.1325" y1="25.61" x2="73.9775" y2="24.765" width="0.4064" layer="16"/>
+<wire x1="73.66" y1="26.3525" x2="74.93" y2="26.3525" width="0.4064" layer="16"/>
 </signal>
 </signals>
 <errors>
@@ -10297,6 +10427,9 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="3,16,74ba271026a27508"/>
 <approved hash="3,16,8da7028102388d1e"/>
 <approved hash="3,16,da0270286e91c4bb"/>
+<approved hash="5,15,0bac48d0c5f4f9b1"/>
+<approved hash="7,39,e31dfe7b3e742312"/>
+<approved hash="7,39,d79631d031d1d797"/>
 <approved hash="3,1,efe852c9c97cc96b"/>
 <approved hash="3,1,f104c974c918f168"/>
 <approved hash="3,1,0dff68c320b97b9c"/>
@@ -10410,6 +10543,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="3,1,a6d47d8079b5ee81"/>
 <approved hash="3,1,eeec5dfc5cacefbc"/>
 <approved hash="3,1,f08bd9a6eaf306aa"/>
+<approved hash="3,16,3e0e8568840a3f6c"/>
+<approved hash="3,16,bb6cfd06f2a6b4cc"/>
 <approved hash="3,1,6865b583b50468e2"/>
 <approved hash="3,1,73e105461b00aa80"/>
 <approved hash="3,1,4d27264126c24da4"/>
@@ -10428,6 +10563,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="3,1,77236e98081e4017"/>
 <approved hash="3,1,b5f4665e6638b592"/>
 <approved hash="3,1,4d781bd193a050a9"/>
+<approved hash="3,1,e3453fef3e09e2a3"/>
 <approved hash="3,1,08df84b984f40892"/>
 <approved hash="3,1,882af4d4f4e0881e"/>
 <approved hash="3,1,a4a68083c1848bb9"/>
@@ -10542,6 +10678,14 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="3,1,8167484d8221cbb7"/>
 <approved hash="3,1,a36efd88fd06a3e0"/>
 <approved hash="3,1,bfad870fbeaf2f87"/>
+<approved hash="7,39,aa3c74047454aa6c"/>
+<approved hash="7,39,25c44d803981e9d8"/>
+<approved hash="7,39,643c07ea93c1883c"/>
+<approved hash="7,39,bfd2245fb328508e"/>
+<approved hash="7,39,fe362e4e19747111"/>
+<approved hash="7,39,b23c64046454b26c"/>
+<approved hash="7,39,df4499bc0a487068"/>
+<approved hash="7,39,b4d33418c0071af0"/>
 <approved hash="4,1,b66e878d2df150f2"/>
 <approved hash="4,1,99558b2f95f7c855"/>
 <approved hash="5,1,bda8ea25da48013d"/>
@@ -10550,8 +10694,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,146b65a8453834fb"/>
 <approved hash="5,1,2de9f199f769f6cf"/>
 <approved hash="5,1,282b65a926a7f37c"/>
-<approved hash="5,1,b8cff88b72262811"/>
 <approved hash="5,1,2d9a77acfd01bd44"/>
+<approved hash="5,1,b8cff88b72262811"/>
 <approved hash="5,1,c8bf7a6c59fc282e"/>
 <approved hash="5,1,b75a3b894e2ad90a"/>
 <approved hash="5,1,a3da233804c4685a"/>
@@ -10559,8 +10703,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,d9725de08ce46975"/>
 <approved hash="5,1,b6d21a0deb5cd406"/>
 <approved hash="5,1,55700eb71ab5ce19"/>
-<approved hash="5,1,bd40fd1a77b72d9e"/>
 <approved hash="5,1,558558b3e95a2781"/>
+<approved hash="5,1,bd40fd1a77b72d9e"/>
 <approved hash="5,1,cd0c7ffd5c6d2d9d"/>
 <approved hash="5,1,8384df40f181681e"/>
 <approved hash="5,1,8384df40f181681e"/>
@@ -10575,12 +10719,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,81f8589d334a9d93"/>
 <approved hash="5,1,68e959fa1fc3c571"/>
 <approved hash="5,1,38c256578771e6ea"/>
-<approved hash="5,1,81405815290e9d2b"/>
 <approved hash="5,1,54075931f4cd260f"/>
+<approved hash="5,1,81405815290e9d2b"/>
 <approved hash="5,1,273f335c67fb9eec"/>
 <approved hash="5,1,322b249d8dd07001"/>
-<approved hash="5,1,eccdf29ce3c63707"/>
 <approved hash="5,1,069c1a6c7f532665"/>
+<approved hash="5,1,eccdf29ce3c63707"/>
 <approved hash="5,1,599dde6def81227f"/>
 <approved hash="5,1,f0ec871f32756823"/>
 <approved hash="5,1,0cd210d2b1032c28"/>
@@ -10596,43 +10740,43 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,10a4664c0f98cb77"/>
 <approved hash="5,1,2ab81af88d26ba66"/>
 <approved hash="5,1,2abe5b4b78daca2e"/>
-<approved hash="5,1,a15ff22c8cd5c6d3"/>
-<approved hash="5,1,239269a4fa7eba3d"/>
-<approved hash="5,1,a05df49d8a40c7f5"/>
-<approved hash="5,1,21eef365e299858b"/>
-<approved hash="5,1,b1c3bfb0a4379e64"/>
-<approved hash="5,1,a15ff71289efc6d7"/>
-<approved hash="5,1,e8e2bf78fe2d2c7c"/>
 <approved hash="5,1,a1dffc708281c65b"/>
 <approved hash="5,1,3641f23d1be86d93"/>
 <approved hash="5,1,2a5e6068f3b2b3f1"/>
+<approved hash="5,1,a15ff71289efc6d7"/>
 <approved hash="5,1,3b5e695bf1e4992e"/>
 <approved hash="5,1,b3f1f3bd60672a5e"/>
+<approved hash="5,1,b143bf00aa639ee4"/>
 <approved hash="5,1,a1ddeb599584c675"/>
-<approved hash="5,1,a78ae7c874123e25"/>
-<approved hash="5,1,a9f6e9b47a6e3059"/>
-<approved hash="5,1,ab47eb0378d932e8"/>
 <approved hash="5,1,a1dfe8e89619c65b"/>
-<approved hash="5,1,35d67fe0ec3aac79"/>
-<approved hash="5,1,30657a6fe9b5a9ca"/>
-<approved hash="5,1,3e217413e7c9a78e"/>
-<approved hash="5,1,ba3dfa7969a32392"/>
 <approved hash="5,1,e860bf18e2442cfe"/>
 <approved hash="5,1,080c02c885463f96"/>
-<approved hash="5,1,b143bf00aa639ee4"/>
-<approved hash="5,1,ed7fb396639e6a49"/>
+<approved hash="5,1,a78ae7c874123e25"/>
+<approved hash="5,1,35d67fe0ec3aac79"/>
+<approved hash="5,1,ab47eb0378d932e8"/>
+<approved hash="5,1,a9f6e9b47a6e3059"/>
+<approved hash="5,1,30657a6fe9b5a9ca"/>
+<approved hash="5,1,a05df49d8a40c7f5"/>
+<approved hash="5,1,e8e2bf78fe2d2c7c"/>
+<approved hash="5,1,ba3dfa7969a32392"/>
+<approved hash="5,1,3e217413e7c9a78e"/>
+<approved hash="5,1,a15ff22c8cd5c6d3"/>
+<approved hash="5,1,21eef365e299858b"/>
+<approved hash="5,1,b1c3bfb0a4379e64"/>
+<approved hash="5,1,239269a4fa7eba3d"/>
 <approved hash="5,1,82cb1383c2969021"/>
+<approved hash="5,1,ed7fb396639e6a49"/>
+<approved hash="5,1,7a6fe9b519c90234"/>
+<approved hash="5,1,1553a5d0464074c3"/>
 <approved hash="5,1,6068f3bc19fb590f"/>
 <approved hash="5,1,f24487816469c1a8"/>
 <approved hash="5,1,3f67cf5bf12e3912"/>
 <approved hash="5,1,23cc503d70ad035c"/>
-<approved hash="5,1,7413e7c919f14d70"/>
 <approved hash="5,1,69a4fa7819f350c3"/>
-<approved hash="5,1,110766bc462c3197"/>
-<approved hash="5,1,7a6fe9b519c90234"/>
-<approved hash="5,1,1553a5d0464074c3"/>
 <approved hash="5,1,01713b4a3b601960"/>
 <approved hash="5,1,23a7cbbae29b28c4"/>
+<approved hash="5,1,7413e7c919f14d70"/>
+<approved hash="5,1,110766bc462c3197"/>
 <approved hash="5,1,00b34942d600f223"/>
 <approved hash="5,1,1c383d0e890efcbf"/>
 <approved hash="5,1,c9684419fa397748"/>
@@ -10644,38 +10788,38 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,f1eb9edc26a8cc62"/>
 <approved hash="5,1,89747f76bbf99781"/>
 <approved hash="5,1,2acc4641fe3114cb"/>
+<approved hash="5,1,ba36254ae3d3d1a1"/>
 <approved hash="5,1,a908b122d665d685"/>
 <approved hash="5,1,ac00fd632a0ac073"/>
-<approved hash="5,1,ba36254ae3d3d1a1"/>
 <approved hash="5,1,e95637b2d38848b9"/>
 <approved hash="5,1,82b06057e384f864"/>
 <approved hash="5,1,a97959af9db787b9"/>
 <approved hash="5,1,283d67667c7954e6"/>
+<approved hash="5,1,9caa12ec66e3dda3"/>
 <approved hash="5,1,4b54c7a778afb41b"/>
 <approved hash="5,1,d000817e99177373"/>
-<approved hash="5,1,9caa12ec66e3dda3"/>
 <approved hash="5,1,eb9f491a605679b9"/>
 <approved hash="5,1,da1f2753a5588075"/>
+<approved hash="5,1,85860977b7573ba6"/>
+<approved hash="5,1,d49f8976e189f8cf"/>
+<approved hash="5,1,8e0fd64c11457a1f"/>
 <approved hash="5,1,5beaf5e4a3e3afa8"/>
 <approved hash="5,1,82257365326af62c"/>
-<approved hash="5,1,d49f8976e189f8cf"/>
-<approved hash="5,1,85860977b7573ba6"/>
-<approved hash="5,1,8e0fd64c11457a1f"/>
-<approved hash="5,1,6dac81eaf5e52ca5"/>
 <approved hash="5,1,d49f91c565cc138f"/>
+<approved hash="5,1,6dac81eaf5e52ca5"/>
 <approved hash="5,1,41974ae782791074"/>
 <approved hash="5,1,8032d1384bd3f0a8"/>
-<approved hash="5,1,ee8826b256e20665"/>
 <approved hash="5,1,f11644d2c4a68d8b"/>
+<approved hash="5,1,ee8826b256e20665"/>
 <approved hash="5,1,190c454f8246ed1c"/>
 <approved hash="5,1,eef02ea4ab075b11"/>
 <approved hash="5,1,177991d22985c9b2"/>
 <approved hash="5,1,8a3615520acb38a1"/>
+<approved hash="5,1,a27dd5e64fede7e4"/>
 <approved hash="5,1,31598519a9c043a0"/>
 <approved hash="5,1,89953a10d97fd3c8"/>
-<approved hash="5,1,a27dd5e64fede7e4"/>
-<approved hash="5,1,29a9c6f746acb64f"/>
 <approved hash="5,1,aa36355c3fc50da1"/>
+<approved hash="5,1,29a9c6f746acb64f"/>
 <approved hash="5,1,05461b561aa81893"/>
 <approved hash="5,1,21478a6852ae6d47"/>
 <approved hash="5,1,61973ecdcac4a687"/>
@@ -10683,51 +10827,51 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,4e31d15eacc79ea6"/>
 <approved hash="5,1,3dd1b3e76a7c0bc5"/>
 <approved hash="5,1,a3546685c2111fe6"/>
-<approved hash="5,1,160082cf5a24b35e"/>
 <approved hash="5,1,893d9204befa6e97"/>
+<approved hash="5,1,160082cf5a24b35e"/>
 <approved hash="5,1,226ff36ada72a82f"/>
-<approved hash="5,1,d51e9be276aacb29"/>
 <approved hash="5,1,c1037621f3e13cc3"/>
+<approved hash="5,1,d51e9be276aacb29"/>
 <approved hash="5,1,b98a6d52e3703597"/>
+<approved hash="5,1,efd76bfb8d3eff7d"/>
+<approved hash="5,1,f2d5e7bef09034a1"/>
+<approved hash="5,1,f4d0b4406236a8a6"/>
+<approved hash="5,1,b800e972101bfa73"/>
 <approved hash="5,1,ae36315bd9c2eba1"/>
 <approved hash="5,1,63bbee560c39721e"/>
-<approved hash="5,1,efd76bfb8d3eff7d"/>
-<approved hash="5,1,f4d0b4406236a8a6"/>
-<approved hash="5,1,f2d5e7bef09034a1"/>
-<approved hash="5,1,b800e972101bfa73"/>
 <approved hash="5,1,a1fabccc44055fe7"/>
-<approved hash="5,1,1bba2aaf5f478edb"/>
 <approved hash="5,1,a7f2beb2c87ef462"/>
+<approved hash="5,1,1bba2aaf5f478edb"/>
 <approved hash="5,1,1214c16683cf2499"/>
+<approved hash="5,1,679db013cfef379b"/>
 <approved hash="5,1,206ff355a14dd12f"/>
 <approved hash="5,1,49263429558d718a"/>
-<approved hash="5,1,679db013cfef379b"/>
-<approved hash="5,1,f1d23cc80e00687d"/>
 <approved hash="5,1,e47092ee51abf3dc"/>
+<approved hash="5,1,f1d23cc80e00687d"/>
 <approved hash="5,1,9c00cd4d9f247573"/>
-<approved hash="5,1,59fad7ea551d4746"/>
-<approved hash="5,1,a02b4d6b0c7ad430"/>
 <approved hash="5,1,fce361addc5242c2"/>
 <approved hash="5,1,fce36711a97132c2"/>
-<approved hash="5,1,ea93b3d547222de3"/>
+<approved hash="5,1,59fad7ea551d4746"/>
+<approved hash="5,1,a02b4d6b0c7ad430"/>
 <approved hash="5,1,43b0a3fad7eb02ab"/>
+<approved hash="5,1,ea93b3d547222de3"/>
 <approved hash="5,1,85810f5f2716203e"/>
-<approved hash="5,1,c8214ea559cd2b44"/>
 <approved hash="5,1,7ff92b68d7264ea3"/>
+<approved hash="5,1,c8214ea559cd2b44"/>
 <approved hash="5,1,284815609b72ca95"/>
 <approved hash="5,1,332dd26d937c4736"/>
-<approved hash="5,1,7ae4c7a5b0d70c2d"/>
 <approved hash="5,1,a24755cded7e1bc3"/>
+<approved hash="5,1,7ae4c7a5b0d70c2d"/>
 <approved hash="5,1,c6365960f8f9caa1"/>
+<approved hash="5,1,b5c1ed5ef06949e2"/>
+<approved hash="5,1,a0328d383bece9a8"/>
 <approved hash="5,1,91c782a5b36729d7"/>
 <approved hash="5,1,ec37e50929a598c8"/>
 <approved hash="5,1,a2c6fd225d0855ad"/>
 <approved hash="5,1,28481560bb7f7995"/>
-<approved hash="5,1,b5c1ed5ef06949e2"/>
-<approved hash="5,1,a0328d383bece9a8"/>
+<approved hash="5,1,f9f022a4a907572e"/>
 <approved hash="5,1,5ae4f9a5aedabd2d"/>
 <approved hash="5,1,a636396d65f457a1"/>
-<approved hash="5,1,f9f022a4a907572e"/>
 <approved hash="5,1,1be6804bcd574d45"/>
 <approved hash="5,1,54a5617a011db494"/>
 <approved hash="5,1,b0957a10ad7f85fb"/>
@@ -10736,75 +10880,75 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,b5fec53b44a6498a"/>
 <approved hash="5,1,25f49be41ba475f2"/>
 <approved hash="5,1,e42501654074903e"/>
-<approved hash="5,1,a69dffdb0b2c61ed"/>
 <approved hash="5,1,0fbeeff49be54ea5"/>
+<approved hash="5,1,a69dffdb0b2c61ed"/>
 <approved hash="5,1,892d51efb6e3d27a"/>
 <approved hash="5,1,a53aef7c095f5020"/>
 <approved hash="5,1,892d51efb6e3d27a"/>
 <approved hash="5,1,3a8f8a4f1ae39c89"/>
-<approved hash="5,1,e7f9db621b2c82a3"/>
-<approved hash="5,1,a8486d601b780e95"/>
 <approved hash="5,1,bb643f489ffb324a"/>
 <approved hash="5,1,2324b4979af60d07"/>
 <approved hash="5,1,77279667d776033c"/>
-<approved hash="5,1,e9a4b6fe42f72eb4"/>
+<approved hash="5,1,e7f9db621b2c82a3"/>
+<approved hash="5,1,a8486d601b780e95"/>
 <approved hash="5,1,3a47adcd6574d7c3"/>
 <approved hash="5,1,be36216a34f306a1"/>
+<approved hash="5,1,e9a4b6fe42f72eb4"/>
 <approved hash="5,1,65c9d26230bca048"/>
 <approved hash="5,1,98bac7e92f7278ea"/>
 <approved hash="5,1,c22a9a695d60363a"/>
 <approved hash="5,1,1d9093d00254e37c"/>
 <approved hash="5,1,2031153bbbf52dab"/>
+<approved hash="5,1,98bac7e879f9a6aa"/>
 <approved hash="5,1,11229f9b19101ac6"/>
 <approved hash="5,1,be362174a1ed93a1"/>
-<approved hash="5,1,98bac7e879f9a6aa"/>
 <approved hash="5,1,88e7b73e9e437267"/>
 <approved hash="5,1,1fdf8797d956191e"/>
 <approved hash="5,1,e26172e21173c3f0"/>
 <approved hash="5,1,da3172e379cbd867"/>
-<approved hash="5,1,6478a4221e8ed4a7"/>
 <approved hash="5,1,da331005aaa96aec"/>
+<approved hash="5,1,6478a4221e8ed4a7"/>
 <approved hash="5,1,d4a426c46179d6f6"/>
 <approved hash="5,1,d584c8b3fbfa70b1"/>
 <approved hash="5,1,7bf0bbba0116cb2f"/>
 <approved hash="5,1,bae70e851fa2b27e"/>
-<approved hash="5,1,70adb0ed0a41c072"/>
 <approved hash="5,1,c6080c32b69e76d7"/>
-<approved hash="5,1,87c7c893a55bcaad"/>
+<approved hash="5,1,70adb0ed0a41c072"/>
 <approved hash="5,1,d580c8b706987089"/>
-<approved hash="5,1,729cfa7ef6856787"/>
+<approved hash="5,1,87c7c893a55bcaad"/>
 <approved hash="5,1,baeff3abe2c4b266"/>
+<approved hash="5,1,729cfa7ef6856787"/>
 <approved hash="5,1,6ae9aad1107dda36"/>
 <approved hash="5,1,d9c413f6a95a691b"/>
 <approved hash="5,1,faa5283609a7da34"/>
 <approved hash="5,1,d9c20a372ba6f953"/>
-<approved hash="5,1,b3ddfe98ab54ed64"/>
-<approved hash="5,1,b3df016f54a3ed66"/>
-<approved hash="5,1,cf41f1037af6d7c4"/>
-<approved hash="5,1,3a62f178766165ed"/>
-<approved hash="5,1,b3dffc49a9b9ed5a"/>
-<approved hash="5,1,3a6ef1348b4765f1"/>
-<approved hash="5,1,3922c31472cfb28c"/>
-<approved hash="5,1,81b272c9c310316b"/>
-<approved hash="5,1,d7192d2b9cf05cb7"/>
-<approved hash="5,1,dbcc21e6903d5062"/>
-<approved hash="5,1,5741971d26c6dcef"/>
 <approved hash="5,1,d27f2849999259d1"/>
 <approved hash="5,1,5a239a7f2ba4d18d"/>
+<approved hash="5,1,3922c31472cfb28c"/>
 <approved hash="5,1,d4a426d89701647d"/>
-<approved hash="5,1,5cb29cf02d2bd71c"/>
-<approved hash="5,1,caaa309c81474104"/>
-<approved hash="5,1,6340903b21e2d399"/>
 <approved hash="5,1,507f903b21e0dbd1"/>
+<approved hash="5,1,6340903b21e2d399"/>
+<approved hash="5,1,5cb29cf02d2bd71c"/>
+<approved hash="5,1,5741971d26c6dcef"/>
+<approved hash="5,1,dbcc21e6903d5062"/>
+<approved hash="5,1,b3dffc49a9b9ed5a"/>
+<approved hash="5,1,3a6ef1348b4765f1"/>
+<approved hash="5,1,b3df016f54a3ed66"/>
+<approved hash="5,1,b3ddfe98ab54ed64"/>
+<approved hash="5,1,3a62f178766165ed"/>
+<approved hash="5,1,cf41f1037af6d7c4"/>
+<approved hash="5,1,81b272c9c310316b"/>
+<approved hash="5,1,d7192d2b9cf05cb7"/>
+<approved hash="5,1,caaa309c81474104"/>
 <approved hash="5,1,ddc1c32ef3c020ce"/>
 <approved hash="5,1,b3b780d520c6339a"/>
-<approved hash="5,1,21e6903a40ef419d"/>
-<approved hash="5,1,26d8971c40eb46bf"/>
 <approved hash="5,1,21e6903a40ef829d"/>
-<approved hash="5,1,bb9a893fe8af580a"/>
-<approved hash="5,1,2d2b9cf140f18c48"/>
+<approved hash="5,1,21e6903a40ef419d"/>
 <approved hash="5,1,c31472c840f3a373"/>
+<approved hash="5,1,26d8971c40eb46bf"/>
+<approved hash="5,1,2d2b9cf140f18c48"/>
 <approved hash="5,1,4599d522fab2a409"/>
+<approved hash="5,1,bb9a893fe8af580a"/>
 <approved hash="5,1,5f711f0787474739"/>
 <approved hash="5,1,af5c1391f0f80478"/>
 <approved hash="5,1,5f5ebfc704b12eda"/>
@@ -10831,12 +10975,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,15804c7479c120b8"/>
 <approved hash="5,1,df30babfbba6dea4"/>
 <approved hash="5,1,d30d31018fee0dfc"/>
-<approved hash="5,1,eb2e8ebe4fb8eaba"/>
 <approved hash="5,1,dd08271f93f009f9"/>
+<approved hash="5,1,eb2e8ebe4fb8eaba"/>
 <approved hash="4,1,dbbcb4828b55ab56"/>
 <approved hash="4,1,a0f3b1bfe78162f0"/>
-<approved hash="4,1,fe0a71bf9f83b31c"/>
 <approved hash="4,1,675c7162b87d0cbe"/>
+<approved hash="4,1,fe0a71bf9f83b31c"/>
 <approved hash="4,1,5ef2e44d52315029"/>
 <approved hash="6,1,4804fffb70727e9e"/>
 <approved hash="6,1,4a74f14afb8efcae"/>
@@ -10847,13 +10991,13 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="6,1,25eaeaaeb3c42da5"/>
 <approved hash="6,1,ec2909327d81f878"/>
 <approved hash="6,1,d919e061f0e52ff5"/>
-<approved hash="6,1,75a560ebd56c2441"/>
 <approved hash="6,1,8e32b4444f01b9f6"/>
+<approved hash="6,1,75a560ebd56c2441"/>
 <approved hash="6,1,b7b14b23ea258fb1"/>
 <approved hash="4,1,4063b7d6434f0d3d"/>
+<approved hash="4,1,4a82ef3d031523d7"/>
 <approved hash="4,1,861af4c2e3421039"/>
 <approved hash="4,1,7ec8e9190eb01dcb"/>
-<approved hash="4,1,4a82ef3d031523d7"/>
 <approved hash="5,1,68b557668fd185a1"/>
 <approved hash="5,1,383dffee2b7208fe"/>
 <approved hash="5,1,f355514dfb8b580a"/>
@@ -10861,14 +11005,14 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,f486c1c241d154b3"/>
 <approved hash="5,1,583b1084ce047655"/>
 <approved hash="5,1,ff3f3ce99f6209ab"/>
-<approved hash="5,1,d135794ae4f7fea9"/>
 <approved hash="5,1,0affefb55a4bebdc"/>
+<approved hash="5,1,d135794ae4f7fea9"/>
 <approved hash="5,1,863d9084f002cf1a"/>
 <approved hash="5,1,9dad9133d4748706"/>
-<approved hash="5,1,a1552cfc9f8a26aa"/>
 <approved hash="5,1,bc0770b49891dca0"/>
 <approved hash="5,1,b83dffee837f7c7e"/>
 <approved hash="5,1,94553640b106128a"/>
+<approved hash="5,1,a1552cfc9f8a26aa"/>
 <approved hash="5,1,2212507a8b3b7904"/>
 <approved hash="5,1,50442fb4658748bc"/>
 <approved hash="5,1,f590d0317211758f"/>
@@ -10877,13 +11021,13 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="19,1,e8069df440f6c41d"/>
 <approved hash="5,1,708614476507bed9"/>
 <approved hash="5,1,320352026786b953"/>
-<approved hash="5,1,4e8e381cfc6a8d0f"/>
 <approved hash="5,1,cbc90b5b4d2f3f86"/>
+<approved hash="5,1,4e8e381cfc6a8d0f"/>
 <approved hash="5,1,3a3b3dcec1cff2f5"/>
 <approved hash="5,1,31703bb63fe25612"/>
 <approved hash="5,1,7e0d1742f7c6205d"/>
-<approved hash="5,1,0b68239bb0209d1f"/>
 <approved hash="5,1,8e871ce6078f25ee"/>
+<approved hash="5,1,0b68239bb0209d1f"/>
 <approved hash="5,1,5c3e5bceddcfeef0"/>
 <approved hash="5,1,18524d721e7688e9"/>
 <approved hash="5,1,419021000fc65b9f"/>
@@ -10913,22 +11057,22 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,b6286ccf2336cf1b"/>
 <approved hash="5,1,ca325fa05fd41886"/>
 <approved hash="5,1,64c062ce81cfb30e"/>
-<approved hash="5,1,9a2a47bfb97015f3"/>
 <approved hash="5,1,61e0b7d14521d2a1"/>
+<approved hash="5,1,9a2a47bfb97015f3"/>
 <approved hash="5,1,d22808c990307c1b"/>
 <approved hash="5,1,bb7cff1ea877bfed"/>
 <approved hash="5,1,6fc569cee1cfd30b"/>
-<approved hash="5,1,706b4fa5d1e21805"/>
 <approved hash="5,1,bce45910be3ed0f1"/>
+<approved hash="5,1,706b4fa5d1e21805"/>
 <approved hash="5,1,b22868ca0533e91b"/>
 <approved hash="5,1,90252c305983d358"/>
 <approved hash="5,1,96284cd4fa2d161b"/>
-<approved hash="5,1,2f6d4bffdf89970f"/>
 <approved hash="5,1,aa2a10b86ecc4d86"/>
+<approved hash="5,1,2f6d4bffdf89970f"/>
 <approved hash="5,1,b1d9b7cea5cf9717"/>
 <approved hash="5,1,b6286cd6e72f0b1b"/>
-<approved hash="5,1,b088ef7b7ac0d61f"/>
 <approved hash="5,1,35675606cd6fe8ee"/>
+<approved hash="5,1,b088ef7b7ac0d61f"/>
 <approved hash="5,1,00de06ce01cf3310"/>
 <approved hash="5,1,5a2880d3542ab81b"/>
 <approved hash="5,1,c82574377684fc58"/>
@@ -10974,13 +11118,13 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,017015f3720028f5"/>
 <approved hash="5,1,c7aa852f62b2f9cf"/>
 <approved hash="5,1,30be814d14f14418"/>
-<approved hash="5,1,0bfeba9433277b63"/>
-<approved hash="5,1,395996b0e5b09072"/>
 <approved hash="5,1,50493c9fdfbe160d"/>
+<approved hash="5,1,395996b0e5b09072"/>
+<approved hash="5,1,0bfeba9433277b63"/>
 <approved hash="5,1,76ef70cee5cfd721"/>
-<approved hash="5,1,d789bb8abcaaaca6"/>
-<approved hash="5,1,3e8c1df9302ccb3e"/>
 <approved hash="5,1,14638b4ed50c3dfb"/>
+<approved hash="5,1,3e8c1df9302ccb3e"/>
+<approved hash="5,1,d789bb8abcaaaca6"/>
 <approved hash="5,1,052e975fb7af3d09"/>
 <approved hash="5,1,fb788defcbff7c9a"/>
 <approved hash="5,1,9a353595a30eefe2"/>
@@ -10999,8 +11143,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,2f5752c5dab3bc0f"/>
 <approved hash="5,1,98e39ecea1cf932d"/>
 <approved hash="5,1,4f2236c8ff148f41"/>
-<approved hash="5,1,0d1b3694bf7001e8"/>
 <approved hash="5,1,02265e1ab4866de8"/>
+<approved hash="5,1,0d1b3694bf7001e8"/>
 <approved hash="5,1,3c3096ff174d31b8"/>
 <approved hash="5,1,94c6042861bcf726"/>
 <approved hash="5,1,8f92dc8e40aa85d0"/>
@@ -11008,8 +11152,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,e49166c449193e39"/>
 <approved hash="5,1,8e18539c674972f8"/>
 <approved hash="5,1,7f6657dac7323cfd"/>
-<approved hash="5,1,720dd4412eb27c39"/>
 <approved hash="5,1,2017ca54ebfffe95"/>
+<approved hash="5,1,720dd4412eb27c39"/>
 <approved hash="5,1,cb7b41ec57f3829a"/>
 <approved hash="5,1,1a3539965f020de1"/>
 <approved hash="5,1,4a2b90ecfc151018"/>
@@ -11029,8 +11173,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,0143d5b26c08cd6b"/>
 <approved hash="5,1,e4807c1cf2a371fc"/>
 <approved hash="5,1,e4807c1cf2a371fc"/>
-<approved hash="5,1,48072300dc060bf5"/>
 <approved hash="5,1,855fe1721469a7a3"/>
+<approved hash="5,1,48072300dc060bf5"/>
 <approved hash="5,1,2b7843ef75f6119a"/>
 <approved hash="5,1,3a3537955f07bce2"/>
 <approved hash="5,1,4a2890e95110bd1b"/>
@@ -11041,10 +11185,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,9d2cc5858a225521"/>
 <approved hash="5,1,97b433c99444c82d"/>
 <approved hash="5,1,b825040d6dbee758"/>
-<approved hash="5,1,cc230abf1434a8c4"/>
-<approved hash="5,1,c213003c22acbe3f"/>
 <approved hash="5,1,6404005bfbc320e5"/>
+<approved hash="5,1,c213003c22acbe3f"/>
 <approved hash="5,1,cb78bdee53f4a09a"/>
+<approved hash="5,1,cc230abf1434a8c4"/>
 <approved hash="5,1,12353594430533e3"/>
 <approved hash="5,1,b6286cebc6122a1b"/>
 <approved hash="5,1,9b2c8b85ca3fc421"/>
@@ -11057,34 +11201,34 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,b0726ec0c668e7ae"/>
 <approved hash="5,1,89b2806c83fb09b3"/>
 <approved hash="5,1,9bf59dcec1cff33b"/>
-<approved hash="5,1,097c53bf97485e3b"/>
 <approved hash="5,1,60d235e99329c59b"/>
+<approved hash="5,1,097c53bf97485e3b"/>
 <approved hash="5,1,b2855170c657d85b"/>
 <approved hash="5,1,49f8e9f199e265fb"/>
 <approved hash="5,1,3b07439045e599e5"/>
 <approved hash="5,1,3a3537ea6f14049d"/>
 <approved hash="5,1,5a5780fad9033564"/>
-<approved hash="5,1,0e58ccc98cd9b10d"/>
 <approved hash="5,1,c0a0ef715c13288a"/>
+<approved hash="5,1,0e58ccc98cd9b10d"/>
 <approved hash="5,1,3b784def4398289a"/>
-<approved hash="5,1,223535954369bbe2"/>
 <approved hash="5,1,1030384374048db6"/>
+<approved hash="5,1,223535954369bbe2"/>
 <approved hash="5,1,b6286c874e7ea21b"/>
 <approved hash="5,1,4f3d37afe3d9930f"/>
 <approved hash="5,1,3d883bceddcfef46"/>
-<approved hash="5,1,9abce57eab5f24fd"/>
 <approved hash="5,1,372fd5aa26325fa8"/>
+<approved hash="5,1,9abce57eab5f24fd"/>
 <approved hash="5,1,8b343f9920ad4e3a"/>
 <approved hash="5,1,a598146f11f9e9fb"/>
-<approved hash="5,1,a7a68f5b402a021b"/>
 <approved hash="5,1,42756ca5d68b622c"/>
-<approved hash="5,1,f337e7186113a98e"/>
+<approved hash="5,1,a7a68f5b402a021b"/>
 <approved hash="5,1,580e0c755a06ae07"/>
+<approved hash="5,1,f337e7186113a98e"/>
 <approved hash="5,1,69f4b20ca810dcfe"/>
 <approved hash="5,1,9cce7006d1bec656"/>
 <approved hash="5,1,9157930fd2ee9b6a"/>
-<approved hash="5,1,d7eb6e4feca1ed23"/>
 <approved hash="5,1,585a014d505505ef"/>
+<approved hash="5,1,d7eb6e4feca1ed23"/>
 <approved hash="5,1,602201018fc7da2d"/>
 <approved hash="5,1,a9f3cdd92926fadc"/>
 <approved hash="5,1,0ed52026b79d671f"/>
@@ -11125,71 +11269,71 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,cc419781c5038242"/>
 <approved hash="5,1,c0d3a31001519690"/>
 <approved hash="5,1,4e65aa47ea95eb71"/>
-<approved hash="5,1,83f7622a3f33a4d9"/>
 <approved hash="5,1,38b23f42fe50c38b"/>
-<approved hash="5,1,e01b1bc2159b04fb"/>
+<approved hash="5,1,83f7622a3f33a4d9"/>
 <approved hash="5,1,65767c38b090ab55"/>
+<approved hash="5,1,e01b1bc2159b04fb"/>
 <approved hash="5,1,6704c10773568aa1"/>
 <approved hash="19,1,1fd1ec2a34b0cf81"/>
 <approved hash="5,1,77d0a2c056af827b"/>
 <approved hash="19,1,45e675ff7cd6638f"/>
 <approved hash="5,1,a6ea81682f8508cd"/>
-<approved hash="5,1,bc807c86bdbcf641"/>
 <approved hash="5,1,0143327330a5b885"/>
-<approved hash="5,1,76f7aad444f2295a"/>
-<approved hash="5,1,82b2c76ee43fb536"/>
-<approved hash="5,1,78f1657035887942"/>
+<approved hash="5,1,bc807c86bdbcf641"/>
 <approved hash="5,1,85b0c261e152b256"/>
+<approved hash="5,1,82b2c76ee43fb536"/>
 <approved hash="5,1,0580f1be0402edf1"/>
 <approved hash="5,1,ecd04244c83e2a0d"/>
 <approved hash="5,1,fcf06c555fbae0bd"/>
 <approved hash="5,1,f46ca3ec231df482"/>
 <approved hash="5,1,152d8ea5f46f377f"/>
+<approved hash="5,1,76f7aad444f2295a"/>
 <approved hash="5,1,3937a9e76508e48f"/>
+<approved hash="5,1,78f1657035887942"/>
 <approved hash="5,1,56a13f18a23a8c8e"/>
-<approved hash="19,1,fb13653e246a9fd0"/>
 <approved hash="5,1,a17664b8403565f9"/>
+<approved hash="19,1,fb13653e246a9fd0"/>
 <approved hash="5,1,70f53242158a4a67"/>
 <approved hash="5,1,8704627a5936f830"/>
 <approved hash="19,1,fa4f4105beb71883"/>
 <approved hash="5,1,9e96fe0402cbb85f"/>
 <approved hash="19,1,ffab692c6fd225f9"/>
+<approved hash="19,1,d0d1dd41dca4d134"/>
 <approved hash="19,1,a72b246a24997b5c"/>
 <approved hash="19,1,dbec3e8d3e1e07c3"/>
 <approved hash="19,1,d1d1dc41dcdcd14c"/>
-<approved hash="19,1,d0d1dd41dca4d134"/>
 <approved hash="5,1,97b5fbd41644976a"/>
-<approved hash="5,1,74673d6f325870f4"/>
-<approved hash="5,1,b599fa10feedc6b8"/>
-<approved hash="19,1,aafe7ebcca368bf2"/>
-<approved hash="5,1,a5243c000725676c"/>
-<approved hash="5,1,89b050f8c9f907a0"/>
-<approved hash="19,1,e030a60b1aa146d9"/>
-<approved hash="19,1,9f6bf8baaea02391"/>
-<approved hash="5,1,5b42f7a64b25440e"/>
-<approved hash="5,1,7bbb353d77d49e2f"/>
+<approved hash="5,1,eb613e9897bddb96"/>
+<approved hash="5,1,ebe340cbe90cdbf6"/>
 <approved hash="5,1,ebef4725ee2edb36"/>
 <approved hash="5,1,eae1495ce071da1e"/>
 <approved hash="19,1,91bd954eb45225be"/>
 <approved hash="5,1,a94cbc9ed055e76f"/>
 <approved hash="5,1,b97fea5c0ff33787"/>
+<approved hash="5,1,74673d6f325870f4"/>
+<approved hash="5,1,b599fa10feedc6b8"/>
+<approved hash="19,1,aafe7ebcca368bf2"/>
+<approved hash="5,1,a5243c000725676c"/>
+<approved hash="19,1,e030a60b1aa146d9"/>
+<approved hash="5,1,89b050f8c9f907a0"/>
+<approved hash="19,1,9f6bf8baaea02391"/>
+<approved hash="5,1,5b42f7a64b25440e"/>
+<approved hash="5,1,7bbb353d77d49e2f"/>
 <approved hash="5,1,ece1427aeb5fdc16"/>
 <approved hash="19,1,b1e0288ca029603d"/>
 <approved hash="19,1,f5df4294ebf4cb52"/>
 <approved hash="5,1,de51638b0880a3ef"/>
-<approved hash="5,1,ebe340cbe90cdbf6"/>
-<approved hash="5,1,a7108e16fcec7712"/>
-<approved hash="5,1,5cbadf2a95009245"/>
-<approved hash="5,1,eb613e9897bddb96"/>
-<approved hash="5,1,f0cb2a3065cfbfdd"/>
-<approved hash="19,1,e0c6b872eaec3846"/>
-<approved hash="19,1,b770fea4053fab60"/>
-<approved hash="5,1,1a971f3766ed8108"/>
-<approved hash="5,1,38bf0b2485260509"/>
-<approved hash="19,1,6292c17851b0da84"/>
 <approved hash="5,1,9944802ba913dd88"/>
 <approved hash="19,1,106dbf36f6d96434"/>
 <approved hash="19,1,7ac6eeea887a78c6"/>
+<approved hash="5,1,f0cb2a3065cfbfdd"/>
+<approved hash="19,1,e0c6b872eaec3846"/>
+<approved hash="5,1,1a971f3766ed8108"/>
+<approved hash="19,1,b770fea4053fab60"/>
+<approved hash="5,1,38bf0b2485260509"/>
+<approved hash="19,1,6292c17851b0da84"/>
+<approved hash="5,1,a7108e16fcec7712"/>
+<approved hash="5,1,5cbadf2a95009245"/>
 <approved hash="5,1,b6e86c80cb5f5376"/>
 <approved hash="5,1,6b99ea31d688a501"/>
 <approved hash="5,1,f07bcc8dfced7b48"/>
@@ -11208,37 +11352,37 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <approved hash="5,1,0f4a980599190d57"/>
 <approved hash="5,1,2848dc97cdd6c544"/>
 <approved hash="5,1,45354da25ce0a83a"/>
+<approved hash="5,1,46fb280571f84303"/>
 <approved hash="5,1,46f43285eb7bc30f"/>
+<approved hash="5,1,46744ce7951dc38b"/>
 <approved hash="5,1,46fb517508a84323"/>
 <approved hash="5,1,6530317e97477785"/>
-<approved hash="5,1,46fb280571f84303"/>
-<approved hash="5,1,46744ce7951dc38b"/>
-<approved hash="4,1,32d21b9e8de85ca9"/>
 <approved hash="4,1,796c1baeb1e8216f"/>
+<approved hash="4,1,32d21b9e8de85ca9"/>
 <approved hash="5,2,5f711f0787474739"/>
 <approved hash="5,2,4c0ed2e89adf2863"/>
 <approved hash="5,2,59c71a4a93f422f7"/>
 <approved hash="5,2,d5784ca4363bb0c9"/>
 <approved hash="5,2,7349d509d91e9b66"/>
 <approved hash="5,2,516c1546c12dbd47"/>
-<approved hash="4,2,32d21b9e8de85ca9"/>
 <approved hash="4,2,796c1baeb1e8216f"/>
+<approved hash="4,2,32d21b9e8de85ca9"/>
 <approved hash="5,15,19559514b4f52736"/>
-<approved hash="5,15,0bac48d0c5f4f9b1"/>
 <approved hash="5,15,5f711f0787474739"/>
-<approved hash="5,15,b623acaab5dc56d4"/>
-<approved hash="5,15,c640b55c026e50b6"/>
-<approved hash="5,15,dffe6ebb8c8e7ef2"/>
 <approved hash="5,15,92b03296ff9a3b37"/>
 <approved hash="5,15,05bec29cfd963afa"/>
 <approved hash="5,15,0787c29a8f8eade6"/>
-<approved hash="4,15,32d21b9e8de85ca9"/>
+<approved hash="5,15,b623acaab5dc56d4"/>
+<approved hash="5,15,c640b55c026e50b6"/>
+<approved hash="5,15,dffe6ebb8c8e7ef2"/>
 <approved hash="4,15,796c1baeb1e8216f"/>
+<approved hash="4,15,32d21b9e8de85ca9"/>
 <approved hash="5,16,8d1c85bb1a31b440"/>
 <approved hash="5,16,3956bd938cd13f16"/>
 <approved hash="4,16,958c76481acf88de"/>
 <approved hash="5,16,ec967fa7d9bf24bb"/>
 <approved hash="5,16,32381432c3033574"/>
+<approved hash="5,16,15935c1248612d3e"/>
 <approved hash="5,16,3f35b7728d712536"/>
 <approved hash="5,16,5f711f0787474739"/>
 <approved hash="5,16,f9fcf53a75577910"/>

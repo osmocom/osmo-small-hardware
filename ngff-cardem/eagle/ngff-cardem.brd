@@ -4759,15 +4759,15 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="OC_DIGIKEY" value="568-5869-1-ND" x="91.2825" y="66.135" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="81.6625" y="80.9625" size="1.1" layer="25" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="81.44" y="86.7725" size="1.778" layer="27" rot="R180"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-1217-1-ND" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5.5VWM 6TSOP" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc." x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="IP4234CZ6,125" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="IP4234CZ6,115" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1727-4717-1-ND" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="IC" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/IP4234CZ6-125/1727-4717-1-ND" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/IP4234CZ6115/1727-1217-1-ND" x="78.9" y="82.9625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C201" library="rc-sysmocom" package="_0603" value="100n" x="80.1675" y="88.17" smashed="yes" rot="R270">
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R7BB104/311-1088-1-ND/" x="83.025" y="116.11" size="1.778" layer="27" rot="R270" display="off"/>

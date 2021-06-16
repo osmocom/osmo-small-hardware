@@ -20728,13 +20728,13 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="U201" library="laforge" deviceset="IP4234CZ6" device="">
 <attribute name="CLASS" value="IC"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5.5VWM 6TSOP"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/IP4234CZ6-125/1727-4717-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/IP4234CZ6115/1727-1217-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="IP4234CZ6,125"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="IP4234CZ6,115"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1727-4717-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-1217-1-ND"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -23192,11 +23192,11 @@ detection</text>
 <instance part="X201" gate="S" x="22.86" y="177.8" rot="MR0"/>
 <instance part="U201" gate="G$1" x="48.26" y="187.96" smashed="yes">
 <attribute name="NAME" x="45.72" y="198.12" size="1.778" layer="95" rot="R180"/>
+<attribute name="SOURCEPARTNUMBER" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="SOURCE" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="ROHSCERTIFICATE" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>

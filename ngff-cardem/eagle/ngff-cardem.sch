@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="3" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="3" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="6" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tMark" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bMark" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="6" fill="1" visible="no" active="no"/>
+<layer number="59" name="tMark" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bMark" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -19692,11 +19692,11 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-330HRCT-ND"/>
 </part>
-<part name="LED202" library="led" deviceset="LED" device="CHIP-LED0603" value="KPH-1608SGC">
+<part name="LED202" library="led" deviceset="LED" device="CHIP-LED0603" value="KPH-1608EC">
 <attribute name="CLASS" value="LED"/>
-<attribute name="DESCRIPTION" value="LED green"/>
+<attribute name="DESCRIPTION" value="chipLED 0603 red"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURER" value="KPH-1608EC"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
@@ -19705,14 +19705,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="D302" library="diodes-sysmocom" deviceset="DIODE-TVS" device="-SMB" value="SMBJ13A">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="TVS DIODE 13V 21.5V SMB"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/diodes-incorporated/SMBJ13A-13-F/SMBJ13A-FDICT-ND"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SMBJ13A-13-F"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 13.6VWM 22.5VC SMB"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/littelfuse-inc/SZP6SMB16AT3G/F11614CT-ND"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SZP6SMB16AT3G"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="SMBJ13A-FDICT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="F11614CT-ND"/>
 </part>
 <part name="C302" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="-C1812" value="10u / 25V">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -19774,80 +19774,80 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND611" library="supply1" deviceset="GND" device=""/>
 <part name="C211" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="C210" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="C209" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="C208" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="C214" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="C213" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="C215" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="GND610" library="supply1" deviceset="GND" device=""/>
 <part name="C204" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="2.2u">
@@ -19875,25 +19875,25 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND604" library="supply1" deviceset="GND" device=""/>
 <part name="C212" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="C203" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="GND608" library="supply1" deviceset="GND" device=""/>
 <part name="GND617" library="supply1" deviceset="GND" device=""/>
@@ -19921,26 +19921,26 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R209" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1.5k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 1.5K OHM 1% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/RC0603FR-071K5L/311-1.50KHRCT-ND/729811"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-071K5L"/>
+<attribute name="DESCRIPTION" value="CRGCQ 0603 1K5 1%%"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0603F1K5/A129690CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0603F1K5"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-1.50KHRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A129690CT-ND"/>
 </part>
 <part name="GND606" library="supply1" deviceset="GND" device=""/>
 <part name="C206" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="TC201" library="tag-connect" deviceset="TC2050-IDC" device="">
 <attribute name="CLASS" value="FOOTPRINT"/>
@@ -19966,14 +19966,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R208" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="GND607" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME601" library="frames" deviceset="A3L-LOC" device=""/>
@@ -19981,14 +19981,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND616" library="supply1" deviceset="GND" device=""/>
 <part name="R218" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="GND625" library="supply1" deviceset="GND" device=""/>
 <part name="H301" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2">
@@ -20014,7 +20014,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="L202" library="rc-sysmocom" deviceset="INDUCTOR" device="_0805" value="74279220601">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DESCRIPTION" value="FERRITE BEAD"/>
 <attribute name="LINK" value="http://www.digikey.de/product-detail/de/74279220601/732-6126-1-ND/5050862"/>
 <attribute name="MANUFACTURER" value="Wurth Electronics Inc"/>
@@ -20025,7 +20025,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCEPARTNUMBER" value="732-6126-1-ND"/>
 </part>
 <part name="DCDC301" library="DC-DC_CONVERTER" deviceset="DCDC-GE-PVX" device="-ALL" value="PVX003A0X3-SRZ">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="DC/DC CONVERTER"/>
 <attribute name="DESCRIPTION" value="DC DC CONVERTER 0.6-5.5V 16.5W"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/abb-power-electronics-inc/PVX003A0X3-SRZ/555-1264-1-ND"/>
 <attribute name="MANUFACTURER" value="ABB Power Electronics Inc."/>
@@ -20037,14 +20037,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R304" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100KL/311-100KHRCT-ND/"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07100KL"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT100K/RMCF0603FT100KCT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT100K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-100KHRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT100KCT-ND"/>
 </part>
 <part name="C306" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -20091,16 +20091,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="P4.42KDBCT-ND"/>
 </part>
-<part name="C312" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="3300p">
+<part name="C312" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="8200p">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 3300PF 50V C0G/NP0 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM1885C1H332JA01D/490-6385-1-ND"/>
+<attribute name="DESCRIPTION" value="CAP CER 8200PF 50V C0G/NP0 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GRM1885C1H822JA01D/490-11482-1-ND"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM1885C1H332JA01D"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="GRM1885C1H822JA01D"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-6385-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="490-11482-1-ND"/>
 </part>
 <part name="R306" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="180">
 <attribute name="CLASS" value="RESISTOR"/>
@@ -20117,14 +20117,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND620" library="supply1" deviceset="GND" device=""/>
 <part name="R214" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100KL/311-100KHRCT-ND/"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07100KL"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT100K/RMCF0603FT100KCT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT100K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-100KHRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT100KCT-ND"/>
 </part>
 <part name="C219" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -20173,14 +20173,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="D301" library="diodes-sysmocom" deviceset="DIODE-SCHOTTKY" device="-SMB" value="STPS5L60U">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 5A SMB"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stmicroelectronics/STPS5L60U/497-16321-1-ND"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="STPS5L60U"/>
+<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 50V 3A SMB"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/diodes-incorporated/B350B-13-F/B350B-FDICT-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="B350B-13-F"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="497-16321-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="B350B-FDICT-ND"/>
 </part>
 <part name="SH301" library="shorts" deviceset="SHORT-H" device="T5">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
@@ -20220,28 +20220,28 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="L201" library="Wuerth_Elektronik_eiSos_V6_20140807" deviceset="WE-CNSW" device="_0805" value="744231091">
 <attribute name="CLASS" value="INDUCTOR"/>
-<attribute name="DESCRIPTION" value="CMC 370MA 2LN 90 OHM SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/744231091/732-3198-1-ND"/>
-<attribute name="MANUFACTURER" value="W&amp;#252;rth Elektronik"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="744231091"/>
+<attribute name="DESCRIPTION" value="CMC 400MA 2LN 90OHM SMD AEC-Q200"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/bourns-inc/SRF2012A-900YA/SRF2012A-900YACT-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SRF2012A-900YA"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="732-3198-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="SRF2012A-900YACT-ND"/>
 </part>
 <part name="R211" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="T101" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
@@ -20276,61 +20276,61 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R101" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-3GEY0R00V/P0-0GCT-ND/134711"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEY0R00V"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="P0.0GCT-ND"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="FALSE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="R219" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100KL/311-100KHRCT-ND/"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07100KL"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT100K/RMCF0603FT100KCT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT100K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-100KHRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT100KCT-ND"/>
 </part>
-<part name="LED201" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN" value="LEDPLCC2-MIN-red">
+<part name="LED201" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN" value="LEDPLCC2-MIN-green">
 <attribute name="CLASS" value="LED"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
-<variant name="LEDs bott" populate="no"/>
-</part>
-<part name="LED102" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN" value="LEDPLCC2-MIN-red">
-<attribute name="CLASS" value="LED"/>
-<attribute name="DESCRIPTION" value="LED RED CLEAR 2PLCC SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/osram-opto-semiconductors-inc/LS-T676-R1S1-1-Z/475-2683-1-ND"/>
-<attribute name="MANUFACTURER" value="OSRAM Opto Semiconductors Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="LS T676-R1S1-1-Z"/>
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR 2PLCC SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/broadcom-limited/HSME-A100-M02J1/516-2827-1-ND"/>
+<attribute name="MANUFACTURER" value="Broadcom Limited"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="HSME-A100-M02J1"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="475-2683-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="516-2827-1-ND"/>
 <variant name="LEDs bott" populate="no"/>
 </part>
-<part name="LED301" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN">
+<part name="LED102" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN" value="LEDPLCC2-MIN-green">
 <attribute name="CLASS" value="LED"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR 2PLCC SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/broadcom-limited/HSME-A100-M02J1/516-2827-1-ND"/>
+<attribute name="MANUFACTURER" value="Broadcom Limited"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="HSME-A100-M02J1"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="516-2827-1-ND"/>
+<variant name="LEDs bott" populate="no"/>
+</part>
+<part name="LED301" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN" value="LEDPLCC2-MIN-green">
+<attribute name="CLASS" value="LED"/>
+<attribute name="DESCRIPTION" value="LED GREEN CLEAR 2PLCC SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/broadcom-limited/HSME-A100-M02J1/516-2827-1-ND"/>
+<attribute name="MANUFACTURER" value="Broadcom Limited"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="HSME-A100-M02J1"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="516-2827-1-ND"/>
 <variant name="LEDs bott" populate="no"/>
 </part>
 <part name="R119" library="rc-sysmocom" deviceset="RESISTOR" device="_0402" value="47">
@@ -20380,25 +20380,25 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C111" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10p">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10PF 50V NP0 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/C0603C100J5GACTU/399-1049-1-ND"/>
-<attribute name="MANUFACTURER" value="Kemet"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU"/>
+<attribute name="DESCRIPTION" value="CAP CER 10PF 50V C0G/NP0 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/kemet/C0603C100F5GAC7867/399-9958-1-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="C0603C100F5GAC7867"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="399-1049-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="399-9958-1-ND"/>
 </part>
 <part name="C109" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R7BB104/311-1088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R7BB104"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1088-1-ND"/>
 </part>
 <part name="C115" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -20414,92 +20414,92 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND127" library="supply1" deviceset="GND" device=""/>
 <part name="C116" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10p">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10PF 50V NP0 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/C0603C100J5GACTU/399-1049-1-ND"/>
-<attribute name="MANUFACTURER" value="Kemet"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU"/>
+<attribute name="DESCRIPTION" value="CAP CER 10PF 50V C0G/NP0 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/kemet/C0603C100F5GAC7867/399-9958-1-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="C0603C100F5GAC7867"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="399-1049-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="399-9958-1-ND"/>
 </part>
 <part name="C114" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R7BB104/311-1088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R7BB104"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1088-1-ND"/>
 </part>
 <part name="C108" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/tdk-corporation/C3216X5R0J107M160AB/445-6008-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="C3216X5R0J107M160AB"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="445-6008-1-ND"/>
 </part>
 <part name="C113" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/tdk-corporation/C3216X5R0J107M160AB/445-6008-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="C3216X5R0J107M160AB"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="445-6008-1-ND"/>
 </part>
 <part name="C117" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R7BB104/311-1088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R7BB104"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1088-1-ND"/>
 </part>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C107" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/tdk-corporation/C3216X5R0J107M160AB/445-6008-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="C3216X5R0J107M160AB"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="445-6008-1-ND"/>
 </part>
 <part name="C112" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics North America"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/tdk-corporation/C3216X5R0J107M160AB/445-6008-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="C3216X5R0J107M160AB"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="445-6008-1-ND"/>
 </part>
 <part name="R107" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07330RL/311-330HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07330RL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-330GRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-330HRCT-ND"/>
 </part>
 <part name="NGFF101" library="con-ngff" deviceset="NGFF_B" device="-NSOL" value="NGFF_B-NSOL">
 <attribute name="CLASS" value="CONNECTOR"/>
@@ -20534,58 +20534,58 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R109" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="R106" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="R110" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="R115" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="R105" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
-<attribute name="POPULATED" value="FALSE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="X102" library="USB30-MICROB" deviceset="USB3.0-MICROB" device="" value="ZX360D-B-10P(30)">
 <attribute name="CLASS" value="CONNECTOR"/>
@@ -20613,36 +20613,36 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="C311" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R7BB104/311-1088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R7BB104"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1088-1-ND"/>
 </part>
 <part name="C308" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R7BB104/311-1088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R7BB104"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1088-1-ND"/>
 </part>
 <part name="R108" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="YPE HTML PUBLIC "/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="JP102" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
@@ -20668,14 +20668,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R112" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/vishay-dale/CRCW0603100KFKEA/541-100KHCT-ND"/>
-<attribute name="MANUFACTURER" value="Vishay Dale"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CRCW0603100KFKEA"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT100K/RMCF0603FT100KCT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT100K"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="541-100KHCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT100KCT-ND"/>
 </part>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="R113" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
@@ -20702,7 +20702,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="SIM101" library="SIM-Molex" deviceset="MOLEX-475530001" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="SIM HOLDER"/>
 <attribute name="DESCRIPTION" value="CONN SIM CARD PUSH-PUSH R/A SMD"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/molex/0475530001/WM3293TR-ND/2404889"/>
 <attribute name="MANUFACTURER" value="Molex"/>
@@ -20714,72 +20714,74 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="X201" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value=""/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURERPARTNUMBER" value=""/>
+<attribute name="OC_FARNELL" value=""/>
+<attribute name="OC_NEWARK" value=""/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value=""/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCEPARTNUMBER" value=""/>
 </part>
 <part name="U201" library="laforge" deviceset="IP4234CZ6" device="">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/nxp-semiconductors/IP4234CZ6,125/568-5869-1-ND/2531156"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 5.5VWM 6TSOP"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/IP4234CZ6-125/1727-4717-1-ND"/>
+<attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="IP4234CZ6,125"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-4717-1-ND"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C201" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.com/product-detail/en/foo/1276-1005-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R7BB104/311-1088-1-ND/"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R7BB104"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-1088-1-ND"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R202" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100KL/311-100KHRCT-ND/"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07100KL"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT100K/RMCF0603FT100KCT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT100K"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-100KHRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT100KCT-ND"/>
 </part>
 <part name="R121" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 100K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/vishay-dale/CRCW0603100KFKEA/541-100KHCT-ND"/>
-<attribute name="MANUFACTURER" value="Vishay Dale"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CRCW0603100KFKEA"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT100K/RMCF0603FT100KCT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT100K"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="541-100KHCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT100KCT-ND"/>
 </part>
 <part name="Q201" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="12MHz">
 <attribute name="CLASS" value="XTAL"/>
 <attribute name="DESCRIPTION" value="CRYSTAL 12.0000MHZ 18PF SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cardinal-components-inc/CSM4Z-A2B3C3-40-12.0D18/370-1146-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cardinal-components-inc/CSM1Z-A5B2C3-40-12-0D18/370-1108-1-ND"/>
 <attribute name="MANUFACTURER" value="Cardinal Components Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CSM4Z-A2B3C3-40-12.0D18"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CSM1Z-A5B2C3-40-12.0D18"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="370-1146-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="370-1108-1-ND"/>
 </part>
 <part name="C216" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="18p">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -20819,25 +20821,25 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND162" library="supply1" deviceset="GND" device=""/>
 <part name="C304" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="CAP CER 1000PF 50V X7R 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10B102KB8NNNC/1276-1018-1-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B102KB8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1018-1-ND"/>
 </part>
 <part name="C310" library="Wurth_Elektronik_Passive_Capacitors_rev15a" deviceset="WCAP-PSLC" device="_8X11.7(DXL)" value="330u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="CAP ALUM POLY 330UF 20%% 6.3V SMD"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/wurth-electronics-inc/875075155004/732-6478-1-ND/5148029"/>
-<attribute name="MANUFACTURER" value="W&amp;#252;rth Elektronik"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="875075155004"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/united-chemi-con/APXF6R3ARA331MH70G/565-4335-1-ND"/>
+<attribute name="MANUFACTURER" value="United Chemi-Con"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="APXF6R3ARA331MH70G"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="732-6478-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="565-4335-1-ND"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="IC202" library="CB3Q3244" deviceset="CB3Q3244" device="PW">
@@ -20860,26 +20862,26 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="C207" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V 10% X7R 0402"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/CL05B104KO5NNNC/1276-1001-1-ND/3889087"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics America, Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNNC"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0402"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL05B104KO5NNWC/1276-1509-2-ND/"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL05B104KO5NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1001-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1509-2-ND"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="R205" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="H303" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2">
@@ -20906,30 +20908,30 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="LED101" library="LED-PLCC2" deviceset="LED" device="PLCC2-MIN" value="LEDPLCC2-MIN-AMBER">
 <attribute name="CLASS" value="LED"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="LED ORANGE CLEAR 2PLCC SMD"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/osram-opto-semiconductors-inc/LO-T676-S1T1-24-Z/475-2744-1-ND"/>
+<attribute name="MANUFACTURER" value="OSRAM Opto Semiconductors Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="LO T676-S1T1-24-Z"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="475-2744-1-ND"/>
 <variant name="LEDs bott" populate="no"/>
 </part>
 <part name="R303" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="testpad" deviceset="TP" device="TP14R">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TEST POINT"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
@@ -20941,14 +20943,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="X101" library="SparkFun-Connectors" deviceset="PINHD-2X3" device="" value="PINHD-2X3-SP">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="CONN HEADER SMD 6POS 2.54MM"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/molex-llc/0015910060/WM17457-ND/614773"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="0015910060"/>
+<attribute name="DESCRIPTION" value="PIN HEADER, THR, DUAL ROW, .100&quot;"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/metz-connect-usa-inc/PR20203VBDN/1849-PR20203VBDN-ND"/>
+<attribute name="MANUFACTURER" value="METZ CONNECT USA Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PR20203VBDN"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="WM17457-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1849-PR20203VBDN-ND"/>
 </part>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="IC204" library="FPF2109" deviceset="FPF21XX" device="" value="FPF2109">
@@ -20965,14 +20967,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="R111" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="R103" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
 <attribute name="CLASS" value="RESISTOR"/>
@@ -20999,48 +21001,48 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R216" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="R217" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="R212" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="30k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 30K OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603JR-0730KL/311-30KGRCT-ND/729715"/>
+<attribute name="DESCRIPTION" value="RES SMD 30K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0730KL/311-30-0KHRCT-ND/730087"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0730KL"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0730KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-30KGRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-30.0KHRCT-ND"/>
 </part>
 <part name="R213" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="47k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 47K OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603JR-0747KL/311-47KGRCT-ND/729741"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747KL"/>
+<attribute name="DESCRIPTION" value="RES 47K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT47K0/RMCF0603FT47K0CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT47K0"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-47KGRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT47K0CT-ND"/>
 </part>
 <part name="C218" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="DNP">
 <attribute name="CLASS" value="CAPACITOR"/>
@@ -21055,7 +21057,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="TP2" library="testpad" deviceset="TP" device="TP14R">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TEST POINT"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
@@ -21067,14 +21069,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R215" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="X203" library="laforge" deviceset="JACK2.5_SJ-2523" device="">
 <attribute name="CLASS" value="CONNECTOR"/>
@@ -21099,7 +21101,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
 </part>
 <part name="T102" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
@@ -21123,14 +21125,14 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="R102" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 0 OHM JUMPER 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-3GEY0R00V/P0-0GCT-ND/134711"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEY0R00V"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="P0.0GCT-ND"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="FALSE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="R104" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
 <attribute name="CLASS" value="RESISTOR"/>
@@ -21145,38 +21147,38 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="JP101" library="pinhead" deviceset="PINHD-2X4" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CONN HEADER VERT 8POS 2.54MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND"/>
+<attribute name="MANUFACTURER" value="Adam Tech"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PH2-08-UA"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="2057-PH2-08-UA-ND"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R120" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="510">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES 510 OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT510R/RMCF0603FT510RCT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT510R"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="RMCF0603FT510RCT-ND"/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="R204" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/8W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RNCP0603FTD10K0/RNCP0603FTD10K0CT-ND"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RNCP0603FTD10K0"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RNCP0603FTD10K0CT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R116" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
@@ -21194,62 +21196,62 @@ IntelliMAXTM Advanced Load Management Products</description>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="X301" library="171826-4" deviceset="171826-4" device="-RA">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="DESCRIPTION" value="CONN HEADER R/A 4POS 2.5MM"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/171826-4/A112643-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="171826-4"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A112643-ND"/>
 </part>
-<part name="R302" library="rc-sysmocom" deviceset="RESISTOR" device="1210" value="0R">
+<part name="R302" library="rc-sysmocom" deviceset="RESISTOR" device="1210" value="DNP">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1206"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/koa-speer-electronics-inc/TLRZ2BTTD/2019-TLRZ2BTTDCT-ND"/>
+<attribute name="MANUFACTURER" value="KOA Speer Electronics, Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TLRZ2BTTD"/>
+<attribute name="POPULATED" value="FALSE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="2019-TLRZ2BTTDCT-ND"/>
 </part>
 <part name="R301" library="rc-sysmocom" deviceset="RESISTOR" device="1210" value="0R">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
-</part>
-<part name="IC302" library="TPS22958" deviceset="TPS22958" device="-DGK" technology="N" value="TPS22958N-DGK">
-<attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="IC PWR SWITCH N-CHAN 1:1 8MSOP"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/texas-instruments/TPS22958DGNR/296-47367-1-ND"/>
-<attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="TPS22958DGNR"/>
+<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1206"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/koa-speer-electronics-inc/TLRZ2BTTD/2019-TLRZ2BTTDCT-ND"/>
+<attribute name="MANUFACTURER" value="KOA Speer Electronics, Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TLRZ2BTTD"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="296-47367-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="2019-TLRZ2BTTDCT-ND"/>
+</part>
+<part name="IC302" library="TPS22958" deviceset="TPS22958" device="-DGK" technology="N" value="TPS22958N-DGK">
+<attribute name="CLASS" value="IC"/>
+<attribute name="DESCRIPTION" value="IC PWR SWITCH N-CHAN 1:1 8VSSOP"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/texas-instruments/TPS22958NDGKR/296-48728-1-ND/"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TPS22958NDGKR"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="296-48728-1-ND"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C305" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value="CAP CER 1000PF 50V X7R 0603"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL10B102KB8NNNC/1276-1018-1-ND"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B102KB8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1018-1-ND"/>
 </part>
 <part name="M2" library="Mentor_lightpipe" deviceset="MENTOR_12701001" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="LIGHT GUIDE"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
@@ -21260,7 +21262,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="M3" library="Mentor_lightpipe" deviceset="MENTOR_12701001" device="">
-<attribute name="CLASS" value="UNKNOWN CLASS"/>
+<attribute name="CLASS" value="LIGHT GUIDE"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
@@ -21341,17 +21343,17 @@ IntelliMAXTM Advanced Load Management Products</description>
 </instance>
 <instance part="GND9" gate="1" x="266.7" y="45.72"/>
 <instance part="C111" gate="G$1" x="271.78" y="58.42" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="271.78" y="58.42" size="1.27" layer="96" display="off"/>
 <attribute name="NAME" x="270.764" y="51.308" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="269.748" y="62.992" size="1.27" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C109" gate="G$1" x="261.62" y="55.88" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="261.62" y="55.88" size="1.778" layer="96" display="off"/>
@@ -21447,7 +21449,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 </instance>
 <instance part="GND19" gate="1" x="342.9" y="132.08" rot="MR0"/>
 <instance part="C107" gate="G$1" x="251.46" y="55.88" smashed="yes" rot="R90">
-<attribute name="LINK" x="251.46" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="250.444" y="51.562" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="250.444" y="58.674" size="1.27" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="251.46" y="55.88" size="1.778" layer="96" display="off"/>
@@ -21458,6 +21459,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="ROHSCERTIFICATE" x="251.46" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="251.46" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="251.46" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="251.46" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C112" gate="G$1" x="279.4" y="55.88" smashed="yes" rot="R90">
 <attribute name="LINK" x="279.4" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
@@ -21473,15 +21475,15 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="CLASS" x="279.4" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R107" gate="G$1" x="121.92" y="177.8">
-<attribute name="DESCRIPTION" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SOURCE" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="POPULATED" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="CLASS" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="LINK" x="121.92" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="NGFF101" gate="G$1" x="205.74" y="175.26">
 <attribute name="DESCRIPTION" x="205.74" y="175.26" size="1.778" layer="96" display="off"/>
@@ -21771,15 +21773,15 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="LINK" x="109.22" y="177.8" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="X101" gate="A" x="248.92" y="111.76">
-<attribute name="DESCRIPTION" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="248.92" y="111.76" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="261.62" y="109.22" rot="MR270"/>
 <instance part="JP101" gate="A" x="167.64" y="109.22">
@@ -21821,28 +21823,28 @@ IntelliMAXTM Advanced Load Management Products</description>
 <instance part="R101" gate="G$1" x="45.72" y="187.96" smashed="yes" rot="MR270">
 <attribute name="NAME" x="48.006" y="185.42" size="1.27" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="42.291" y="185.42" size="1.27" layer="96" rot="MR90"/>
-<attribute name="DESCRIPTION" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCE" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="POPULATED" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="CLASS" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="LINK" x="45.72" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R111" gate="G$1" x="144.78" y="205.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="142.494" y="204.216" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="142.875" y="208.28" size="1.27" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="144.78" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R103" gate="G$1" x="53.34" y="195.58" smashed="yes" rot="R180">
 <attribute name="SOURCE" x="53.34" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
@@ -21885,15 +21887,15 @@ IntelliMAXTM Advanced Load Management Products</description>
 <instance part="R102" gate="G$1" x="45.72" y="134.62" smashed="yes" rot="MR270">
 <attribute name="NAME" x="48.006" y="132.08" size="1.27" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="42.291" y="132.08" size="1.27" layer="96" rot="MR90"/>
-<attribute name="DESCRIPTION" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCE" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="POPULATED" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="CLASS" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="LINK" x="45.72" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R104" gate="G$1" x="53.34" y="139.7" smashed="yes" rot="R180">
 <attribute name="SOURCE" x="53.34" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
@@ -21911,15 +21913,15 @@ IntelliMAXTM Advanced Load Management Products</description>
 <instance part="LED102" gate="G$1" x="289.56" y="144.78" smashed="yes">
 <attribute name="NAME" x="281.94" y="140.716" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="284.861" y="140.462" size="1.778" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="289.56" y="144.78" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="289.56" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R120" gate="G$1" x="289.56" y="154.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="287.274" y="154.94" size="1.27" layer="95" rot="R90"/>
@@ -22770,7 +22772,6 @@ detection</text>
 <wire x1="378.46" y1="152.4" x2="251.46" y2="152.4" width="0.1524" layer="97" style="longdash"/>
 <wire x1="251.46" y1="152.4" x2="251.46" y2="88.9" width="0.1524" layer="97" style="longdash"/>
 <text x="297.18" y="142.24" size="3.81" layer="97">SIM Vcc switches</text>
-<text x="12.7" y="48.26" size="2.54" layer="97" rot="R180">FIXME: green LED!</text>
 <wire x1="134.62" y1="66.04" x2="325.12" y2="66.04" width="0.1016" layer="97" style="dashdot"/>
 <text x="134.62" y="27.94" size="2.54" layer="97" ratio="10">cardem</text>
 <text x="134.62" y="55.88" size="2.54" layer="97" ratio="10">CCID</text>
@@ -22924,15 +22925,15 @@ detection</text>
 <instance part="C203" gate="G$1" x="93.98" y="160.02" smashed="yes">
 <attribute name="NAME" x="89.916" y="164.592" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="89.662" y="162.052" size="1.27" layer="96" font="vector"/>
-<attribute name="DESCRIPTION" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="93.98" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="93.98" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND608" gate="1" x="101.6" y="137.16" rot="R270"/>
 <instance part="GND617" gate="1" x="205.74" y="147.32" rot="R90"/>
@@ -22965,15 +22966,15 @@ detection</text>
 <instance part="R209" gate="G$1" x="127" y="236.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="125.984" y="234.442" size="1.27" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="132.08" y="234.315" size="1.27" layer="96" font="vector" rot="R180"/>
-<attribute name="DESCRIPTION" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="127" y="236.22" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="127" y="236.22" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="127" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="127" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND606" gate="1" x="99.06" y="48.26"/>
 <instance part="C206" gate="G$1" x="106.68" y="63.5" smashed="yes" rot="R90">
@@ -23167,39 +23168,39 @@ detection</text>
 <instance part="L201" gate="G$1" x="71.12" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.77" y="195.58" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="69.088" y="197.358" size="1.778" layer="96" rot="MR180"/>
-<attribute name="DESCRIPTION" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCE" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="POPULATED" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="CLASS" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="LINK" x="71.12" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="71.12" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X201" gate="G$1" x="27.94" y="187.96" rot="MR0">
-<attribute name="DESCRIPTION" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCE" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="POPULATED" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="CLASS" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="LINK" x="27.94" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="27.94" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X201" gate="S" x="22.86" y="177.8" rot="MR0"/>
 <instance part="U201" gate="G$1" x="48.26" y="187.96" smashed="yes">
-<attribute name="DESCRIPTION" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCE" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="POPULATED" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="CLASS" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="LINK" x="48.26" y="187.96" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="45.72" y="198.12" size="1.778" layer="95" rot="R180"/>
+<attribute name="DESCRIPTION" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="48.26" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="48.26" y="157.48" rot="MR0"/>
 <instance part="GND17" gate="1" x="35.56" y="177.8" rot="MR0"/>
@@ -23233,15 +23234,15 @@ detection</text>
 <instance part="Q201" gate="G$1" x="134.62" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.014" y="223.52" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="113.284" y="220.472" size="1.778" layer="96" rot="R180"/>
-<attribute name="DESCRIPTION" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCE" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="POPULATED" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
-<attribute name="LINK" x="134.62" y="220.98" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C216" gate="G$1" x="127" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="125.222" y="226.06" size="1.27" layer="95" font="vector" rot="R180"/>
@@ -23414,17 +23415,17 @@ detection</text>
 <attribute name="LINK" x="330.2" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R212" gate="G$1" x="233.68" y="147.32" smashed="yes" rot="R90">
-<attribute name="SOURCE" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="LINK" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="POPULATED" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="CLASS" x="233.68" y="147.32" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="235.966" y="149.86" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="230.251" y="149.86" size="1.27" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="233.68" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R213" gate="G$1" x="233.68" y="132.08" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="233.68" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
@@ -24919,6 +24920,8 @@ detection</text>
 <attribute name="VALUE" x="293.116" y="168.656" size="1.27" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="C310" gate="G$1" x="358.14" y="233.68" smashed="yes">
+<attribute name="NAME" x="362.077" y="237.49" size="1.778" layer="95"/>
+<attribute name="VALUE" x="361.315" y="230.505" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="358.14" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="358.14" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="358.14" y="233.68" size="1.778" layer="96" display="off"/>
@@ -24928,8 +24931,6 @@ detection</text>
 <attribute name="POPULATED" x="358.14" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="358.14" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="358.14" y="233.68" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="362.077" y="237.49" size="1.778" layer="95"/>
-<attribute name="VALUE" x="361.315" y="230.505" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="358.14" y="215.9"/>
 <instance part="H303" gate="G$1" x="180.34" y="127" smashed="yes">
@@ -25040,6 +25041,8 @@ detection</text>
 <attribute name="LINK" x="195.58" y="185.42" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="IC302" gate="G$1" x="271.78" y="134.62" smashed="yes">
+<attribute name="NAME" x="264.668" y="146.05" size="1.6764" layer="95"/>
+<attribute name="VALUE" x="264.668" y="125.984" size="1.6764" layer="96" align="top-left"/>
 <attribute name="DESCRIPTION" x="271.78" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="271.78" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="271.78" y="134.62" size="1.778" layer="96" display="off"/>
@@ -25049,8 +25052,6 @@ detection</text>
 <attribute name="POPULATED" x="271.78" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="271.78" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="271.78" y="134.62" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="264.668" y="146.05" size="1.6764" layer="95"/>
-<attribute name="VALUE" x="264.668" y="125.984" size="1.6764" layer="96" align="top-left"/>
 </instance>
 <instance part="GND3" gate="1" x="289.56" y="116.84"/>
 <instance part="C305" gate="G$1" x="289.56" y="127" smashed="yes" rot="R90">

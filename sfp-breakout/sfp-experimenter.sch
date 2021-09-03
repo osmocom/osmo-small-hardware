@@ -13889,7 +13889,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Abracon LLC"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND"/>
 </part>
@@ -13912,7 +13912,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Abracon LLC"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND"/>
 </part>
@@ -13972,7 +13972,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="KEMET"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="T520C107M006ATE045"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="399-4658-1-ND"/>
 </part>
@@ -13983,7 +13983,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="CP-002BHPJCT-ND"/>
 </part>
@@ -13994,7 +13994,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14005,7 +14005,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14016,7 +14016,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14039,7 +14039,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14050,7 +14050,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14193,25 +14193,25 @@ Source: www.kingbright.com</description>
 </part>
 <part name="D1" library="sfp-experimenter" deviceset="DIODE-SCHOTTKY" device="-SMA" value="SS16T3G">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 1A SMA"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/SS16T3G/SS16T3GOSCT-ND/964637"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SS16T3G"/>
+<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 2A SMA"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stmicroelectronics/STPS2L60A/497-2461-1-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="STPS2L60A"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="SS16T3GOSCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="497-2461-1-ND"/>
 </part>
 <part name="D2" library="sfp-experimenter" deviceset="DIODE-TVS" device="-SMA" value="824500500">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="TVS DIODE 5V 9.2V DO214AC"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/824500500/732-9974-1-ND/5871127"/>
-<attribute name="MANUFACTURER" value="Wurth Electronics Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="824500500"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 5VWM 9.2VC SMA"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/bourns-inc/SMAJ5-0A/SMAJ5-0ABCT-ND/2254241"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SMAJ5.0A"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="732-9974-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="SMAJ5.0ABCT-ND"/>
 </part>
 <part name="R6" library="sfp-experimenter" deviceset="RESISTOR" device="_0402" value="DNP">
 <attribute name="CLASS" value="RESISTOR"/>
@@ -14254,7 +14254,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14265,7 +14265,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEYJ331V"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="P330GCT-ND"/>
 </part>
@@ -14299,7 +14299,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14310,7 +14310,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEYJ331V"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="P330GCT-ND"/>
 </part>
@@ -14345,7 +14345,7 @@ Source: www.kingbright.com</description>
 <attribute name="MANUFACTURER" value="KOA Speer Electronics, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RK73H1JTTD1003F"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="2019-RK73H1JTTD1003FCT-ND"/>
 </part>
@@ -14887,15 +14887,15 @@ License: CC-BY-SA</text>
 <attribute name="LINK" x="60.96" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="68.58" y="76.2" rot="R90">
-<attribute name="DESCRIPTION" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCE" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="68.58" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="144.78" y="129.54" rot="R270">
 <attribute name="DESCRIPTION" x="144.78" y="129.54" size="1.778" layer="96" display="off"/>

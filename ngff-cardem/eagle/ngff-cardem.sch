@@ -20714,16 +20714,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="X201" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538"/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURERPARTNUMBER" value=""/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="OC_FARNELL" value=""/>
 <attribute name="OC_NEWARK" value=""/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value=""/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value=""/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="U201" library="laforge" deviceset="IP4234CZ6" device="">
 <attribute name="CLASS" value="IC"/>
@@ -21268,6 +21268,28 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="R220" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="FALSE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
+<part name="R221" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
+<attribute name="CLASS" value="RESISTOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="FALSE"/>
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
@@ -22762,8 +22784,8 @@ detection</text>
 <wire x1="127" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="97" style="longdash"/>
 <text x="137.16" y="81.28" size="3.81" layer="97" ratio="10">switch bank</text>
 <text x="82.296" y="62.484" size="1.27" layer="97" rot="R180">UART1-to-bus</text>
-<text x="83.82" y="22.352" size="1.27" layer="97" rot="R180">UART2-to-bus</text>
-<text x="82.804" y="30.48" size="1.27" layer="97" rot="R180">close pivot</text>
+<text x="87.376" y="21.59" size="1.27" layer="97" rot="R180">UART2-to-bus</text>
+<text x="88.138" y="32.004" size="1.27" layer="97" rot="R180">close pivot</text>
 <wire x1="251.46" y1="88.9" x2="330.2" y2="88.9" width="0.1524" layer="97" style="longdash"/>
 <wire x1="134.62" y1="50.8" x2="325.12" y2="50.8" width="0.1016" layer="97" style="dashdot"/>
 <wire x1="134.62" y1="38.1" x2="325.12" y2="38.1" width="0.1016" layer="97" style="dashdot"/>
@@ -23272,7 +23294,10 @@ detection</text>
 </instance>
 <instance part="GND7" gate="1" x="119.38" y="223.52" rot="R270"/>
 <instance part="GND8" gate="1" x="119.38" y="218.44" rot="R270"/>
-<instance part="IC202" gate="-CTL/PWR" x="93.98" y="66.04"/>
+<instance part="IC202" gate="-CTL/PWR" x="93.98" y="66.04" smashed="yes">
+<attribute name="NAME" x="86.614" y="85.725" size="1.778" layer="95"/>
+<attribute name="VALUE" x="94.234" y="57.023" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="IC202" gate="-1OE_4" x="190.5" y="10.16"/>
 <instance part="IC202" gate="-2OE_1" x="160.02" y="55.88" smashed="yes" rot="MR180">
 <attribute name="NAME" x="160.02" y="61.595" size="1.778" layer="95" rot="MR0"/>
@@ -23293,7 +23318,10 @@ detection</text>
 <attribute name="LINK" x="160.02" y="43.18" size="1.27" layer="96" display="off"/>
 <attribute name="NAME" x="155.702" y="48.387" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="IC201" gate="-CTL/PWR" x="93.98" y="25.4"/>
+<instance part="IC201" gate="-CTL/PWR" x="93.98" y="25.4" smashed="yes">
+<attribute name="NAME" x="98.806" y="43.815" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="94.234" y="16.383" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="IC201" gate="-1OE_2" x="198.12" y="43.18" smashed="yes">
 <attribute name="NAME" x="198.882" y="49.657" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -23542,6 +23570,32 @@ detection</text>
 <attribute name="LINK" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="65.786" y="78.74" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="70.739" y="77.978" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="R220" gate="G$1" x="76.2" y="76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="73.406" y="78.74" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="78.359" y="77.978" size="1.27" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SOURCE" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="POPULATED" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CLASS" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LINK" x="76.2" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R221" gate="G$1" x="73.66" y="35.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="70.866" y="38.1" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="75.819" y="37.338" size="1.27" layer="96" rot="R270"/>
+<attribute name="DESCRIPTION" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SOURCE" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="POPULATED" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CLASS" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LINK" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -24088,7 +24142,11 @@ detection</text>
 <segment>
 <label x="66.04" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC202" gate="-CTL/PWR" pin="!2OE"/>
-<wire x1="83.82" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R220" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="71.12" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="76.2" y="63.5"/>
 </segment>
 <segment>
 <pinref part="U202" gate="G$1" pin="A16/AD3/PWML1/RF/PA20"/>
@@ -24249,11 +24307,19 @@ detection</text>
 <pinref part="R204" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
 <label x="68.58" y="83.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="R220" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<junction x="68.58" y="81.28"/>
 </segment>
 <segment>
 <pinref part="R203" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="60.96" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 <label x="30.48" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<label x="73.66" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R221" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="43.18" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -24466,8 +24532,12 @@ detection</text>
 </segment>
 <segment>
 <pinref part="IC201" gate="-CTL/PWR" pin="!2OE"/>
-<wire x1="83.82" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <label x="66.04" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R221" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="30.48" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<junction x="73.66" y="22.86"/>
 </segment>
 </net>
 <net name="N$1" class="0">

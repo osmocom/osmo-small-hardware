@@ -4208,18 +4208,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="RESISTOR" x="18.035" y="66.9925" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/" x="18.035" y="66.9925" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="T101" library="transistor" package="SOT23-BEC" value="BC847" x="56.705" y="27.6175" smashed="yes" rot="R270">
+<element name="T101" library="transistor" package="SOT23-BEC" value="BC850" x="56.705" y="27.6175" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.4625" y="29.3375" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="53.53" y="29.5225" size="1.27" layer="27" rot="R270"/>
-<attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 45V 100MA TO236AB" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc." x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="BC850C,235" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-6194-1-ND" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CLASS" value="TRANSISTOR" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC850C-235/1727-6194-1-ND/" x="56.705" y="27.6175" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C101" library="rc-sysmocom" package="_0402" value="33p" x="59.5625" y="28.2525" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V NP0 0402" x="59.5625" y="28.2525" size="1" layer="27" ratio="18" rot="R90" display="off"/>
@@ -5187,18 +5187,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="32.8611" y="69.85" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="34.9886" y="69.5325" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="T102" library="transistor" package="SOT23-BEC" value="BC847" x="53.6575" y="24.13" smashed="yes" rot="R270">
-<attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="CLASS" value="TRANSISTOR" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Nexperia USA Inc." x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="53.6575" y="24.13" size="1.016" layer="27" ratio="14" rot="R270" display="off"/>
+<element name="T102" library="transistor" package="SOT23-BEC" value="BC850" x="53.6575" y="24.13" smashed="yes" rot="R270">
 <attribute name="NAME" x="56.1975" y="23.8125" size="1.016" layer="25" ratio="14"/>
 <attribute name="VALUE" x="50.4825" y="26.035" size="1.27" layer="27" rot="R270"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 45V 100MA TO236AB" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Nexperia USA Inc." x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="BC850C,235" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-6194-1-ND" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="TRANSISTOR" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC850C-235/1727-6194-1-ND/" x="53.6575" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C102" library="rc-sysmocom" package="_0402" value="33p" x="57.15" y="22.5425" smashed="yes">
 <attribute name="SOURCEPARTNUMBER" value="1276-1272-1-ND" x="52.705" y="26.9875" size="1.016" layer="27" ratio="14" display="off"/>

@@ -20240,16 +20240,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
-<part name="T101" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
+<part name="T101" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC850">
 <attribute name="CLASS" value="TRANSISTOR"/>
-<attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 45V 100MA TO236AB"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC850C-235/1727-6194-1-ND/"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="BC850C,235"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-6194-1-ND"/>
 </part>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="C101" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
@@ -21100,16 +21100,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A129611CT-ND"/>
 </part>
-<part name="T102" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
+<part name="T102" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC850">
 <attribute name="CLASS" value="TRANSISTOR"/>
-<attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C,215/1727-2924-1-ND"/>
+<attribute name="DESCRIPTION" value="TRANS NPN 45V 100MA TO236AB"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC850C-235/1727-6194-1-ND/"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="BC850C,235"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1727-6194-1-ND"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C102" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
@@ -21796,15 +21796,15 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="LINK" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="T101" gate="G$1" x="60.96" y="195.58">
-<attribute name="DESCRIPTION" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCE" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="POPULATED" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="CLASS" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="LINK" x="60.96" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND47" gate="1" x="63.5" y="180.34" rot="MR0"/>
 <instance part="C101" gate="G$1" x="68.58" y="193.04" smashed="yes" rot="MR270">
@@ -21860,15 +21860,15 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="VALUE" x="55.626" y="197.739" size="1.27" layer="96"/>
 </instance>
 <instance part="T102" gate="G$1" x="60.96" y="139.7">
-<attribute name="DESCRIPTION" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCE" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="POPULATED" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="CLASS" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="LINK" x="60.96" y="139.7" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="60.96" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="63.5" y="127" rot="MR0"/>
 <instance part="C102" gate="G$1" x="68.58" y="137.16" smashed="yes" rot="MR270">

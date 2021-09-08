@@ -5213,18 +5213,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="58.42" y="22.0664" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="55.88" y="21.2089" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="R102" library="rc-sysmocom" package="_0603" value="DNP" x="49.8475" y="23.1775" smashed="yes">
+<element name="R102" library="rc-sysmocom" package="_0603" value="10k" x="49.8475" y="23.1775" smashed="yes">
 <attribute name="NAME" x="48.26" y="23.495" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="48.26" y="21.6852" size="0.508" layer="27" font="vector" ratio="10"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="FALSE" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="UNKNOWN LINK" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/" x="49.8475" y="23.1775" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R104" library="rc-sysmocom" package="_0603" value="4.7k" x="49.8475" y="25.0825" smashed="yes" rot="R180">
 <attribute name="SOURCEPARTNUMBER" value="311-4.7KGRCT-ND" x="49.8475" y="33.9725" size="1.016" layer="27" ratio="14" rot="R180" display="off"/>

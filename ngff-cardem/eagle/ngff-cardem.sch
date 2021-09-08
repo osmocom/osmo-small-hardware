@@ -21123,16 +21123,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1272-1-ND"/>
 </part>
-<part name="R102" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
+<part name="R102" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="FALSE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="R104" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
 <attribute name="CLASS" value="RESISTOR"/>
@@ -21821,8 +21821,8 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="LINK" x="68.58" y="193.04" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R101" gate="G$1" x="45.72" y="187.96" smashed="yes" rot="MR270">
-<attribute name="NAME" x="48.006" y="185.42" size="1.27" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="42.291" y="185.42" size="1.27" layer="96" rot="MR90"/>
+<attribute name="NAME" x="42.926" y="185.42" size="1.27" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="47.371" y="185.42" size="1.27" layer="96" rot="MR90"/>
 <attribute name="DESCRIPTION" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="187.96" size="1.778" layer="96" display="off"/>
@@ -21885,8 +21885,8 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="LINK" x="68.58" y="137.16" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R102" gate="G$1" x="45.72" y="134.62" smashed="yes" rot="MR270">
-<attribute name="NAME" x="48.006" y="132.08" size="1.27" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="42.291" y="132.08" size="1.27" layer="96" rot="MR90"/>
+<attribute name="NAME" x="42.926" y="132.08" size="1.27" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="47.371" y="132.08" size="1.27" layer="96" rot="MR90"/>
 <attribute name="DESCRIPTION" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="45.72" y="134.62" size="1.778" layer="96" display="off"/>

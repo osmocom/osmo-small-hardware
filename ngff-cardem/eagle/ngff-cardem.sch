@@ -20024,16 +20024,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="732-6126-1-ND"/>
 </part>
-<part name="DCDC301" library="DC-DC_CONVERTER" deviceset="DCDC-GE-PVX" device="-ALL" value="PVX003A0X3-SRZ">
+<part name="DCDC301" library="DC-DC_CONVERTER" deviceset="DCDC-GE-PVX" device="-ALL" value="OKL-T/3-W12P-C">
 <attribute name="CLASS" value="DC/DC CONVERTER"/>
-<attribute name="DESCRIPTION" value="DC DC CONVERTER 0.6-5.5V 16.5W"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/abb-power-electronics-inc/PVX003A0X3-SRZ/555-1264-1-ND"/>
-<attribute name="MANUFACTURER" value="ABB Power Electronics Inc."/>
-<attribute name="MANUFACTURERPARTNUMBER" value="PVX003A0X3-SRZ"/>
+<attribute name="DESCRIPTION" value="DC DC CONVERTER 0.591-5.5V 15W"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-power-solutions-inc/OKL-T-3-W12P-C/811-2709-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="OKL-T/3-W12P-C"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="555-1264-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="811-2709-1-ND"/>
 </part>
 <part name="R304" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
@@ -24666,15 +24666,15 @@ detection</text>
 <instance part="DCDC301" gate="G$1" x="281.94" y="238.76" smashed="yes">
 <attribute name="NAME" x="273.558" y="252.73" size="2.54" layer="95"/>
 <attribute name="VALUE" x="243.84" y="213.36" size="2.54" layer="96"/>
-<attribute name="DESCRIPTION" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="281.94" y="238.76" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="281.94" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R304" gate="G$1" x="264.16" y="256.54" smashed="yes" rot="R180">
 <attribute name="SOURCE" x="264.16" y="256.54" size="1.778" layer="96" display="off"/>

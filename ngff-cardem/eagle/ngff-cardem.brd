@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -115,7 +115,7 @@
 <text x="25.5905" y="94.2645" size="1.2" layer="1" font="vector" ratio="16">(C) 2021 sysmocom GmbH</text>
 <text x="38.862" y="96.16825" size="1.2" layer="1" font="vector" ratio="16">&gt;VERSION</text>
 <text x="81.66225" y="31.74875" size="1" layer="25" font="vector" ratio="16" rot="SR90">USB3.0</text>
-<text x="73.025" y="13.05" size="1.778" layer="25" ratio="16" rot="SR90">12V</text>
+<text x="67.945" y="16.5425" size="1.778" layer="25" ratio="16" rot="SR90">12V</text>
 <text x="25.8445" y="97.475" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">NGFG-cardem</text>
 <text x="22.733" y="95.75925" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">(C) 2021 sysmocom GmbH</text>
 <text x="22.6695" y="97.50675" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">&gt;VERSION</text>
@@ -130,7 +130,7 @@
 <dimension x1="5.87375" y1="26.5275" x2="-7.62" y2="0" x3="-7.62" y3="13.26375" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
 <dimension x1="8.59" y1="43.88" x2="-10.4775" y2="0" x3="-11.1125" y3="21.94" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
 <dimension x1="5" y1="5" x2="-0.9525" y2="0" x3="-0.9525" y3="2.5" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
-<text x="73.025" y="26.0675" size="1.778" layer="25" ratio="16" rot="SR90">5V</text>
+<text x="67.945" y="24.48" size="1.778" layer="25" ratio="16" rot="SR90">5V</text>
 </plain>
 <libraries>
 <library name="laforge">
@@ -3598,18 +3598,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="LED" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="31.353125" y="91.7625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D302" library="diodes-sysmocom" package="SMBDIODE" value="SMBJ13A" x="66.39" y="11.435" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.896875" y="8.488125" size="1" layer="25" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="70.2" y="9.53" size="1" layer="27" ratio="11" rot="R90"/>
-<attribute name="DESCRIPTION" value="TVS DIODE 13.6VWM 22.5VC SMB" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SZP6SMB16AT3G" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="F11614CT-ND" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CLASS" value="DIODE" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/littelfuse-inc/SZP6SMB16AT3G/F11614CT-ND" x="66.39" y="11.435" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D302" library="diodes-sysmocom" package="SMBDIODE" value="SMBJ13A" x="74.77625" y="9.96875" smashed="yes">
+<attribute name="NAME" x="73.099375" y="12.653125" size="1" layer="25" ratio="16"/>
+<attribute name="VALUE" x="72.87125" y="6.15875" size="1" layer="27" ratio="11"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 13.6VWM 22.5VC SMB" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="SZP6SMB16AT3G" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="F11614CT-ND" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="DIODE" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/littelfuse-inc/SZP6SMB16AT3G/F11614CT-ND" x="74.77625" y="9.96875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FID1" library="dicons" package="VISION_REF15" value="" x="10" y="97.5" smashed="yes"/>
 <element name="FID2" library="dicons" package="VISION_REF15" value="" x="10" y="2.5" smashed="yes"/>
@@ -4129,18 +4129,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="59.5" y="18.7375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="56.325" y="19.1502" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
-<element name="D301" library="diodes-sysmocom" package="SMBDIODE" value="STPS5L60U" x="68.1125" y="5.085" smashed="yes">
-<attribute name="NAME" x="72.7025" y="3.66" size="1" layer="25" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="65.5725" y="1.275" size="1.016" layer="27" ratio="17"/>
-<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 50V 3A SMB" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="B350B-13-F" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="B350B-FDICT-ND" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="DIODE" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/diodes-incorporated/B350B-13-F/B350B-FDICT-ND" x="68.1125" y="5.085" size="1.778" layer="27" display="off"/>
+<element name="D301" library="diodes-sysmocom" package="SMBDIODE" value="STPS5L60U" x="74.78" y="4.7675" smashed="yes">
+<attribute name="NAME" x="71.5875" y="3.805" size="1" layer="25" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="72.24" y="0.9575" size="1.016" layer="27" ratio="17"/>
+<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 50V 3A SMB" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="B350B-13-F" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="B350B-FDICT-ND" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="DIODE" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/diodes-incorporated/B350B-13-F/B350B-FDICT-ND" x="74.78" y="4.7675" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SH301" library="shorts" package="SHORT_TOP-50" value="SHORT-HT5" x="40.79875" y="27.94" smashed="yes" rot="R180">
 <attribute name="BOM" value="no" x="40.79875" y="27.94" size="1" layer="27" ratio="18" rot="R180" display="off"/>
@@ -4235,7 +4235,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="VALUE" x="60.8961" y="26.9825" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="J301" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="PJ-002BH-SMT-TR" x="91.9175" y="18.6675" smashed="yes" rot="R180">
-<attribute name="NAME" x="77.8031" y="14.052859375" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="85.807859375" y="11.4144" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="91.217859375" y="28.7809" size="2.032" layer="27" font="vector" ratio="13" rot="SR180"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER" x="91.9175" y="18.6675" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="CUI Devices" x="91.9175" y="18.6675" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5313,7 +5313,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="POPULATED" value="TRUE" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CONNECTOR" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/171826-4/A112643-ND" x="76.835" y="21.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="74.3296" y="15.3401" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
+<attribute name="NAME" x="75.1474" y="28.9271" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="81.9751" y="29.6679" size="0.8128" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R302" library="rc-sysmocom" package="1210" value="DNP" x="72.0725" y="23.13" smashed="yes" rot="R90">
@@ -5442,6 +5442,19 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="52.54625" y="2.2225" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="50.95875" y="2.3177" size="0.508" layer="27" font="vector" ratio="10"/>
 </element>
+<element name="C313" library="rcl" package="UD-8X10_NICHICON" value="DNP" x="66.9925" y="10.4775" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.865" y="4.1275" size="1.016" layer="25" ratio="14"/>
+<attribute name="VALUE" x="61.2775" y="14.2875" size="1.016" layer="27" rot="R270"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="66.9925" y="10.4775" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="3">
@@ -5551,8 +5564,8 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="C303" pad="1"/>
 <polygon width="0.3048" layer="1" isolate="0.3048" thermals="no">
 <vertex x="59.2225" y="11.7525"/>
-<vertex x="60.805" y="13.335"/>
-<vertex x="67.6275" y="13.335"/>
+<vertex x="60.805" y="11.7475"/>
+<vertex x="67.6275" y="11.7475"/>
 <vertex x="67.6275" y="14.605"/>
 <vertex x="64.3025" y="17.4675"/>
 <vertex x="41.4025" y="17.4625"/>
@@ -5990,7 +6003,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="17.74875" y="15.245" extent="1-16" drill="0.3"/>
 <via x="13.62125" y="5.4025" extent="1-16" drill="0.3"/>
 <via x="63.37375" y="16.8325" extent="1-16" drill="0.3"/>
-<via x="63.37375" y="13.975" extent="1-16" drill="0.3"/>
+<via x="64.64375" y="15.5625" extent="1-16" drill="0.3"/>
 <via x="63.37375" y="15.5625" extent="1-16" drill="0.3"/>
 <via x="62.86625" y="89.15875" extent="1-16" drill="0.3"/>
 <via x="45.5625" y="83.87875" extent="1-16" drill="0.3"/>
@@ -6130,6 +6143,19 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="R310" pad="2"/>
 <wire x1="53.30825" y1="3.81" x2="54.61" y2="3.81" width="0.4064" layer="1"/>
 <via x="54.61" y="3.81" extent="1-16" drill="0.3"/>
+<contactref element="C313" pad="-"/>
+<polygon width="0.4064" layer="1" thermals="no">
+<vertex x="75.2475" y="11.1125"/>
+<vertex x="78.4225" y="11.1125"/>
+<vertex x="78.4225" y="8.5725"/>
+<vertex x="75.2475" y="8.5725"/>
+</polygon>
+<via x="75.43875" y="10.8" extent="1-16" drill="0.3"/>
+<via x="75.43875" y="9.8475" extent="1-16" drill="0.3"/>
+<via x="75.43875" y="8.895" extent="1-16" drill="0.3"/>
+<via x="78.29625" y="10.8" extent="1-16" drill="0.3"/>
+<via x="78.29625" y="9.8475" extent="1-16" drill="0.3"/>
+<via x="78.29625" y="8.895" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="MDM_UIM_CLK">
 <contactref element="IC201" pad="13"/>
@@ -6208,12 +6234,14 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <contactref element="J301" pad="1"/>
 <contactref element="J301" pad="1-1"/>
 <polygon width="0.6096" layer="1">
-<vertex x="69.185" y="15.1925"/>
-<vertex x="69.215" y="7.3025"/>
-<vertex x="68.55" y="6.32"/>
-<vertex x="68.55" y="2.54"/>
-<vertex x="73.185" y="2.54"/>
-<vertex x="81.1225" y="10.4775"/>
+<vertex x="76.17" y="15.1925"/>
+<vertex x="76.17" y="12.065"/>
+<vertex x="79.21625" y="12.065"/>
+<vertex x="79.21625" y="7.3025"/>
+<vertex x="76.2" y="7.3025"/>
+<vertex x="76.17" y="2.54"/>
+<vertex x="78.265" y="2.54"/>
+<vertex x="83.0275" y="10.4775"/>
 <vertex x="88.7425" y="10.4775"/>
 <vertex x="88.7425" y="14.2875"/>
 <vertex x="88.425" y="15.24"/>
@@ -6226,6 +6254,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="67.945" y1="21.225" x2="67.945" y2="17.7325" width="3" layer="1"/>
 <wire x1="67.945" y1="17.7325" x2="72.0725" y2="14.24" width="3" layer="1"/>
 <wire x1="72.0725" y1="21.73" x2="72.0725" y2="21.6725" width="0.4064" layer="1"/>
+<wire x1="72.0725" y1="14.24" x2="72.12" y2="14.24" width="3" layer="1"/>
+<wire x1="72.12" y1="14.24" x2="72.7075" y2="13.6525" width="3" layer="1"/>
+<wire x1="72.7075" y1="13.6525" x2="77.47" y2="13.6525" width="3" layer="1"/>
+<wire x1="77.47" y1="13.6525" x2="77.7875" y2="13.97" width="3" layer="1"/>
 </signal>
 <signal name="PSE_OUT1">
 </signal>
@@ -6936,10 +6968,10 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <vertex x="46.0375" y="6.6675"/>
 <vertex x="41.75125" y="6.6675"/>
 <vertex x="41.75125" y="2.545"/>
-<vertex x="67.16" y="2.545"/>
-<vertex x="67.16" y="10.165"/>
-<vertex x="62.58" y="10.165"/>
-<vertex x="59.92875" y="8.895"/>
+<vertex x="73.51" y="2.545"/>
+<vertex x="73.51" y="10.8"/>
+<vertex x="71.76" y="10.8"/>
+<vertex x="69.85" y="8.89"/>
 <vertex x="55.325" y="8.895"/>
 <vertex x="54.289465625" y="10.165"/>
 <vertex x="48.265" y="10.165"/>
@@ -6956,6 +6988,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <via x="44.26" y="3.4975" extent="1-16" drill="0.3"/>
 <via x="47.7525" y="8.26" extent="1-16" drill="0.3"/>
 <contactref element="R309" pad="1"/>
+<contactref element="C313" pad="+"/>
 </signal>
 <signal name="N$68">
 <contactref element="IC203" pad="6"/>

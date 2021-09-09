@@ -21316,6 +21316,17 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
+<part name="C313" library="rcl" deviceset="CPOL-EU" device="UD-8X10" value="DNP">
+<attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -24717,8 +24728,8 @@ detection</text>
 </plain>
 <instances>
 <instance part="C301" gate="G$1" x="215.9" y="238.76" smashed="yes">
-<attribute name="NAME" x="215.4174" y="239.903" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="220.4974" y="232.283" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="215.6714" y="241.173" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="219.4814" y="231.013" size="1.778" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="215.9" y="238.76" size="1.27" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="215.9" y="238.76" size="1.27" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="215.9" y="238.76" size="1.27" layer="96" display="off"/>
@@ -24744,7 +24755,7 @@ detection</text>
 </instance>
 <instance part="C302" gate="G$1" x="233.68" y="238.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="232.537" y="240.538" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="238.379" y="225.044" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="238.379" y="230.124" size="1.778" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="233.68" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="233.68" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="233.68" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
@@ -25187,6 +25198,19 @@ detection</text>
 <attribute name="CLASS" x="254" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="LINK" x="254" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
+<instance part="C313" gate="G$1" x="223.52" y="238.76" smashed="yes">
+<attribute name="NAME" x="222.7834" y="240.411" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.8474" y="231.013" size="1.778" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCE" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="POPULATED" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CLASS" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LINK" x="223.52" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25211,7 +25235,8 @@ detection</text>
 <junction x="243.84" y="218.44"/>
 <wire x1="281.94" y1="215.9" x2="281.94" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C301" gate="G$1" pin="-"/>
-<wire x1="233.68" y1="228.6" x2="215.9" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="228.6" x2="223.52" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="228.6" x2="215.9" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="228.6" x2="210.82" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="228.6" x2="195.58" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="233.68" x2="215.9" y2="228.6" width="0.1524" layer="91"/>
@@ -25229,6 +25254,9 @@ detection</text>
 <pinref part="R310" gate="G$1" pin="2"/>
 <wire x1="254" y1="220.98" x2="254" y2="218.44" width="0.1524" layer="91"/>
 <junction x="254" y="218.44"/>
+<pinref part="C313" gate="G$1" pin="-"/>
+<wire x1="223.52" y1="233.68" x2="223.52" y2="228.6" width="0.1524" layer="91"/>
+<junction x="223.52" y="228.6"/>
 </segment>
 <segment>
 <pinref part="R308" gate="G$1" pin="2"/>
@@ -25403,7 +25431,8 @@ detection</text>
 <pinref part="C302" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="241.3" x2="233.68" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="C301" gate="G$1" pin="+"/>
-<wire x1="233.68" y1="248.92" x2="215.9" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="248.92" x2="223.52" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="248.92" x2="215.9" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="241.3" x2="215.9" y2="248.92" width="0.1524" layer="91"/>
 <junction x="215.9" y="248.92"/>
 <wire x1="215.9" y1="248.92" x2="210.82" y2="248.92" width="0.1524" layer="91"/>
@@ -25424,6 +25453,9 @@ detection</text>
 <pinref part="R309" gate="G$1" pin="1"/>
 <wire x1="254" y1="246.38" x2="254" y2="248.92" width="0.1524" layer="91"/>
 <junction x="254" y="248.92"/>
+<pinref part="C313" gate="G$1" pin="+"/>
+<wire x1="223.52" y1="241.3" x2="223.52" y2="248.92" width="0.1524" layer="91"/>
+<junction x="223.52" y="248.92"/>
 </segment>
 </net>
 <net name="V_MODEM" class="2">

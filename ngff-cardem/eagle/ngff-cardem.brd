@@ -4025,44 +4025,44 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="CLASS" value="RESISTOR" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07330RL/311-330HRCT-ND" x="34.29" y="91.7625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R307" library="rc-sysmocom" package="_0603" value="4.42k" x="55.055" y="20.6425" smashed="yes">
-<attribute name="DESCRIPTION" value="RES SMD 4.42KOHM 0.1%% 1/10W 0603" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="ERA-3AEB4421V" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
+<element name="R307" library="rc-sysmocom" package="_0603" value="2k" x="55.055" y="20.6425" smashed="yes">
+<attribute name="NAME" x="55.055" y="18.57875" size="1" layer="25" font="vector" ratio="16"/>
+<attribute name="VALUE" x="53.4675" y="19.1502" size="0.508" layer="27" font="vector" ratio="10"/>
+<attribute name="DESCRIPTION" value="RES SMD 2K OHM 1% 1/10W 0603" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-072KL" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="P4.42KDBCT-ND" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="311-2.00KHRCT-ND" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="RESISTOR" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERA-3AEB4421V/P4.42KDBCT-ND" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="55.055" y="18.57875" size="1" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="53.4675" y="19.1502" size="0.508" layer="27" font="vector" ratio="10"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-072KL/311-2-00KHRCT-ND/729956" x="55.055" y="20.6425" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C312" library="rc-sysmocom" package="_0603" value="8200p" x="52.1975" y="20.6425" smashed="yes" rot="R180">
+<element name="C312" library="rc-sysmocom" package="_0603" value="DNP" x="52.1975" y="20.6425" smashed="yes" rot="R180">
 <attribute name="NAME" x="50.61" y="18.7375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="53.785" y="22.1348" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
-<attribute name="DESCRIPTION" value="CAP CER 8200PF 50V C0G/NP0 0603" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM1885C1H822JA01D" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-11482-1-ND" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="FALSE" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GRM1885C1H822JA01D/490-11482-1-ND" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="52.1975" y="20.6425" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R306" library="rc-sysmocom" package="_0603" value="180" x="49.34" y="20.6425" smashed="yes">
-<attribute name="DESCRIPTION" value="RES SMD 180 OHM 1%% 1/10W 0603" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07180RL" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="311-180HRCT-ND" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07180RL/311-180HRCT-ND" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<element name="R306" library="rc-sysmocom" package="_0603" value="DNP" x="49.34" y="20.6425" smashed="yes">
 <attribute name="NAME" x="46.4825" y="18.7375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="47.7525" y="19.1502" size="0.508" layer="27" font="vector" ratio="10"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="FALSE" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="UNKNOWN LINK" x="49.34" y="20.6425" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R214" library="rc-sysmocom" package="_0603" value="100k" x="36.83" y="72.39" smashed="yes">
 <attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603" x="-36.195" y="137.16" size="1.778" layer="27" display="off"/>
@@ -4116,18 +4116,18 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="NAME" x="39.37" y="64.4525" size="1" layer="25" ratio="16"/>
 <attribute name="POGOPIN" value="" x="32.385" y="64.77" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R308" library="rc-sysmocom" package="_0603" value="20" x="57.9125" y="20.6425" smashed="yes">
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="CLASS" value="RESISTOR" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="RES SMD 20 OHM 1%% 1/10W 0603" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0720RL/311-20.0HRCT-ND" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="311-20.0HRCT-ND" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0720RL" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<element name="R308" library="rc-sysmocom" package="_0603" value="180" x="57.9125" y="20.6425" smashed="yes">
 <attribute name="NAME" x="59.5" y="18.7375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="56.325" y="19.1502" size="0.508" layer="27" font="vector" ratio="10"/>
+<attribute name="DESCRIPTION" value="RES SMD 180R 1% 1/10W 0603" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0603F180R" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="A129679CT-ND" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0603F180R/A129679CT-ND/" x="57.9125" y="20.6425" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D301" library="diodes-sysmocom" package="SMBDIODE" value="STPS5L60U" x="74.78" y="4.7675" smashed="yes">
 <attribute name="NAME" x="71.5875" y="3.805" size="1" layer="25" ratio="16" rot="R180"/>
@@ -4745,12 +4745,12 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <attribute name="MPN" value="" x="97.315" y="66.4525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="88.4875" y="77.31" size="1.1" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="89.3775" y="90.5825" size="1.27" layer="27" rot="R180"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CONNECTOR" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538" x="84.9325" y="83.5975" size="1.778" layer="27" rot="R180" display="off"/>

@@ -20080,38 +20080,38 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-330HRCT-ND"/>
 </part>
-<part name="R307" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.42k">
+<part name="R307" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="2k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 4.42KOHM 0.1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERA-3AEB4421V/P4.42KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="ERA-3AEB4421V"/>
+<attribute name="DESCRIPTION" value="RES SMD 2K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-072KL/311-2-00KHRCT-ND/729956"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-072KL"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="P4.42KDBCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="311-2.00KHRCT-ND"/>
 </part>
-<part name="C312" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="8200p">
+<part name="C312" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="DNP">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 8200PF 50V C0G/NP0 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/murata-electronics/GRM1885C1H822JA01D/490-11482-1-ND"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM1885C1H822JA01D"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-11482-1-ND"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="FALSE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="R306" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="180">
+<part name="R306" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 180 OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07180RL/311-180HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07180RL"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-180HRCT-ND"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="POPULATED" value="FALSE"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND807" library="supply1" deviceset="GND" device=""/>
 <part name="GND620" library="supply1" deviceset="GND" device=""/>
@@ -20160,16 +20160,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="R308" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="20">
+<part name="R308" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="180">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 20 OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0720RL/311-20.0HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0720RL"/>
+<attribute name="DESCRIPTION" value="RES SMD 180R 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRGCQ0603F180R/A129679CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRGCQ0603F180R"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-20.0HRCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="A129679CT-ND"/>
 </part>
 <part name="D301" library="diodes-sysmocom" deviceset="DIODE-SCHOTTKY" device="-SMB" value="STPS5L60U">
 <attribute name="CLASS" value="DIODE"/>
@@ -20714,16 +20714,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 </part>
 <part name="X201" library="con-hirose" deviceset="MINI-USB-SHIELD-" device="UX60-MB-5ST">
 <attribute name="CLASS" value="CONNECTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="DESCRIPTION" value=""/>
 <attribute name="LINK" value="http://www.digikey.com/product-detail/en/hirose-electric-co-ltd/UX60-MB-5ST/H2959CT-ND/597538"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
+<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURERPARTNUMBER" value=""/>
 <attribute name="OC_FARNELL" value=""/>
 <attribute name="OC_NEWARK" value=""/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="ROHSCERTIFICATE" value=""/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="SOURCEPARTNUMBER" value=""/>
 </part>
 <part name="U201" library="laforge" deviceset="IP4234CZ6" device="">
 <attribute name="CLASS" value="IC"/>
@@ -24731,11 +24731,13 @@ detection</text>
 <text x="322.58" y="111.76" size="2.413" layer="97">&gt;DISCLAIMER</text>
 <text x="322.58" y="121.92" size="2.54" layer="97">ngff-cardem
 (C) 2021 sysmocom GmbH</text>
-<text x="346.202" y="262.636" size="1.778" layer="97">PVX003A0X3-SRZ: tunableLoop: R=180R; C=8200p 
+<text x="328.422" y="270.256" size="1.778" layer="97">PVX003A0X3-SRZ: tunableLoop: R=180R; C=8200p 
 (max. dVout: 50mV; max. dIout: 2,5A)</text>
-<text x="346.202" y="272.796" size="1.778" layer="97">PVX003A0X3-SRZ: trim: 4.44kOhm</text>
+<text x="328.422" y="275.336" size="1.778" layer="97">PVX003A0X3-SRZ: trim: 4.44kOhm</text>
 <text x="246.38" y="195.58" size="3.81" layer="97" ratio="10">modem load switch</text>
 <text x="335.28" y="195.58" size="3.81" layer="97" ratio="10">LDO 1V8</text>
+<text x="328.422" y="262.636" size="1.778" layer="97">OKL-T/3-W12P-C: no tunableLoop</text>
+<text x="328.422" y="265.176" size="1.778" layer="97">OKL-T/3-W12P-C: trim: 2.18kOhm</text>
 </plain>
 <instances>
 <instance part="C301" gate="G$1" x="215.9" y="238.76" smashed="yes">
@@ -24830,16 +24832,16 @@ detection</text>
 <instance part="GND804" gate="1" x="281.94" y="213.36"/>
 <instance part="R307" gate="G$1" x="393.7" y="226.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="391.414" y="223.52" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="397.129" y="223.52" size="1.27" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="393.7" y="226.06" size="1.27" layer="96" display="off"/>
+<attribute name="VALUE" x="397.129" y="226.06" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCE" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="POPULATED" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CLASS" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LINK" x="393.7" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C312" gate="G$1" x="393.7" y="238.76" rot="R90">
 <attribute name="DESCRIPTION" x="393.7" y="238.76" size="1.778" layer="96" display="off"/>
@@ -24855,29 +24857,29 @@ detection</text>
 <instance part="R306" gate="G$1" x="393.7" y="248.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="391.414" y="246.38" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="397.129" y="246.38" size="1.27" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="393.7" y="248.92" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="393.7" y="248.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND807" gate="1" x="393.7" y="208.28"/>
 <instance part="R308" gate="G$1" x="393.7" y="215.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="391.414" y="213.36" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="397.129" y="213.36" size="1.27" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="393.7" y="215.9" size="1.27" layer="96" display="off"/>
+<attribute name="VALUE" x="397.383" y="214.884" size="1.27" layer="96" rot="R90"/>
+<attribute name="DESCRIPTION" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCE" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="POPULATED" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="CLASS" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LINK" x="393.7" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D301" gate="G$1" x="200.66" y="248.92" smashed="yes">
 <attribute name="NAME" x="197.612" y="254.127" size="1.778" layer="95"/>

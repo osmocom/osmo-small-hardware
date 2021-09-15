@@ -19272,166 +19272,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="2X04">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="7" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="8" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-5.08" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
-<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
-<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
-<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
-<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
-<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
-<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
-</package>
-<package name="2X04/90">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-5.08" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="6.985" x2="-3.81" y2="1.27" width="0.762" layer="21"/>
-<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="6.985" x2="3.81" y2="1.27" width="0.762" layer="21"/>
-<pad name="2" x="-3.81" y="-3.81" drill="1.016" shape="octagon"/>
-<pad name="4" x="-1.27" y="-3.81" drill="1.016" shape="octagon"/>
-<pad name="6" x="1.27" y="-3.81" drill="1.016" shape="octagon"/>
-<pad name="8" x="3.81" y="-3.81" drill="1.016" shape="octagon"/>
-<pad name="1" x="-3.81" y="-6.35" drill="1.016" shape="octagon"/>
-<pad name="3" x="-1.27" y="-6.35" drill="1.016" shape="octagon"/>
-<pad name="5" x="1.27" y="-6.35" drill="1.016" shape="octagon"/>
-<pad name="7" x="3.81" y="-6.35" drill="1.016" shape="octagon"/>
-<text x="-5.715" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="6.985" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-4.191" y1="0.635" x2="-3.429" y2="1.143" layer="21"/>
-<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
-<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
-<rectangle x1="3.429" y1="0.635" x2="4.191" y2="1.143" layer="21"/>
-<rectangle x1="-4.191" y1="-2.921" x2="-3.429" y2="-1.905" layer="21"/>
-<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
-<rectangle x1="-4.191" y1="-5.461" x2="-3.429" y2="-4.699" layer="21"/>
-<rectangle x1="-4.191" y1="-4.699" x2="-3.429" y2="-2.921" layer="51"/>
-<rectangle x1="-1.651" y1="-4.699" x2="-0.889" y2="-2.921" layer="51"/>
-<rectangle x1="-1.651" y1="-5.461" x2="-0.889" y2="-4.699" layer="21"/>
-<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
-<rectangle x1="3.429" y1="-2.921" x2="4.191" y2="-1.905" layer="21"/>
-<rectangle x1="0.889" y1="-5.461" x2="1.651" y2="-4.699" layer="21"/>
-<rectangle x1="0.889" y1="-4.699" x2="1.651" y2="-2.921" layer="51"/>
-<rectangle x1="3.429" y1="-4.699" x2="4.191" y2="-2.921" layer="51"/>
-<rectangle x1="3.429" y1="-5.461" x2="4.191" y2="-4.699" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PINH2X4">
-<wire x1="-6.35" y1="-5.08" x2="8.89" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="-5.08" x2="8.89" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="8.89" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="5" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-<pin name="7" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="8" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PINHD-2X4" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINH2X4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2X04">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-<connect gate="A" pin="7" pad="7"/>
-<connect gate="A" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="/90" package="2X04/90">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-<connect gate="A" pin="4" pad="4"/>
-<connect gate="A" pin="5" pad="5"/>
-<connect gate="A" pin="6" pad="6"/>
-<connect gate="A" pin="7" pad="7"/>
-<connect gate="A" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="171826-4">
 <packages>
 <package name="171826-4">
@@ -19971,7 +19811,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -19986,7 +19826,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20236,7 +20076,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20274,16 +20114,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="CP-002BHPJCT-ND"/>
 </part>
-<part name="R101" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
+<part name="R101" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="FALSE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/te-connectivity-passive-product/CRG0603F10K-10/A121523CT-ND/"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="R219" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
@@ -20539,7 +20379,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20550,7 +20390,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20561,7 +20401,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20572,7 +20412,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20640,7 +20480,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20879,7 +20719,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -20972,7 +20812,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -21006,7 +20846,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -21018,7 +20858,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -21074,7 +20914,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
 </part>
@@ -21145,17 +20985,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-4.7KGRCT-ND"/>
 </part>
-<part name="JP101" library="pinhead" deviceset="PINHD-2X4" device="">
-<attribute name="CLASS" value="CONNECTOR\JUMPER"/>
-<attribute name="DESCRIPTION" value="CONN HEADER VERT 8POS 2.54MM"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/adam-tech/PH2-08-UA/2057-PH2-08-UA-ND"/>
-<attribute name="MANUFACTURER" value="Adam Tech"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="PH2-08-UA"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="2057-PH2-08-UA-ND"/>
-</part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R120" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="510">
 <attribute name="CLASS" value="RESISTOR"/>
@@ -21176,21 +21005,9 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
-</part>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R116" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k">
-<attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/RC0603JR-074K7L/311-4.7KGRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
-<attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="311-4.7KGRCT-ND"/>
 </part>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
@@ -21334,9 +21151,20 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CRG0603F10K/10"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="A121523CT-ND"/>
+</part>
+<part name="X103" library="SparkFun-Connectors" deviceset="PINHD-2X3" device="" value="PINHD-2X3-SP">
+<attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DESCRIPTION" value="PIN HEADER, THR, DUAL ROW, .100&quot;"/>
+<attribute name="LINK" value="https://www.digikey.de/product-detail/de/metz-connect-usa-inc/PR20203VBDN/1849-PR20203VBDN-ND"/>
+<attribute name="MANUFACTURER" value="METZ CONNECT USA Inc."/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PR20203VBDN"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="1849-PR20203VBDN-ND"/>
 </part>
 </parts>
 <sheets>
@@ -21850,17 +21678,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="LINK" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="261.62" y="109.22" rot="MR270"/>
-<instance part="JP101" gate="A" x="167.64" y="109.22">
-<attribute name="DESCRIPTION" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="167.64" y="109.22" size="1.27" layer="96" display="off"/>
-</instance>
 <instance part="T101" gate="G$1" x="60.96" y="195.58">
 <attribute name="DESCRIPTION" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="60.96" y="195.58" size="1.778" layer="96" display="off"/>
@@ -22003,20 +21820,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="LINK" x="289.56" y="154.94" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="289.56" y="137.16" rot="MR0"/>
-<instance part="GND1" gate="1" x="198.12" y="114.3" rot="R90"/>
-<instance part="R116" gate="G$1" x="185.42" y="114.3" smashed="yes" rot="R180">
-<attribute name="SOURCE" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="POPULATED" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="CLASS" x="185.42" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="185.674" y="117.856" size="1.27" layer="95" rot="R180"/>
-<attribute name="VALUE" x="187.706" y="116.459" size="1.27" layer="96"/>
-</instance>
 <instance part="M2" gate="G$1" x="353.06" y="58.42">
 <attribute name="DESCRIPTION" x="353.06" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="353.06" y="58.42" size="1.778" layer="96" display="off"/>
@@ -22038,6 +21841,19 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="POPULATED" x="353.06" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="353.06" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="353.06" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="X103" gate="A" x="170.18" y="109.22" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCE" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="POPULATED" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="CLASS" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="170.18" y="109.22" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="176.53" y="103.505" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="176.53" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -22163,16 +21979,16 @@ IntelliMAXTM Advanced Load Management Products</description>
 </segment>
 <segment>
 <wire x1="172.72" y1="109.22" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="JP101" gate="A" pin="6"/>
-<pinref part="JP101" gate="A" pin="8"/>
 <wire x1="172.72" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="106.68" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND42" gate="1" pin="GND"/>
 <junction x="180.34" y="106.68"/>
-<pinref part="JP101" gate="A" pin="4"/>
 <wire x1="172.72" y1="111.76" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="111.76" x2="180.34" y2="109.22" width="0.1524" layer="91"/>
 <junction x="180.34" y="109.22"/>
+<pinref part="X103" gate="A" pin="1"/>
+<pinref part="X103" gate="A" pin="3"/>
+<pinref part="X103" gate="A" pin="5"/>
 </segment>
 <segment>
 <pinref part="T101" gate="G$1" pin="E"/>
@@ -22199,11 +22015,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 <segment>
 <pinref part="LED102" gate="G$1" pin="C"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="195.58" y1="114.3" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R116" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SLOT_CLK" class="0">
@@ -22299,9 +22110,9 @@ IntelliMAXTM Advanced Load Management Products</description>
 <label x="86.36" y="144.78" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP101" gate="A" pin="7"/>
-<wire x1="165.1" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
 <label x="160.02" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X103" gate="A" pin="2"/>
+<wire x1="160.02" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!W_DISABLE" class="0">
@@ -22315,9 +22126,9 @@ IntelliMAXTM Advanced Load Management Products</description>
 <label x="160.02" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <label x="160.02" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP101" gate="A" pin="3"/>
+<pinref part="X103" gate="A" pin="6"/>
+<wire x1="160.02" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="_USIM1_DATA" class="0">
@@ -22551,9 +22362,9 @@ IntelliMAXTM Advanced Load Management Products</description>
 <label x="129.54" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
 <label x="160.02" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP101" gate="A" pin="5"/>
+<pinref part="X103" gate="A" pin="4"/>
+<wire x1="160.02" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WWAN" class="0">
@@ -22615,13 +22426,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 <pinref part="X101" gate="A" pin="5"/>
 <wire x1="246.38" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 <label x="236.22" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="180.34" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="JP101" gate="A" pin="2"/>
-<pinref part="R116" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="_USIM1_CLK" class="0">
@@ -22762,11 +22566,6 @@ IntelliMAXTM Advanced Load Management Products</description>
 <wire x1="45.72" y1="195.58" x2="48.26" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="193.04" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
 <junction x="45.72" y="195.58"/>
-</segment>
-<segment>
-<wire x1="165.1" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
-<label x="160.02" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="JP101" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">

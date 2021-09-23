@@ -19454,7 +19454,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 </libraries>
 <attributes>
 <attribute name="DISCLAIMER" value="proprietary + confidential"/>
-<attribute name="VERSION" value="v1"/>
+<attribute name="VERSION" value="v2"/>
 </attributes>
 <variantdefs>
 <variantdef name="LEDs bott"/>

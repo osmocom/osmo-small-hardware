@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="3" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="3" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -115,7 +115,7 @@
 <text x="38.862" y="96.16825" size="1.2" layer="1" font="vector" ratio="16">&gt;VERSION</text>
 <text x="81.66225" y="31.74875" size="1" layer="25" font="vector" ratio="16" rot="SR90">USB3.0</text>
 <text x="67.945" y="16.5425" size="1.778" layer="25" ratio="16" rot="SR90">12V</text>
-<text x="25.8445" y="97.475" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">NGFG-cardem</text>
+<text x="25.8445" y="97.475" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">NGFF-cardem</text>
 <text x="22.733" y="95.75925" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">(C) 2021 sysmocom GmbH</text>
 <text x="22.6695" y="97.50675" size="1.27" layer="16" font="vector" ratio="16" rot="MR180">&gt;VERSION</text>
 <text x="25.527" y="96.2" size="1.2" layer="25" font="vector" ratio="16">NGFF-cardem</text>
@@ -130,6 +130,9 @@
 <dimension x1="8.59" y1="43.88" x2="-10.4775" y2="0" x3="-11.1125" y3="21.94" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
 <dimension x1="5" y1="5" x2="-0.9525" y2="0" x3="-0.9525" y3="2.5" textsize="1.778" textratio="14" layer="47" dtype="vertical" precision="1"/>
 <text x="67.945" y="24.48" size="1.778" layer="25" ratio="16" rot="SR90">5V</text>
+<text x="25.8445" y="97.475" size="1.27" layer="26" font="vector" ratio="16" rot="MR180">NGFF-cardem</text>
+<text x="22.733" y="95.75925" size="1.27" layer="26" font="vector" ratio="16" rot="MR180">(C) 2021 sysmocom GmbH</text>
+<text x="22.6695" y="97.50675" size="1.27" layer="26" font="vector" ratio="16" rot="MR180">&gt;VERSION</text>
 </plain>
 <libraries>
 <library name="laforge">

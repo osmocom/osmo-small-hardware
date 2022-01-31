@@ -356,8 +356,8 @@ DIN A4, landscape with extra doc field</description>
 </package>
 <package name="16R300G">
 <description>Littelfuse 16R300G PTC</description>
-<pad name="1" x="-2.6" y="0.6" drill="0.8" rot="R90"/>
-<pad name="2" x="2.6" y="-0.6" drill="0.8" rot="R90"/>
+<pad name="1" x="-2.6" y="0.6" drill="0.9" rot="R90"/>
+<pad name="2" x="2.6" y="-0.6" drill="0.9" rot="R90"/>
 <wire x1="-3.81" y1="1.5" x2="3.81" y2="1.5" width="0.127" layer="21"/>
 <wire x1="3.81" y1="1.5" x2="3.81" y2="-1.5" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-1.5" x2="-3.81" y2="-1.5" width="0.127" layer="21"/>
@@ -6471,8 +6471,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="LED1" library="led-dialight" deviceset="WP934MD" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="0207/7"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="0207/7"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="0207/10"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="0207/10"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>

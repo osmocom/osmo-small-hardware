@@ -591,6 +591,27 @@ Copyright: Würth Elektronik</description>
 <wire x1="-14.75" y1="6" x2="-14.75" y2="-4.75" width="0.127" layer="39"/>
 <wire x1="-14.75" y1="-4.75" x2="0.25" y2="-4.75" width="0.127" layer="39"/>
 </package>
+<package name="694108301002_ROUND">
+<wire x1="-0.19985" y1="-4.50001875" x2="-0.000003125" y2="-4.299821875" width="0.2" layer="21" curve="97.0981"/>
+<wire x1="0.00001875" y1="4.300140625" x2="-0.2" y2="4.5" width="0.2" layer="21" curve="97.0429"/>
+<wire x1="-0.2" y1="4.5" x2="-0.200178125" y2="4.4999875" width="0.2" layer="21" curve="0.054215"/>
+<wire x1="-14.5" y1="-4.5" x2="-0.2" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="-14.5" y1="4.5" x2="-12.7" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-14.5" y1="-4.5" x2="-14.5" y2="-2.2" width="0.2" layer="21"/>
+<wire x1="0" y1="-4.3" x2="0" y2="4.3" width="0.2" layer="21"/>
+<wire x1="-8.3" y1="4.5" x2="-0.2" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-14.5" y1="2.2" x2="-14.5" y2="4.5" width="0.2" layer="21"/>
+<pad name="2" x="-7.8" y="0" drill="2.9" rot="R90"/>
+<pad name="1" x="-13.6" y="0" drill="2.9" rot="R270"/>
+<pad name="3" x="-10.6" y="4.8" drill="2.5"/>
+<text x="-14.6" y="6.5" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-14.6" y="-7.1484" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-0.465" y="-2.775" size="0.8128" layer="51" rot="R90">PCB Edge</text>
+<wire x1="0.25" y1="-4.75" x2="0.25" y2="6" width="0.127" layer="39"/>
+<wire x1="0.25" y1="6" x2="-14.75" y2="6" width="0.127" layer="39"/>
+<wire x1="-14.75" y1="6" x2="-14.75" y2="-4.75" width="0.127" layer="39"/>
+<wire x1="-14.75" y1="-4.75" x2="0.25" y2="-4.75" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DC_POWER_JACK">
@@ -633,6 +654,16 @@ Created 2014-10-08, Karrer Zheng&lt;br&gt;
 </gates>
 <devices>
 <device name="" package="694108301002">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND" package="694108301002_ROUND">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6454,7 +6485,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="I1" library="RIA-PlugCon" deviceset="RIA_1X2" device="-230"/>
-<part name="I2" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108301002" device=""/>
+<part name="I2" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108301002" device="-ROUND" value="694108301002-ROUND"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="F12" library="Wuerth_WR-FSH_rev20a" deviceset="696108003002" device="" value="696108003002"/>

@@ -1849,49 +1849,219 @@ design rules under a new name.</description>
 <element name="O1" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="76.2" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="73.025" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="O2" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="69.85" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="67.31" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="64.135" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="69.85" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="O3" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="58.42" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="55.245" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="O4" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="52.07" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="49.53" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="46.355" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="O5" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="40.64" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="37.465" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="O6" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="34.29" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="31.75" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="28.575" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="O7" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="22.86" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="19.685" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="O8" library="RIA-PlugCon" package="RIA382-02" value="" x="2.54" y="16.51" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.715" y="13.97" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="10.795" size="1.27" layer="27" rot="R180"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="2.54" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="F1" library="littlefuse" package="16R300G" value="" x="13.97" y="80.01"/>
-<element name="F2" library="littlefuse" package="16R300G" value="" x="13.97" y="71.12"/>
-<element name="F3" library="littlefuse" package="16R300G" value="" x="13.97" y="62.23"/>
-<element name="F4" library="littlefuse" package="16R300G" value="" x="13.97" y="53.34"/>
-<element name="F5" library="littlefuse" package="16R300G" value="" x="13.97" y="44.45"/>
-<element name="F6" library="littlefuse" package="16R300G" value="" x="13.97" y="35.56"/>
-<element name="F7" library="littlefuse" package="16R300G" value="" x="13.97" y="26.67"/>
-<element name="F8" library="littlefuse" package="16R300G" value="" x="13.97" y="17.78"/>
+<element name="F1" library="littlefuse" package="16R300G" value="3A" x="13.97" y="80.01">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="80.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F2" library="littlefuse" package="16R300G" value="3A" x="13.97" y="71.12">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="71.12" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F3" library="littlefuse" package="16R300G" value="3A" x="13.97" y="62.23">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="62.23" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F4" library="littlefuse" package="16R300G" value="3A" x="13.97" y="53.34">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="53.34" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F5" library="littlefuse" package="16R300G" value="3A" x="13.97" y="44.45">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="44.45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F6" library="littlefuse" package="16R300G" value="3A" x="13.97" y="35.56">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="35.56" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F7" library="littlefuse" package="16R300G" value="3A" x="13.97" y="26.67">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="26.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F8" library="littlefuse" package="16R300G" value="3A" x="13.97" y="17.78">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="13.97" y="17.78" size="1.778" layer="27" display="off"/>
+</element>
 <element name="I1" library="RIA-PlugCon" package="RIA230" value="" x="31.75" y="87.63" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.94" y="88.9" size="2.032" layer="25" font="vector" ratio="13" rot="R90"/>
 <attribute name="VALUE" x="30.48" y="93.98" size="1.27" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="CUI Devices" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP01R1-508-02BE" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6406-ND" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP01R1-508-02BE/10238383" x="31.75" y="87.63" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="I2" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108301002_ROUND" value="694108301002-ROUND" x="41.91" y="74.93" smashed="yes">
 <attribute name="NAME" x="25.885" y="73.03" size="2.032" layer="25" font="vector" ratio="13" rot="SR90"/>
+<attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="694108301002" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="732-5934-ND" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/w%C3%BCrth-elektronik/694108301002/5047524" x="41.91" y="74.93" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="bgt" package="BGT_3U_160" value="" x="0" y="0"/>
 <element name="F12" library="Wuerth_WR-FSH_rev20a" package="696108003002" value="696108003002" x="33.02" y="55.88" smashed="yes" rot="R270">
@@ -1901,36 +2071,138 @@ design rules under a new name.</description>
 <attribute name="IR-UL" value="20A" x="33.02" y="55.88" size="1.778" layer="27" font="vector" ratio="14" rot="R270" display="off"/>
 <attribute name="IR-VDE" value="6.3A" x="33.02" y="55.88" size="1.778" layer="27" font="vector" ratio="14" rot="R270" display="off"/>
 <attribute name="NAME" x="26.455" y="65.405" size="1.27" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="DESCRIPTION" value="FUSEHOLDER BLOCKS - PCB - CLIP C" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Wuerth Elektronik" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="696108003002" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="732-11376-ND" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/w%C3%BCrth-elektronik/696108003002/7244560" x="33.02" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D1" library="diode" package="DO201-15" value="" x="18.415" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.16" y="95.885" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="20.955" y="96.139" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="DESCRIPTION" value=" DIODE ZENER 14V 5W DO15 " x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="1N5351B" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1N5351BTPMSCT-ND" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="DIODE" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/micro-commercial-co/1N5351B-TP/1114220" x="18.415" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="O9" library="RIA-PlugCon" package="RIA382-02" value="" x="33.02" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.48" y="40.64" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="43.815" size="1.27" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="33.02" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="O10" library="RIA-PlugCon" package="RIA382-02" value="" x="33.02" y="29.21" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.48" y="31.75" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="34.925" size="1.27" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="33.02" y="29.21" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="O11" library="RIA-PlugCon" package="RIA382-02" value="" x="33.02" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.48" y="22.86" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="26.035" size="1.27" layer="27"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="CUI DEVICES" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="TBP02R1-381-02BE" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="102-6480-ND" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/cui-devices/TBP02R1-381-02BE/10238457" x="33.02" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="F9" library="littlefuse" package="16R300G" value="" x="22.86" y="39.37" rot="R180"/>
-<element name="F10" library="littlefuse" package="16R300G" value="" x="22.86" y="30.48" rot="R180"/>
-<element name="F11" library="littlefuse" package="16R300G" value="" x="22.86" y="21.59" rot="R180"/>
+<element name="F9" library="littlefuse" package="16R300G" value="3A" x="22.86" y="39.37" rot="R180">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="22.86" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F10" library="littlefuse" package="16R300G" value="3A" x="22.86" y="30.48" rot="R180">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="22.86" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="F11" library="littlefuse" package="16R300G" value="3A" x="22.86" y="21.59" rot="R180">
+<attribute name="DESCRIPTION" value="PTC RESET FUSE 16V 3A RADIAL" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="LITTELFUSE" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="16R300GPR" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="18-16R300GPRCT-ND" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="UNKNOWN CLASS" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/littelfuse-inc/16R300GPR/14324570" x="22.86" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="LED1" library="led-dialight" package="T-1" value="" x="1.905" y="86.995" smashed="yes">
 <attribute name="NAME" x="7.62" y="84.455" size="1.27" layer="25" rot="R90"/>
+<attribute name="DESCRIPTION" value="LED 3MM BI-LEVEL 565NM GRN DIFF" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Kingbright" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="WP934MD/2GD" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="754-1748-ND" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="LED" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/kingbright/WP934MD-2GD/3084308" x="1.905" y="86.995" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="resistor" package="0207/10" value="" x="14.605" y="85.725" smashed="yes">
+<element name="R1" library="resistor" package="0207/10" value="680" x="14.605" y="85.725" smashed="yes">
 <attribute name="NAME" x="20.32" y="85.217" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="12.319" y="85.1662" size="1.27" layer="27" ratio="10"/>
+<attribute name="DESCRIPTION" value="RES 680 OHM 5% 1/4W AXIAL" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CF14JT680R" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="CF14JT680RCT-ND" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Stackpole" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/stackpole-electronics-inc/CF14JT680R/1741489" x="14.605" y="85.725" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="resistor" package="0207/10" value="" x="14.605" y="88.9" smashed="yes">
+<element name="R2" library="resistor" package="0207/10" value="680" x="14.605" y="88.9" smashed="yes">
 <attribute name="NAME" x="20.32" y="88.392" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="12.319" y="88.3412" size="1.27" layer="27" ratio="10"/>
+<attribute name="DESCRIPTION" value="RES 680 OHM 5% 1/4W AXIAL" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CF14JT680R" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="CF14JT680RCT-ND" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="Stackpole" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="CLASS" value="RESISTOR" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.de/en/products/detail/stackpole-electronics-inc/CF14JT680R/1741489" x="14.605" y="88.9" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$2" library="oshw" package="OSHW_5MM" value="" x="22.86" y="58.42"/>
 <element name="U$3" library="oshw" package="OSHW_5MM" value="" x="22.86" y="58.42" rot="MR0"/>

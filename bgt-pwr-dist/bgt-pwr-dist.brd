@@ -1713,8 +1713,8 @@ design rules under a new name.</description>
 <param name="rlMaxPadTop" value="0.8mm"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinPadBottom" value="0.6mm"/>
+<param name="rlMaxPadBottom" value="0.8mm"/>
 <param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="8mil"/>

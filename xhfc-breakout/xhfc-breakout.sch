@@ -4112,6 +4112,7 @@ Source: www.kingbright.com</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="REVISION" value="v1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -4243,7 +4244,7 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCEPARTNUMBER" value="1727-2915-6-ND"/>
 </part>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="R5" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="62">
+<part name="R5" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="62 (3R3 universal)">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -4254,7 +4255,7 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="R6" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="62">
+<part name="R6" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value=" 62 (3R3 universal)">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -4447,7 +4448,7 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="R18" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="3k9">
+<part name="R18" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330k">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -4550,7 +4551,7 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1727-2915-6-ND"/>
 </part>
-<part name="R21" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="62">
+<part name="R21" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="62 (3R3 universaal)">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -4561,7 +4562,7 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="R22" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="62">
+<part name="R22" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="62 (3R3 universal)">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -4754,7 +4755,7 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="UNKNOWN SOURCE"/>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
-<part name="R34" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="3k9">
+<part name="R34" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330k">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
@@ -5201,6 +5202,22 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="66.04" y="134.62" size="1.778" layer="97">UEXT is a "standard" pinout develoed by OLIMEX
+for UART, SPI and I2C.
+They have plenty of uC boards and peripherals with UEXT</text>
+<text x="152.4" y="144.78" size="1.778" layer="97">Optional PCM header</text>
+<text x="53.34" y="81.28" size="1.778" layer="97">VCXO section, inspired by icE1usb.
+JP5 to feed in external DAC or PWM for tuning.</text>
+<text x="165.1" y="25.4" size="1.778" layer="97">Osmocom XHFC-2SU Breakout Board (Dual ISDN BRI)
+(C) 2022 by Harald Welte &lt;laforge@osmocom.org&gt;
+Licensed under Creative Commons CC-BY-SA</text>
+<text x="254" y="7.62" size="1.778" layer="97">&gt;REVISION</text>
+<text x="22.86" y="104.14" size="1.778" layer="97">Power Supply (3V3) and SPI control provided by external uC board via UEXT header (X1)
+
+Note there are NO PROTECTION circuits against
+* polarity reversal
+* overvoltage
+* ESD</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -5312,18 +5329,18 @@ Source: www.kingbright.com</description>
 </instance>
 <instance part="P+12" gate="VCC" x="43.18" y="40.64"/>
 <instance part="GND11" gate="1" x="43.18" y="5.08"/>
-<instance part="X1" gate="G$1" x="106.68" y="116.84">
-<attribute name="DESCRIPTION" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCE" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="106.68" y="116.84" size="1.778" layer="96" display="off"/>
+<instance part="X1" gate="G$1" x="91.44" y="154.94">
+<attribute name="DESCRIPTION" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="91.44" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND12" gate="1" x="121.92" y="134.62" rot="R180"/>
+<instance part="GND12" gate="1" x="106.68" y="172.72" rot="R180"/>
 <instance part="Q5" gate="G$1" x="33.02" y="66.04">
 <attribute name="DESCRIPTION" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="33.02" y="66.04" size="1.778" layer="96" display="off"/>
@@ -5407,42 +5424,42 @@ Source: www.kingbright.com</description>
 <attribute name="CLASS" x="43.18" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="43.18" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP5" gate="G$1" x="106.68" y="63.5">
-<attribute name="DESCRIPTION" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCE" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="106.68" y="63.5" size="1.778" layer="96" display="off"/>
+<instance part="JP5" gate="G$1" x="111.76" y="63.5">
+<attribute name="DESCRIPTION" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="111.76" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="96.52" y="58.42"/>
-<instance part="JP6" gate="A" x="144.78" y="66.04">
-<attribute name="DESCRIPTION" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCE" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="144.78" y="66.04" size="1.778" layer="96" display="off"/>
+<instance part="JP6" gate="A" x="162.56" y="160.02">
+<attribute name="DESCRIPTION" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="162.56" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND18" gate="1" x="160.02" y="76.2" rot="R90"/>
-<instance part="P+15" gate="VCC" x="134.62" y="78.74"/>
-<instance part="P+16" gate="VCC" x="91.44" y="134.62"/>
-<instance part="C23" gate="G$1" x="104.14" y="129.54">
-<attribute name="DESCRIPTION" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCE" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="POPULATED" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="CLASS" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="LINK" x="104.14" y="129.54" size="1.778" layer="96" display="off"/>
+<instance part="GND18" gate="1" x="177.8" y="170.18" rot="R90"/>
+<instance part="P+15" gate="VCC" x="152.4" y="172.72"/>
+<instance part="P+16" gate="VCC" x="76.2" y="172.72"/>
+<instance part="C23" gate="G$1" x="88.9" y="167.64">
+<attribute name="DESCRIPTION" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="88.9" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="124.46" y="20.32">
 <attribute name="DESCRIPTION" x="124.46" y="20.32" size="1.778" layer="96" display="off"/>
@@ -5551,13 +5568,13 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="GND"/>
-<wire x1="116.84" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="121.92" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="160.02" x2="106.68" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="160.02" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="129.54" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
-<junction x="121.92" y="129.54"/>
+<wire x1="106.68" y1="167.64" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
+<junction x="106.68" y="167.64"/>
 </segment>
 <segment>
 <pinref part="Q5" gate="G$1" pin="GND"/>
@@ -5583,12 +5600,12 @@ Source: www.kingbright.com</description>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="60.96" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="63.5" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="2"/>
-<wire x1="149.86" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="71.12" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="165.1" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="165.1" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -5604,8 +5621,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="SCK"/>
-<wire x1="96.52" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
-<label x="91.44" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="76.2" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_INV" class="0">
@@ -5623,8 +5640,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="TXD"/>
-<wire x1="96.52" y1="119.38" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
-<label x="91.44" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<label x="76.2" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!INT" class="0">
@@ -5640,8 +5657,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="RXD"/>
-<wire x1="116.84" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
-<label x="124.46" y="119.38" size="1.27" layer="95" xref="yes"/>
+<wire x1="101.6" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
+<label x="109.22" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!SPI_SEL" class="0">
@@ -5652,8 +5669,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="SSEL"/>
-<wire x1="116.84" y1="111.76" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
-<label x="124.46" y="111.76" size="1.27" layer="95" xref="yes"/>
+<wire x1="101.6" y1="149.86" x2="109.22" y2="149.86" width="0.1524" layer="91"/>
+<label x="109.22" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -5664,8 +5681,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="MISO"/>
-<wire x1="96.52" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<label x="91.44" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="81.28" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
+<label x="76.2" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -5676,8 +5693,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="MOSI"/>
-<wire x1="116.84" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
-<label x="124.46" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="101.6" y1="152.4" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
+<label x="109.22" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -5733,19 +5750,19 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="1"/>
-<wire x1="142.24" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="71.12" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="165.1" x2="152.4" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="P+15" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="3V3"/>
-<wire x1="96.52" y1="121.92" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="121.92" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="160.02" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="129.54" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
-<junction x="91.44" y="129.54"/>
+<wire x1="76.2" y1="167.64" x2="76.2" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
+<junction x="76.2" y="167.64"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
@@ -5760,8 +5777,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="6"/>
-<wire x1="149.86" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
-<label x="157.48" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="167.64" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
+<label x="175.26" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="F1_1" class="0">
@@ -5772,8 +5789,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="5"/>
-<wire x1="142.24" y1="66.04" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
-<label x="134.62" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="160.02" x2="152.4" y2="160.02" width="0.1524" layer="91"/>
+<label x="152.4" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PCM_DATA_IO" class="0">
@@ -5784,8 +5801,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="11"/>
-<wire x1="142.24" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
-<label x="134.62" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
+<label x="152.4" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PCM_DATA_OI" class="0">
@@ -5796,8 +5813,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="12"/>
-<wire x1="149.86" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
-<label x="157.48" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="167.64" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
+<label x="175.26" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PCM_FRAME" class="0">
@@ -5808,8 +5825,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="9"/>
-<wire x1="142.24" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<label x="134.62" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
+<label x="152.4" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PCM_4M_CLK" class="0">
@@ -5820,8 +5837,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="10"/>
-<wire x1="149.86" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
-<label x="157.48" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="167.64" y1="154.94" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
+<label x="175.26" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PCM_2M_CLK" class="0">
@@ -5832,8 +5849,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="7"/>
-<wire x1="142.24" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
-<label x="134.62" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
+<label x="152.4" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SYNC_I" class="0">
@@ -5844,8 +5861,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="8"/>
-<wire x1="149.86" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
-<label x="157.48" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="167.64" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
+<label x="175.26" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SYNC_O" class="0">
@@ -5856,8 +5873,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="A" pin="3"/>
-<wire x1="142.24" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-<label x="134.62" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="160.02" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
+<label x="152.4" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -5917,7 +5934,7 @@ Source: www.kingbright.com</description>
 <junction x="83.82" y="71.12"/>
 <wire x1="88.9" y1="71.12" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -5962,6 +5979,23 @@ Source: www.kingbright.com</description>
 <wire x1="43.18" y1="104.14" x2="15.24" y2="104.14" width="0.1524" layer="97" style="longdash"/>
 <text x="15.24" y="178.054" size="1.778" layer="97">universal TE/NT mode only</text>
 <text x="16.002" y="104.648" size="1.778" layer="97">universal TE/NT mode only</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">VDD_SU biasing:
+* populate only either D1/D10 or the dashed section
+* D1/D10 is for NT-only mode
+* dashed box is for universal TE/NT mode
+* R5, R6, R21, R22 are 3.3Ohms in universal/TE mode</text>
+<text x="162.56" y="101.6" size="1.778" layer="97">R19, R20, R35, R36 are S0 bus termination.
+You may not always want them.
+Later board should probably have DIP switch</text>
+<text x="220.98" y="99.06" size="1.778" layer="97">JP3/JP4 are for TE/NT cross-over.
+Put the jumpers either
+* vertical |||| or
+* horizontal ==</text>
+<text x="86.36" y="5.08" size="1.778" layer="97">JP1/JP2 can be used for phantom power supply of the S0 bus.</text>
+<text x="165.1" y="25.4" size="1.778" layer="97">Osmocom XHFC-2SU Breakout Board (Dual ISDN BRI)
+(C) 2022 by Harald Welte &lt;laforge@osmocom.org&gt;
+Licensed under Creative Commons CC-BY-SA</text>
+<text x="256.54" y="7.62" size="1.778" layer="97">&gt;REVISION</text>
 </plain>
 <instances>
 <instance part="U1" gate="ST/UP0" x="60.96" y="139.7"/>
@@ -7814,4 +7848,10 @@ Source: www.kingbright.com</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

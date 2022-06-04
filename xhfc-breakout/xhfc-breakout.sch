@@ -5533,6 +5533,10 @@ Note there are NO PROTECTION circuits against
 <wire x1="220.98" y1="134.62" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="134.62" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <junction x="218.44" y="124.46"/>
+<pinref part="U1" gate="PROC_INTF" pin="ALE"/>
+<wire x1="220.98" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="137.16" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
+<junction x="218.44" y="134.62"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -5623,13 +5627,6 @@ Note there are NO PROTECTION circuits against
 <pinref part="X1" gate="G$1" pin="SCK"/>
 <wire x1="81.28" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
 <label x="76.2" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="SPI_INV" class="0">
-<segment>
-<pinref part="U1" gate="PROC_INTF" pin="ALE"/>
-<wire x1="220.98" y1="137.16" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
-<label x="210.82" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!RES" class="0">

@@ -13,10 +13,9 @@ GIT Repository
 
 You can clone from the official osmo-small-hardware repository using
 
-	git clone git://git.osmocom.org/osmo-small-hardware
-	git clone https://git.osmocom.org/osmo-small-hardware
+	git clone https://gitea.osmocom.org/electronics/osmo-small-hardware
 
-There is a cgit interface at https://git.osmocom.org/osmo-small-hardware/
+There is a web interface at <https://gitea.osmocom.org/electronics/osmo-small-hardware>
 
 Contributing
 ------------

@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.15875" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="3" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -6103,6 +6103,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <wire x1="65.0435" y1="38.3735" x2="65.0875" y2="38.4175" width="0.3048" layer="1"/>
 <wire x1="65.0435" y1="37.1775" x2="65.0435" y2="35.9215" width="0.3048" layer="1"/>
 <wire x1="65.0435" y1="35.9215" x2="65.0875" y2="35.8775" width="0.3048" layer="1"/>
+<contactref element="X203" pad="1"/>
 </signal>
 <signal name="MDM_UIM_CLK">
 <contactref element="IC201" pad="13"/>

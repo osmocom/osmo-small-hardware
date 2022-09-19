@@ -21166,6 +21166,7 @@ IntelliMAXTM Advanced Load Management Products</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1849-PR20203VBDN-ND"/>
 </part>
+<part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23440,6 +23441,7 @@ detection</text>
 <attribute name="CLASS" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="LINK" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
+<instance part="GND1" gate="1" x="302.26" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -23638,6 +23640,11 @@ detection</text>
 <wire x1="233.68" y1="127" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
 <junction x="233.68" y="127"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X203" gate="G$1" pin="RING"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="302.26" y1="170.18" x2="304.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VDD_1V8_SIMTRACE12" class="3">

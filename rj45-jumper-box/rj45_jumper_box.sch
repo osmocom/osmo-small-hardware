@@ -519,8 +519,8 @@ DIN A4, landscape with extra doc field</description>
 <part name="X1" library="stewart-rj45" deviceset="RJ45" device="-RC01133"/>
 <part name="X2" library="stewart-rj45" deviceset="RJ45" device="-RC01133"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X8" device="" value="JP1"/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X8" device="" value="JP2"/>
 </parts>
 <sheets>
 <sheet>

@@ -650,6 +650,23 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="96.52" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="S2"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="S2"/>
+<wire x1="33.02" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="35.56" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="35.56" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="S1"/>
+<wire x1="121.92" y1="43.18" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="S1"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<junction x="35.56" y="35.56"/>
+<junction x="121.92" y="35.56"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

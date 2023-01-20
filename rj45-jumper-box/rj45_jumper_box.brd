@@ -544,6 +544,23 @@ RC01133</description>
 <wire x1="39.37" y1="3.81" x2="45.13" y2="3.81" width="0.3048" layer="16"/>
 <wire x1="45.13" y1="3.81" x2="50.45" y2="9.13" width="0.3048" layer="16"/>
 </signal>
+<signal name="N$1">
+<contactref element="X1" pad="SHLD2"/>
+<contactref element="X2" pad="SHLD2"/>
+<contactref element="X2" pad="SHLD1"/>
+<contactref element="X1" pad="SHLD1"/>
+<wire x1="8.985" y1="21.385" x2="8.985" y2="22.32" width="1.27" layer="16"/>
+<wire x1="8.985" y1="22.32" x2="10.795" y2="24.13" width="1.27" layer="16"/>
+<wire x1="10.795" y1="24.13" x2="30.48" y2="24.13" width="1.27" layer="16"/>
+<wire x1="8.985" y1="5.285" x2="8.985" y2="4.985" width="1.27" layer="16"/>
+<wire x1="8.985" y1="4.985" x2="12.7" y2="1.27" width="1.27" layer="16"/>
+<wire x1="12.7" y1="1.27" x2="30.48" y2="1.27" width="1.27" layer="16"/>
+<wire x1="30.48" y1="1.27" x2="47.96" y2="1.27" width="1.27" layer="16"/>
+<wire x1="47.96" y1="1.27" x2="51.34" y2="4.65" width="1.27" layer="16"/>
+<wire x1="51.34" y1="20.75" x2="47.96" y2="24.13" width="1.27" layer="16"/>
+<wire x1="47.96" y1="24.13" x2="30.48" y2="24.13" width="1.27" layer="16"/>
+<wire x1="30.48" y1="24.13" x2="30.48" y2="1.27" width="1.27" layer="16"/>
+</signal>
 </signals>
 </board>
 </drawing>

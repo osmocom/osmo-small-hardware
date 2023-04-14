@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
-  <gnm:Version Epoch="1" Major="12" Minor="28" Full="1.12.28"/>
+  <gnm:Version Epoch="1" Major="12" Minor="51" Full="1.12.51"/>
   <gnm:Attributes>
     <gnm:Attribute>
       <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2021-02-07T21:00:30Z</dc:date>
+      <dc:date>2023-04-14T18:52:36Z</dc:date>
       <meta:creation-date>2021-02-07T20:59:46Z</meta:creation-date>
     </office:meta>
   </office:document-meta>
@@ -38,7 +38,7 @@
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>sfp-breakout.sch</gnm:Name>
       <gnm:MaxCol>10</gnm:MaxCol>
-      <gnm:MaxRow>19</gnm:MaxRow>
+      <gnm:MaxRow>18</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -226,7 +226,9 @@
         <gnm:ColInfo No="8" Unit="200"/>
         <gnm:ColInfo No="9" Unit="58"/>
       </gnm:Cols>
-      <gnm:Rows DefaultSizePts="12.75"/>
+      <gnm:Rows DefaultSizePts="12.75">
+        <gnm:RowInfo No="1" Unit="12" HardSize="1"/>
+      </gnm:Rows>
       <gnm:Selections CursorCol="3" CursorRow="20">
         <gnm:Selection startCol="3" startRow="20" endCol="3" endRow="20"/>
       </gnm:Selections>

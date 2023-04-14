@@ -2247,7 +2247,7 @@ for the minimum (VIA) drill of 0.3mm as 0.36mm.</description>
 <element name="C6" library="rcl" package="CT6032" value="100u" x="44.2125" y="52.07" smashed="yes">
 <attribute name="NAME" x="50.88" y="51.7525" size="1.2" layer="25" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="41.6725" y="48.895" size="1.27" layer="27"/>
-<attribute name="DESCRIPTION" value="CAP TANT 100UF 10%% 6.3V 2312" x="44.2125" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 10% 6.3V 2312" x="44.2125" y="52.07" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX Corporation" x="44.2125" y="52.07" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="TPSC107K006R0150" x="44.2125" y="52.07" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="44.2125" y="52.07" size="1.778" layer="27" display="off"/>

@@ -13778,12 +13778,13 @@ Source: www.kingbright.com</description>
 <part name="GND2" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="SFP1" library="sfp-experimenter" deviceset="SFP_UNI" device="">
 <attribute name="CLASS" value="SFP"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/Ux75-A20-x00xx.pdf"/>
 <attribute name="DESCRIPTION" value="CONN SFP RCPT 20POS SLD R/A SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/amphenol-icc-commercial-products/UE75-A20-6000T/UE75-A20-6000TCT-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/amphenol-icc-commercial-products/UE75-A20-6000T/UE75-A20-6000TCT-ND/1242798"/>
 <attribute name="MANUFACTURER" value="Amphenol ICC (Commercial Products)"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UE75-A20-6000T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="UE75-A20-6000TCT-ND"/>
 </part>
@@ -13862,161 +13863,175 @@ Source: www.kingbright.com</description>
 <part name="GND6" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="C1" library="sfp-experimenter" deviceset="CPOL-EU" device="-1206" value="10u / 16V">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND"/>
+<attribute name="DATASHEET" value="https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 1206"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A106KOHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1137-1-ND"/>
 </part>
 <part name="C5" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="L2" library="sfp-experimenter" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
+<attribute name="DATASHEET" value="https://abracon.com/Magnetics/new/AIMC-0603.pdf"/>
 <attribute name="DESCRIPTION" value="FIXED IND 1NH 500MA 50 MOHM SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND/2782759"/>
 <attribute name="MANUFACTURER" value="Abracon LLC"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND"/>
 </part>
 <part name="C2" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="GND7" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="L1" library="sfp-experimenter" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
+<attribute name="DATASHEET" value="https://abracon.com/Magnetics/new/AIMC-0603.pdf"/>
 <attribute name="DESCRIPTION" value="FIXED IND 1NH 500MA 50 MOHM SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND/2782759"/>
 <attribute name="MANUFACTURER" value="Abracon LLC"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND"/>
 </part>
 <part name="GND8" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="C7" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="C9" library="sfp-experimenter" deviceset="CPOL-EU" device="-1206" value="10u / 16V">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND"/>
+<attribute name="DATASHEET" value="https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 1206"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A106KOHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1137-1-ND"/>
 </part>
 <part name="GND9" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="GND10" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="GND13" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="IC2" library="sfp-experimenter" deviceset="SN65LVDT2" device="DBV" value="SN65LVDT2DBV">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="IC DIFF LINE RECEIVER SOT-23-5"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/texas-instruments/SN65LVDT2DBVR/296-6896-1-ND"/>
+<attribute name="DATASHEET" value="http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65lvds1"/>
+<attribute name="DESCRIPTION" value="IC RECEIVER 0/1 SOT23-5"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/texas-instruments/SN65LVDT2DBVR/296-6896-1-ND/371534"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SN65LVDT2DBVR"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="296-6896-1-ND"/>
 </part>
 <part name="IC1" library="sfp-experimenter" deviceset="SN65LVDS1" device="DBV">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DESCRIPTION" value="IC 1/0 DRIVER LVDS SOT23-5"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/texas-instruments/SN65LVDS1DBVR/296-6919-1-ND"/>
+<attribute name="DATASHEET" value="http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65lvds1"/>
+<attribute name="DESCRIPTION" value="IC DRIVER 1/0 SOT23-5"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/texas-instruments/SN65LVDS1DBVR/296-6919-1-ND/371647"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SN65LVDS1DBVR"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="296-6919-1-ND"/>
 </part>
 <part name="GND12" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="CT6032" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf"/>
 <attribute name="DESCRIPTION" value="CAP TANT POLY 100UF 6.3V 2312"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/kemet/T520C107M006ATE045/399-4658-1-ND/992091"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/kemet/T520C107M006ATE045/399-4658-1-ND/992091"/>
 <attribute name="MANUFACTURER" value="KEMET"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="T520C107M006ATE045"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="399-4658-1-ND"/>
 </part>
 <part name="J1" library="sfp-experimenter" deviceset="694108106102" device="" value="PJ-002BH-SMT-TR">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
+<attribute name="DATASHEET" value="https://www.cuidevices.com/product/resource/pj-002bh-smt-tr.pdf"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJCT-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/cui-devices/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694"/>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="CP-002BHPJCT-ND"/>
 </part>
 <part name="R1" library="sfp-experimenter" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
 <part name="R2" library="sfp-experimenter" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
 <part name="R3" library="sfp-experimenter" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
@@ -14034,45 +14049,49 @@ Source: www.kingbright.com</description>
 <part name="GND14" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="R4" library="sfp-experimenter" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
 <part name="R5" library="sfp-experimenter" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
 <part name="C3" library="sfp-experimenter" deviceset="CPOL-EU" device="-1206" value="10u / 16V">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND"/>
+<attribute name="DATASHEET" value="https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 1206"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A106KOHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1137-1-ND"/>
 </part>
 <part name="C4" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
@@ -14080,89 +14099,97 @@ Source: www.kingbright.com</description>
 <part name="GND16" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="C10" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="C11" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="33n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://datasheets.avx.com/X7RDielectric.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.033UF 50V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/06035C333JAT2A/478-3723-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/avx-corporation/06035C333JAT2A/478-3723-1-ND/1116421"/>
 <attribute name="MANUFACTURER" value="AVX Corporation"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="06035C333JAT2A"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="478-3723-1-ND"/>
 </part>
 <part name="C12" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="1n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 1000PF 50V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R9BB102/311-1080-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB102/311-1080-1-ND/302990"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R9BB102"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-1080-1-ND"/>
 </part>
 <part name="C13" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100p">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 100PF 50V C0G/NPO 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603JRNPO9BN101/311-1069-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN101/311-1069-1-ND/302979"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603JRNPO9BN101"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-1069-1-ND"/>
 </part>
 <part name="C14" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="C15" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="33n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://datasheets.avx.com/X7RDielectric.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.033UF 50V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/06035C333JAT2A/478-3723-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/avx-corporation/06035C333JAT2A/478-3723-1-ND/1116421"/>
 <attribute name="MANUFACTURER" value="AVX Corporation"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="06035C333JAT2A"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="478-3723-1-ND"/>
 </part>
 <part name="C16" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="1n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 1000PF 50V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603KRX7R9BB102/311-1080-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB102/311-1080-1-ND/302990"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX7R9BB102"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-1080-1-ND"/>
 </part>
 <part name="C17" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100p">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 100PF 50V C0G/NPO 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/CC0603JRNPO9BN101/311-1069-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603JRNPO9BN101/311-1069-1-ND/302979"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603JRNPO9BN101"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-1069-1-ND"/>
 </part>
@@ -14170,46 +14197,50 @@ Source: www.kingbright.com</description>
 <part name="GND18" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="C8" library="sfp-experimenter" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="GND19" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="U1" library="sfp-experimenter" deviceset="LDO" device="-MCP1825S">
 <attribute name="CLASS" value="IC"/>
+<attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/22056b.pdf"/>
 <attribute name="DESCRIPTION" value="IC REG LIN 3.3V 500MA SOT223-3"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/MCP1825ST-3302E-DB/MCP1825ST-3302E-DBCT-ND/5013522"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP1825ST-3302E-DB/1635518"/>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="MCP1825ST-3302E/DB"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="MCP1825ST-3302E/DBCT-ND"/>
 </part>
 <part name="D1" library="sfp-experimenter" deviceset="DIODE-SCHOTTKY" device="-SMA" value="SS16T3G">
 <attribute name="CLASS" value="DIODE"/>
+<attribute name="DATASHEET" value="https://www.st.com/content/ccc/resource/technical/document/datasheet/b7/ac/e1/7d/2a/e9/4b/e8/CD00003166.pdf/files/CD00003166.pdf/jcr:content/translations/en.CD00003166.pdf"/>
 <attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 2A SMA"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stmicroelectronics/STPS2L60A/497-2461-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/stmicroelectronics/STPS2L60A/603486"/>
 <attribute name="MANUFACTURER" value="STMicroelectronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="STPS2L60A"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="497-2461-1-ND"/>
 </part>
 <part name="D2" library="sfp-experimenter" deviceset="DIODE-TVS" device="-SMA" value="824500500">
 <attribute name="CLASS" value="DIODE"/>
+<attribute name="DATASHEET" value="https://www.bourns.com/docs/Product-Datasheets/SMAJ.pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5VWM 9.2VC SMA"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/bourns-inc/SMAJ5-0A/SMAJ5-0ABCT-ND/2254241"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/bourns-inc/SMAJ5-0A/2254236"/>
 <attribute name="MANUFACTURER" value="Bourns Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SMAJ5.0A"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="SMAJ5.0ABCT-ND"/>
 </part>
@@ -14249,23 +14280,25 @@ Source: www.kingbright.com</description>
 </part>
 <part name="R8" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
 <part name="R9" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND"/>
+<attribute name="DATASHEET" value="https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ3GEYJ331V"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND/134778"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEYJ331V"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="P330GCT-ND"/>
 </part>
@@ -14294,23 +14327,25 @@ Source: www.kingbright.com</description>
 </part>
 <part name="R7" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-0710KL/311-10-0KHRCT-ND/729827"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0710KL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-10.0KHRCT-ND"/>
 </part>
 <part name="R10" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND"/>
+<attribute name="DATASHEET" value="https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ3GEYJ331V"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ331V/P330GCT-ND/134778"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="ERJ-3GEYJ331V"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="P330GCT-ND"/>
 </part>
@@ -14340,12 +14375,13 @@ Source: www.kingbright.com</description>
 <part name="GND22" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="R12" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 100K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/koa-speer-electronics-inc/RK73H1JTTD1003F/2019-RK73H1JTTD1003FCT-ND"/>
+<attribute name="DATASHEET" value="https://www.koaspeer.com/pdfs/RK73H.pdf"/>
+<attribute name="DESCRIPTION" value="RES 100K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H1JTTD1003F/2019-RK73H1JTTD1003FCT-ND/9846889"/>
 <attribute name="MANUFACTURER" value="KOA Speer Electronics, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RK73H1JTTD1003F"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="2019-RK73H1JTTD1003FCT-ND"/>
 </part>

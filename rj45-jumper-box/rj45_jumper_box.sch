@@ -73,6 +73,33 @@
 <libraries>
 <library name="stewart-rj45">
 <packages>
+<package name="RC01133">
+<description>Wen ZhouyRut Chuan Electronic C., Ltd.
+RCH-56-31
+RC01133</description>
+<wire x1="-8.15" y1="7.95" x2="-6.35" y2="7.95" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="7.95" x2="6.35" y2="7.95" width="0.127" layer="21"/>
+<wire x1="6.35" y1="7.95" x2="8.15" y2="7.95" width="0.127" layer="21"/>
+<wire x1="8.15" y1="7.95" x2="8.15" y2="-7.95" width="0.127" layer="21"/>
+<wire x1="8.15" y1="-7.95" x2="-8.15" y2="-7.95" width="0.127" layer="21"/>
+<wire x1="-8.15" y1="-7.95" x2="-8.15" y2="7.95" width="0.127" layer="21"/>
+<hole x="-6.3" y="2.7" drill="3.25"/>
+<hole x="6.3" y="2.7" drill="3.25"/>
+<pad name="SHLD1" x="-8.05" y="-0.73" drill="1.6"/>
+<pad name="SHLD2" x="8.05" y="-0.73" drill="1.6"/>
+<wire x1="-6.35" y1="7.95" x2="-6.35" y2="0" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="0" x2="6.35" y2="0" width="0.127" layer="21"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="7.95" width="0.127" layer="21"/>
+<pad name="1" x="-3.57" y="0.16" drill="0.9"/>
+<pad name="2" x="-2.55" y="-1.62" drill="0.9"/>
+<pad name="3" x="-1.53" y="0.16" drill="0.9"/>
+<pad name="4" x="-0.51" y="-1.62" drill="0.9"/>
+<pad name="5" x="0.51" y="0.16" drill="0.9"/>
+<pad name="6" x="1.53" y="-1.62" drill="0.9"/>
+<pad name="7" x="2.55" y="0.16" drill="0.9"/>
+<pad name="8" x="3.57" y="-1.62" drill="0.9"/>
+<text x="-8.89" y="-7.62" size="1.27" layer="25" font="vector" ratio="14" rot="R90">&gt;NAME</text>
+</package>
 <package name="SS-7188S-A-NF">
 <description>Bel Stewart SS-7188S-A-NF</description>
 <wire x1="-7.975" y1="8.142" x2="7.975" y2="8.142" width="0.2032" layer="21"/>
@@ -97,6 +124,31 @@
 <text x="-3.81" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-5.715" y="-1.778" drill="3.2512"/>
 <hole x="5.715" y="-1.778" drill="3.2512"/>
+</package>
+<package name="SS-7188VS-A-NF-50">
+<description>Stewart 8p8c RJ45 vertical mounted shielded jack, non-flange</description>
+<wire x1="-8.225" y1="10.49" x2="8.225" y2="10.49" width="0.2032" layer="21"/>
+<wire x1="8.225" y1="10.49" x2="8.225" y2="5.24" width="0.2032" layer="21"/>
+<wire x1="8.225" y1="5.24" x2="8.225" y2="2.64" width="0.2032" layer="51"/>
+<wire x1="8.225" y1="2.64" x2="8.225" y2="-6.78" width="0.2032" layer="21"/>
+<wire x1="8.225" y1="-6.78" x2="-8.225" y2="-6.78" width="0.2032" layer="21"/>
+<wire x1="-8.225" y1="-6.78" x2="-8.225" y2="2.64" width="0.2032" layer="21"/>
+<wire x1="-8.225" y1="2.64" x2="-8.225" y2="5.14" width="0.2032" layer="51"/>
+<wire x1="-8.225" y1="5.14" x2="-8.225" y2="10.49" width="0.2032" layer="21"/>
+<pad name="S1" x="-7.875" y="3.89" drill="1.6" diameter="2.2"/>
+<pad name="S2" x="7.875" y="3.89" drill="1.6" diameter="2.2"/>
+<pad name="8" x="4.445" y="8.89" drill="0.9" diameter="1.5"/>
+<pad name="7" x="3.175" y="6.36" drill="0.9" diameter="1.5"/>
+<pad name="6" x="1.905" y="8.89" drill="0.9" diameter="1.5"/>
+<pad name="5" x="0.635" y="6.36" drill="0.9" diameter="1.5"/>
+<pad name="4" x="-0.635" y="8.89" drill="0.9" diameter="1.5"/>
+<pad name="3" x="-1.905" y="6.35" drill="0.9" diameter="1.5"/>
+<pad name="2" x="-3.175" y="8.89" drill="0.9" diameter="1.5"/>
+<pad name="1" x="-4.445" y="6.35" drill="0.9" diameter="1.5" shape="square"/>
+<text x="-3.81" y="-8.375" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.81" y="-5.635" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<hole x="-5.715" y="0" drill="3.2512"/>
+<hole x="5.715" y="0" drill="3.2512"/>
 </package>
 </packages>
 <symbols>
@@ -132,13 +184,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SS-7188S-A-NF">
-<description>Bel Stewart SS-7188S-A-NF RJ45 connector</description>
+<deviceset name="RJ45">
+<description>RJ45 connector 8P8C Stewart shielded horizontal</description>
 <gates>
-<gate name="G$1" symbol="SS-7188S-A-NF" x="5.08" y="-2.54"/>
+<gate name="G$1" symbol="SS-7188S-A-NF" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="SS-7188S-A-NF">
+<device name="-SS-718S-A-NF" package="SS-7188S-A-NF">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -152,10 +204,41 @@
 <connect gate="G$1" pin="S2" pad="S2"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Bel Stewart" constant="no"/>
-<attribute name="OC_DIGIKEY" value="380-1047-ND"/>
-</technology>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SS-7188VS-A-NF-50" package="SS-7188VS-A-NF-50">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RC01133" package="RC01133">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="S1" pad="SHLD1"/>
+<connect gate="G$1" pin="S2" pad="SHLD2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -424,6 +507,7 @@ DIN A4, landscape with extra doc field</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="REVISION" value="v2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -432,15 +516,16 @@ DIN A4, landscape with extra doc field</description>
 </class>
 </classes>
 <parts>
-<part name="X1" library="stewart-rj45" deviceset="SS-7188S-A-NF" device=""/>
-<part name="X2" library="stewart-rj45" deviceset="SS-7188S-A-NF" device=""/>
+<part name="X1" library="stewart-rj45" deviceset="RJ45" device="-RC01133"/>
+<part name="X2" library="stewart-rj45" deviceset="RJ45" device="-RC01133"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X8" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X8" device="" value="JP1"/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X8" device="" value="JP2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="256.54" y="7.62" size="3.81" layer="97" ratio="11">&gt;REVISION</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$1" x="35.56" y="55.88" rot="MR0"/>
@@ -563,6 +648,23 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="JP2" gate="A" pin="8"/>
 <pinref part="X2" gate="G$1" pin="8"/>
 <wire x1="96.52" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="S2"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="S2"/>
+<wire x1="33.02" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="35.56" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="35.56" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="S1"/>
+<wire x1="121.92" y1="43.18" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="S1"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<junction x="35.56" y="35.56"/>
+<junction x="121.92" y="35.56"/>
 </segment>
 </net>
 </nets>

@@ -13950,17 +13950,17 @@ Source: www.kingbright.com</description>
 <part name="GND9" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="GND10" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="GND13" library="sfp-experimenter" deviceset="GND" device=""/>
-<part name="IC2" library="sfp-experimenter" deviceset="SN65LVDT2" device="DBV" value="SN65LVDT2DBV">
+<part name="IC2" library="sfp-experimenter" deviceset="SN65LVDT2" device="DBV" value="PI90LV02TEX">
 <attribute name="CLASS" value="IC"/>
-<attribute name="DATASHEET" value="http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn65lvds1"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/assets/Datasheets/PI90LV02.pdf"/>
 <attribute name="DESCRIPTION" value="IC RECEIVER 0/1 SOT23-5"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/texas-instruments/SN65LVDT2DBVR/296-6896-1-ND/371534"/>
-<attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="SN65LVDT2DBVR"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/diodes-incorporated/PI90LV02TEX/1142813"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="PI90LV02TEX"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="296-6896-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="PI90LV02TEXCT-ND"/>
 </part>
 <part name="IC1" library="sfp-experimenter" deviceset="SN65LVDS1" device="DBV">
 <attribute name="CLASS" value="IC"/>
@@ -14220,7 +14220,7 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="MCP1825ST-3302E/DBCT-ND"/>
 </part>
-<part name="D1" library="sfp-experimenter" deviceset="DIODE-SCHOTTKY" device="-SMA" value="SS16T3G">
+<part name="D1" library="sfp-experimenter" deviceset="DIODE-SCHOTTKY" device="-SMA" value="STPS2L60A">
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://www.st.com/content/ccc/resource/technical/document/datasheet/b7/ac/e1/7d/2a/e9/4b/e8/CD00003166.pdf/files/CD00003166.pdf/jcr:content/translations/en.CD00003166.pdf"/>
 <attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 2A SMA"/>
@@ -14244,16 +14244,17 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="SMAJ5.0ABCT-ND"/>
 </part>
-<part name="R6" library="sfp-experimenter" deviceset="RESISTOR" device="_0402" value="DNP">
+<part name="R6" library="sfp-experimenter" deviceset="RESISTOR" device="_0402" value="110R">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LINK" value="UNKNOWN LINK"/>
-<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
-<attribute name="POPULATED" value="FALSE"/>
-<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
-<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
-<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"/>
+<attribute name="DESCRIPTION" value="RES 110 OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-13110RL/14286378"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-13110RL"/>
+<attribute name="POPULATED" value="TRUE"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
+<attribute name="SOURCE" value="DIGIKEY"/>
+<attribute name="SOURCEPARTNUMBER" value="13-RC0603FR-13110RLCT-ND"/>
 </part>
 <part name="X3" library="sfp-experimenter" deviceset="PINHD-1X4" device="LOCK">
 <attribute name="CLASS" value="CONNECTOR"/>
@@ -14373,14 +14374,14 @@ Source: www.kingbright.com</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND22" library="sfp-experimenter" deviceset="GND" device=""/>
-<part name="R12" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="100k">
+<part name="R12" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="DNP">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.koaspeer.com/pdfs/RK73H.pdf"/>
 <attribute name="DESCRIPTION" value="RES 100K OHM 1% 1/10W 0603"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73H1JTTD1003F/2019-RK73H1JTTD1003FCT-ND/9846889"/>
 <attribute name="MANUFACTURER" value="KOA Speer Electronics, Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RK73H1JTTD1003F"/>
-<attribute name="POPULATED" value="TRUE"/>
+<attribute name="POPULATED" value="FALSE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="2019-RK73H1JTTD1003FCT-ND"/>
@@ -14620,15 +14621,15 @@ License: CC-BY-SA</text>
 <instance part="IC2" gate="A" x="162.56" y="127" smashed="yes">
 <attribute name="NAME" x="154.686" y="135.636" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="154.94" y="116.586" size="1.778" layer="96" ratio="10"/>
-<attribute name="DESCRIPTION" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCE" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="POPULATED" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="CLASS" x="162.56" y="127" size="1.27" layer="96" display="off"/>
-<attribute name="LINK" x="162.56" y="127" size="1.27" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SOURCE" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="POPULATED" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="CLASS" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="LINK" x="162.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="IC1" gate="A" x="162.56" y="154.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="155.194" y="164.084" size="1.778" layer="95"/>
@@ -14911,7 +14912,7 @@ License: CC-BY-SA</text>
 <attribute name="CLASS" x="99.06" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="99.06" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D1" gate="G$1" x="60.96" y="86.36">
+<instance part="D1" gate="G$1" x="60.96" y="86.36" smashed="yes">
 <attribute name="DESCRIPTION" x="60.96" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="60.96" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="60.96" y="86.36" size="1.778" layer="96" display="off"/>
@@ -14921,6 +14922,8 @@ License: CC-BY-SA</text>
 <attribute name="POPULATED" x="60.96" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="60.96" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="60.96" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="58.42" y="88.9" size="1.27" layer="95"/>
+<attribute name="VALUE" x="55.88" y="82.55" size="1.27" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="68.58" y="76.2" rot="R90">
 <attribute name="DESCRIPTION" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
@@ -14933,7 +14936,7 @@ License: CC-BY-SA</text>
 <attribute name="CLASS" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="68.58" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="144.78" y="129.54" rot="R270">
+<instance part="R6" gate="G$1" x="144.78" y="129.54" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="144.78" y="129.54" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="144.78" y="129.54" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="129.54" size="1.778" layer="96" display="off"/>
@@ -14943,6 +14946,8 @@ License: CC-BY-SA</text>
 <attribute name="POPULATED" x="144.78" y="129.54" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="144.78" y="129.54" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="144.78" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="139.446" y="129.54" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="141.351" y="132.08" size="1.27" layer="96" rot="R270"/>
 </instance>
 <instance part="X3" gate="G$1" x="99.06" y="109.22" smashed="yes" rot="R270">
 <attribute name="VALUE" x="91.44" y="114.3" size="1.778" layer="96"/>
@@ -15091,7 +15096,7 @@ License: CC-BY-SA</text>
 <attribute name="CLASS" x="144.78" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="144.78" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R11" gate="G$1" x="144.78" y="139.7" rot="R270">
+<instance part="R11" gate="G$1" x="144.78" y="139.7" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
@@ -15101,6 +15106,8 @@ License: CC-BY-SA</text>
 <attribute name="POPULATED" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="144.78" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="139.446" y="142.24" size="1.27" layer="95" rot="R270"/>
+<attribute name="VALUE" x="141.351" y="142.24" size="1.27" layer="96" rot="R270"/>
 </instance>
 <instance part="M1" gate="G$1" x="167.64" y="33.02"/>
 </instances>

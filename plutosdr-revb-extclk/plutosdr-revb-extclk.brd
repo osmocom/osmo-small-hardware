@@ -6867,7 +6867,7 @@ Everything else you will find on https://aisler.net/help</description>
 <wire x1="10.58" y1="26.67" x2="10.16" y2="27.09" width="1.5" layer="1"/>
 <wire x1="5.08" y1="26.67" x2="10.16" y2="26.67" width="1.5" layer="1"/>
 <wire x1="10.58" y1="26.67" x2="11.85" y2="26.67" width="1.27" layer="1"/>
-<wire x1="10.16" y1="26.67" x2="10.16" y2="27.09" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="26.67" x2="10.16" y2="27.09" width="1.5" layer="1"/>
 </signal>
 <signal name="5V_IN">
 <contactref element="E7" pad="1"/>
@@ -6940,12 +6940,12 @@ Everything else you will find on https://aisler.net/help</description>
 <approved hash="5,1,7201f7a0ba1e8713"/>
 <approved hash="5,1,f6e66ececb57f75b"/>
 <approved hash="5,1,37bd5a69504348f7"/>
-<approved hash="5,1,4a74b5e26fbe05e9"/>
 <approved hash="5,1,3a0263b2602bddaf"/>
+<approved hash="5,1,4a74b5e26fbe05e9"/>
 <approved hash="5,1,5e8208a0a31d781c"/>
-<approved hash="5,1,de694f74bdc2d675"/>
-<approved hash="5,1,d55fc25b68d80175"/>
 <approved hash="5,1,5fbd134a6d5f5d2f"/>
+<approved hash="5,1,d55fc25b68d80175"/>
+<approved hash="5,1,de694f74bdc2d675"/>
 <approved hash="5,1,0a6357ffe2a0c5f6"/>
 <approved hash="5,1,b04eb5e230df4d57"/>
 <approved hash="5,1,17c1534752b347c7"/>

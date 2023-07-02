@@ -1836,11 +1836,11 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="R1" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0"/>
-<part name="C205" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
-<part name="C180" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
-<part name="C179" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
-<part name="C201" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
-<part name="C202" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="100n"/>
+<part name="C205" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10n"/>
+<part name="C180" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10n"/>
+<part name="C179" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="10n"/>
+<part name="C201" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
+<part name="C202" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n"/>
 <part name="D7" library="laforge" deviceset="0603ESDA-TR" device=""/>
 <part name="D8" library="laforge" deviceset="0603ESDA-TR" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -1858,8 +1858,8 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="C123" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="C196" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="1u"/>
-<part name="C200" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0805" value="1u"/>
+<part name="C196" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u"/>
+<part name="C200" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="1u"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>

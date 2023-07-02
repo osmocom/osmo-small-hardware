@@ -1835,8 +1835,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
-<part name="R1" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="4.7k"/>
-<part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="R1" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0"/>
 <part name="C205" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
 <part name="C180" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
 <part name="C179" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="0603" value="10n"/>
@@ -1869,6 +1868,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1897,7 +1897,6 @@ MAX +10 dBm</text>
 <instance part="P+1" gate="VCC" x="66.04" y="170.18"/>
 <instance part="P+2" gate="VCC" x="99.06" y="175.26"/>
 <instance part="R1" gate="G$1" x="104.14" y="165.1" rot="R270"/>
-<instance part="P+3" gate="VCC" x="104.14" y="175.26"/>
 <instance part="C205" gate="G$1" x="119.38" y="124.46" rot="R90"/>
 <instance part="C180" gate="G$1" x="48.26" y="127" rot="R90"/>
 <instance part="C179" gate="G$1" x="40.64" y="149.86"/>
@@ -1930,6 +1929,7 @@ MAX +10 dBm</text>
 <instance part="GND16" gate="1" x="17.78" y="76.2"/>
 <instance part="GND17" gate="1" x="53.34" y="165.1" rot="R270"/>
 <instance part="GND18" gate="1" x="86.36" y="170.18" rot="R270"/>
+<instance part="GND19" gate="1" x="104.14" y="175.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2056,6 +2056,11 @@ MAX +10 dBm</text>
 <pinref part="C202" gate="G$1" pin="1"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="172.72" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -2121,11 +2126,6 @@ MAX +10 dBm</text>
 <wire x1="99.06" y1="170.18" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
 <junction x="99.06" y="170.18"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="104.14" y1="172.72" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="E8" gate="G$1" pin="2"/>

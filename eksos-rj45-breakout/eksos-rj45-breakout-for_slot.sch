@@ -332,6 +332,10 @@ DIN A4, landscape with extra doc field</description>
 <text x="-57.15" y="11.43" size="1.27" layer="25" font="vector" ratio="14">&gt;NAME</text>
 <pad name="SHLD1" x="-57.345" y="-4.57" drill="1.66"/>
 <pad name="SHLD2" x="57.345" y="-4.57" drill="1.66"/>
+<pad name="SHLD3" x="0" y="10.38" drill="1.6"/>
+<pad name="SHLD4" x="13.97" y="10.38" drill="1.6"/>
+<pad name="SHLD5" x="-13.97" y="10.38" drill="1.6"/>
+<hole x="0" y="0" drill="3.25"/>
 </package>
 </packages>
 <symbols>
@@ -459,7 +463,7 @@ DIN A4, landscape with extra doc field</description>
 </device>
 <device name="-DS1130" package="DS1130">
 <connects>
-<connect gate="G$9" pin="SHLD" pad="SHLD1 SHLD2"/>
+<connect gate="G$9" pin="SHLD" pad="SHLD1 SHLD2 SHLD3 SHLD4 SHLD5"/>
 <connect gate="G1" pin="1" pad="A1"/>
 <connect gate="G1" pin="2" pad="A2"/>
 <connect gate="G1" pin="3" pad="A3"/>

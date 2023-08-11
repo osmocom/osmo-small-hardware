@@ -61,6 +61,12 @@ of an E1/T1 line.
 
 * [Homepage](https://osmocom.org/projects/e1-tap)
 
+eksos-rj45-breakout
+-------------------
+
+This contains a couple of break-out boards which can be used to break out the
+ISDN / PSTN ports of a Nokia EKSOS V5 access network.
+
 gtm900-breakout
 ---------------
 

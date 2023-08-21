@@ -92,7 +92,7 @@ CC-BY-SA 4.0</text>
 <text x="39.9415" y="9.8425" size="1.4224" layer="25" font="vector" ratio="11" rot="R270">BITCLK</text>
 <text x="43.8785" y="15.621" size="1.4224" layer="25" font="vector" ratio="11" rot="R90">MSTRCLK</text>
 <text x="38.862" y="15.4305" size="1.4224" layer="25" font="vector" ratio="11" rot="R90">IN2</text>
-<text x="33.782" y="15.494" size="1.4224" layer="25" font="vector" ratio="11" rot="R90">IN1</text>
+<text x="33.782" y="15.494" size="1.4224" layer="25" font="vector" ratio="11" rot="R90">IN3</text>
 <text x="28.7655" y="15.5575" size="1.4224" layer="25" font="vector" ratio="11" rot="R90">!RST</text>
 <text x="23.495" y="15.748" size="1.4224" layer="25" font="vector" ratio="11" rot="R90">OUT</text>
 <text x="1.8415" y="10.541" size="1.4224" layer="25" font="vector" ratio="11" rot="R270">GND</text>

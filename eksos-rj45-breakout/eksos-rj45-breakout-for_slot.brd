@@ -775,7 +775,7 @@ Everything else you will find on https://aisler.net/help</description>
 </element>
 <element name="GB3" library="mechanical" package="GB6X6X12_VIA" value="GEWINDEBLOCK-6X6X12M3" x="7" y="3"/>
 <element name="GB4" library="mechanical" package="GB6X6X12_VIA" value="GEWINDEBLOCK-6X6X12M3" x="257.5" y="3"/>
-<element name="U$1" library="oshw" package="OSHW_8MM" value="" x="19.05" y="54.61"/>
+<element name="U$1" library="oshw" package="OSHW_8MM" value="" x="132.25" y="58.42"/>
 </elements>
 <signals>
 <signal name="1C">
@@ -1198,10 +1198,9 @@ Everything else you will find on https://aisler.net/help</description>
 <contactref element="X2" pad="SHLD5"/>
 <wire x1="57.15" y1="18.635" x2="57.15" y2="3.685" width="1.27" layer="1"/>
 <wire x1="85.09" y1="18.635" x2="85.09" y2="3.685" width="1.27" layer="1"/>
-<wire x1="71.12" y1="18.635" x2="71.12" y2="12.065" width="1.27" layer="1"/>
-<wire x1="71.12" y1="12.065" x2="73.025" y2="12.065" width="1.27" layer="1"/>
-<wire x1="73.025" y1="12.065" x2="74.93" y2="10.16" width="1.27" layer="1"/>
-<wire x1="74.93" y1="10.16" x2="74.93" y2="3.685" width="1.27" layer="1"/>
+<wire x1="71.12" y1="18.635" x2="71.12" y2="13.335" width="1.27" layer="1"/>
+<wire x1="71.12" y1="13.335" x2="74.93" y2="9.525" width="1.27" layer="1"/>
+<wire x1="74.93" y1="9.525" x2="74.93" y2="3.685" width="1.27" layer="1"/>
 <wire x1="179.705" y1="18.635" x2="179.705" y2="3.685" width="1.27" layer="1"/>
 <wire x1="207.645" y1="18.635" x2="207.645" y2="3.685" width="1.27" layer="1"/>
 <wire x1="193.675" y1="18.635" x2="193.675" y2="13.335" width="1.27" layer="1"/>

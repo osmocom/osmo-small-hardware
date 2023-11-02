@@ -20644,8 +20644,8 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="CLASS" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="LINK" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="NAME" x="38.1" y="155.194" size="1.27" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="38.1" y="160.909" size="1.27" layer="96" rot="MR180"/>
+<attribute name="NAME" x="38.1" y="160.274" size="1.27" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="38.1" y="155.829" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC2" gate="-PWR" x="111.76" y="76.2">
 <attribute name="DESCRIPTION" x="111.76" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
@@ -21153,17 +21153,17 @@ sysmocom s.f.m.c</text>
 <wire x1="48.26" y1="157.48" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="149.86" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="2DIR"/>
-<wire x1="83.82" y1="157.48" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND1"/>
 <wire x1="83.82" y1="157.48" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
-<junction x="83.82" y="157.48"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <junction x="48.26" y="149.86"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="157.48" x2="48.26" y2="157.48" width="0.1524" layer="91"/>
 <junction x="48.26" y="157.48"/>
+<pinref part="IC1" gate="G$1" pin="1DIR"/>
+<wire x1="81.28" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="175.26" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
+<junction x="83.82" y="157.48"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
@@ -21436,18 +21436,18 @@ sysmocom s.f.m.c</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="83.82" y1="200.66" x2="83.82" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="198.12" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="198.12" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
-<junction x="83.82" y="198.12"/>
-<label x="83.82" y="200.66" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="86.36" y1="200.66" x2="86.36" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="198.12" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="198.12" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
+<junction x="86.36" y="198.12"/>
+<label x="86.36" y="200.66" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="VCC_A"/>
-<wire x1="81.28" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="1DIR"/>
-<wire x1="81.28" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="175.26" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
-<junction x="83.82" y="185.42"/>
+<wire x1="81.28" y1="185.42" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="2DIR"/>
+<wire x1="81.28" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="165.1" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
+<junction x="86.36" y="185.42"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="187.96" x2="167.64" y2="193.04" width="0.1524" layer="91"/>

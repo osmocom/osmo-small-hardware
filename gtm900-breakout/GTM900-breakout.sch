@@ -17318,6 +17318,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="SIM HOLDER"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/SF7W008S1A_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CONN SIM CARD HINGED TYPE R/A"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AR900/670-2985-1-ND/8024733"/>
 <attribute name="MANUFACTURER" value="JAE Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AR900"/>
@@ -17329,6 +17330,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
 <attribute name="CLASS" value="LED"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -17341,6 +17343,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -17353,6 +17356,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -17365,6 +17369,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/22001d.pdf"/>
 <attribute name="DESCRIPTION" value="IC REG LIN POS ADJ 1.5A 5DDPAK"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP1827T-ADJE-ET/1223119"/>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="MCP1827T-ADJE/ET"/>
@@ -17377,6 +17382,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17389,6 +17395,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17402,6 +17409,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://www.cuidevices.com/product/resource/pj-002bh-smt-tr.pdf"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/cui-devices/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694"/>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR"/>
@@ -17414,6 +17422,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.nichicon.co.jp/english/products/pdfs/e-uur.pdf"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 470UF 20% 6.3V SMD"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720"/>
 <attribute name="MANUFACTURER" value="Nichicon"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UUR0J471MNL1GS"/>
@@ -17425,6 +17434,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="C17" library="rcl" deviceset="CPOL-EU" device="SMCE" value="DNP">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -17437,6 +17447,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17450,6 +17461,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACTU.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10PF 50V C0G/NP0 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C100J5GACTU/399-1049-1-ND/411324"/>
 <attribute name="MANUFACTURER" value="KEMET"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU"/>
@@ -17460,20 +17472,22 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="C7" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="C6" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
@@ -17486,6 +17500,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17498,6 +17513,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17510,6 +17526,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17523,20 +17540,22 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="GREEN">
 <attribute name="CLASS" value="LED"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -17549,6 +17568,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
@@ -17560,20 +17580,22 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL31A107MQHNNNE_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3887440"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A107MQHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1782-1-ND"/>
 </part>
 <part name="C10" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="1206" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
@@ -17586,6 +17608,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/1814832.pdf"/>
 <attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="5-1814832-1"/>
@@ -17598,6 +17621,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf"/>
 <attribute name="DESCRIPTION" value="CONN U.FL RCPT STR 50 OHM SMD"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010"/>
 <attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="U.FL-R-SMT(01)"/>
@@ -17612,6 +17636,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.te.com/usa-en/product-8-1879338-5.datasheet.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 200K OHM 1% 1/16W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CPF0603F200KC1/2384707"/>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CPF0603F200KC1"/>
@@ -17624,6 +17649,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -17636,6 +17662,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/PESD5V0U5BF_PESD5V0U5BV.pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5V SOT666"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/PESD5V0U5BV,115/1727-5806-1-ND/2697711"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="PESD5V0U5BV,115"/>
@@ -17648,6 +17675,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 15K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-0715KL/311-15.0KHRCT-ND/729900"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0715KL"/>
@@ -17660,6 +17688,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="MDM1" library="GTM900" deviceset="GTM900-B" device="M2-SPACER" value="GTM900-BM2-SPACER">
 <attribute name="CLASS" value="MODEM"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -17673,6 +17702,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://www.mccsemi.com/pdf/Products/SMBJP6KE6.8(C)A-SMBJP6KE550(C)A(DO-214AA).pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5.8V 10.5V DO214AA"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/micro-commercial-co/SMBJP6KE6.8A-TP/SMBJP6KE6.8A-TPMSCT-ND/2345768"/>
 <attribute name="MANUFACTURER" value="Micro Commercial Co"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SMBJP6KE6.8A-TP"/>
@@ -17685,6 +17715,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://www.comchiptech.com/admin/files/product/ACDBB540-HF%20RevA196617.pdf"/>
 <attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A DO214AA"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/comchip-technology/ACDBB540-HF/7100744"/>
 <attribute name="MANUFACTURER" value="Comchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="ACDBB540-HF"/>
@@ -17699,6 +17730,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://www.hirose.com/product/document?clcode=&amp;productname=&amp;series=FH12&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31648_en"/>
 <attribute name="DESCRIPTION" value="CONN FFC FPC TOP 40POS 0.5MM R/A"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH12A-40S-0-5SH-55/1110338"/>
 <attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="FH12A-40S-0.5SH(55)"/>
@@ -17711,6 +17743,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://datasheets.kyocera-avx.com/AVX-GiGuard.pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5VWM 15.5VC 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/kyocera-avx/GG0402050R3C2P/6826543"/>
 <attribute name="MANUFACTURER" value="KYOCERA AVX"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GG0402050R3C2P"/>
@@ -17723,6 +17756,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="TACT SWITCH"/>
 <attribute name="DATASHEET" value="https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"/>
 <attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-Q2M03W/762896"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="EVQ-Q2M03W"/>
@@ -17736,6 +17770,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/BC847C,215/1727-2924-1-ND/763463"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
@@ -17749,6 +17784,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
@@ -17761,6 +17797,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -17773,6 +17810,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -17786,6 +17824,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17798,6 +17837,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17810,6 +17850,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17822,6 +17863,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="TACT SWITCH"/>
 <attribute name="DATASHEET" value="https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"/>
 <attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-Q2M03W/762896"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="EVQ-Q2M03W"/>
@@ -17835,6 +17877,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17847,6 +17890,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17859,6 +17903,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17872,6 +17917,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17884,6 +17930,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17896,6 +17943,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"/>
 <attribute name="DESCRIPTION" value="IC REG LINEAR 2.8V 150MA SC70-5"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/microchip-technology/MIC5366-2-8YC5-TR/1868110"/>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="MIC5366-2.8YC5-TR"/>
@@ -17909,6 +17957,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -17921,6 +17970,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747KL/311-47.0KHRCT-ND/730200"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0747KL"/>
@@ -17934,6 +17984,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 16V X5R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KO8NNNC/3886692"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10A105KO8NNNC"/>
@@ -17946,6 +17997,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 16V X5R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KO8NNNC/3886692"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10A105KO8NNNC"/>
@@ -17956,20 +18008,22 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="C18" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="R13" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1k">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -17982,6 +18036,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -17992,19 +18047,21 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="C13" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="JP3" library="microbuilder" deviceset="HEADER-1X4" device="76MIL">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18017,6 +18074,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
 <attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
@@ -18029,6 +18087,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18041,6 +18100,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18053,6 +18113,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="X1" library="laforge" deviceset="PINHD-1X3" device="PTH">
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18065,6 +18126,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP4" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18076,6 +18138,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP5" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18087,6 +18150,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP6" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18098,6 +18162,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP7" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18110,6 +18175,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://www.cuidevices.com/product/discontinued/sj2-357x-smt.pdf"/>
 <attribute name="DESCRIPTION" value="AUDIO JACK, 3.5 MM, RT, 4 CONDUC"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/cui-devices/SJ2-3574A-SMT-TR/6619530"/>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SJ2-3574A-SMT-TR"/>
@@ -18122,6 +18188,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="JP2" library="jumper" deviceset="JP2E" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18167,6 +18234,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/sces576g/sces576g.pdf"/>
 <attribute name="DESCRIPTION" value="IC TRANSLATION TXRX 3.6V 16VQFN"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/texas-instruments/SN74AVC4T245RGYR/807023"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SN74AVC4T245RGYR"/>
@@ -18179,32 +18247,35 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="C23" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="C20" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="R21" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
 <attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
@@ -18216,6 +18287,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP2" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18227,6 +18299,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP3" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18238,6 +18311,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP10" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18249,6 +18323,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP8" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18260,6 +18335,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP1" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18271,6 +18347,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP9" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18283,6 +18360,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"/>
 <attribute name="DESCRIPTION" value="RASPBERRY PI PICO RP2040"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/raspberry-pi/SC0915/13624793"/>
 <attribute name="MANUFACTURER" value="Raspberry Pi"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SC0915"/>
@@ -18297,6 +18375,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://www.nuvoton.com/export/resource-files/en-us--DS_NAU88C10_DataSheet_EN_Rev1.9.pdf"/>
 <attribute name="DESCRIPTION" value="MONO AUDIO CODEC W/ SPEAKER DRIV"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/nuvoton-technology-corporation/NAU88C10YG/13147649"/>
 <attribute name="MANUFACTURER" value="Nuvoton Technology Corporation"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="NAU88C10YG"/>
@@ -18309,6 +18388,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18321,6 +18401,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18333,6 +18414,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18345,6 +18427,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18357,6 +18440,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18369,6 +18453,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18381,6 +18466,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -18393,6 +18479,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -18405,6 +18492,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18417,6 +18505,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18429,6 +18518,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18441,33 +18531,36 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="C26" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="C31" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="TXB0102" deviceset="TXB0102" device="">
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0102"/>
 <attribute name="DESCRIPTION" value="IC TRANSLTR BIDIRECTIONAL 8VSSOP"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/texas-instruments/TXB0102DCUR/1739891"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="TXB0102DCUR"/>
@@ -18481,6 +18574,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB475/311-1455-1-ND/2833761"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX5R6BB475"/>
@@ -18494,6 +18588,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB475/311-1455-1-ND/2833761"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX5R6BB475"/>
@@ -18506,6 +18601,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18516,20 +18612,22 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="C24" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="R32" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="1k">
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18542,6 +18640,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18552,20 +18651,22 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="C32" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
 <attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/BC847C,215/1727-2924-1-ND/763463"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
@@ -18578,6 +18679,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18590,6 +18692,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18602,6 +18705,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -18614,6 +18718,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="JP1" library="jumper" deviceset="JP1E" device="">
 <attribute name="CLASS" value="CONNECTOR\JUMPER"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18626,6 +18731,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18638,6 +18744,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18650,6 +18757,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DATASHEET" value="https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/BSCH0016080847NJ00"/>
 <attribute name="DESCRIPTION" value="FIXED IND 47NH 400MA 700MOHM SMD"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/pulse-electronics/BSCH0016080847NJ00/10508632"/>
 <attribute name="MANUFACTURER" value="Pulse Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BSCH0016080847NJ00"/>
@@ -18663,6 +18771,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
 <attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
@@ -18677,6 +18786,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB475/311-1455-1-ND/2833761"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX5R6BB475"/>
@@ -18687,20 +18797,22 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="C28" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="L2" library="rc-sysmocom" deviceset="INDUCTOR" device="_0603" value="47nH">
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DATASHEET" value="https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/BSCH0016080847NJ00"/>
 <attribute name="DESCRIPTION" value="FIXED IND 47NH 400MA 700MOHM SMD"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/pulse-electronics/BSCH0016080847NJ00/10508632"/>
 <attribute name="MANUFACTURER" value="Pulse Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BSCH0016080847NJ00"/>
@@ -18711,20 +18823,22 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="C34" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND"/>
 </part>
 <part name="C27" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18737,6 +18851,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18753,6 +18868,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18770,6 +18886,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18782,6 +18899,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18794,6 +18912,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18806,6 +18925,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18818,6 +18938,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18830,6 +18951,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18841,6 +18963,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="TP11" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -18888,6 +19011,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="96.52" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="96.52" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="96.52" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="96.52" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED2" gate="G$1" x="370.84" y="68.58" rot="MR0">
 <attribute name="DESCRIPTION" x="370.84" y="68.58" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -18899,6 +19023,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="370.84" y="68.58" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="CLASS" x="370.84" y="68.58" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="LINK" x="370.84" y="68.58" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="LCSC_PART" x="370.84" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="40.64" y="73.66" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="40.64" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
@@ -18912,6 +19037,7 @@ control via MCU</text>
 <attribute name="LINK" x="40.64" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="37.084" y="73.152" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="46.228" y="73.025" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="40.64" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="40.64" y="76.2" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="40.64" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
@@ -18925,6 +19051,7 @@ control via MCU</text>
 <attribute name="LINK" x="40.64" y="76.2" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="37.084" y="77.978" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.974" y="78.105" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="40.64" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="287.02" y="218.44">
 <attribute name="DESCRIPTION" x="287.02" y="218.44" size="1.778" layer="96" display="off"/>
@@ -18936,6 +19063,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="287.02" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="287.02" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="287.02" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="287.02" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="251.46" y="210.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="250.19" y="213.868" size="1.27" layer="95" rot="R90"/>
@@ -18949,6 +19077,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="251.46" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="251.46" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="251.46" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="251.46" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="312.42" y="213.36" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="312.42" y="213.36" size="1.778" layer="96" display="off"/>
@@ -18962,6 +19091,7 @@ control via MCU</text>
 <attribute name="LINK" x="312.42" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="314.198" y="209.804" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="314.706" y="216.662" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="312.42" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND18" gate="1" x="287.02" y="198.12"/>
 <instance part="K1" gate="G$1" x="195.58" y="231.14" smashed="yes">
@@ -18976,6 +19106,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="195.58" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="241.3" y="215.9" smashed="yes">
 <attribute name="DESCRIPTION" x="241.3" y="215.9" size="1.778" layer="96" display="off"/>
@@ -18989,6 +19120,7 @@ control via MCU</text>
 <attribute name="LINK" x="241.3" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="242.443" y="216.8906" size="1.778" layer="95"/>
 <attribute name="VALUE" x="242.443" y="211.3026" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="241.3" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="322.58" y="215.9" smashed="yes">
 <attribute name="DESCRIPTION" x="322.58" y="215.9" size="1.778" layer="96" display="off"/>
@@ -19002,6 +19134,7 @@ control via MCU</text>
 <attribute name="LINK" x="322.58" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="323.723" y="216.3826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="323.723" y="211.3026" size="1.778" layer="96"/>
+<attribute name="LCSC_PART" x="322.58" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="218.44" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="217.17" y="163.576" size="1.27" layer="95" rot="R90"/>
@@ -19015,6 +19148,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="218.44" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="218.44" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="218.44" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="218.44" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="218.44" y="154.94"/>
 <instance part="C9" gate="G$1" x="223.52" y="170.18" smashed="yes" rot="R270">
@@ -19029,6 +19163,7 @@ control via MCU</text>
 <attribute name="LINK" x="223.52" y="170.18" size="1.27" layer="96" display="off"/>
 <attribute name="NAME" x="222.504" y="163.068" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="221.488" y="174.752" size="1.27" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="223.52" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="213.36" y="167.64" smashed="yes" rot="R90">
 <attribute name="SOURCE" x="213.36" y="167.64" size="1.778" layer="96" display="off"/>
@@ -19042,6 +19177,7 @@ control via MCU</text>
 <attribute name="CLASS" x="213.36" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="212.344" y="163.322" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="212.344" y="169.926" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="213.36" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="208.28" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="207.264" y="163.322" size="1.27" layer="95" rot="R90"/>
@@ -19055,6 +19191,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="208.28" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="81.28" y="180.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.01" y="173.736" size="1.27" layer="95" rot="R90"/>
@@ -19068,6 +19205,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="81.28" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="81.28" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="81.28" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="81.28" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="76.2" y="180.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.93" y="173.736" size="1.27" layer="95" rot="R90"/>
@@ -19081,6 +19219,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="76.2" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="114.3" y="180.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.03" y="173.736" size="1.27" layer="95" rot="R90"/>
@@ -19094,6 +19233,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="114.3" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="114.3" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="114.3" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="114.3" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="76.2" y="167.64"/>
 <instance part="GND6" gate="1" x="81.28" y="167.64"/>
@@ -19110,6 +19250,7 @@ control via MCU</text>
 <attribute name="CLASS" x="71.12" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="70.104" y="173.228" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="70.358" y="180.594" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="71.12" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="71.12" y="167.64"/>
 <instance part="LED1" gate="G$1" x="281.94" y="78.74">
@@ -19122,6 +19263,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="281.94" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="281.94" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="281.94" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="281.94" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="281.94" y="66.04" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="281.94" y="66.04" size="1.778" layer="96" display="off"/>
@@ -19135,6 +19277,7 @@ control via MCU</text>
 <attribute name="LINK" x="281.94" y="66.04" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="279.654" y="63.5" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="285.369" y="63.5" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="281.94" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="281.94" y="43.18"/>
 <instance part="C5" gate="G$1" x="203.2" y="167.64" smashed="yes" rot="R90">
@@ -19149,6 +19292,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="203.2" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="231.14" y="167.64" smashed="yes" rot="R90">
 <attribute name="LINK" x="231.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
@@ -19162,6 +19306,7 @@ control via MCU</text>
 <attribute name="ROHSCERTIFICATE" x="231.14" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="POPULATED" x="231.14" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="231.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="231.14" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X2" gate="G" x="345.44" y="172.72">
 <attribute name="DESCRIPTION" x="345.44" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -19173,6 +19318,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="345.44" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="345.44" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="345.44" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="345.44" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X3" gate="G$1" x="368.3" y="172.72" rot="MR0">
 <attribute name="DESCRIPTION" x="368.3" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
@@ -19184,6 +19330,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="368.3" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="CLASS" x="368.3" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
 <attribute name="LINK" x="368.3" y="172.72" size="3.81" layer="96" rot="MR0" display="off"/>
+<attribute name="LCSC_PART" x="368.3" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="350.52" y="154.94"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -19199,6 +19346,7 @@ control via MCU</text>
 <attribute name="LINK" x="304.8" y="218.44" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="302.514" y="215.9" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="308.229" y="215.9" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="304.8" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="304.8" y="208.28" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="304.8" y="208.28" size="1.27" layer="96" display="off"/>
@@ -19212,6 +19360,7 @@ control via MCU</text>
 <attribute name="LINK" x="304.8" y="208.28" size="1.27" layer="96" display="off"/>
 <attribute name="NAME" x="302.006" y="208.28" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="306.451" y="208.28" size="1.27" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="304.8" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="45.72" y="180.34">
 <attribute name="DESCRIPTION" x="45.72" y="180.34" size="1.778" layer="96" display="off"/>
@@ -19223,6 +19372,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="45.72" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="45.72" y="180.34" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="45.72" y="180.34" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="45.72" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="30.48" y="203.2" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="30.48" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19236,6 +19386,7 @@ control via MCU</text>
 <attribute name="LINK" x="30.48" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="33.274" y="200.66" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="28.829" y="200.66" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="30.48" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="45.72" y="167.64"/>
 <instance part="MDM1" gate="G$1" x="88.9" y="27.94">
@@ -19248,6 +19399,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="88.9" y="27.94" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="88.9" y="27.94" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="88.9" y="27.94" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="88.9" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="93.98" y="17.78"/>
 <instance part="D3" gate="G$1" x="228.6" y="215.9" smashed="yes" rot="R90">
@@ -19262,6 +19414,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="228.6" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="CLASS" x="228.6" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="LINK" x="228.6" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="LCSC_PART" x="228.6" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="223.52" y="223.52" smashed="yes">
 <attribute name="DESCRIPTION" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
@@ -19275,6 +19428,7 @@ control via MCU</text>
 <attribute name="LINK" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="222.758" y="227.584" size="1.27" layer="95"/>
 <attribute name="VALUE" x="222.758" y="225.552" size="1.27" layer="96"/>
+<attribute name="LCSC_PART" x="223.52" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="111.76" y="99.06" rot="R90"/>
 <instance part="GND3" gate="1" x="55.88" y="99.06" rot="R270"/>
@@ -19290,6 +19444,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="83.82" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="83.82" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="83.82" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="83.82" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D4" gate="D$1" x="358.14" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="354.838" y="162.56" size="1.27" layer="95" rot="R90"/>
@@ -19302,6 +19457,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="358.14" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="B1" gate="G$1" x="248.92" y="55.88" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="248.92" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19315,6 +19471,7 @@ control via MCU</text>
 <attribute name="LINK" x="248.92" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="250.19" y="60.96" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="241.3" y="60.96" size="1.27" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="248.92" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="248.92" y="43.18"/>
 <instance part="T2" gate="G$1" x="368.3" y="58.42" smashed="yes">
@@ -19329,6 +19486,7 @@ control via MCU</text>
 <attribute name="LINK" x="368.3" y="58.42" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="360.68" y="68.58" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="360.68" y="66.04" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="368.3" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="370.84" y="43.18" rot="MR0"/>
 <instance part="R16" gate="G$1" x="370.84" y="78.74" smashed="yes" rot="MR270">
@@ -19343,6 +19501,7 @@ control via MCU</text>
 <attribute name="LINK" x="370.84" y="78.74" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="NAME" x="373.126" y="76.2" size="1.27" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="367.411" y="76.2" size="1.27" layer="96" rot="MR90"/>
+<attribute name="LCSC_PART" x="370.84" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="355.6" y="58.42" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" x="355.6" y="58.42" size="1.27" layer="96" rot="MR270" display="off"/>
@@ -19356,6 +19515,7 @@ control via MCU</text>
 <attribute name="LINK" x="355.6" y="58.42" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="355.6" y="61.214" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="355.6" y="56.769" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="355.6" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="363.22" y="53.34" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" x="363.22" y="53.34" size="1.27" layer="96" rot="MR0" display="off"/>
@@ -19369,6 +19529,7 @@ control via MCU</text>
 <attribute name="LINK" x="363.22" y="53.34" size="1.27" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="366.014" y="53.34" size="1.27" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="361.569" y="53.34" size="1.27" layer="96" rot="MR270"/>
+<attribute name="LCSC_PART" x="363.22" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="B2" gate="G$1" x="317.5" y="58.42" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="317.5" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19382,6 +19543,7 @@ control via MCU</text>
 <attribute name="LINK" x="317.5" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="321.31" y="63.5" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="309.88" y="63.5" size="1.27" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="317.5" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="317.5" y="43.18" rot="MR0"/>
 <instance part="U2" gate="G$1" x="284.48" y="172.72">
@@ -19394,6 +19556,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="284.48" y="172.72" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="284.48" y="172.72" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="284.48" y="172.72" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="284.48" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="284.48" y="154.94"/>
 <instance part="SIM1" gate="-DETECT" x="154.94" y="193.04" smashed="yes" rot="R90">
@@ -19412,6 +19575,7 @@ control via MCU</text>
 <attribute name="LINK" x="154.94" y="208.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="152.654" y="205.74" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="158.369" y="208.28" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="154.94" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="154.94" y="177.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="152.654" y="175.26" size="1.27" layer="95" rot="R90"/>
@@ -19425,6 +19589,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="154.94" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="154.94" y="167.64"/>
 <instance part="C14" gate="G$1" x="266.7" y="162.56" rot="R90">
@@ -19437,6 +19602,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="266.7" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="266.7" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="266.7" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="266.7" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="302.26" y="167.64" rot="R90">
 <attribute name="DESCRIPTION" x="302.26" y="167.64" size="1.778" layer="96" display="off"/>
@@ -19448,6 +19614,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="302.26" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="302.26" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="302.26" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="302.26" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="325.12" y="71.12" smashed="yes" rot="R270">
 <attribute name="SOURCE" x="325.12" y="71.12" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19461,6 +19628,7 @@ control via MCU</text>
 <attribute name="CLASS" x="325.12" y="71.12" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="324.612" y="65.278" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="328.422" y="64.516" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="325.12" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="317.5" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="314.706" y="71.12" size="1.27" layer="95" rot="R270"/>
@@ -19474,6 +19642,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="317.5" y="68.58" size="1.27" layer="96" display="off"/>
 <attribute name="CLASS" x="317.5" y="68.58" size="1.27" layer="96" display="off"/>
 <attribute name="LINK" x="317.5" y="68.58" size="1.27" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="317.5" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="248.92" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="246.126" y="68.58" size="1.27" layer="95" rot="R270"/>
@@ -19487,6 +19656,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="248.92" y="66.04" size="1.27" layer="96" display="off"/>
 <attribute name="CLASS" x="248.92" y="66.04" size="1.27" layer="96" display="off"/>
 <attribute name="LINK" x="248.92" y="66.04" size="1.27" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="248.92" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="256.54" y="68.58" smashed="yes" rot="R270">
 <attribute name="SOURCE" x="256.54" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19500,6 +19670,7 @@ control via MCU</text>
 <attribute name="CLASS" x="256.54" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="256.032" y="62.738" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="259.842" y="64.516" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="256.54" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="G$1" x="134.62" y="35.56" smashed="yes" rot="R180">
 <attribute name="VALUE" x="137.16" y="43.18" size="1.778" layer="96" rot="R180"/>
@@ -19513,6 +19684,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="134.62" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="134.62" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="134.62" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="134.62" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="124.46" y="30.48"/>
 <instance part="TP4" gate="G$1" x="48.26" y="68.58" smashed="yes">
@@ -19527,6 +19699,7 @@ control via MCU</text>
 <attribute name="LINK" x="48.26" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="47.244" y="69.596" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="49.53" y="67.31" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="48.26" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP5" gate="G$1" x="48.26" y="55.88" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="48.26" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19540,6 +19713,7 @@ control via MCU</text>
 <attribute name="LINK" x="48.26" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="49.022" y="54.356" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="46.99" y="57.15" size="1.778" layer="97" rot="R180"/>
+<attribute name="LCSC_PART" x="48.26" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP6" gate="G$1" x="114.3" y="68.58" smashed="yes">
 <attribute name="DESCRIPTION" x="114.3" y="68.58" size="1.778" layer="96" display="off"/>
@@ -19553,6 +19727,7 @@ control via MCU</text>
 <attribute name="LINK" x="114.3" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="116.078" y="67.564" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="115.57" y="67.31" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="114.3" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP7" gate="G$1" x="114.3" y="55.88" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="114.3" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19566,6 +19741,7 @@ control via MCU</text>
 <attribute name="LINK" x="114.3" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="115.824" y="55.372" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="113.03" y="57.15" size="1.778" layer="97" rot="R180"/>
+<attribute name="LCSC_PART" x="114.3" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="38.1" y="68.58"/>
 <instance part="JP2" gate="1" x="215.9" y="223.52" rot="R90">
@@ -19578,6 +19754,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="215.9" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="215.9" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="215.9" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="215.9" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="198.12" y="198.12"/>
 <instance part="M1" gate="G$1" x="121.92" y="15.24"/>
@@ -19596,6 +19773,7 @@ control via MCU</text>
 <attribute name="LINK" x="33.02" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="33.782" y="89.408" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="34.29" y="87.63" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="33.02" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP3" gate="G$1" x="43.18" y="83.82" smashed="yes">
 <attribute name="DESCRIPTION" x="43.18" y="83.82" size="1.778" layer="96" display="off"/>
@@ -19609,6 +19787,7 @@ control via MCU</text>
 <attribute name="LINK" x="43.18" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="40.386" y="85.09" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="44.45" y="82.55" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="43.18" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP10" gate="G$1" x="127" y="91.44" smashed="yes">
 <attribute name="DESCRIPTION" x="127" y="91.44" size="1.778" layer="96" display="off"/>
@@ -19622,6 +19801,7 @@ control via MCU</text>
 <attribute name="LINK" x="127" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="125.984" y="92.456" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="128.27" y="90.17" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="127" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP8" gate="G$1" x="124.46" y="86.36" smashed="yes">
 <attribute name="DESCRIPTION" x="124.46" y="86.36" size="1.778" layer="96" display="off"/>
@@ -19635,6 +19815,7 @@ control via MCU</text>
 <attribute name="LINK" x="124.46" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="125.476" y="85.344" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="125.73" y="85.09" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="124.46" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP1" gate="G$1" x="25.4" y="81.28" smashed="yes">
 <attribute name="DESCRIPTION" x="25.4" y="81.28" size="1.778" layer="96" display="off"/>
@@ -19648,6 +19829,7 @@ control via MCU</text>
 <attribute name="LINK" x="25.4" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="24.384" y="82.296" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="26.67" y="80.01" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="25.4" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP9" gate="G$1" x="124.46" y="78.74" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="124.46" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
@@ -19661,6 +19843,7 @@ control via MCU</text>
 <attribute name="LINK" x="124.46" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="125.476" y="77.724" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="123.19" y="80.01" size="1.778" layer="97" rot="R180"/>
+<attribute name="LCSC_PART" x="124.46" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="T1" gate="G$1" x="213.36" y="63.5" smashed="yes">
 <attribute name="DESCRIPTION" x="213.36" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -19674,6 +19857,7 @@ control via MCU</text>
 <attribute name="LINK" x="213.36" y="63.5" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="213.36" y="71.12" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="213.36" y="68.58" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="213.36" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="208.28" y="55.88" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" x="208.28" y="55.88" size="1.27" layer="96" rot="MR0" display="off"/>
@@ -19687,6 +19871,7 @@ control via MCU</text>
 <attribute name="LINK" x="208.28" y="55.88" size="1.27" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="205.994" y="55.88" size="1.27" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="211.709" y="55.88" size="1.27" layer="96" rot="MR270"/>
+<attribute name="LCSC_PART" x="208.28" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="193.04" y="63.5" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" x="193.04" y="63.5" size="1.27" layer="96" rot="MR270" display="off"/>
@@ -19700,6 +19885,7 @@ control via MCU</text>
 <attribute name="LINK" x="193.04" y="63.5" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="193.04" y="66.294" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="193.04" y="61.849" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="193.04" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="215.9" y="78.74" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" x="215.9" y="78.74" size="1.778" layer="96" display="off"/>
@@ -19713,6 +19899,7 @@ control via MCU</text>
 <attribute name="LINK" x="215.9" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="213.614" y="76.2" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="219.329" y="78.74" size="1.27" layer="96" rot="R90"/>
+<attribute name="LCSC_PART" x="215.9" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="215.9" y="43.18"/>
 <instance part="JP1" gate="A" x="200.66" y="55.88" rot="MR270">
@@ -19725,6 +19912,7 @@ control via MCU</text>
 <attribute name="POPULATED" x="200.66" y="55.88" size="1.27" layer="96" display="off"/>
 <attribute name="CLASS" x="200.66" y="55.88" size="1.27" layer="96" display="off"/>
 <attribute name="LINK" x="200.66" y="55.88" size="1.27" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="200.66" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -20624,6 +20812,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="276.86" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="276.86" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="276.86" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="276.86" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C45" gate="G$1" x="307.34" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="305.562" y="84.328" size="1.27" layer="95" rot="R90"/>
@@ -20637,6 +20826,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="307.34" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C44" gate="G$1" x="304.8" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="301.498" y="52.832" size="1.27" layer="95" rot="R270"/>
@@ -20650,6 +20840,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="304.8" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="304.8" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="304.8" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="304.8" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C36" gate="G$1" x="261.62" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="258.318" y="57.912" size="1.27" layer="95" rot="R270"/>
@@ -20663,6 +20854,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="261.62" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="261.62" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="261.62" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="261.62" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C43" gate="G$1" x="297.18" y="60.96" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="297.18" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
@@ -20676,6 +20868,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="297.18" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="293.878" y="58.42" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="300.99" y="58.42" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="297.18" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C40" gate="G$1" x="276.86" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="273.558" y="80.772" size="1.27" layer="95" rot="R270"/>
@@ -20689,6 +20882,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="276.86" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="276.86" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="276.86" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="276.86" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="269.24" y="83.82" rot="R270"/>
 <instance part="C42" gate="G$1" x="284.48" y="73.66" smashed="yes" rot="R270">
@@ -20703,6 +20897,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="284.48" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="280.67" y="71.882" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="287.528" y="72.136" size="1.27" layer="96" rot="R270"/>
+<attribute name="LCSC_PART" x="284.48" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C41" gate="G$1" x="284.48" y="86.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="282.702" y="84.328" size="1.27" layer="95" rot="R90"/>
@@ -20716,6 +20911,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="284.48" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="284.48" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="284.48" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="284.48" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP3" gate="A" x="355.6" y="63.5">
 <attribute name="DESCRIPTION" x="355.6" y="63.5" size="1.27" layer="96" display="off"/>
@@ -20727,6 +20923,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="355.6" y="63.5" size="1.27" layer="96" display="off"/>
 <attribute name="CLASS" x="355.6" y="63.5" size="1.27" layer="96" display="off"/>
 <attribute name="LINK" x="355.6" y="63.5" size="1.27" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="355.6" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="261.62" y="40.64" rot="R90">
 <attribute name="DESCRIPTION" x="261.62" y="40.64" size="1.27" layer="96" display="off"/>
@@ -20738,6 +20935,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="261.62" y="40.64" size="1.27" layer="96" display="off"/>
 <attribute name="CLASS" x="261.62" y="40.64" size="1.27" layer="96" display="off"/>
 <attribute name="LINK" x="261.62" y="40.64" size="1.27" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="261.62" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="271.78" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="270.002" y="56.388" size="1.27" layer="95" rot="R90"/>
@@ -20751,6 +20949,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="271.78" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C38" gate="G$1" x="271.78" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="270.002" y="48.768" size="1.27" layer="95" rot="R90"/>
@@ -20764,6 +20963,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="271.78" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="271.78" y="50.8" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="271.78" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="271.78" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND31" gate="1" x="276.86" y="53.34" rot="R90"/>
 <instance part="J1" gate="G$1" x="317.5" y="63.5" rot="MR0">
@@ -20776,6 +20976,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="317.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="317.5" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="317.5" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="317.5" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="66.04" y="172.72" rot="MR0">
 <attribute name="DESCRIPTION" x="66.04" y="172.72" size="1.27" layer="96" display="off"/>
@@ -20787,6 +20988,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="66.04" y="172.72" size="1.27" layer="96" display="off"/>
 <attribute name="CLASS" x="66.04" y="172.72" size="1.27" layer="96" display="off"/>
 <attribute name="LINK" x="66.04" y="172.72" size="1.27" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="66.04" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="48.26" y="147.32" rot="MR0"/>
 <instance part="GND24" gate="1" x="66.04" y="195.58" rot="MR0"/>
@@ -20802,19 +21004,21 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="76.2" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="76.2" y="201.422" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="75.946" y="196.088" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="76.2" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="55.88" y="198.12" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="SOURCE" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="POPULATED" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="CLASS" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="LINK" x="55.88" y="198.12" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="55.626" y="201.676" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="55.118" y="196.088" size="1.27" layer="96" rot="MR180"/>
+<attribute name="DESCRIPTION" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="40.64" y="157.48" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
@@ -20828,6 +21032,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="38.1" y="160.274" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="38.1" y="155.829" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC2" gate="-PWR" x="111.76" y="76.2">
 <attribute name="DESCRIPTION" x="111.76" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
@@ -20839,6 +21044,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="111.76" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="111.76" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="111.76" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="111.76" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC2" gate="-AUDIO-IO" x="109.22" y="35.56"/>
 <instance part="IC2" gate="-DIGITAL-IO" x="35.56" y="78.74"/>
@@ -20854,6 +21060,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="73.66" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="73.66" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="73.66" y="76.2" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="73.66" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="73.66" y="73.66" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.866" y="73.914" size="1.27" layer="95" rot="MR0"/>
@@ -20867,6 +21074,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="73.66" y="73.66" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="73.66" y="73.66" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="73.66" y="73.66" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="73.66" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="73.66" y="71.12" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.866" y="71.374" size="1.27" layer="95" rot="MR0"/>
@@ -20880,6 +21088,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="73.66" y="71.12" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="73.66" y="71.12" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="73.66" y="71.12" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="73.66" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="73.66" y="68.58" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.866" y="68.834" size="1.27" layer="95" rot="MR0"/>
@@ -20893,6 +21102,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="73.66" y="68.58" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="73.66" y="68.58" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="73.66" y="68.58" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="73.66" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="73.66" y="83.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.866" y="84.074" size="1.27" layer="95" rot="MR0"/>
@@ -20906,6 +21116,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="73.66" y="83.82" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="73.66" y="83.82" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="73.66" y="83.82" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="73.66" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R26" gate="G$1" x="73.66" y="81.28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="70.866" y="81.534" size="1.27" layer="95" rot="MR0"/>
@@ -20919,6 +21130,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="73.66" y="81.28" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="73.66" y="81.28" size="1.27" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="73.66" y="81.28" size="1.27" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="73.66" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="55.88" y="91.44" smashed="yes" rot="MR90">
 <attribute name="NAME" x="55.626" y="88.646" size="1.27" layer="95" rot="MR270"/>
@@ -20933,6 +21145,7 @@ sysmocom s.f.m.c</text>
 <attribute name="CLASS" x="55.88" y="91.44" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="LINK" x="55.88" y="91.44" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="DATASHEET" x="55.88" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="55.88" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="60.96" y="91.44" smashed="yes" rot="MR90">
 <attribute name="NAME" x="60.706" y="88.646" size="1.27" layer="95" rot="MR270"/>
@@ -20947,6 +21160,7 @@ sysmocom s.f.m.c</text>
 <attribute name="CLASS" x="60.96" y="91.44" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="LINK" x="60.96" y="91.44" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="DATASHEET" x="60.96" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="60.96" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="55.88" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.102" y="58.42" size="1.27" layer="95" rot="R270"/>
@@ -20960,6 +21174,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="55.88" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="60.96" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.182" y="58.42" size="1.27" layer="95" rot="R270"/>
@@ -20973,6 +21188,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="60.96" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="60.96" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="60.96" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="60.96" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="50.8" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.022" y="58.42" size="1.27" layer="95" rot="R270"/>
@@ -20986,6 +21202,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="50.8" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="50.8" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="50.8" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="50.8" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="55.88" y="48.26"/>
 <instance part="GND27" gate="1" x="154.94" y="147.32"/>
@@ -21001,6 +21218,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="147.32" y="193.04" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="146.812" y="196.342" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="146.558" y="191.262" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="147.32" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C31" gate="G$1" x="160.02" y="193.04" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" x="160.02" y="193.04" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -21014,6 +21232,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="160.02" y="193.04" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="159.766" y="196.088" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="160.274" y="191.008" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="160.02" y="193.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="154.94" y="190.5"/>
 <instance part="IC3" gate="G$1" x="154.94" y="175.26" smashed="yes">
@@ -21028,6 +21247,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="154.94" y="175.26" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="144.78" y="160.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="160.02" size="1.6764" layer="96"/>
+<attribute name="LCSC_PART" x="154.94" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND25" gate="1" x="129.54" y="76.2" rot="R90"/>
 <instance part="C35" gate="G$1" x="175.26" y="76.2" smashed="yes" rot="MR270">
@@ -21042,6 +21262,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="175.26" y="76.2" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="173.99" y="73.406" size="1.27" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="173.736" y="78.74" size="1.27" layer="96" rot="MR270"/>
+<attribute name="LCSC_PART" x="175.26" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="170.18" y="63.5"/>
 <instance part="C25" gate="G$1" x="132.08" y="68.58" smashed="yes" rot="MR0">
@@ -21056,6 +21277,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="132.08" y="68.58" size="1.27" layer="96" rot="MR0" display="off"/>
 <attribute name="NAME" x="129.54" y="66.548" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="136.144" y="66.548" size="1.27" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="132.08" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="73.66" y="25.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="73.66" y="25.4" size="1.778" layer="96" display="off"/>
@@ -21070,6 +21292,7 @@ sysmocom s.f.m.c</text>
 <attribute name="NAME" x="70.866" y="27.94" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="75.311" y="27.94" size="1.27" layer="96" rot="R270"/>
 <attribute name="DATASHEET" x="73.66" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="73.66" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="81.28" y="35.56" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" x="81.28" y="35.56" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -21083,6 +21306,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="81.28" y="35.56" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="82.804" y="38.1" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="82.804" y="32.004" size="1.27" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="81.28" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="88.9" y="25.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="88.9" y="25.4" size="1.778" layer="96" display="off"/>
@@ -21097,6 +21321,7 @@ sysmocom s.f.m.c</text>
 <attribute name="NAME" x="86.106" y="27.94" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="90.551" y="27.94" size="1.27" layer="96" rot="R270"/>
 <attribute name="DATASHEET" x="88.9" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="88.9" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="144.78" y="25.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
@@ -21111,6 +21336,7 @@ sysmocom s.f.m.c</text>
 <attribute name="NAME" x="141.986" y="27.94" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="146.431" y="27.94" size="1.27" layer="96" rot="R270"/>
 <attribute name="DATASHEET" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="160.02" y="38.1" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" x="160.02" y="38.1" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -21124,6 +21350,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="160.02" y="38.1" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="161.544" y="40.64" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="161.544" y="34.544" size="1.27" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="160.02" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="66.04" y="35.56" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" x="66.04" y="35.56" size="1.27" layer="96" rot="MR270" display="off"/>
@@ -21137,6 +21364,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="66.04" y="35.56" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="63.5" y="38.354" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="63.5" y="33.909" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="66.04" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="137.16" y="38.1" smashed="yes" rot="MR180">
 <attribute name="DESCRIPTION" x="137.16" y="38.1" size="1.27" layer="96" rot="MR270" display="off"/>
@@ -21150,6 +21378,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="137.16" y="38.1" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="137.16" y="40.894" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="137.16" y="36.449" size="1.27" layer="96" rot="MR180"/>
+<attribute name="LCSC_PART" x="137.16" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="U$1" x="292.1" y="177.8" smashed="yes">
 <attribute name="DESCRIPTION" x="292.1" y="177.8" size="1.778" layer="96" display="off"/>
@@ -21163,6 +21392,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="292.1" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="289.5445" y="219.7546" size="2.54388125" layer="95"/>
 <attribute name="VALUE" x="269.2331" y="130.7886" size="2.54171875" layer="96"/>
+<attribute name="LCSC_PART" x="292.1" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND32" gate="1" x="312.42" y="137.16"/>
 <instance part="P+1" gate="VCC" x="320.04" y="208.28" smashed="yes" rot="R270">
@@ -21180,6 +21410,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="185.42" y="86.36" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="185.42" y="86.36" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="185.42" y="86.36" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="185.42" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND3" gate="VR1" x="142.24" y="71.12" smashed="yes" rot="R90">
 <attribute name="VALUE" x="145.288" y="68.58" size="1.778" layer="96" rot="R180"/>
@@ -21196,6 +21427,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="185.42" y="53.34" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="187.96" y="55.626" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="187.96" y="49.911" size="1.27" layer="96" rot="MR0"/>
+<attribute name="LCSC_PART" x="185.42" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="177.8" y="48.26"/>
 <instance part="AGND6" gate="VR1" x="193.04" y="48.26" smashed="yes">
@@ -21213,6 +21445,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="157.48" y="76.2" size="1.27" layer="96" rot="MR270" display="off"/>
 <attribute name="NAME" x="156.21" y="73.406" size="1.27" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="155.956" y="78.74" size="1.27" layer="96" rot="MR270"/>
+<attribute name="LCSC_PART" x="157.48" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C28" gate="G$1" x="152.4" y="76.2" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" x="152.4" y="76.2" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -21226,6 +21459,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="152.4" y="76.2" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="NAME" x="149.86" y="77.724" size="1.27" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="155.956" y="77.724" size="1.27" layer="96" rot="MR270"/>
+<attribute name="LCSC_PART" x="152.4" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="G$1" x="185.42" y="81.28" smashed="yes" rot="R270">
 <attribute name="NAME" x="181.61" y="82.7786" size="1.778" layer="95"/>
@@ -21239,6 +21473,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="185.42" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="CLASS" x="185.42" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="185.42" y="81.28" size="1.27" layer="96" rot="R180" display="off"/>
+<attribute name="LCSC_PART" x="185.42" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C34" gate="G$1" x="170.18" y="76.2" rot="MR270">
 <attribute name="DESCRIPTION" x="170.18" y="76.2" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -21250,6 +21485,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="170.18" y="76.2" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="CLASS" x="170.18" y="76.2" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="LINK" x="170.18" y="76.2" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="LCSC_PART" x="170.18" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="147.32" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="145.542" y="73.66" size="1.27" layer="95" rot="R270"/>
@@ -21263,6 +21499,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="147.32" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="147.32" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="147.32" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="147.32" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="165.1" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="163.322" y="73.66" size="1.27" layer="95" rot="R270"/>
@@ -21276,6 +21513,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="165.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="165.1" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="165.1" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="165.1" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND5" gate="VR1" x="152.4" y="63.5" smashed="yes">
 <attribute name="VALUE" x="155.956" y="62.484" size="1.778" layer="96" rot="R180"/>
@@ -21301,6 +21539,7 @@ sysmocom s.f.m.c</text>
 <attribute name="POPULATED" x="152.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="152.4" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="152.4" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="LCSC_PART" x="152.4" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND7" gate="VR1" x="261.62" y="33.02" smashed="yes">
 <attribute name="VALUE" x="265.176" y="32.004" size="1.778" layer="96" rot="R180"/>
@@ -21329,6 +21568,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="40.64" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="37.084" y="182.118" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.974" y="182.245" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="40.64" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="40.64" y="177.8" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="40.64" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
@@ -21342,6 +21582,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="40.64" y="177.8" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="37.084" y="179.578" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.974" y="179.705" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="40.64" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="40.64" y="170.18" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="40.64" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
@@ -21355,6 +21596,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="40.64" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="37.084" y="171.958" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.974" y="172.085" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="40.64" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="40.64" y="167.64" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="40.64" y="167.64" size="1.778" layer="96" rot="R180" display="off"/>
@@ -21368,6 +21610,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="40.64" y="167.64" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="37.084" y="169.418" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="45.974" y="169.545" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="40.64" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="134.62" y="172.72" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="134.62" y="172.72" size="1.778" layer="96" rot="R180" display="off"/>
@@ -21381,6 +21624,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="134.62" y="172.72" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="131.064" y="174.498" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="139.954" y="174.625" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="134.62" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="134.62" y="170.18" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" x="134.62" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
@@ -21394,6 +21638,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="134.62" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="131.064" y="171.958" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="139.954" y="172.085" size="1.27" layer="96" rot="R180"/>
+<attribute name="LCSC_PART" x="134.62" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP11" gate="G$1" x="314.96" y="210.82" smashed="yes">
 <attribute name="DESCRIPTION" x="314.96" y="210.82" size="1.778" layer="96" display="off"/>
@@ -21407,6 +21652,7 @@ sysmocom s.f.m.c</text>
 <attribute name="LINK" x="314.96" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="311.912" y="205.74" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="316.23" y="209.55" size="1.778" layer="97"/>
+<attribute name="LCSC_PART" x="314.96" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="266.7" y="137.16"/>
 </instances>

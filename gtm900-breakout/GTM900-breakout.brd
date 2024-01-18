@@ -4059,6 +4059,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="SIM HOLDER" x="60.1345" y="73.434" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AR900/670-2985-1-ND/8024733" x="60.1345" y="73.434" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/SF7W008S1A_Spec.pdf" x="60.1345" y="73.434" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="60.1345" y="73.434" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED2" library="led" package="CHIP-LED0603" value="YELLOW" x="13.97" y="90.5155" smashed="yes">
 <attribute name="NAME" x="12.0015" y="92.1665" size="1" layer="25" font="vector" ratio="16" rot="SR270"/>
@@ -4072,6 +4073,7 @@ design rules under a new name.</description>
 <attribute name="POPULATED" value="TRUE" x="13.97" y="90.5155" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="LED" x="13.97" y="90.5155" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="13.97" y="90.5155" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="13.97" y="90.5155" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="rc-sysmocom" package="_0603" value="47" x="41.91" y="79.276" smashed="yes">
 <attribute name="NAME" x="40.0685" y="79.784" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -4086,6 +4088,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="RESISTOR" x="41.91" y="79.276" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740" x="41.91" y="79.276" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="41.91" y="79.276" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="41.91" y="79.276" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="rc-sysmocom" package="_0603" value="47" x="42.545" y="76.736" smashed="yes">
 <attribute name="NAME" x="40.7035" y="77.244" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -4100,6 +4103,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="RESISTOR" x="42.545" y="76.736" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740" x="42.545" y="76.736" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="42.545" y="76.736" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="42.545" y="76.736" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U3" library="ldo" package="TI_KTT_DPAK2" value="MCP1827T-ADJE/ET" x="6.0325" y="74.5135" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.1755" y="80.673" size="1" layer="25" font="vector" ratio="16"/>
@@ -4114,6 +4118,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="IC" x="6.0325" y="74.5135" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP1827T-ADJE-ET/1223119" x="6.0325" y="74.5135" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/22001d.pdf" x="6.0325" y="74.5135" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="6.0325" y="74.5135" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C12" library="rc-sysmocom" package="_0805" value="10u" x="20.7645" y="72.1005" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.923" y="69.8145" size="1" layer="25" font="vector" ratio="16"/>
@@ -4128,6 +4133,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="CAPACITOR" x="20.7645" y="72.1005" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903" x="20.7645" y="72.1005" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf" x="20.7645" y="72.1005" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="20.7645" y="72.1005" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C16" library="rc-sysmocom" package="_0805" value="10u" x="21.7805" y="75.6565" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805" x="21.7805" y="75.6565" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4142,6 +4148,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.8125" y="74.704" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="23.4315" y="73.7516" size="1" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf" x="21.7805" y="75.6565" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="21.7805" y="75.6565" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="K1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" package="694108106102" value="PJ-002BH-SMT-TR" x="-1.4605" y="46.764" smashed="yes">
 <attribute name="NAME" x="0.5566" y="53.512859375" size="1" layer="25" font="vector" ratio="16" rot="SR270"/>
@@ -4156,6 +4163,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="CONNECTOR" x="-1.4605" y="46.764" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/cui-devices/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694" x="-1.4605" y="46.764" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.cuidevices.com/product/resource/pj-002bh-smt-tr.pdf" x="-1.4605" y="46.764" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="-1.4605" y="46.764" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C11" library="rcl" package="UD-8X10_NICHICON" value="470u" x="16.891" y="64.3535" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.1725" y="68.834" size="1" layer="25" font="vector" ratio="16"/>
@@ -4170,6 +4178,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="CAPACITOR" x="16.891" y="64.3535" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720" x="16.891" y="64.3535" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="https://www.nichicon.co.jp/english/products/pdfs/e-uur.pdf" x="16.891" y="64.3535" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="16.891" y="64.3535" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="rcl" package="SMC_E" value="DNP" x="17.272" y="84.4195" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.192" y="83.5305" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
@@ -4183,6 +4192,7 @@ design rules under a new name.</description>
 <attribute name="POPULATED" value="FALSE" x="17.272" y="84.4195" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="17.272" y="84.4195" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="17.272" y="84.4195" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="17.272" y="84.4195" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C8" library="rc-sysmocom" package="_0402" value="33p" x="27.305" y="88.039" smashed="yes">
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="27.305" y="105.819" size="1.778" layer="27" display="off"/>
@@ -4197,6 +4207,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.6385" y="87.3724" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="26.035" y="86.7054" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="27.305" y="88.039" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="27.305" y="88.039" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="rc-sysmocom" package="_0603" value="10p" x="27.6225" y="89.4995" smashed="yes">
 <attribute name="MANUFACTURER" value="KEMET" x="22.5425" y="92.0395" size="1.778" layer="27" display="off"/>
@@ -4211,20 +4222,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.24175" y="88.9915" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="26.035" y="88.0072" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACTU.pdf" x="27.6225" y="89.4995" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="27.6225" y="89.4995" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="rc-sysmocom" package="_0603" value="100n" x="21.9075" y="90.833" smashed="yes">
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="21.9075" y="88.293" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.447" y="91.6585" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="20.32" y="89.3407" size="1" layer="27" font="vector" ratio="16"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp" x="21.9075" y="90.833" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="21.9075" y="90.833" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="21.9075" y="90.833" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="rc-sysmocom" package="1206" value="100u" x="24.765" y="85.1815" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.94" y="84.9275" size="1" layer="25" font="vector" ratio="16"/>
@@ -4239,6 +4252,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="CAPACITOR" x="24.765" y="85.1815" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203" x="24.765" y="85.1815" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000" x="24.765" y="85.1815" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="24.765" y="85.1815" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="rc-sysmocom" package="_0402" value="33p" x="58.3565" y="58.448" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="58.3565" y="58.448" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4253,6 +4267,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="59.91225" y="57.6541" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="59.6265" y="59.7816" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="58.3565" y="58.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="58.3565" y="58.448" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C2" library="rc-sysmocom" package="_0402" value="33p" x="60.8965" y="58.448" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="60.8965" y="58.448" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4267,6 +4282,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="62.83325" y="57.6541" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="62.1665" y="59.7816" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="60.8965" y="58.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="60.8965" y="58.448" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C4" library="rc-sysmocom" package="_0402" value="33p" x="60.8965" y="88.928" smashed="yes">
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="60.8965" y="88.928" size="1.778" layer="27" display="off"/>
@@ -4281,20 +4297,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="60.579" y="90.0394" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="59.6265" y="87.5944" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="60.8965" y="88.928" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="60.8965" y="88.928" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="rc-sysmocom" package="_0603" value="100n" x="65.0875" y="58.2575" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="64.4525" y="56.3525" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="66.675" y="59.7498" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="65.0875" y="58.2575" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED1" library="led" package="CHIP-LED0603" value="GREEN" x="10.0965" y="90.5155" smashed="yes">
 <attribute name="NAME" x="8.001" y="92.23" size="1" layer="25" font="vector" ratio="16" rot="SR270"/>
@@ -4308,6 +4326,7 @@ design rules under a new name.</description>
 <attribute name="POPULATED" value="TRUE" x="10.0965" y="90.5155" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="LED" x="10.0965" y="90.5155" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="10.0965" y="90.5155" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="10.0965" y="90.5155" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="rc-sysmocom" package="_0603" value="330" x="10.0965" y="93.8175" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.1285" y="93.8175" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
@@ -4322,20 +4341,22 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="RESISTOR" x="10.0965" y="93.8175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716" x="10.0965" y="93.8175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="10.0965" y="93.8175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="10.0965" y="93.8175" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C5" library="rc-sysmocom" package="1206" value="100u" x="24.765" y="82.578" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.305" y="83.086" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="26.3525" y="84.483" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A107MQHNNNE" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1782-1-ND" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3887440" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL31A107MQHNNNE_Spec.pdf" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="24.765" y="82.578" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C10" library="rc-sysmocom" package="1206" value="100u" x="20.955" y="88.4835" smashed="yes">
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203" x="20.955" y="88.4835" size="1.778" layer="27" display="off"/>
@@ -4350,6 +4371,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.7015" y="87.3405" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="19.3675" y="86.5785" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000" x="20.955" y="88.4835" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="20.955" y="88.4835" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X2" library="laforge" package="SMA-F-S-TH" value="" x="4.953" y="25.047" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="CONN SMA JACK STR 50 OHM PCB" x="4.953" y="25.047" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4364,6 +4386,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.413" y="18.062" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="10.3505" y="21.237" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="DATASHEET" value="http://media.digikey.com/pdf/Data%20Sheets/Tyco%20Electonics%20AMP%20PDFs/1814832.pdf" x="4.953" y="25.047" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="4.953" y="25.047" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="X3" library="laforge" package="HRS_UFL" value="" x="4.953" y="34.064" smashed="yes">
 <attribute name="OC_DIGIKEY" value="H9161CT-ND" x="4.953" y="34.064" size="1.778" layer="27" display="off"/>
@@ -4379,6 +4402,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.2555" y="33.1115" size="1" layer="25" ratio="16" rot="R90" align="center"/>
 <attribute name="VALUE" x="7.953" y="34.064" size="1.27" layer="27" rot="R90" align="center"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" x="4.953" y="34.064" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="4.953" y="34.064" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="rc-sysmocom" package="_0603" value="200k" x="20.2565" y="80.89525" smashed="yes">
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="15.6845" y="116.20125" size="1.778" layer="27" display="off"/>
@@ -4393,6 +4417,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.971" y="79.81575" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="18.669" y="79.40295" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="https://www.te.com/usa-en/product-8-1879338-5.datasheet.pdf" x="20.2565" y="80.89525" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="20.2565" y="80.89525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R12" library="rc-sysmocom" package="_0603" value="22k" x="15.9385" y="80.89525" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="YAGEO" x="25.0825" y="49.90725" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4407,6 +4432,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.351" y="81.33975" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="17.526" y="82.38755" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" x="15.9385" y="80.89525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="15.9385" y="80.89525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D1" library="laforge" package="SOT666" value="PESD5V0UBV" x="47.625" y="77.244" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Nexperia USA Inc." x="43.561" y="73.688" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4422,6 +4448,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.701" y="76.168" size="1" layer="25" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="46.549" y="78.32" size="1" layer="27" ratio="16"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/PESD5V0U5BF_PESD5V0U5BV.pdf" x="47.625" y="77.244" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="47.625" y="77.244" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R1" library="rc-sysmocom" package="_0603" value="15k" x="49.2125" y="80.6095" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Yageo" x="61.9125" y="77.3075" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4436,6 +4463,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.4825" y="82.197" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="50.7048" y="79.022" size="1" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="49.2125" y="80.6095" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="49.2125" y="80.6095" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="MDM1" library="GTM900" package="GTM900-WRTHSPACER" value="GTM900-BM2-SPACER" x="55.3085" y="98.58" smashed="yes" rot="MR270">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="55.3085" y="98.58" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4447,6 +4475,7 @@ design rules under a new name.</description>
 <attribute name="POPULATED" value="TRUE" x="55.3085" y="98.58" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="CLASS" value="MODEM" x="55.3085" y="98.58" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="55.3085" y="98.58" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="55.3085" y="98.58" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="D3" library="diodes-sysmocom" package="SMBDIODE" value="SMBJP6KE6.8A-TP" x="3.7465" y="62.8295" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Micro Commercial Co" x="12.1285" y="69.6875" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4461,6 +4490,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.683" y="66.1315" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="-0.0635" y="65.3695" size="1" layer="27" ratio="16" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.mccsemi.com/pdf/Products/SMBJP6KE6.8(C)A-SMBJP6KE550(C)A(DO-214AA).pdf" x="3.7465" y="62.8295" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="3.7465" y="62.8295" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D2" library="diodes-sysmocom" package="SMBDIODE" value="ACDBB540-HF" x="8.8265" y="62.8295" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.493" y="66.1315" size="1" layer="25" ratio="16"/>
@@ -4475,6 +4505,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="DIODE" x="8.8265" y="62.8295" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/comchip-technology/ACDBB540-HF/7100744" x="8.8265" y="62.8295" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="https://www.comchiptech.com/admin/files/product/ACDBB540-HF%20RevA196617.pdf" x="8.8265" y="62.8295" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="8.8265" y="62.8295" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U1" library="FH12A-40S-0.5SH(55)" package="HIROSE_FH12A-40S-0.5SH(55)" value="FH12A-40S-0.5SH(55)" x="34.9885" y="88.166" smashed="yes">
 <attribute name="PACKAGE" value="SOCKET FFC/FPC, ZIF, 0.5MM, 40WAY" x="34.9885" y="88.166" size="1" layer="27" ratio="18" display="off"/>
@@ -4492,6 +4523,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="CONNECTOR" x="34.9885" y="88.166" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH12A-40S-0-5SH-55/1110338" x="34.9885" y="88.166" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.hirose.com/product/document?clcode=&amp;productname=&amp;series=FH12&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31648_en" x="34.9885" y="88.166" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="34.9885" y="88.166" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D4" library="diodes-sysmocom" package="_0402" value="GG040205170N2P" x="4.28625" y="30.635" smashed="yes">
 <attribute name="NAME" x="6.19125" y="30.4764" size="1" layer="25" font="vector" ratio="16"/>
@@ -4506,6 +4538,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="DIODE" x="4.28625" y="30.635" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/kyocera-avx/GG0402050R3C2P/6826543" x="4.28625" y="30.635" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://datasheets.kyocera-avx.com/AVX-GiGuard.pdf" x="4.28625" y="30.635" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="4.28625" y="30.635" size="1.778" layer="27" display="off"/>
 </element>
 <element name="B1" library="microbuilder" package="EVQ-Q2" value="EVQ-Q2M03W" x="47.625" y="5.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.99" y="9.06" size="1" layer="25" ratio="16"/>
@@ -4520,6 +4553,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="TACT SWITCH" x="47.625" y="5.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-Q2M03W/762896" x="47.625" y="5.56" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf" x="47.625" y="5.56" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="47.625" y="5.56" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="T2" library="transistor" package="SOT23-BEC" value="BC847" x="13.97" y="93.8175" smashed="yes" rot="R180">
 <attribute name="CLASS" value="TRANSISTOR" x="13.97" y="93.8175" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4534,6 +4568,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.8275" y="92.865" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="15.875" y="96.9925" size="1" layer="27" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" x="13.97" y="93.8175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="13.97" y="93.8175" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R16" library="rc-sysmocom" package="_0603" value="330" x="16.1925" y="89.055" smashed="yes" rot="R90">
 <attribute name="CLASS" value="RESISTOR" x="16.1925" y="89.055" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4548,6 +4583,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.935" y="89.69375" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="17.6848" y="87.4675" size="1" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="16.1925" y="89.055" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="16.1925" y="89.055" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R14" library="rc-sysmocom" package="_0603" value="22k" x="20.0025" y="97.31" smashed="yes" rot="R180">
 <attribute name="CLASS" value="RESISTOR" x="20.0025" y="97.31" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4562,6 +4598,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.86" y="99.215" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="21.59" y="98.8023" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" x="20.0025" y="97.31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="20.0025" y="97.31" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="rc-sysmocom" package="_0603" value="22k" x="16.8275" y="97.31" smashed="yes" rot="R180">
 <attribute name="CLASS" value="RESISTOR" x="16.8275" y="97.31" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4576,6 +4613,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.05" y="99.215" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="18.415" y="98.8023" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" x="16.8275" y="97.31" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="16.8275" y="97.31" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$2" library="laforge" package="WEEE_BIN" value="" x="8.5725" y="75.085" smashed="yes" rot="MR0"/>
 <element name="C39" library="rc-sysmocom" package="_0402" value="33p" x="41.275" y="82.705" smashed="yes" rot="R315">
@@ -4591,6 +4629,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.047375" y="85.685928125" size="1" layer="25" font="vector" ratio="16" rot="R135"/>
 <attribute name="VALUE" x="39.433975" y="82.660025" size="1" layer="27" font="vector" ratio="16" rot="R315"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="41.275" y="82.705" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="41.275" y="82.705" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
 <element name="C45" library="rc-sysmocom" package="_0402" value="33p" x="46.6725" y="55.09" smashed="yes" rot="R180">
 <attribute name="CLASS" value="CAPACITOR" x="46.6725" y="55.09" size="1.1" layer="27" ratio="16" rot="R180" display="off"/>
@@ -4605,6 +4644,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.6575" y="54.44765" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="47.9425" y="56.4236" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="46.6725" y="55.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="46.6725" y="55.09" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C44" library="rc-sysmocom" package="_0402" value="33p" x="46.6725" y="53.97125" smashed="yes">
 <attribute name="CLASS" value="CAPACITOR" x="46.6725" y="53.97125" size="1.1" layer="27" ratio="16" display="off"/>
@@ -4619,6 +4659,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.35625" y="54.12985" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="45.4025" y="52.63765" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="46.6725" y="53.97125" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="46.6725" y="53.97125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="B2" library="microbuilder" package="EVQ-Q2" value="EVQ-Q2M03W" x="34.925" y="5.5525" smashed="yes" rot="R180">
 <attribute name="CLASS" value="TACT SWITCH" x="34.925" y="5.5525" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4633,6 +4674,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.29" y="9.0525" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="38.1" y="9.2355" size="0.4064" layer="27" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf" x="34.925" y="5.5525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="34.925" y="5.5525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C36" library="rc-sysmocom" package="_0402" value="33p" x="40.64" y="85.245" smashed="yes" rot="R135">
 <attribute name="CLASS" value="CAPACITOR" x="40.64" y="85.245" size="1.778" layer="27" rot="R135" display="off"/>
@@ -4647,6 +4689,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.804615625" y="88.51619375" size="1" layer="25" font="vector" ratio="16" rot="R135"/>
 <attribute name="VALUE" x="42.481021875" y="85.289971875" size="1" layer="27" font="vector" ratio="16" rot="R135"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="40.64" y="85.245" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="40.64" y="85.245" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
 <element name="C43" library="rc-sysmocom" package="_0805" value="10u" x="47.1525" y="58.42" smashed="yes" rot="R180">
 <attribute name="CLASS" value="CAPACITOR" x="47.1525" y="58.42" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4661,6 +4704,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="49.3675" y="58.7375" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="49.0574" y="60.071" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf" x="47.1525" y="58.42" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="47.1525" y="58.42" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C40" library="rc-sysmocom" package="_0402" value="33p" x="44.35700625" y="82.61200625" smashed="yes">
 <attribute name="CLASS" value="CAPACITOR" x="44.35700625" y="82.61200625" size="1.778" layer="27" display="off"/>
@@ -4675,6 +4719,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.130496875" y="82.321896875" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="43.08700625" y="81.2784" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="44.35700625" y="82.61200625" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="44.35700625" y="82.61200625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C42" library="rc-sysmocom" package="_0805" value="10u" x="40.64" y="61.44" smashed="yes" rot="R180">
 <attribute name="CLASS" value="CAPACITOR" x="40.64" y="61.44" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4689,6 +4734,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.18" y="61.115" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="42.5449" y="63.091" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf" x="40.64" y="61.44" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="40.64" y="61.44" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C41" library="rc-sysmocom" package="_0402" value="33p" x="42.2275" y="83.6575" smashed="yes" rot="R315">
 <attribute name="CLASS" value="CAPACITOR" x="42.2275" y="83.6575" size="1.778" layer="27" rot="R315" display="off"/>
@@ -4703,6 +4749,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.841125" y="86.479678125" size="1" layer="25" font="vector" ratio="16" rot="R135"/>
 <attribute name="VALUE" x="40.386478125" y="83.612528125" size="1" layer="27" font="vector" ratio="16" rot="R315"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="42.2275" y="83.6575" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="42.2275" y="83.6575" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
 <element name="U2" library="ldo" package="SC70-5" value="MIC5366" x="17.4625" y="53.495" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="IC REG LINEAR 2.8V 150MA SC70-5" x="17.4625" y="53.495" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4717,6 +4764,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.2875" y="53.8125" size="1" layer="25" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="14.605" y="56.035" size="1" layer="27" ratio="16" rot="R270"/>
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf" x="17.4625" y="53.495" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="17.4625" y="53.495" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="rc-sysmocom" package="_0603" value="4.7k" x="57.4675" y="89.055" smashed="yes">
 <attribute name="CLASS" value="RESISTOR" x="57.4675" y="89.055" size="1.778" layer="27" display="off"/>
@@ -4731,6 +4779,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="56.36" y="90.17" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="55.88" y="87.5627" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="57.4675" y="89.055" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="57.4675" y="89.055" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R5" library="rc-sysmocom" package="_0603" value="47k" x="48.5775" y="85.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.4825" y="84.9275" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
@@ -4745,6 +4794,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="RESISTOR" x="48.5775" y="85.88" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747KL/311-47.0KHRCT-ND/730200" x="48.5775" y="85.88" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="48.5775" y="85.88" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="48.5775" y="85.88" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C14" library="rc-sysmocom" package="_0603" value="1u" x="18.415" y="51.2725" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.145" y="49.3675" size="1" layer="25" font="vector" ratio="16"/>
@@ -4759,6 +4809,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="CAPACITOR" x="18.415" y="51.2725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KO8NNNC/3886692" x="18.415" y="51.2725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf" x="18.415" y="51.2725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="18.415" y="51.2725" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C15" library="rc-sysmocom" package="_0603" value="1u" x="18.2525" y="56.515" smashed="yes" rot="R270">
 <attribute name="CLASS" value="CAPACITOR" x="18.2525" y="56.515" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4773,20 +4824,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.145" y="55.4" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="16.7602" y="58.1025" size="1" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf" x="18.2525" y="56.515" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="18.2525" y="56.515" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C18" library="rc-sysmocom" package="_0603" value="100n" x="48.5775" y="64.29" smashed="yes">
 <attribute name="CLASS" value="CAPACITOR" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="48.5775" y="64.29" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="NAME" x="51.435" y="67.465" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="46.99" y="62.7977" size="1" layer="27" font="vector" ratio="16"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp" x="48.5775" y="64.29" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="48.5775" y="64.29" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="48.5775" y="64.29" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R13" library="rc-sysmocom" package="_0603" value="1k" x="48.5775" y="63.02" smashed="yes">
 <attribute name="NAME" x="51.435" y="66.35375" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -4801,6 +4854,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="RESISTOR" x="48.5775" y="63.02" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185" x="48.5775" y="63.02" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" x="48.5775" y="63.02" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="48.5775" y="63.02" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R9" library="rc-sysmocom" package="_0603" value="1k" x="63.655" y="41.275" smashed="yes" rot="R180">
 <attribute name="NAME" x="62.0675" y="41.91" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -4815,20 +4869,22 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="RESISTOR" x="63.655" y="41.275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185" x="63.655" y="41.275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" x="63.655" y="41.275" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="63.655" y="41.275" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="rc-sysmocom" package="_0603" value="100n" x="66.83" y="41.275" smashed="yes">
 <attribute name="CLASS" value="CAPACITOR" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="66.83" y="41.275" size="1.1" layer="27" ratio="16" display="off"/>
 <attribute name="NAME" x="65.405" y="39.215" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="65.2425" y="39.7827" size="1" layer="27" font="vector" ratio="16"/>
-<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp" x="66.83" y="41.275" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="66.83" y="41.275" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="66.83" y="41.275" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP3" library="microbuilder" package="1X04_ROUND_76" value="" x="40.3225" y="64.29" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.40505" y="66.4363" size="1" layer="25" ratio="16"/>
@@ -4842,6 +4898,7 @@ design rules under a new name.</description>
 <attribute name="POPULATED" value="TRUE" x="40.3225" y="64.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CONNECTOR\JUMPER" x="40.3225" y="64.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="40.3225" y="64.29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="40.3225" y="64.29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R38" library="rc-sysmocom" package="_0603" value="0" x="37.1475" y="61.4325" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402" x="37.1475" y="61.4325" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4856,6 +4913,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.56" y="62.0675" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="38.735" y="62.9248" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" x="37.1475" y="61.4325" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="37.1475" y="61.4325" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C37" library="rc-sysmocom" package="_0402" value="33p" x="38.735" y="67.4725" smashed="yes" rot="R180">
 <attribute name="CLASS" value="CAPACITOR" x="38.735" y="67.4725" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4870,6 +4928,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.35375" y="68.41765" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="40.005" y="68.8061" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="38.735" y="67.4725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="38.735" y="67.4725" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C38" library="rc-sysmocom" package="_0402" value="33p" x="35.8775" y="67.155" smashed="yes">
 <attribute name="CLASS" value="CAPACITOR" x="35.8775" y="67.155" size="1.778" layer="27" display="off"/>
@@ -4884,6 +4943,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.7625" y="67.4686" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="34.6075" y="65.8214" size="1" layer="27" font="vector" ratio="16"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="35.8775" y="67.155" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="35.8775" y="67.155" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X1" library="laforge" package="1X03" value="" x="58.1025" y="97.31" smashed="yes" rot="R270">
 <attribute name="NAME" x="55.6387" y="93.1063" size="1" layer="25" ratio="16" rot="R90"/>
@@ -4897,6 +4957,7 @@ design rules under a new name.</description>
 <attribute name="POPULATED" value="TRUE" x="58.1025" y="97.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="CLASS" value="CONNECTOR" x="58.1025" y="97.31" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LINK" value="UNKNOWN LINK" x="58.1025" y="97.31" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="58.1025" y="97.31" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP4" library="testpad" package="TP10R" value="TPTP10R" x="37.465" y="74.1325" smashed="yes" rot="R180">
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="37.465" y="74.1325" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4911,6 +4972,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="37.465" y="76.0375" size="1" layer="37" rot="R180"/>
 <attribute name="NAME" x="36.8024" y="72.3049" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="37.846" y="74.6405" size="1" layer="27" ratio="16" rot="R180"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="37.465" y="74.1325" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP5" library="testpad" package="TP10R" value="TPTP10R" x="45.72" y="85.88" smashed="yes" rot="R180">
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="45.72" y="85.88" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4925,6 +4987,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="45.72" y="87.785" size="1" layer="37" rot="R180"/>
 <attribute name="NAME" x="45.2199" y="83.8974" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="46.101" y="86.388" size="1" layer="27" ratio="16" rot="R180"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="45.72" y="85.88" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP6" library="testpad" package="TP10R" value="TPTP10R" x="37.465" y="75.72" smashed="yes" rot="R180">
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="37.465" y="75.72" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4939,6 +5002,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="37.465" y="77.625" size="1" layer="37" rot="R180"/>
 <attribute name="NAME" x="37.5501" y="76.8074" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="37.846" y="76.228" size="1" layer="27" ratio="16" rot="R180"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="37.465" y="75.72" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP7" library="testpad" package="TP10R" value="TPTP10R" x="45.72" y="87.785" smashed="yes" rot="R180">
 <attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE" x="45.72" y="87.785" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4953,6 +5017,7 @@ design rules under a new name.</description>
 <attribute name="TP_SIGNAL_NAME" value="" x="45.72" y="89.69" size="1" layer="37" rot="R180"/>
 <attribute name="NAME" x="46.4899" y="87.6999" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="46.101" y="88.293" size="1" layer="27" ratio="16" rot="R180"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="45.72" y="87.785" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="AUDIO-JACK-TRRS-SMD" value="AUDIO-JACK3" x="69.85" y="50.955" smashed="yes" rot="R180">
 <attribute name="NAME" x="68.58" y="55.0825" size="1" layer="25" ratio="16" rot="R90"/>
@@ -4967,6 +5032,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="CONNECTOR" x="69.85" y="50.955" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/cui-devices/SJ2-3574A-SMT-TR/6619530" x="69.85" y="50.955" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DATASHEET" value="https://www.cuidevices.com/product/discontinued/sj2-357x-smt.pdf" x="69.85" y="50.955" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="69.85" y="50.955" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$3" library="oshw" package="OSHW_8MM_COPPER" value="" x="5.08" y="12.5375" smashed="yes"/>
 <element name="JP2" library="jumper" package="JP2" value="" x="7.9375" y="56.67" smashed="yes" rot="R180">
@@ -4981,6 +5047,7 @@ design rules under a new name.</description>
 <attribute name="LINK" value="UNKNOWN LINK" x="7.9375" y="56.67" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.3185" y="54.7015" size="1" layer="25" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="11.4935" y="60.988" size="1.27" layer="27" ratio="10" rot="R180"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="7.9375" y="56.67" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="IC1" library="laforge" package="VQFN-N16" value="SN74AVC4T245-VQFN" x="26.9875" y="68.4175" smashed="yes">
 <attribute name="DESCRIPTION" value="IC TRANSLATION TXRX 3.6V 16VQFN" x="26.9875" y="68.4175" size="1.778" layer="27" display="off"/>
@@ -4995,34 +5062,37 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.6425" y="65.0875" size="1.016" layer="21" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="24.4475" y="64.6075" size="1.016" layer="27" font="vector" ratio="15"/>
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/sces576g/sces576g.pdf" x="26.9875" y="68.4175" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="26.9875" y="68.4175" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C23" library="rc-sysmocom" package="_0603" value="100n" x="23.1775" y="66.195" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.9675" y="64.77" size="1" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="24.6698" y="64.6075" size="1" layer="27" font="vector" ratio="16" rot="R90"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="23.1775" y="66.195" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C20" library="rc-sysmocom" package="_0603" value="100n" x="22.225" y="69.0525" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCE" value="DIGIKEY" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CLASS" value="CAPACITOR" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POPULATED" value="TRUE" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="24.28875" y="70.005" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="23.8125" y="70.5448" size="1" layer="27" font="vector" ratio="16" rot="R180"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCE" value="DIGIKEY" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATED" value="TRUE" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="CLASS" value="CAPACITOR" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="22.225" y="69.0525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R21" library="rc-sysmocom" package="_0603" value="0" x="25.7175" y="72.8625" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402" x="25.7175" y="72.8625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5037,6 +5107,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.035" y="74.7675" size="1" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="27.2098" y="71.275" size="1" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" x="25.7175" y="72.8625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="25.7175" y="72.8625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP2" library="testpad" package="TP10R" value="TPTP10R" x="30.48" y="79.2125" smashed="yes">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="30.48" y="79.2125" size="1.778" layer="27" display="off"/>
@@ -5051,6 +5122,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="30.48" y="79.2125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="30.9324" y="79.7624" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="30.099" y="78.7045" size="1" layer="27" ratio="16"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="30.48" y="79.2125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP3" library="testpad" package="TP10R" value="TPTP10R" x="33.655" y="70.64" smashed="yes">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="33.655" y="70.64" size="1.778" layer="27" display="off"/>
@@ -5065,6 +5137,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="33.655" y="70.64" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="34.4249" y="70.2374" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="33.274" y="70.132" size="1" layer="27" ratio="16"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="33.655" y="70.64" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP10" library="testpad" package="TP10R" value="TPTP10R" x="32.385" y="87.15" smashed="yes">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="32.385" y="87.15" size="1.778" layer="27" display="off"/>
@@ -5079,6 +5152,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="32.385" y="87.15" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="34.2201" y="85.8599" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="32.004" y="86.642" size="1" layer="27" ratio="16"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="32.385" y="87.15" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP8" library="testpad" package="TP10R" value="TPTP10R" x="31.4325" y="69.37" smashed="yes">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="31.4325" y="69.37" size="1.778" layer="27" display="off"/>
@@ -5093,6 +5167,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="31.4325" y="69.37" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="32.2024" y="68.6499" size="1" layer="25" ratio="16"/>
 <attribute name="VALUE" x="31.0515" y="68.862" size="1" layer="27" ratio="16"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="31.4325" y="69.37" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP1" library="testpad" package="TP10R" value="TPTP10R" x="36.195" y="83.34" smashed="yes">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="36.195" y="83.34" size="1.778" layer="27" display="off"/>
@@ -5107,6 +5182,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="36.195" y="83.34" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.4901" y="82.0499" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="35.814" y="82.832" size="1" layer="27" ratio="16"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="36.195" y="83.34" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP9" library="testpad" package="TP10R" value="TPTP10R" x="34.925" y="73.18" smashed="yes">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="34.925" y="73.18" size="1.778" layer="27" display="off"/>
@@ -5121,6 +5197,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="34.925" y="73.18" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="34.3751" y="73.6324" size="1" layer="25" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="34.544" y="72.672" size="1" layer="27" ratio="16"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="34.925" y="73.18" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="RpiPico" package="PICO-PKG-SMD" value="RASPBERRY_PICOSMD" x="44.45" y="24.285" smashed="yes" rot="R270">
 <attribute name="MANUFACTURERPARTNUMBER" value="SC0915" x="108.2675" y="57.305" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5135,6 +5212,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.018" y="33.1115" size="1.016" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="23.495" y="23.269" size="1.778" layer="27"/>
 <attribute name="DATASHEET" value="https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf" x="44.45" y="24.285" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="44.45" y="24.285" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC2" library="NAU8810" package="QFN20" value="NAU88C10" x="38.89" y="49.8475" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="MONO AUDIO CODEC W/ SPEAKER DRIV" x="38.89" y="49.8475" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5149,6 +5227,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="35.0165" y="49.53" size="1.016" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="35.215" y="51.7525" size="1.016" layer="27" font="vector" ratio="15" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.nuvoton.com/export/resource-files/en-us--DS_NAU88C10_DataSheet_EN_Rev1.9.pdf" x="38.89" y="49.8475" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="38.89" y="49.8475" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R27" library="rc-sysmocom" package="_0603" value="220" x="29.21" y="40.4775" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603" x="29.21" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5163,6 +5242,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.845" y="42.7075" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="27.7177" y="42.065" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="29.21" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="29.21" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R28" library="rc-sysmocom" package="_0603" value="220" x="30.48" y="40.4775" smashed="yes" rot="R270">
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL" x="30.48" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5177,6 +5257,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.115" y="42.7075" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="28.9877" y="42.065" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="30.48" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="30.48" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R29" library="rc-sysmocom" package="_0603" value="220" x="33.02" y="40.4775" smashed="yes" rot="R270">
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL" x="33.02" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5191,6 +5272,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.3375" y="42.39" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="31.5277" y="42.065" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="33.02" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="33.02" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R30" library="rc-sysmocom" package="_0603" value="220" x="35.56" y="40.4775" smashed="yes" rot="R270">
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL" x="35.56" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5205,6 +5287,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.195" y="42.39" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="34.0677" y="42.065" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="35.56" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="35.56" y="40.4775" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R25" library="rc-sysmocom" package="_0603" value="220" x="11.9025" y="14.9225" smashed="yes" rot="R270">
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL" x="11.9025" y="14.9225" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5219,6 +5302,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.9575" y="13.335" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="10.4102" y="16.51" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="11.9025" y="14.9225" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="11.9025" y="14.9225" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R26" library="rc-sysmocom" package="_0603" value="220" x="14.125" y="14.9225" smashed="yes" rot="R270">
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL" x="14.125" y="14.9225" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5233,6 +5317,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.0375" y="13.6525" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="12.6327" y="16.51" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="14.125" y="14.9225" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="14.125" y="14.9225" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R22" library="rc-sysmocom" package="_0603" value="4.7k" x="14.1325" y="18.415" smashed="yes" rot="R90">
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L" x="14.1325" y="18.415" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5247,6 +5332,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="14.7675" y="20.6375" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="15.6248" y="16.8275" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="14.1325" y="18.415" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="14.1325" y="18.415" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R23" library="rc-sysmocom" package="_0603" value="4.7k" x="11.91" y="18.415" smashed="yes" rot="R90">
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L" x="11.91" y="18.415" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5261,6 +5347,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.545" y="20.32" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="13.4023" y="16.8275" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="11.91" y="18.415" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="11.91" y="18.415" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C21" library="rc-sysmocom" package="_0402" value="33p" x="16.19625" y="17.62125" smashed="yes">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC" x="16.19625" y="17.62125" size="1.778" layer="27" display="off"/>
@@ -5275,6 +5362,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.46625" y="17.14515" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="14.92625" y="16.28765" size="0.508" layer="27" font="vector" ratio="10"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="16.19625" y="17.62125" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="16.19625" y="17.62125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C22" library="rc-sysmocom" package="_0402" value="33p" x="9.83875" y="17.62125" smashed="yes" rot="R180">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC" x="9.83875" y="17.62125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5289,6 +5377,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.52125" y="19.36735" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="11.10875" y="18.95485" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="9.83875" y="17.62125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="9.83875" y="17.62125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C19" library="rc-sysmocom" package="_0402" value="33p" x="37.1475" y="40.795" smashed="yes" rot="R270">
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC" x="37.1475" y="40.795" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5303,34 +5392,37 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.8936" y="39.5325" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="35.8139" y="42.065" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="37.1475" y="40.795" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="37.1475" y="40.795" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C26" library="rc-sysmocom" package="_0603" value="100n" x="21.9075" y="58.265" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.955" y="56.36" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="23.3998" y="56.6775" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="21.9075" y="58.265" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C31" library="rc-sysmocom" package="_0603" value="100n" x="21.9075" y="54.7725" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.0025" y="55.0825" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="23.3998" y="53.185" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="21.9075" y="54.7725" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="IC3" library="TXB0102" package="VSSOP-8" value="TXB0102" x="24.9275" y="56.8325" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.7285" y="55.125" size="1.016" layer="25" font="vector" ratio="15" rot="R180"/>
@@ -5345,6 +5437,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="IC" x="24.9275" y="56.8325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/texas-instruments/TXB0102DCUR/1739891" x="24.9275" y="56.8325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DATASHEET" value="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0102" x="24.9275" y="56.8325" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="24.9275" y="56.8325" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C35" library="rc-sysmocom" package="_0603" value="4.7u" x="35.2425" y="57.47125" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603" x="35.2425" y="57.47125" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5359,6 +5452,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.1625" y="58.10625" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="58.96355" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" x="35.2425" y="57.47125" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="35.2425" y="57.47125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C25" library="rc-sysmocom" package="_0603" value="4.7u" x="40.9575" y="46.1925" smashed="yes">
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603" x="40.9575" y="46.1925" size="1.778" layer="27" display="off"/>
@@ -5373,6 +5467,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.545" y="45.2475" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="44.7002" size="0.508" layer="27" font="vector" ratio="10"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" x="40.9575" y="46.1925" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="40.9575" y="46.1925" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R31" library="rc-sysmocom" package="_0603" value="1k" x="43.81875" y="55.08625" smashed="yes">
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603" x="43.81875" y="55.08625" size="1.778" layer="27" display="off"/>
@@ -5387,20 +5482,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.80375" y="54.45125" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="42.23125" y="53.59395" size="0.508" layer="27" font="vector" ratio="10"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" x="43.81875" y="55.08625" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="43.81875" y="55.08625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C24" library="rc-sysmocom" package="_0603" value="100n" x="42.2275" y="53.65375" smashed="yes">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="51.1175" y="53.97875" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="40.64" y="52.16145" size="0.508" layer="27" font="vector" ratio="10"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="42.2275" y="53.65375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R32" library="rc-sysmocom" package="_0603" value="1k" x="43.815" y="52.225" smashed="yes">
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603" x="43.815" y="52.225" size="1.778" layer="27" display="off"/>
@@ -5415,6 +5512,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.95875" y="51.74875" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="42.2275" y="50.7327" size="0.508" layer="27" font="vector" ratio="10"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" x="43.815" y="52.225" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="43.815" y="52.225" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R36" library="rc-sysmocom" package="_0603" value="1k" x="46.99" y="52.55" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603" x="46.99" y="52.55" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5429,20 +5527,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.81625" y="51.9075" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="48.5775" y="54.0423" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" x="46.99" y="52.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="46.99" y="52.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C32" library="rc-sysmocom" package="_0603" value="100n" x="47.9425" y="56.67" smashed="yes">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="54.2925" y="56.035" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="46.355" y="55.1777" size="0.508" layer="27" font="vector" ratio="10"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="47.9425" y="56.67" size="1.778" layer="27" display="off"/>
 </element>
 <element name="T1" library="transistor" package="SOT23-BEC" value="BC847" x="16.8275" y="46.99" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23" x="0" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5457,6 +5557,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.685" y="47.9425" size="1.016" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="20.0025" y="45.085" size="1.27" layer="27" rot="R90"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf" x="16.8275" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="16.8275" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R7" library="rc-sysmocom" package="_0603" value="22k" x="16.8275" y="43.4975" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603" x="23.8125" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5471,6 +5572,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.7325" y="42.8625" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="18.415" y="44.9898" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" x="16.8275" y="43.4975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="16.8275" y="43.4975" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="rc-sysmocom" package="_0603" value="22k" x="16.8275" y="41.91" smashed="yes">
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603" x="5.08" y="46.99" size="1.778" layer="27" display="off"/>
@@ -5485,6 +5587,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.7325" y="41.5925" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="15.24" y="40.4177" size="0.508" layer="27" font="vector" ratio="10"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" x="16.8275" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="16.8275" y="41.91" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R8" library="rc-sysmocom" package="_0603" value="4.7k" x="15.875" y="50.4825" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603" x="23.8125" y="50.4825" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5499,6 +5602,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.97" y="52.07" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="14.3827" y="52.07" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" x="15.875" y="50.4825" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="15.875" y="50.4825" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="jumper" package="JP1" value="" x="23.495" y="49.8475" smashed="yes">
 <attribute name="DESCRIPTION" value="NO DESCRIPTION" x="9.2075" y="46.355" size="1.778" layer="27" display="off"/>
@@ -5512,6 +5616,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="9.2075" y="46.355" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="26.6065" y="48.895" size="1.016" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="26.416" y="47.3075" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="23.495" y="49.8475" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R24" library="rc-sysmocom" package="_0603" value="22k" x="43.02125" y="57.785" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603" x="43.02125" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5526,6 +5631,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.815" y="59.53125" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="41.52895" y="59.3725" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" x="43.02125" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="43.02125" y="57.785" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R35" library="rc-sysmocom" package="_0603" value="22k" x="46.6725" y="46.6725" smashed="yes">
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603" x="46.6725" y="46.6725" size="1.778" layer="27" display="off"/>
@@ -5540,6 +5646,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.4025" y="44.7675" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="45.085" y="45.1802" size="0.508" layer="27" font="vector" ratio="10"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf" x="46.6725" y="46.6725" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="46.6725" y="46.6725" size="1.778" layer="27" display="off"/>
 </element>
 <element name="L1" library="rc-sysmocom" package="_0603" value="47nH" x="35.2425" y="58.7375" smashed="yes">
 <attribute name="NAME" x="30.1625" y="59.3725" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
@@ -5554,6 +5661,7 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="INDUCTOR" x="35.2425" y="58.7375" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/pulse-electronics/BSCH0016080847NJ00/10508632" x="35.2425" y="58.7375" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/BSCH0016080847NJ00" x="35.2425" y="58.7375" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="35.2425" y="58.7375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R37" library="rc-sysmocom" package="_0603" value="0" x="44.7675" y="49.2125" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402" x="44.7675" y="49.2125" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5568,6 +5676,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.97375" y="48.5775" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="43.2752" y="50.8" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 <attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" x="44.7675" y="49.2125" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="44.7675" y="49.2125" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C30" library="rc-sysmocom" package="_0603" value="4.7u" x="39.0525" y="57.4675" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603" x="39.0525" y="57.4675" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5582,20 +5691,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.3375" y="58.1025" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="40.64" y="58.9598" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf" x="39.0525" y="57.4675" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="39.0525" y="57.4675" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C28" library="rc-sysmocom" package="_0603" value="100n" x="39.0525" y="56.1975" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="33.3375" y="56.515" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="40.64" y="57.6898" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="39.0525" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L2" library="rc-sysmocom" package="_0603" value="47nH" x="39.0525" y="58.7375" smashed="yes">
 <attribute name="NAME" x="33.3375" y="59.3725" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
@@ -5610,20 +5721,22 @@ design rules under a new name.</description>
 <attribute name="CLASS" value="INDUCTOR" x="39.0525" y="58.7375" size="1.778" layer="27" display="off"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/pulse-electronics/BSCH0016080847NJ00/10508632" x="39.0525" y="58.7375" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/BSCH0016080847NJ00" x="39.0525" y="58.7375" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="39.0525" y="58.7375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C34" library="rc-sysmocom" package="_0603" value="100n" x="35.2425" y="56.1975" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X5R 0201" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Electronics" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATED" value="TRUE" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="CLASS" value="CAPACITOR" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SOURCE" value="DIGIKEY" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM033R61C104KE84D" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM033R61C104KE84D/490-9985-1-ND/5026290" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SOURCEPARTNUMBER" value="490-9985-1-ND" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1935-1-ND" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="30.1625" y="56.515" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="57.6898" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C104KE84-01.pdf" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="35.2425" y="56.1975" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C27" library="rc-sysmocom" package="_0402" value="33p" x="38.735" y="54.61" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402" x="38.735" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5638,6 +5751,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="33.3375" y="55.0861" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="40.005" y="55.9436" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="38.735" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="38.735" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C33" library="rc-sysmocom" package="_0402" value="33p" x="35.56" y="54.61" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402" x="35.56" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5652,6 +5766,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.1625" y="55.0861" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="55.9436" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="35.56" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="35.56" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C29" library="rc-sysmocom" package="_0402" value="33p" x="47.3075" y="51.1175" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402" x="47.3075" y="51.1175" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5666,6 +5781,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.81625" y="50.48265" size="1.016" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="48.5775" y="52.4511" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp" x="47.3075" y="51.1175" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="47.3075" y="51.1175" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="oshw" package="OSHW_8MM_COPPER" value="" x="5.08" y="12.5375" smashed="yes" rot="MR0"/>
 <element name="R17" library="rc-sysmocom" package="_0603" value="47" x="27.94" y="78.4225" smashed="yes" rot="R90">
@@ -5681,6 +5797,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND" x="27.94" y="78.4225" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="27.14625" y="77.62875" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="29.4323" y="76.835" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="27.94" y="78.4225" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R18" library="rc-sysmocom" package="_0603" value="47" x="30.1625" y="76.2" smashed="yes" rot="R90">
 <attribute name="CLASS" value="RESISTOR" x="30.1625" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5695,6 +5812,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND" x="30.1625" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.2575" y="76.5175" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="31.6548" y="74.6125" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="30.1625" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R19" library="rc-sysmocom" package="_0603" value="47" x="29.21" y="81.5975" smashed="yes" rot="R90">
 <attribute name="CLASS" value="RESISTOR" x="29.21" y="81.5975" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5709,6 +5827,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND" x="29.21" y="81.5975" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.115" y="80.9625" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="30.7023" y="80.01" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="29.21" y="81.5975" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R20" library="rc-sysmocom" package="_0603" value="47" x="32.0675" y="76.2" smashed="yes" rot="R90">
 <attribute name="CLASS" value="RESISTOR" x="32.0675" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5723,6 +5842,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND" x="32.0675" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.9725" y="76.835" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="33.5598" y="74.6125" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="32.0675" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R33" library="rc-sysmocom" package="_0603" value="47" x="23.495" y="60.96" smashed="yes" rot="R90">
 <attribute name="CLASS" value="RESISTOR" x="23.495" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5737,6 +5857,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND" x="23.495" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.70125" y="60.80125" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="24.9873" y="59.3725" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="23.495" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R34" library="rc-sysmocom" package="_0603" value="47" x="26.3525" y="60.325" smashed="yes" rot="R90">
 <attribute name="CLASS" value="RESISTOR" x="26.3525" y="60.325" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5751,6 +5872,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="311-47GRCT-ND" x="26.3525" y="60.325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.2575" y="60.0075" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="27.8448" y="58.7375" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="26.3525" y="60.325" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP11" library="testpad" package="TP10R" value="TPTP10R" x="30.7975" y="62.23" smashed="yes">
 <attribute name="CLASS" value="UNKNOWN CLASS" x="30.7975" y="62.23" size="1.778" layer="27" display="off"/>
@@ -5765,6 +5887,7 @@ design rules under a new name.</description>
 <attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER" x="30.7975" y="62.23" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.82115" y="62.93865" size="1.016" layer="25" ratio="15"/>
 <attribute name="VALUE" x="30.4165" y="61.722" size="0.0254" layer="27"/>
+<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART" x="30.7975" y="62.23" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

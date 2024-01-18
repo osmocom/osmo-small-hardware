@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -177,18 +177,18 @@
 <wire x1="0" y1="0" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="70" y2="100" width="0" layer="20"/>
 <wire x1="70" y1="100" x2="70" y2="0" width="0" layer="20"/>
-<text x="29.1745" y="5.9055" size="1" layer="26" font="vector" ratio="16" rot="SMR0">GTM900 breakout</text>
+<text x="29.1745" y="5.9055" size="1" layer="26" font="vector" ratio="16" rot="SMR0">OsmoGTM900 breakout</text>
 <text x="29.1745" y="2.6035" size="1" layer="26" font="vector" ratio="16" rot="SMR0">(C) 2023 sysmocom GmbH
 License: CC-BY-SA</text>
-<text x="15.268" y="5.9055" size="1" layer="26" font="vector" ratio="16" rot="SMR0">&gt;VERSION</text>
+<text x="11.458" y="5.9055" size="1" layer="26" font="vector" ratio="16" rot="SMR0">&gt;VERSION</text>
 <text x="47.3825" y="91.398" size="1" layer="21" font="vector" ratio="16" rot="R180">1</text>
 <text x="0.889" y="57.4955" size="1" layer="25" font="vector" ratio="16" rot="SR270">DC
 IN</text>
 <text x="0.79" y="40.9575" size="1" layer="25" ratio="16" rot="SR270">6.5V max!</text>
-<text x="9.55675" y="6.6955" size="1" layer="25" font="vector" ratio="16">GTM900 breakout</text>
+<text x="9.55675" y="6.6955" size="1" layer="25" font="vector" ratio="16">OsmoGTM900 breakout</text>
 <text x="9.525" y="3.48875" size="1" layer="25" font="vector" ratio="16">(C) 2023 sysmocom GmbH
 License: CC-BY-SA</text>
-<text x="23.622" y="6.6955" size="1" layer="25" font="vector" ratio="16">&gt;VERSION</text>
+<text x="27.432" y="6.6955" size="1" layer="25" font="vector" ratio="16">&gt;VERSION</text>
 <text x="9.525" y="99.215" size="1" layer="25" ratio="16" rot="SR270">PWR</text>
 <text x="13.335" y="99.215" size="1" layer="25" ratio="16" rot="SR270">MDM</text>
 <text x="47.78" y="1.27" size="1" layer="25" ratio="16" rot="SR0" align="center">!RESET</text>

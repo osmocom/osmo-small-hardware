@@ -265,172 +265,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SF7W008S1A-SIM">
-<packages>
-<package name="SF7W008S1A">
-<description>JAE SF7W008S1A SIM card holder with lock and card detect switch</description>
-<smd name="5" x="-12.85" y="3.9" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="6" x="-12.85" y="1.36" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="7" x="-12.85" y="-1.18" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="82" x="-12.85" y="-3.5" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="1" x="12.85" y="3.9" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="2" x="12.85" y="1.36" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="3" x="12.85" y="-1.18" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="81" x="12.85" y="-4.7" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<wire x1="-16.79" y1="8.6" x2="-16.79" y2="5.4" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="8.6" x2="13.21" y2="8.6" width="0.127" layer="21"/>
-<wire x1="13.21" y1="8.6" x2="13.21" y2="6.2" width="0.127" layer="21"/>
-<wire x1="13.2" y1="6.2" x2="11.6" y2="6.2" width="0.127" layer="21"/>
-<wire x1="11.6" y1="6.2" x2="11.6" y2="-5.9" width="0.127" layer="21"/>
-<wire x1="11.6" y1="-5.9" x2="13.2" y2="-5.9" width="0.127" layer="21"/>
-<wire x1="13.2" y1="-5.9" x2="13.2" y2="-8.6" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="-8.6" x2="13.2" y2="-8.6" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="-5.5" x2="-11.7" y2="-5.5" width="0.127" layer="21"/>
-<wire x1="-11.7" y1="-5.5" x2="-11.7" y2="5.4" width="0.127" layer="21"/>
-<wire x1="-11.7" y1="5.4" x2="-16.8" y2="5.4" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="-5.5" x2="-16.8" y2="-8.6" width="0.127" layer="21"/>
-<rectangle x1="3.1" y1="-8.25" x2="7.1" y2="-6.2" layer="41"/>
-</package>
-<package name="SF7W008S1A-RESTR">
-<description>JAE SF7W008S1A SIM card holder with lock and card detect switch - additional restrict areas for SIM contacts</description>
-<smd name="5" x="-12.85" y="3.9" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="6" x="-12.85" y="1.36" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="7" x="-12.85" y="-1.18" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="82" x="-12.85" y="-3.5" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="1" x="12.85" y="3.9" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="2" x="12.85" y="1.36" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="3" x="12.85" y="-1.18" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<smd name="81" x="12.85" y="-4.7" dx="1.7" dy="1.1" layer="1" roundness="30"/>
-<wire x1="-16.79" y1="8.6" x2="-16.79" y2="5.4" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="8.6" x2="13.21" y2="8.6" width="0.127" layer="21"/>
-<wire x1="13.21" y1="8.6" x2="13.21" y2="6.2" width="0.127" layer="21"/>
-<wire x1="13.2" y1="6.2" x2="11.6" y2="6.2" width="0.127" layer="21"/>
-<wire x1="11.6" y1="6.2" x2="11.6" y2="-5.9" width="0.127" layer="21"/>
-<wire x1="11.6" y1="-5.9" x2="13.2" y2="-5.9" width="0.127" layer="21"/>
-<wire x1="13.2" y1="-5.9" x2="13.2" y2="-8.6" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="-8.6" x2="13.2" y2="-8.6" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="-5.5" x2="-11.7" y2="-5.5" width="0.127" layer="21"/>
-<wire x1="-11.7" y1="-5.5" x2="-11.7" y2="5.4" width="0.127" layer="21"/>
-<wire x1="-11.7" y1="5.4" x2="-16.8" y2="5.4" width="0.127" layer="21"/>
-<wire x1="-16.8" y1="-5.5" x2="-16.8" y2="-8.6" width="0.127" layer="21"/>
-<rectangle x1="3.1" y1="-8.25" x2="7.1" y2="-6.2" layer="41"/>
-<rectangle x1="2.8575" y1="3.175" x2="4.8575" y2="4.575" layer="41"/>
-<rectangle x1="2.8575" y1="0.635" x2="4.8575" y2="2.035" layer="41"/>
-<rectangle x1="2.8575" y1="-1.905" x2="4.8575" y2="-0.505" layer="41"/>
-<rectangle x1="-4.7625" y1="-1.905" x2="-2.7625" y2="-0.505" layer="41"/>
-<rectangle x1="-4.7625" y1="0.635" x2="-2.7625" y2="2.035" layer="41"/>
-<rectangle x1="-4.7625" y1="3.175" x2="-2.7625" y2="4.575" layer="41"/>
-<rectangle x1="-4.7625" y1="3.175" x2="-2.7625" y2="4.575" layer="43"/>
-<rectangle x1="2.8575" y1="3.175" x2="4.8575" y2="4.575" layer="43"/>
-<rectangle x1="-4.7625" y1="0.635" x2="-2.7625" y2="2.035" layer="43"/>
-<rectangle x1="2.8575" y1="0.635" x2="4.8575" y2="2.035" layer="43"/>
-<rectangle x1="2.8575" y1="-1.905" x2="4.8575" y2="-0.505" layer="43"/>
-<rectangle x1="-4.7625" y1="-1.905" x2="-2.7625" y2="-0.505" layer="43"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SIM_NO_AUX">
-<pin name="VCC" x="-12.7" y="7.62" length="middle" direction="pwr"/>
-<pin name="RST" x="-12.7" y="5.08" length="middle" direction="in"/>
-<pin name="CLK" x="-12.7" y="2.54" length="middle" direction="in"/>
-<pin name="I/O" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="VPP" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="GND" x="15.24" y="7.62" length="middle" direction="sup" rot="R180"/>
-<wire x1="1.286" y1="8.906" x2="10.176" y2="8.906" width="0.254" layer="94"/>
-<wire x1="10.176" y1="8.906" x2="10.176" y2="6.366" width="0.254" layer="94"/>
-<wire x1="10.176" y1="3.826" x2="10.176" y2="1.286" width="0.254" layer="94"/>
-<wire x1="10.176" y1="1.286" x2="10.176" y2="-1.254" width="0.254" layer="94"/>
-<wire x1="10.176" y1="-1.254" x2="1.286" y2="-1.254" width="0.254" layer="94"/>
-<wire x1="1.286" y1="-1.254" x2="-7.604" y2="-1.254" width="0.254" layer="94"/>
-<wire x1="-7.604" y1="-1.254" x2="-7.604" y2="1.286" width="0.254" layer="94"/>
-<wire x1="-7.604" y1="3.826" x2="-7.604" y2="6.366" width="0.254" layer="94"/>
-<wire x1="-7.604" y1="6.366" x2="-7.604" y2="8.906" width="0.254" layer="94"/>
-<wire x1="-7.604" y1="8.906" x2="1.286" y2="8.906" width="0.254" layer="94"/>
-<wire x1="1.286" y1="8.906" x2="1.286" y2="6.366" width="0.254" layer="94"/>
-<wire x1="1.286" y1="6.366" x2="0.016" y2="6.366" width="0.254" layer="94"/>
-<wire x1="-7.604" y1="6.366" x2="0.016" y2="6.366" width="0.254" layer="94"/>
-<wire x1="0.016" y1="6.366" x2="0.016" y2="3.826" width="0.254" layer="94"/>
-<wire x1="0.016" y1="3.826" x2="0.016" y2="1.286" width="0.254" layer="94"/>
-<wire x1="0.016" y1="1.286" x2="1.286" y2="1.286" width="0.254" layer="94"/>
-<wire x1="1.286" y1="-1.254" x2="1.286" y2="1.286" width="0.254" layer="94"/>
-<wire x1="1.286" y1="1.286" x2="2.556" y2="1.286" width="0.254" layer="94"/>
-<wire x1="10.176" y1="1.286" x2="2.556" y2="1.286" width="0.254" layer="94"/>
-<wire x1="2.556" y1="3.826" x2="2.556" y2="6.366" width="0.254" layer="94"/>
-<wire x1="2.556" y1="6.366" x2="10.176" y2="6.366" width="0.254" layer="94"/>
-<wire x1="10.176" y1="6.366" x2="10.176" y2="3.826" width="0.254" layer="94"/>
-<wire x1="10.176" y1="3.826" x2="2.556" y2="3.826" width="0.254" layer="94"/>
-<wire x1="2.556" y1="3.826" x2="2.556" y2="1.286" width="0.254" layer="94"/>
-<wire x1="0.016" y1="1.286" x2="-7.604" y2="1.286" width="0.254" layer="94"/>
-<wire x1="-7.604" y1="1.286" x2="-7.604" y2="3.826" width="0.254" layer="94"/>
-<wire x1="-7.604" y1="3.826" x2="0.016" y2="3.826" width="0.254" layer="94"/>
-<text x="-7.604" y="10.176" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.604" y="-4.048" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="SIM_SW_NO">
-<wire x1="-1.27" y1="0" x2="3.048" y2="1.778" width="0.2032" layer="94"/>
-<wire x1="3.048" y1="0.508" x2="3.048" y2="0" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="1.016" x2="0.762" y2="1.524" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="2.032" x2="0.762" y2="2.794" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="2.794" x2="0.762" y2="3.048" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="3.556" x2="0.762" y2="4.064" width="0.2032" layer="94"/>
-<wire x1="1.27" y1="4.064" x2="0.762" y2="4.064" width="0.2032" layer="94"/>
-<wire x1="0.762" y1="4.064" x2="0.254" y2="4.064" width="0.2032" layer="94"/>
-<wire x1="0.254" y1="2.286" x2="0.762" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.794" x2="1.27" y2="2.286" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.048" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
-<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="0@A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="1@A" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SF7W008S1A" prefix="SIM">
-<description>JAE SIM card holder with lock and card detect switch</description>
-<gates>
-<gate name="-CARD" symbol="SIM_NO_AUX" x="0" y="-12.7"/>
-<gate name="-DETECT" symbol="SIM_SW_NO" x="0" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="SF7W008S1A">
-<connects>
-<connect gate="-CARD" pin="CLK" pad="3"/>
-<connect gate="-CARD" pin="GND" pad="5"/>
-<connect gate="-CARD" pin="I/O" pad="7"/>
-<connect gate="-CARD" pin="RST" pad="2"/>
-<connect gate="-CARD" pin="VCC" pad="1"/>
-<connect gate="-CARD" pin="VPP" pad="6"/>
-<connect gate="-DETECT" pin="0@A" pad="81"/>
-<connect gate="-DETECT" pin="1@A" pad="82"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="OC_DIGIKEY" value="670-2337-1-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-R" package="SF7W008S1A-RESTR">
-<connects>
-<connect gate="-CARD" pin="CLK" pad="3"/>
-<connect gate="-CARD" pin="GND" pad="5"/>
-<connect gate="-CARD" pin="I/O" pad="7"/>
-<connect gate="-CARD" pin="RST" pad="2"/>
-<connect gate="-CARD" pin="VCC" pad="1"/>
-<connect gate="-CARD" pin="VPP" pad="6"/>
-<connect gate="-DETECT" pin="0@A" pad="81"/>
-<connect gate="-DETECT" pin="1@A" pad="82"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="OC_DIGIKEY" value="670-2985-1-ND"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="led">
 <description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
@@ -17294,6 +17128,148 @@ B Port (VCCA ≤ VCCB)</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SIM-105B-ARP8">
+<packages>
+<package name="SIM-105B-ARP8">
+<description>XUNPU SIM-105B-ARP8  SIM card holder with lock and card detect switch</description>
+<smd name="5" x="-12.59" y="3.69" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<smd name="6" x="-12.59" y="1.15" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<smd name="7" x="-12.59" y="-1.39" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<smd name="1" x="12.78" y="3.69" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<smd name="2" x="12.78" y="1.15" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<smd name="3" x="12.78" y="-1.39" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<wire x1="-16.79" y1="8.015" x2="-16.79" y2="2.86" width="0.127" layer="21"/>
+<wire x1="-16.79" y1="8.015" x2="-12.7" y2="8.65" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="8.65" x2="13.21" y2="8.65" width="0.127" layer="21"/>
+<wire x1="13.21" y1="8.65" x2="13.21" y2="6.2" width="0.127" layer="21"/>
+<wire x1="13.2" y1="6.2" x2="11.6" y2="6.2" width="0.127" layer="21"/>
+<wire x1="11.6" y1="6.2" x2="11.6" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="11.6" y1="-5.9" x2="13.2" y2="-5.9" width="0.127" layer="21"/>
+<wire x1="13.2" y1="-5.9" x2="13.2" y2="-8.65" width="0.127" layer="21"/>
+<wire x1="-16.79" y1="-8.015" x2="-12.7" y2="-8.65" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-8.65" x2="13.2" y2="-8.65" width="0.127" layer="21"/>
+<wire x1="-16.8" y1="-5.5" x2="-11.065" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-11.065" y1="-5.5" x2="-11.065" y2="5.4" width="0.127" layer="21"/>
+<wire x1="-11.065" y1="5.4" x2="-16.8" y2="5.4" width="0.127" layer="21"/>
+<smd name="81" x="12.78" y="-3.93" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<smd name="82" x="-12.59" y="-3.93" dx="1.8" dy="1.4" layer="1" roundness="30"/>
+<wire x1="-16.79" y1="-2.83" x2="-16.79" y2="-8.015" width="0.127" layer="21"/>
+<wire x1="-15.875" y1="1.905" x2="-15.875" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-16.79" y1="2.86" x2="-15.875" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-16.79" y1="-2.83" x2="-15.875" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="8.89" x2="-10.16" y2="5.715" width="0.127" layer="51"/>
+<wire x1="-10.16" y1="5.715" x2="-8.89" y2="3.81" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="3.81" x2="-8.89" y2="-3.81" width="0.127" layer="51"/>
+<wire x1="-8.89" y1="-3.81" x2="-10.16" y2="-5.715" width="0.127" layer="51"/>
+<wire x1="-10.16" y1="-5.715" x2="-10.16" y2="-8.89" width="0.127" layer="51"/>
+<wire x1="-10.16" y1="-8.89" x2="-3.81" y2="-8.89" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-8.89" x2="-3.81" y2="-5.955" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="5.715" x2="-3.81" y2="8.89" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="8.89" x2="-10.16" y2="8.89" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="5.715" x2="-3.81" y2="-5.955" width="0.127" layer="51" curve="60.282771"/>
+<rectangle x1="2.7825" y1="-4.9975" x2="6.7825" y2="-2.9475" layer="41"/>
+<rectangle x1="2.8575" y1="2.935" x2="4.8575" y2="4.335" layer="41"/>
+<rectangle x1="2.8575" y1="0.395" x2="4.8575" y2="1.795" layer="41"/>
+<rectangle x1="2.8575" y1="-2.145" x2="4.8575" y2="-0.745" layer="41"/>
+<rectangle x1="-4.7625" y1="-2.145" x2="-2.7625" y2="-0.745" layer="41"/>
+<rectangle x1="-4.7625" y1="0.395" x2="-2.7625" y2="1.795" layer="41"/>
+<rectangle x1="-4.7625" y1="2.935" x2="-2.7625" y2="4.335" layer="41"/>
+<rectangle x1="-4.7625" y1="2.935" x2="-2.7625" y2="4.335" layer="43"/>
+<rectangle x1="2.8575" y1="2.935" x2="4.8575" y2="4.335" layer="43"/>
+<rectangle x1="-4.7625" y1="0.395" x2="-2.7625" y2="1.795" layer="43"/>
+<rectangle x1="2.8575" y1="0.395" x2="4.8575" y2="1.795" layer="43"/>
+<rectangle x1="2.8575" y1="-2.145" x2="4.8575" y2="-0.745" layer="43"/>
+<rectangle x1="-4.7625" y1="-2.145" x2="-2.7625" y2="-0.745" layer="43"/>
+<wire x1="-15.5575" y1="-5.715" x2="-15.5575" y2="-7.9375" width="0.127" layer="21"/>
+<wire x1="-15.5575" y1="-7.9375" x2="-13.335" y2="-7.9375" width="0.127" layer="21"/>
+<wire x1="-13.335" y1="-7.9375" x2="-15.5575" y2="-5.715" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SIM_NO_AUX">
+<pin name="VCC" x="-12.7" y="7.62" length="middle" direction="pwr"/>
+<pin name="RST" x="-12.7" y="5.08" length="middle" direction="in"/>
+<pin name="CLK" x="-12.7" y="2.54" length="middle" direction="in"/>
+<pin name="I/O" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="VPP" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="7.62" length="middle" direction="sup" rot="R180"/>
+<wire x1="1.286" y1="8.906" x2="10.176" y2="8.906" width="0.254" layer="94"/>
+<wire x1="10.176" y1="8.906" x2="10.176" y2="6.366" width="0.254" layer="94"/>
+<wire x1="10.176" y1="3.826" x2="10.176" y2="1.286" width="0.254" layer="94"/>
+<wire x1="10.176" y1="1.286" x2="10.176" y2="-1.254" width="0.254" layer="94"/>
+<wire x1="10.176" y1="-1.254" x2="1.286" y2="-1.254" width="0.254" layer="94"/>
+<wire x1="1.286" y1="-1.254" x2="-7.604" y2="-1.254" width="0.254" layer="94"/>
+<wire x1="-7.604" y1="-1.254" x2="-7.604" y2="1.286" width="0.254" layer="94"/>
+<wire x1="-7.604" y1="3.826" x2="-7.604" y2="6.366" width="0.254" layer="94"/>
+<wire x1="-7.604" y1="6.366" x2="-7.604" y2="8.906" width="0.254" layer="94"/>
+<wire x1="-7.604" y1="8.906" x2="1.286" y2="8.906" width="0.254" layer="94"/>
+<wire x1="1.286" y1="8.906" x2="1.286" y2="6.366" width="0.254" layer="94"/>
+<wire x1="1.286" y1="6.366" x2="0.016" y2="6.366" width="0.254" layer="94"/>
+<wire x1="-7.604" y1="6.366" x2="0.016" y2="6.366" width="0.254" layer="94"/>
+<wire x1="0.016" y1="6.366" x2="0.016" y2="3.826" width="0.254" layer="94"/>
+<wire x1="0.016" y1="3.826" x2="0.016" y2="1.286" width="0.254" layer="94"/>
+<wire x1="0.016" y1="1.286" x2="1.286" y2="1.286" width="0.254" layer="94"/>
+<wire x1="1.286" y1="-1.254" x2="1.286" y2="1.286" width="0.254" layer="94"/>
+<wire x1="1.286" y1="1.286" x2="2.556" y2="1.286" width="0.254" layer="94"/>
+<wire x1="10.176" y1="1.286" x2="2.556" y2="1.286" width="0.254" layer="94"/>
+<wire x1="2.556" y1="3.826" x2="2.556" y2="6.366" width="0.254" layer="94"/>
+<wire x1="2.556" y1="6.366" x2="10.176" y2="6.366" width="0.254" layer="94"/>
+<wire x1="10.176" y1="6.366" x2="10.176" y2="3.826" width="0.254" layer="94"/>
+<wire x1="10.176" y1="3.826" x2="2.556" y2="3.826" width="0.254" layer="94"/>
+<wire x1="2.556" y1="3.826" x2="2.556" y2="1.286" width="0.254" layer="94"/>
+<wire x1="0.016" y1="1.286" x2="-7.604" y2="1.286" width="0.254" layer="94"/>
+<wire x1="-7.604" y1="1.286" x2="-7.604" y2="3.826" width="0.254" layer="94"/>
+<wire x1="-7.604" y1="3.826" x2="0.016" y2="3.826" width="0.254" layer="94"/>
+<text x="-7.604" y="10.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.604" y="-4.048" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SIM_SW_NO">
+<wire x1="-1.27" y1="0" x2="3.048" y2="1.778" width="0.2032" layer="94"/>
+<wire x1="3.048" y1="0.508" x2="3.048" y2="0" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="1.016" x2="0.762" y2="1.524" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="2.032" x2="0.762" y2="2.794" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="2.794" x2="0.762" y2="3.048" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="3.556" x2="0.762" y2="4.064" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="4.064" x2="0.762" y2="4.064" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="4.064" x2="0.254" y2="4.064" width="0.2032" layer="94"/>
+<wire x1="0.254" y1="2.286" x2="0.762" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.794" x2="1.27" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.048" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="0@A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1@A" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SIM-105B-ARP8" prefix="SIM">
+<description>XunPu SIM-105B-ARP8 SIM card holder with lock and card detect switch&lt;p&gt;
+LCSC: C920196</description>
+<gates>
+<gate name="-CARD" symbol="SIM_NO_AUX" x="0" y="-12.7"/>
+<gate name="-DETECT" symbol="SIM_SW_NO" x="0" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SIM-105B-ARP8">
+<connects>
+<connect gate="-CARD" pin="CLK" pad="3"/>
+<connect gate="-CARD" pin="GND" pad="5"/>
+<connect gate="-CARD" pin="I/O" pad="7"/>
+<connect gate="-CARD" pin="RST" pad="2"/>
+<connect gate="-CARD" pin="VCC" pad="1"/>
+<connect gate="-CARD" pin="VPP" pad="6"/>
+<connect gate="-DETECT" pin="0@A" pad="81"/>
+<connect gate="-DETECT" pin="1@A" pad="82"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="VERSION" value="v3"/>
@@ -17314,11 +17290,11 @@ B Port (VCCA ≤ VCCB)</description>
 </class>
 </classes>
 <parts>
-<part name="SIM1" library="SF7W008S1A-SIM" deviceset="SF7W008S1A" device="-R">
+<part name="SIM1" library="SIM-105B-ARP8" deviceset="SIM-105B-ARP8" device="">
 <attribute name="CLASS" value="SIM HOLDER"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/SF7W008S1A_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CONN SIM CARD HINGED TYPE R/A"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C920196"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/jae-electronics/SF7W008S1AR900/670-2985-1-ND/8024733"/>
 <attribute name="MANUFACTURER" value="JAE Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SF7W008S1AR900"/>
@@ -17330,7 +17306,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
 <attribute name="CLASS" value="LED"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C5875726"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -17343,7 +17319,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -17356,7 +17332,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -17369,7 +17345,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/22001d.pdf"/>
 <attribute name="DESCRIPTION" value="IC REG LIN POS ADJ 1.5A 5DDPAK"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C152196"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP1827T-ADJE-ET/1223119"/>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="MCP1827T-ADJE/ET"/>
@@ -17382,7 +17358,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C408141"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17395,7 +17371,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C408141"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17409,7 +17385,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://www.cuidevices.com/product/resource/pj-002bh-smt-tr.pdf"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C3094235"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/cui-devices/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694"/>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR"/>
@@ -17422,7 +17398,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.nichicon.co.jp/english/products/pdfs/e-uur.pdf"/>
 <attribute name="DESCRIPTION" value="CAP ALUM 470UF 20% 6.3V SMD"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C445244"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nichicon/UUR0J471MNL1GS/493-6207-1-ND/3438720"/>
 <attribute name="MANUFACTURER" value="Nichicon"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UUR0J471MNL1GS"/>
@@ -17447,7 +17423,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17461,7 +17437,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACTU.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10PF 50V C0G/NP0 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C106245"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C100J5GACTU/399-1049-1-ND/411324"/>
 <attribute name="MANUFACTURER" value="KEMET"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="C0603C100J5GACTU"/>
@@ -17474,7 +17450,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -17487,20 +17463,20 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="LCSC_PART" value="C15008"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3887440"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A107MQHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1782-1-ND"/>
 </part>
 <part name="C3" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17513,7 +17489,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17526,7 +17502,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17542,7 +17518,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -17555,7 +17531,7 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0603" value="GREEN">
 <attribute name="CLASS" value="LED"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C5554150"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -17568,7 +17544,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105879"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
@@ -17582,7 +17558,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/41/CL31A107MQHNNNE_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C15008"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3887440"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL31A107MQHNNNE"/>
@@ -17595,14 +17571,14 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.murata.com/-/media/webrenewal/support/library/catalog/products/capacitor/ceramiccapacitor/c02e.ashx?la=en-us&amp;cvid=20210120024548000000"/>
 <attribute name="DESCRIPTION" value="CAP CER 100UF 6.3V X5R 1206"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
-<attribute name="LINK" value="https://www.digikey.com/product-detail/en/murata-electronics/GRM31CR60J107ME39K/490-7217-1-ND/3991203"/>
-<attribute name="MANUFACTURER" value="Murata Electronics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="GRM31CR60J107ME39K"/>
+<attribute name="LCSC_PART" value="C15008"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A107MQHNNNE/3887440"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A107MQHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
 <attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="490-7217-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1782-1-ND"/>
 </part>
 <part name="X2" library="laforge" deviceset="SMA-F" device="-S-TH">
 <attribute name="CLASS" value="CONNECTOR"/>
@@ -17621,7 +17597,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf"/>
 <attribute name="DESCRIPTION" value="CONN U.FL RCPT STR 50 OHM SMD"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C434812"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(01)/H9161-ND/513010"/>
 <attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="U.FL-R-SMT(01)"/>
@@ -17636,7 +17612,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.te.com/usa-en/product-8-1879338-5.datasheet.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 200K OHM 1% 1/16W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105574"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CPF0603F200KC1/2384707"/>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CPF0603F200KC1"/>
@@ -17649,7 +17625,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114065"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -17662,7 +17638,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/PESD5V0U5BF_PESD5V0U5BV.pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5V SOT666"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C552582"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/PESD5V0U5BV,115/1727-5806-1-ND/2697711"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="PESD5V0U5BV,115"/>
@@ -17675,7 +17651,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 15K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114661"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-0715KL/311-15.0KHRCT-ND/729900"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0715KL"/>
@@ -17702,7 +17678,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://www.mccsemi.com/pdf/Products/SMBJP6KE6.8(C)A-SMBJP6KE550(C)A(DO-214AA).pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5.8V 10.5V DO214AA"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C725414"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/micro-commercial-co/SMBJP6KE6.8A-TP/SMBJP6KE6.8A-TPMSCT-ND/2345768"/>
 <attribute name="MANUFACTURER" value="Micro Commercial Co"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SMBJP6KE6.8A-TP"/>
@@ -17715,7 +17691,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://www.comchiptech.com/admin/files/product/ACDBB540-HF%20RevA196617.pdf"/>
 <attribute name="DESCRIPTION" value="DIODE SCHOTTKY 40V 5A DO214AA"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C3019736"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/comchip-technology/ACDBB540-HF/7100744"/>
 <attribute name="MANUFACTURER" value="Comchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="ACDBB540-HF"/>
@@ -17730,7 +17706,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://www.hirose.com/product/document?clcode=&amp;productname=&amp;series=FH12&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31648_en"/>
 <attribute name="DESCRIPTION" value="CONN FFC FPC TOP 40POS 0.5MM R/A"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C506795"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/FH12A-40S-0-5SH-55/1110338"/>
 <attribute name="MANUFACTURER" value="Hirose Electric Co Ltd"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="FH12A-40S-0.5SH(55)"/>
@@ -17743,7 +17719,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="DIODE"/>
 <attribute name="DATASHEET" value="https://datasheets.kyocera-avx.com/AVX-GiGuard.pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5VWM 15.5VC 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C597648"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/kyocera-avx/GG0402050R3C2P/6826543"/>
 <attribute name="MANUFACTURER" value="KYOCERA AVX"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GG0402050R3C2P"/>
@@ -17756,7 +17732,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="TACT SWITCH"/>
 <attribute name="DATASHEET" value="https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"/>
 <attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C713484"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-Q2M03W/762896"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="EVQ-Q2M03W"/>
@@ -17770,7 +17746,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C8664"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/BC847C,215/1727-2924-1-ND/763463"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
@@ -17784,7 +17760,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 330 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105879"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07330RL/311-330GRCT-ND/729716"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-07330RL"/>
@@ -17797,7 +17773,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114065"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -17810,7 +17786,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114065"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -17824,7 +17800,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17837,7 +17813,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17850,7 +17826,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17863,7 +17839,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="TACT SWITCH"/>
 <attribute name="DATASHEET" value="https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"/>
 <attribute name="DESCRIPTION" value="SWITCH TACTILE SPST-NO 0.02A 15V"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C713484"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-Q2M03W/762896"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="EVQ-Q2M03W"/>
@@ -17877,7 +17853,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17890,7 +17866,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C408141"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17903,7 +17879,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17917,7 +17893,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61C106KE15-01.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C408141"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61C106KE15K/2546903"/>
 <attribute name="MANUFACTURER" value="Murata Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="GRM21BR61C106KE15K"/>
@@ -17930,7 +17906,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -17943,7 +17919,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"/>
 <attribute name="DESCRIPTION" value="IC REG LINEAR 2.8V 150MA SC70-5"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C626107"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/microchip-technology/MIC5366-2-8YC5-TR/1868110"/>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="MIC5366-2.8YC5-TR"/>
@@ -17957,7 +17933,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105428"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -17970,7 +17946,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105579"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747KL/311-47.0KHRCT-ND/730200"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0747KL"/>
@@ -17984,7 +17960,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 16V X5R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C1592"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KO8NNNC/3886692"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10A105KO8NNNC"/>
@@ -17997,7 +17973,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10A105KO8NNNC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 1UF 16V X5R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C1592"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KO8NNNC/3886692"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10A105KO8NNNC"/>
@@ -18010,7 +17986,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18023,7 +17999,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C116692"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18036,7 +18012,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C116692"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18049,7 +18025,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18072,22 +18048,21 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="R38" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
-<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
-<attribute name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="C136582"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0402ZT0R00CT-ND"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="C37" library="rc-sysmocom" deviceset="CAP_CERAMIC" device="_0402" value="33p">
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18100,7 +18075,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18175,7 +18150,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CONNECTOR"/>
 <attribute name="DATASHEET" value="https://www.cuidevices.com/product/discontinued/sj2-357x-smt.pdf"/>
 <attribute name="DESCRIPTION" value="AUDIO JACK, 3.5 MM, RT, 4 CONDUC"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C4991637"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/cui-devices/SJ2-3574A-SMT-TR/6619530"/>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SJ2-3574A-SMT-TR"/>
@@ -18234,7 +18209,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://www.ti.com/lit/ds/sces576g/sces576g.pdf"/>
 <attribute name="DESCRIPTION" value="IC TRANSLATION TXRX 3.6V 16VQFN"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C2872438"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/texas-instruments/SN74AVC4T245RGYR/807023"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="SN74AVC4T245RGYR"/>
@@ -18249,7 +18224,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18262,7 +18237,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18273,16 +18248,15 @@ B Port (VCCA ≤ VCCB)</description>
 </part>
 <part name="R21" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
-<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
-<attribute name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="C136582"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0402ZT0R00CT-ND"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="TP2" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R">
 <attribute name="CLASS" value="UNKNOWN CLASS"/>
@@ -18375,7 +18349,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://www.nuvoton.com/export/resource-files/en-us--DS_NAU88C10_DataSheet_EN_Rev1.9.pdf"/>
 <attribute name="DESCRIPTION" value="MONO AUDIO CODEC W/ SPEAKER DRIV"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C914208"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/nuvoton-technology-corporation/NAU88C10YG/13147649"/>
 <attribute name="MANUFACTURER" value="Nuvoton Technology Corporation"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="NAU88C10YG"/>
@@ -18388,7 +18362,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C107696"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18401,7 +18375,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C107696"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18414,7 +18388,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C107696"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18427,7 +18401,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C107696"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18440,7 +18414,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C107696"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18453,7 +18427,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 220 OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C107696"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07220RL/311-220HRCT-ND/730008"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07220RL"/>
@@ -18466,7 +18440,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105428"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -18479,7 +18453,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105428"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -18492,7 +18466,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18505,7 +18479,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18518,7 +18492,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18533,7 +18507,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18546,7 +18520,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18560,7 +18534,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="IC"/>
 <attribute name="DATASHEET" value="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxb0102"/>
 <attribute name="DESCRIPTION" value="IC TRANSLTR BIDIRECTIONAL 8VSSOP"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C60709"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/texas-instruments/TXB0102DCUR/1739891"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="TXB0102DCUR"/>
@@ -18574,7 +18548,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C109456"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB475/311-1455-1-ND/2833761"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX5R6BB475"/>
@@ -18588,7 +18562,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C109456"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB475/311-1455-1-ND/2833761"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX5R6BB475"/>
@@ -18601,7 +18575,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C116692"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18614,7 +18588,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18627,7 +18601,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C116692"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18640,7 +18614,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 1K OHM 0.5% 1/16W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C116692"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/susumu/RR0816P-102-D/432185"/>
 <attribute name="MANUFACTURER" value="Susumu"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RR0816P-102-D"/>
@@ -18653,7 +18627,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18666,7 +18640,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="TRANSISTOR"/>
 <attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C8664"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/BC847C,215/1727-2924-1-ND/763463"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
@@ -18679,7 +18653,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114065"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18692,7 +18666,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114065"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18705,7 +18679,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 4.7K OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C105428"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-074K7L/311-4.7KGRCT-ND/729732"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-074K7L"/>
@@ -18731,7 +18705,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114065"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18744,7 +18718,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rc_group_51_rohs_l.pdf"/>
 <attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114065"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0722KL/727056"/>
 <attribute name="MANUFACTURER" value="YAGEO"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-0722KL"/>
@@ -18757,7 +18731,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DATASHEET" value="https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/BSCH0016080847NJ00"/>
 <attribute name="DESCRIPTION" value="FIXED IND 47NH 400MA 700MOHM SMD"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C6135425"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/pulse-electronics/BSCH0016080847NJ00/10508632"/>
 <attribute name="MANUFACTURER" value="Pulse Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BSCH0016080847NJ00"/>
@@ -18769,16 +18743,15 @@ B Port (VCCA ≤ VCCB)</description>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 <part name="R37" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="0">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
-<attribute name="DESCRIPTION" value="RES 0 OHM JUMPER 1/16W 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
-<attribute name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905"/>
-<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="RMCF0402ZT0R00"/>
+<attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
+<attribute name="LCSC_PART" value="C136582"/>
+<attribute name="LINK" value="UNKNOWN LINK"/>
+<attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
-<attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="RMCF0402ZT0R00CT-ND"/>
+<attribute name="ROHSCERTIFICATE" value="UNKNOWN ROHS CERTIFICATE"/>
+<attribute name="SOURCE" value="UNKNOWN SOURCE"/>
+<attribute name="SOURCEPARTNUMBER" value="UNKNOWN SOURCE PART NUMBER"/>
 </part>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
@@ -18786,7 +18759,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 4.7UF 10V X5R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C109456"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB475/311-1455-1-ND/2833761"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CC0603KRX5R6BB475"/>
@@ -18799,7 +18772,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18812,7 +18785,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="INDUCTOR"/>
 <attribute name="DATASHEET" value="https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/BSCH0016080847NJ00"/>
 <attribute name="DESCRIPTION" value="FIXED IND 47NH 400MA 700MOHM SMD"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C6135425"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/pulse-electronics/BSCH0016080847NJ00/10508632"/>
 <attribute name="MANUFACTURER" value="Pulse Electronics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BSCH0016080847NJ00"/>
@@ -18825,7 +18798,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C141084"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18838,7 +18811,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18851,7 +18824,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18868,7 +18841,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL05C330JB5NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 33PF 50V C0G/NP0 0402"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C70465"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05C330JB5NNNC/1276-1272-1-ND/3889358"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL05C330JB5NNNC"/>
@@ -18886,7 +18859,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18899,7 +18872,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18912,7 +18885,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18925,7 +18898,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18938,7 +18911,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -18951,7 +18924,7 @@ B Port (VCCA ≤ VCCB)</description>
 <attribute name="CLASS" value="RESISTOR"/>
 <attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
 <attribute name="DESCRIPTION" value="RES SMD 47 OHM 5% 1/10W 0603"/>
-<attribute name="LCSC_PART" value="UNKNOWN LCSC_PART"/>
+<attribute name="LCSC_PART" value="C114623"/>
 <attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-0747RL/311-47GRCT-ND/729740"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603JR-0747RL"/>
@@ -21021,17 +20994,17 @@ sysmocom s.f.m.c</text>
 <attribute name="LCSC_PART" x="55.88" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="40.64" y="157.48" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURERPARTNUMBER" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="SOURCE" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="SOURCEPARTNUMBER" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="ROHSCERTIFICATE" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="POPULATED" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="CLASS" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
-<attribute name="LINK" x="40.64" y="157.48" size="1.27" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="38.1" y="160.274" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="38.1" y="155.829" size="1.27" layer="96" rot="MR180"/>
+<attribute name="DESCRIPTION" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURERPARTNUMBER" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCE" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="SOURCEPARTNUMBER" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="ROHSCERTIFICATE" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="POPULATED" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="CLASS" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="LINK" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="LCSC_PART" x="40.64" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC2" gate="-PWR" x="111.76" y="76.2">

@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -3883,79 +3883,69 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <clearance class="3" value="0.2032"/>
 </class>
 </classes>
-<designrules name="SeeedStudio_2layer_DRU_no_angle_20140221 *">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
-<description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
-</description>
+<designrules name="jlcpcb-2layers *">
+<description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
+&lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
+&lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
+&lt;/ul&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="0mil"/>
-<param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="0mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.6mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
+<param name="msWidth" value="5mil"/>
 <param name="msDrill" value="0.3mm"/>
-<param name="msMicroVia" value="12mil"/>
+<param name="msMicroVia" value="0.3mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.25"/>
-<param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
-<param name="rvViaOuter" value="0.25"/>
-<param name="rvViaInner" value="0.25"/>
-<param name="rvMicroViaOuter" value="0.25"/>
-<param name="rvMicroViaInner" value="0.25"/>
+<param name="rvPadTop" value="0.4"/>
+<param name="rvPadInner" value="0"/>
+<param name="rvPadBottom" value="0.4"/>
+<param name="rvViaOuter" value="0"/>
+<param name="rvViaInner" value="0"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
 <param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMaxPadTop" value="80mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMaxPadBottom" value="80mil"/>
+<param name="rlMinViaOuter" value="3mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinMicroViaOuter" value="3mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
 <param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="0"/>
+<param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="100mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0.3"/>
-<param name="srMinRoundness" value="4mil"/>
+<param name="srMinRoundness" value="2mil"/>
 <param name="srMaxRoundness" value="8mil"/>
 <param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
@@ -3964,7 +3954,7 @@ design rules under a new name.</description>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="0"/>
+<param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -6961,8 +6951,10 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="36.83" x2="43.4975" y2="36.83" width="0.3048" layer="16"/>
 <wire x1="43.4975" y1="36.83" x2="40.005" y2="40.3225" width="0.3048" layer="16"/>
 <wire x1="40.005" y1="40.3225" x2="34.6075" y2="40.3225" width="0.3048" layer="16"/>
-<wire x1="34.6075" y1="40.3225" x2="25.4" y2="49.53" width="0.3048" layer="16"/>
-<wire x1="25.4" y1="49.53" x2="25.4" y2="63.5" width="0.3048" layer="16"/>
+<wire x1="34.6075" y1="40.3225" x2="26.035" y2="48.895" width="0.3048" layer="16"/>
+<wire x1="26.035" y1="48.895" x2="26.035" y2="51.7525" width="0.3048" layer="16"/>
+<wire x1="26.035" y1="51.7525" x2="25.4" y2="52.3875" width="0.3048" layer="16"/>
+<wire x1="25.4" y1="52.3875" x2="25.4" y2="63.5" width="0.3048" layer="16"/>
 <wire x1="25.4" y1="63.5" x2="26.035" y2="64.135" width="0.3048" layer="16"/>
 <via x="26.035" y="64.135" extent="1-16" drill="0.3"/>
 <wire x1="26.7375" y1="66.7175" x2="26.7375" y2="64.8375" width="0.3048" layer="1"/>
@@ -7636,13 +7628,37 @@ design rules under a new name.</description>
 <approved hash="18,29,c974139f4da0e4bf"/>
 <approved hash="18,29,5d50966dd6a26c83"/>
 <approved hash="18,29,b5ee945dd4468601"/>
-<approved hash="18,29,2124bd6cb9ea93be"/>
 <approved hash="18,29,0c263f8333b87101"/>
-<approved hash="18,29,272c4c21b8f479e5"/>
 <approved hash="18,29,e4603e9b31a498ab"/>
 <approved hash="18,29,b42b49875dd895ab"/>
 <approved hash="18,29,4636bfb341af8df5"/>
 <approved hash="18,29,bd3b4db24e399b99"/>
+<approved hash="3,1,355435fe35a93503"/>
+<approved hash="3,1,794120e6a0985a6c"/>
+<approved hash="3,1,6a6b70c1729f6835"/>
+<approved hash="3,1,f5b73e18c51cf8a4"/>
+<approved hash="3,1,796ffac5fb81782b"/>
+<approved hash="3,1,308d4956c9821425"/>
+<approved hash="3,1,620b81a1806163cb"/>
+<approved hash="3,1,fd3d180120ecff29"/>
+<approved hash="5,1,04cd8365919544df"/>
+<approved hash="5,1,60440829a9ddef5e"/>
+<approved hash="5,1,62ce1f880998cc5e"/>
+<approved hash="5,1,ae2d125fd3516857"/>
+<approved hash="5,1,e931e445e51cb5f9"/>
+<approved hash="5,1,1ec5a27a6ddbbc8b"/>
+<approved hash="5,1,4176eb91574203a1"/>
+<approved hash="5,1,2dc91e03f668ce37"/>
+<approved hash="5,1,1a0c3801204253c3"/>
+<approved hash="5,1,5e592dccf58fd796"/>
+<approved hash="4,16,d5a35243444fc3af"/>
+<approved hash="4,16,5e20f100ec764356"/>
+<approved hash="5,16,6917bdb58369d522"/>
+<approved hash="5,16,f86bb86db8667661"/>
+<approved hash="4,16,a31a7c3a6a29b509"/>
+<approved hash="4,16,2e2431042c653345"/>
+<approved hash="18,29,2124bd6cb9ea93be"/>
+<approved hash="18,29,272c4c21b8f479e5"/>
 <approved hash="3,1,6cde34f08141beb0"/>
 <approved hash="3,16,2f8a662e552179d4"/>
 <approved hash="3,1,8b1f80b5816f8ac5"/>
@@ -7681,11 +7697,8 @@ design rules under a new name.</description>
 <approved hash="3,1,ec2767a16535eeb3"/>
 <approved hash="3,1,79ee838f0810f2f1"/>
 <approved hash="3,1,13af77ce263a905b"/>
-<approved hash="3,1,355435fe35a93503"/>
-<approved hash="3,1,794120e6a0985a6c"/>
-<approved hash="3,1,6a6b70c1729f6835"/>
-<approved hash="3,1,f5b73e18c51cf8a4"/>
-<approved hash="3,1,796ffac5fb81782b"/>
+<approved hash="3,1,c98a29202b7fcbd5"/>
+<approved hash="3,1,4578ee16660cf874"/>
 <approved hash="3,1,ad831ca51c1dad3b"/>
 <approved hash="3,1,44df5b9bc181b3f6"/>
 <approved hash="3,1,ebc1e4a7e507ea61"/>
@@ -7695,41 +7708,46 @@ design rules under a new name.</description>
 <approved hash="3,1,4487cb18c052722d"/>
 <approved hash="3,1,281cad3aaa832fa5"/>
 <approved hash="3,1,2161d4cbd7922238"/>
-<approved hash="3,1,308d4956c9821425"/>
-<approved hash="3,1,620b81a1806163cb"/>
-<approved hash="3,1,fd3d180120ecff29"/>
+<approved hash="3,1,3cec5138dc993a02"/>
 <approved hash="3,1,20e6640064952073"/>
 <approved hash="3,1,21bb59fabc46894b"/>
+<approved hash="3,1,2de4800e80e22d08"/>
+<approved hash="3,1,d7e3726e7707c5fb"/>
+<approved hash="3,1,4874199e19aa4840"/>
+<approved hash="3,1,02c41be297f1329f"/>
+<approved hash="3,1,f375251f251ef374"/>
+<approved hash="3,1,400d9f571485b37d"/>
+<approved hash="3,1,b2143bbe3a89b323"/>
+<approved hash="3,1,ba4734e234055aa1"/>
+<approved hash="3,1,bbb0a21aa045b9ef"/>
+<approved hash="3,1,7a8d97969eaef419"/>
 <approved hash="3,1,56302c0e2f1a5524"/>
 <approved hash="3,1,1c1a422441351f0b"/>
 <approved hash="3,1,b03d8e0f820f343e"/>
 <approved hash="5,1,ca00a9b1d8d59fda"/>
 <approved hash="5,1,f462df010dc015f8"/>
 <approved hash="5,1,a4ed8652a5dc51df"/>
-<approved hash="5,1,04cd8365919544df"/>
 <approved hash="5,1,a27e8023a3ad574c"/>
 <approved hash="5,1,5126a52686a9a415"/>
 <approved hash="5,1,42ef0f1e7e68ebb9"/>
 <approved hash="5,1,80269a3b934a0f83"/>
 <approved hash="5,1,86a8894a5ddd15fc"/>
 <approved hash="5,1,340f42ef76a1d7fe"/>
-<approved hash="5,1,60440829a9ddef5e"/>
-<approved hash="5,1,62ce1f880998cc5e"/>
-<approved hash="5,1,ae2d125fd3516857"/>
-<approved hash="5,1,e931e445e51cb5f9"/>
-<approved hash="5,1,a98479567af7aa25"/>
-<approved hash="5,1,1ec5a27a6ddbbc8b"/>
+<approved hash="5,1,12837d29a9ddec92"/>
+<approved hash="5,1,1395d303c902b292"/>
 <approved hash="5,1,27b67cf280d52383"/>
-<approved hash="5,1,4176eb91574203a1"/>
-<approved hash="5,1,2dc91e03f668ce37"/>
-<approved hash="5,1,1a0c3801204253c3"/>
-<approved hash="5,1,5e592dccf58fd796"/>
-<approved hash="4,16,d5a35243444fc3af"/>
-<approved hash="4,16,5e20f100ec764356"/>
-<approved hash="5,16,6917bdb58369d522"/>
-<approved hash="5,16,f86bb86db8667661"/>
-<approved hash="4,16,a31a7c3a6a29b509"/>
-<approved hash="4,16,2e2431042c653345"/>
+<approved hash="5,1,1e98a0a069d4af8b"/>
+<approved hash="5,1,a98479567af7aa25"/>
+<approved hash="5,1,e9cdf79fe0bcb7f9"/>
+<approved hash="5,1,ac70102ac83c7112"/>
+<approved hash="5,1,2af2328f6fe13d9c"/>
+<approved hash="5,1,300c6275ff1be762"/>
+<approved hash="5,1,2af53801204222ab"/>
+<approved hash="5,1,2f312dccf58fe76f"/>
+<approved hash="4,16,68d36f3162a16543"/>
+<approved hash="4,16,1222e580fabb0d19"/>
+<approved hash="4,16,64a9130b1e816923"/>
+<approved hash="4,16,322505871abf2d1d"/>
 </errors>
 </board>
 </drawing>

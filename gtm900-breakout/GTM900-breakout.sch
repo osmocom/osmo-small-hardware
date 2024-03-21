@@ -17306,7 +17306,7 @@ LCSC: C920196</description>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="YELLOW">
 <attribute name="CLASS" value="LED"/>
 <attribute name="DESCRIPTION" value="NO DESCRIPTION"/>
-<attribute name="LCSC_PART" value="C5875726"/>
+<attribute name="LCSC_PART" value="C5355459"/>
 <attribute name="LINK" value="UNKNOWN LINK"/>
 <attribute name="MANUFACTURER" value="UNKNOWN MANUFACTURER"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UNKNOWN MANUFACTURER PART NUMBER"/>
@@ -17450,7 +17450,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -17518,7 +17518,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -17986,7 +17986,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18025,7 +18025,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18224,7 +18224,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18237,7 +18237,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18507,7 +18507,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18520,7 +18520,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18588,7 +18588,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18627,7 +18627,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18772,7 +18772,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>
@@ -18798,7 +18798,7 @@ LCSC: C920196</description>
 <attribute name="CLASS" value="CAPACITOR"/>
 <attribute name="DATASHEET" value="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10B104KB8NNWC_Spec.pdf"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V X7R 0603"/>
-<attribute name="LCSC_PART" value="C141084"/>
+<attribute name="LCSC_PART" value="C14663"/>
 <attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNWC/3887593"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KB8NNWC"/>

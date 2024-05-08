@@ -23442,6 +23442,7 @@ detection</text>
 <attribute name="LINK" x="73.66" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="302.26" y="167.64"/>
+<instance part="IC202" gate="-2OE_4" x="208.28" y="10.16"/>
 </instances>
 <busses>
 </busses>

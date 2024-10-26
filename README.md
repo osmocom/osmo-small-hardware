@@ -134,3 +134,9 @@ siu-clock-breakout
 ------------------
 
 A break-out board for the clock/sync port on the Ericsson SIU-02
+
+
+rbs6k-diy-rack
+--------------
+
+A DYI small rack for housing Ericsson RBS 6000 equipment like DUL + DUG + RUS made from wooden panels and a laser-cut back plate for fans.

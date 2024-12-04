@@ -140,3 +140,8 @@ rbs6k-diy-rack
 --------------
 
 A DYI small rack for housing Ericsson RBS 6000 equipment like DUL + DUG + RUS made from wooden panels and a laser-cut back plate for fans.
+
+fcd155-breakout
+---------------
+
+This is a small break-out board to adapt the RAD FCD-155 8xE1 high-density 44-pin D-SUB connector to 8xRJ45 in standard E1 pinout.

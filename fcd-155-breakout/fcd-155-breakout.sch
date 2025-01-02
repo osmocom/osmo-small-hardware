@@ -73,102 +73,6 @@
 <libraries>
 <library name="stewart-rj45">
 <packages>
-<package name="RC01077">
-<description>Wenzhou RuiChuan Electronic Co. Ltd - RCH-50-01-24 / RC01077</description>
-<hole x="-26.85" y="0" drill="3.25"/>
-<hole x="26.85" y="0" drill="3.25"/>
-<wire x1="-29.6" y1="-17.45" x2="29.6" y2="-17.45" width="0.127" layer="21"/>
-<wire x1="29.6" y1="-17.45" x2="29.6" y2="10.75" width="0.127" layer="21"/>
-<wire x1="29.6" y1="10.75" x2="-29.6" y2="10.75" width="0.127" layer="21"/>
-<wire x1="-29.6" y1="10.75" x2="-29.6" y2="-17.45" width="0.127" layer="21"/>
-<wire x1="-20.95" y1="10.16" x2="-20.95" y2="-16.51" width="0.127" layer="51" style="longdash"/>
-<wire x1="20.95" y1="10.16" x2="20.95" y2="-16.51" width="0.127" layer="51" style="longdash"/>
-<wire x1="-6.985" y1="10.16" x2="-6.985" y2="-16.51" width="0.127" layer="51" style="longdash"/>
-<wire x1="6.985" y1="10.16" x2="6.985" y2="-16.51" width="0.127" layer="51" style="longdash"/>
-<pad name="A8" x="16.51" y="-15.49" drill="0.9"/>
-<pad name="A7" x="17.78" y="-12.95" drill="0.9"/>
-<pad name="A6" x="19.05" y="-15.49" drill="0.9"/>
-<pad name="A5" x="20.32" y="-12.95" drill="0.9"/>
-<pad name="A4" x="21.59" y="-15.49" drill="0.9"/>
-<pad name="A3" x="22.86" y="-12.95" drill="0.9"/>
-<pad name="A2" x="24.13" y="-15.49" drill="0.9"/>
-<pad name="A1" x="25.4" y="-12.95" drill="0.9"/>
-<pad name="B8" x="2.54" y="-15.49" drill="0.9"/>
-<pad name="B2" x="10.16" y="-15.49" drill="0.9"/>
-<pad name="B1" x="11.43" y="-12.95" drill="0.9"/>
-<pad name="B3" x="8.89" y="-12.95" drill="0.9"/>
-<pad name="B4" x="7.62" y="-15.49" drill="0.9"/>
-<pad name="B5" x="6.35" y="-12.95" drill="0.9"/>
-<pad name="B6" x="5.08" y="-15.49" drill="0.9"/>
-<pad name="B7" x="3.81" y="-12.95" drill="0.9"/>
-<pad name="C8" x="-11.43" y="-15.49" drill="0.9"/>
-<pad name="C1" x="-2.54" y="-12.95" drill="0.9"/>
-<pad name="C2" x="-3.81" y="-15.49" drill="0.9"/>
-<pad name="C3" x="-5.08" y="-12.95" drill="0.9"/>
-<pad name="C4" x="-6.35" y="-15.49" drill="0.9"/>
-<pad name="C5" x="-7.62" y="-12.95" drill="0.9"/>
-<pad name="C6" x="-8.89" y="-15.49" drill="0.9"/>
-<pad name="C7" x="-10.16" y="-12.95" drill="0.9"/>
-<pad name="DU8" x="-25.4" y="-15.49" drill="0.9"/>
-<pad name="DU1" x="-16.51" y="-12.95" drill="0.9"/>
-<pad name="DU2" x="-17.78" y="-15.49" drill="0.9"/>
-<pad name="DU3" x="-19.05" y="-12.95" drill="0.9"/>
-<pad name="DU4" x="-20.32" y="-15.49" drill="0.9"/>
-<pad name="DU5" x="-21.59" y="-12.95" drill="0.9"/>
-<pad name="DU6" x="-22.86" y="-15.49" drill="0.9"/>
-<pad name="DU7" x="-24.13" y="-12.95" drill="0.9"/>
-<wire x1="-26.67" y1="10.16" x2="-26.67" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-26.67" y1="2.54" x2="-15.24" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-15.24" y1="2.54" x2="-15.24" y2="10.16" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="10.16" width="0.127" layer="51"/>
-<wire x1="1.27" y1="10.16" x2="1.27" y2="2.54" width="0.127" layer="51"/>
-<wire x1="1.27" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="51"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="10.16" width="0.127" layer="51"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="2.54" width="0.127" layer="51"/>
-<wire x1="15.24" y1="2.54" x2="26.67" y2="2.54" width="0.127" layer="51"/>
-<wire x1="26.67" y1="2.54" x2="26.67" y2="10.16" width="0.127" layer="51"/>
-<text x="-29.21" y="-19.05" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<pad name="SHLD1" x="-29.5" y="4.57" drill="1.6"/>
-<pad name="SHLD2" x="-29.175" y="-5.85" drill="1.6"/>
-<pad name="SHLD3" x="-29.5" y="-11.43" drill="1.6"/>
-<pad name="SHLD4" x="29.5" y="4.57" drill="1.6"/>
-<pad name="SHLD5" x="29.175" y="-9.15" drill="1.6"/>
-<pad name="SHLD6" x="29.5" y="-15.5" drill="1.6"/>
-<pad name="DL8" x="-25.4" y="-8.89" drill="0.9"/>
-<pad name="DL1" x="-16.51" y="-6.35" drill="0.9"/>
-<pad name="DL2" x="-17.78" y="-8.89" drill="0.9"/>
-<pad name="DL3" x="-19.05" y="-6.35" drill="0.9"/>
-<pad name="DL4" x="-20.32" y="-8.89" drill="0.9"/>
-<pad name="DL5" x="-21.59" y="-6.35" drill="0.9"/>
-<pad name="DL6" x="-22.86" y="-8.89" drill="0.9"/>
-<pad name="DL7" x="-24.13" y="-6.35" drill="0.9"/>
-<pad name="CL1" x="-2.54" y="-6.35" drill="0.9"/>
-<pad name="CL2" x="-3.81" y="-8.89" drill="0.9"/>
-<pad name="CL3" x="-5.08" y="-6.35" drill="0.9"/>
-<pad name="CL4" x="-6.35" y="-8.89" drill="0.9"/>
-<pad name="CL5" x="-7.62" y="-6.35" drill="0.9"/>
-<pad name="CL6" x="-8.89" y="-8.89" drill="0.9"/>
-<pad name="CL7" x="-10.16" y="-6.35" drill="0.9"/>
-<pad name="CL8" x="-11.43" y="-8.89" drill="0.9"/>
-<pad name="BL1" x="11.43" y="-6.35" drill="0.9"/>
-<pad name="BL2" x="10.16" y="-8.89" drill="0.9"/>
-<pad name="BL3" x="8.89" y="-6.35" drill="0.9"/>
-<pad name="BL4" x="7.62" y="-8.89" drill="0.9"/>
-<pad name="BL5" x="6.35" y="-6.35" drill="0.9"/>
-<pad name="BL6" x="5.08" y="-8.89" drill="0.9"/>
-<pad name="BL7" x="3.81" y="-6.35" drill="0.9"/>
-<pad name="BL8" x="2.54" y="-8.89" drill="0.9"/>
-<pad name="AL1" x="25.4" y="-6.35" drill="0.9"/>
-<pad name="AL2" x="24.13" y="-8.89" drill="0.9"/>
-<pad name="AL3" x="22.86" y="-6.35" drill="0.9"/>
-<pad name="AL4" x="21.59" y="-8.89" drill="0.9"/>
-<pad name="AL5" x="20.32" y="-6.35" drill="0.9"/>
-<pad name="AL6" x="19.05" y="-8.89" drill="0.9"/>
-<pad name="AL7" x="17.78" y="-6.35" drill="0.9"/>
-<pad name="AL8" x="16.51" y="-8.89" drill="0.9"/>
-</package>
 <package name="DS1130">
 <description>Connfly Electronic Co. Ltd. DS1130 Series PCB Jack  8 Port</description>
 <hole x="-54.61" y="0" drill="3.25"/>
@@ -293,38 +197,38 @@
 <wire x1="-20.95" y1="-13.97" x2="-20.95" y2="12.7" width="0.127" layer="51" style="longdash"/>
 <wire x1="6.985" y1="-13.97" x2="6.985" y2="12.7" width="0.127" layer="51" style="longdash"/>
 <wire x1="-6.985" y1="-13.97" x2="-6.985" y2="12.7" width="0.127" layer="51" style="longdash"/>
-<pad name="A8" x="-16.51" y="11.68" drill="0.9" rot="R180"/>
-<pad name="A7" x="-17.78" y="9.14" drill="0.9" rot="R180"/>
-<pad name="A6" x="-19.05" y="11.68" drill="0.9" rot="R180"/>
-<pad name="A5" x="-20.32" y="9.14" drill="0.9" rot="R180"/>
-<pad name="A4" x="-21.59" y="11.68" drill="0.9" rot="R180"/>
-<pad name="A3" x="-22.86" y="9.14" drill="0.9" rot="R180"/>
-<pad name="A2" x="-24.13" y="11.68" drill="0.9" rot="R180"/>
-<pad name="A1" x="-25.4" y="9.14" drill="0.9" rot="R180"/>
-<pad name="B8" x="-2.54" y="11.68" drill="0.9" rot="R180"/>
-<pad name="B2" x="-10.16" y="11.68" drill="0.9" rot="R180"/>
-<pad name="B1" x="-11.43" y="9.14" drill="0.9" rot="R180"/>
-<pad name="B3" x="-8.89" y="9.14" drill="0.9" rot="R180"/>
-<pad name="B4" x="-7.62" y="11.68" drill="0.9" rot="R180"/>
-<pad name="B5" x="-6.35" y="9.14" drill="0.9" rot="R180"/>
-<pad name="B6" x="-5.08" y="11.68" drill="0.9" rot="R180"/>
-<pad name="B7" x="-3.81" y="9.14" drill="0.9" rot="R180"/>
-<pad name="C8" x="11.43" y="11.68" drill="0.9" rot="R180"/>
-<pad name="C1" x="2.54" y="9.14" drill="0.9" rot="R180"/>
-<pad name="C2" x="3.81" y="11.68" drill="0.9" rot="R180"/>
-<pad name="C3" x="5.08" y="9.14" drill="0.9" rot="R180"/>
-<pad name="C4" x="6.35" y="11.68" drill="0.9" rot="R180"/>
-<pad name="C5" x="7.62" y="9.14" drill="0.9" rot="R180"/>
-<pad name="C6" x="8.89" y="11.68" drill="0.9" rot="R180"/>
-<pad name="C7" x="10.16" y="9.14" drill="0.9" rot="R180"/>
-<pad name="DU8" x="25.4" y="11.68" drill="0.9" rot="R180"/>
-<pad name="DU1" x="16.51" y="9.14" drill="0.9" rot="R180"/>
-<pad name="DU2" x="17.78" y="11.68" drill="0.9" rot="R180"/>
-<pad name="DU3" x="19.05" y="9.14" drill="0.9" rot="R180"/>
-<pad name="DU4" x="20.32" y="11.68" drill="0.9" rot="R180"/>
-<pad name="DU5" x="21.59" y="9.14" drill="0.9" rot="R180"/>
-<pad name="DU6" x="22.86" y="11.68" drill="0.9" rot="R180"/>
-<pad name="DU7" x="24.13" y="9.14" drill="0.9" rot="R180"/>
+<pad name="A1" x="-16.51" y="11.68" drill="0.9" rot="R180"/>
+<pad name="A2" x="-17.78" y="9.14" drill="0.9" rot="R180"/>
+<pad name="A3" x="-19.05" y="11.68" drill="0.9" rot="R180"/>
+<pad name="A4" x="-20.32" y="9.14" drill="0.9" rot="R180"/>
+<pad name="A5" x="-21.59" y="11.68" drill="0.9" rot="R180"/>
+<pad name="A6" x="-22.86" y="9.14" drill="0.9" rot="R180"/>
+<pad name="A7" x="-24.13" y="11.68" drill="0.9" rot="R180"/>
+<pad name="A8" x="-25.4" y="9.14" drill="0.9" rot="R180"/>
+<pad name="B1" x="-2.54" y="11.68" drill="0.9" rot="R180"/>
+<pad name="B7" x="-10.16" y="11.68" drill="0.9" rot="R180"/>
+<pad name="B8" x="-11.43" y="9.14" drill="0.9" rot="R180"/>
+<pad name="B6" x="-8.89" y="9.14" drill="0.9" rot="R180"/>
+<pad name="B5" x="-7.62" y="11.68" drill="0.9" rot="R180"/>
+<pad name="B4" x="-6.35" y="9.14" drill="0.9" rot="R180"/>
+<pad name="B3" x="-5.08" y="11.68" drill="0.9" rot="R180"/>
+<pad name="B2" x="-3.81" y="9.14" drill="0.9" rot="R180"/>
+<pad name="C1" x="11.43" y="11.68" drill="0.9" rot="R180"/>
+<pad name="C8" x="2.54" y="9.14" drill="0.9" rot="R180"/>
+<pad name="C7" x="3.81" y="11.68" drill="0.9" rot="R180"/>
+<pad name="C6" x="5.08" y="9.14" drill="0.9" rot="R180"/>
+<pad name="C5" x="6.35" y="11.68" drill="0.9" rot="R180"/>
+<pad name="C4" x="7.62" y="9.14" drill="0.9" rot="R180"/>
+<pad name="C3" x="8.89" y="11.68" drill="0.9" rot="R180"/>
+<pad name="C2" x="10.16" y="9.14" drill="0.9" rot="R180"/>
+<pad name="D1" x="25.4" y="11.68" drill="0.9" rot="R180"/>
+<pad name="D8" x="16.51" y="9.14" drill="0.9" rot="R180"/>
+<pad name="D7" x="17.78" y="11.68" drill="0.9" rot="R180"/>
+<pad name="D6" x="19.05" y="9.14" drill="0.9" rot="R180"/>
+<pad name="D5" x="20.32" y="11.68" drill="0.9" rot="R180"/>
+<pad name="D4" x="21.59" y="9.14" drill="0.9" rot="R180"/>
+<pad name="D3" x="22.86" y="11.68" drill="0.9" rot="R180"/>
+<pad name="D2" x="24.13" y="9.14" drill="0.9" rot="R180"/>
 <wire x1="26.67" y1="-13.97" x2="26.67" y2="-6.35" width="0.127" layer="51"/>
 <wire x1="26.67" y1="-6.35" x2="15.24" y2="-6.35" width="0.127" layer="51"/>
 <wire x1="15.24" y1="-6.35" x2="15.24" y2="-13.97" width="0.127" layer="51"/>
@@ -376,6 +280,102 @@
 <pad name="AL6" x="-19.05" y="5.08" drill="0.9" rot="R180"/>
 <pad name="AL7" x="-17.78" y="2.54" drill="0.9" rot="R180"/>
 <pad name="AL8" x="-16.51" y="5.08" drill="0.9" rot="R180"/>
+</package>
+<package name="RC01077">
+<description>Wenzhou RuiChuan Electronic Co. Ltd - RCH-50-01-24 / RC01077</description>
+<hole x="-26.85" y="0" drill="3.25"/>
+<hole x="26.85" y="0" drill="3.25"/>
+<wire x1="-29.6" y1="-17.45" x2="29.6" y2="-17.45" width="0.127" layer="21"/>
+<wire x1="29.6" y1="-17.45" x2="29.6" y2="10.75" width="0.127" layer="21"/>
+<wire x1="29.6" y1="10.75" x2="-29.6" y2="10.75" width="0.127" layer="21"/>
+<wire x1="-29.6" y1="10.75" x2="-29.6" y2="-17.45" width="0.127" layer="21"/>
+<wire x1="-20.95" y1="10.16" x2="-20.95" y2="-16.51" width="0.127" layer="51" style="longdash"/>
+<wire x1="20.95" y1="10.16" x2="20.95" y2="-16.51" width="0.127" layer="51" style="longdash"/>
+<wire x1="-6.985" y1="10.16" x2="-6.985" y2="-16.51" width="0.127" layer="51" style="longdash"/>
+<wire x1="6.985" y1="10.16" x2="6.985" y2="-16.51" width="0.127" layer="51" style="longdash"/>
+<pad name="A1" x="16.51" y="-15.49" drill="0.9"/>
+<pad name="A2" x="17.78" y="-12.95" drill="0.9"/>
+<pad name="A3" x="19.05" y="-15.49" drill="0.9"/>
+<pad name="A4" x="20.32" y="-12.95" drill="0.9"/>
+<pad name="A5" x="21.59" y="-15.49" drill="0.9"/>
+<pad name="A6" x="22.86" y="-12.95" drill="0.9"/>
+<pad name="A7" x="24.13" y="-15.49" drill="0.9"/>
+<pad name="A8" x="25.4" y="-12.95" drill="0.9"/>
+<pad name="B1" x="2.54" y="-15.49" drill="0.9"/>
+<pad name="B7" x="10.16" y="-15.49" drill="0.9"/>
+<pad name="B8" x="11.43" y="-12.95" drill="0.9"/>
+<pad name="B6" x="8.89" y="-12.95" drill="0.9"/>
+<pad name="B5" x="7.62" y="-15.49" drill="0.9"/>
+<pad name="B4" x="6.35" y="-12.95" drill="0.9"/>
+<pad name="B3" x="5.08" y="-15.49" drill="0.9"/>
+<pad name="B2" x="3.81" y="-12.95" drill="0.9"/>
+<pad name="C1" x="-11.43" y="-15.49" drill="0.9"/>
+<pad name="C8" x="-2.54" y="-12.95" drill="0.9"/>
+<pad name="C7" x="-3.81" y="-15.49" drill="0.9"/>
+<pad name="C6" x="-5.08" y="-12.95" drill="0.9"/>
+<pad name="C5" x="-6.35" y="-15.49" drill="0.9"/>
+<pad name="C4" x="-7.62" y="-12.95" drill="0.9"/>
+<pad name="C3" x="-8.89" y="-15.49" drill="0.9"/>
+<pad name="C2" x="-10.16" y="-12.95" drill="0.9"/>
+<pad name="D1" x="-25.4" y="-15.49" drill="0.9"/>
+<pad name="D8" x="-16.51" y="-12.95" drill="0.9"/>
+<pad name="D7" x="-17.78" y="-15.49" drill="0.9"/>
+<pad name="D6" x="-19.05" y="-12.95" drill="0.9"/>
+<pad name="D5" x="-20.32" y="-15.49" drill="0.9"/>
+<pad name="D4" x="-21.59" y="-12.95" drill="0.9"/>
+<pad name="D3" x="-22.86" y="-15.49" drill="0.9"/>
+<pad name="D2" x="-24.13" y="-12.95" drill="0.9"/>
+<wire x1="-26.67" y1="10.16" x2="-26.67" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-26.67" y1="2.54" x2="-15.24" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="10.16" width="0.127" layer="51"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-12.7" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="10.16" width="0.127" layer="51"/>
+<wire x1="1.27" y1="10.16" x2="1.27" y2="2.54" width="0.127" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="12.7" y2="2.54" width="0.127" layer="51"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="10.16" width="0.127" layer="51"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="2.54" width="0.127" layer="51"/>
+<wire x1="15.24" y1="2.54" x2="26.67" y2="2.54" width="0.127" layer="51"/>
+<wire x1="26.67" y1="2.54" x2="26.67" y2="10.16" width="0.127" layer="51"/>
+<text x="-29.21" y="-19.05" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<pad name="SHLD1" x="-29.5" y="4.57" drill="1.6"/>
+<pad name="SHLD2" x="-29.175" y="-5.85" drill="1.6"/>
+<pad name="SHLD3" x="-29.5" y="-11.43" drill="1.6"/>
+<pad name="SHLD4" x="29.5" y="4.57" drill="1.6"/>
+<pad name="SHLD5" x="29.175" y="-9.15" drill="1.6"/>
+<pad name="SHLD6" x="29.5" y="-15.5" drill="1.6"/>
+<pad name="DL8" x="-25.4" y="-8.89" drill="0.9"/>
+<pad name="DL1" x="-16.51" y="-6.35" drill="0.9"/>
+<pad name="DL2" x="-17.78" y="-8.89" drill="0.9"/>
+<pad name="DL3" x="-19.05" y="-6.35" drill="0.9"/>
+<pad name="DL4" x="-20.32" y="-8.89" drill="0.9"/>
+<pad name="DL5" x="-21.59" y="-6.35" drill="0.9"/>
+<pad name="DL6" x="-22.86" y="-8.89" drill="0.9"/>
+<pad name="DL7" x="-24.13" y="-6.35" drill="0.9"/>
+<pad name="CL1" x="-2.54" y="-6.35" drill="0.9"/>
+<pad name="CL2" x="-3.81" y="-8.89" drill="0.9"/>
+<pad name="CL3" x="-5.08" y="-6.35" drill="0.9"/>
+<pad name="CL4" x="-6.35" y="-8.89" drill="0.9"/>
+<pad name="CL5" x="-7.62" y="-6.35" drill="0.9"/>
+<pad name="CL6" x="-8.89" y="-8.89" drill="0.9"/>
+<pad name="CL7" x="-10.16" y="-6.35" drill="0.9"/>
+<pad name="CL8" x="-11.43" y="-8.89" drill="0.9"/>
+<pad name="BL1" x="11.43" y="-6.35" drill="0.9"/>
+<pad name="BL2" x="10.16" y="-8.89" drill="0.9"/>
+<pad name="BL3" x="8.89" y="-6.35" drill="0.9"/>
+<pad name="BL4" x="7.62" y="-8.89" drill="0.9"/>
+<pad name="BL5" x="6.35" y="-6.35" drill="0.9"/>
+<pad name="BL6" x="5.08" y="-8.89" drill="0.9"/>
+<pad name="BL7" x="3.81" y="-6.35" drill="0.9"/>
+<pad name="BL8" x="2.54" y="-8.89" drill="0.9"/>
+<pad name="AL1" x="25.4" y="-6.35" drill="0.9"/>
+<pad name="AL2" x="24.13" y="-8.89" drill="0.9"/>
+<pad name="AL3" x="22.86" y="-6.35" drill="0.9"/>
+<pad name="AL4" x="21.59" y="-8.89" drill="0.9"/>
+<pad name="AL5" x="20.32" y="-6.35" drill="0.9"/>
+<pad name="AL6" x="19.05" y="-8.89" drill="0.9"/>
+<pad name="AL7" x="17.78" y="-6.35" drill="0.9"/>
+<pad name="AL8" x="16.51" y="-8.89" drill="0.9"/>
 </package>
 </packages>
 <symbols>
@@ -480,14 +480,14 @@
 <connect gate="G6" pin="6" pad="CL6"/>
 <connect gate="G6" pin="7" pad="CL7"/>
 <connect gate="G6" pin="8" pad="CL8"/>
-<connect gate="G7" pin="1" pad="DU1"/>
-<connect gate="G7" pin="2" pad="DU2"/>
-<connect gate="G7" pin="3" pad="DU3"/>
-<connect gate="G7" pin="4" pad="DU4"/>
-<connect gate="G7" pin="5" pad="DU5"/>
-<connect gate="G7" pin="6" pad="DU6"/>
-<connect gate="G7" pin="7" pad="DU7"/>
-<connect gate="G7" pin="8" pad="DU8"/>
+<connect gate="G7" pin="1" pad="D1"/>
+<connect gate="G7" pin="2" pad="D2"/>
+<connect gate="G7" pin="3" pad="D3"/>
+<connect gate="G7" pin="4" pad="D4"/>
+<connect gate="G7" pin="5" pad="D5"/>
+<connect gate="G7" pin="6" pad="D6"/>
+<connect gate="G7" pin="7" pad="D7"/>
+<connect gate="G7" pin="8" pad="D8"/>
 <connect gate="G8" pin="1" pad="DL1"/>
 <connect gate="G8" pin="2" pad="DL2"/>
 <connect gate="G8" pin="3" pad="DL3"/>
@@ -624,14 +624,14 @@
 <connect gate="G6" pin="6" pad="CL6"/>
 <connect gate="G6" pin="7" pad="CL7"/>
 <connect gate="G6" pin="8" pad="CL8"/>
-<connect gate="G7" pin="1" pad="DU1"/>
-<connect gate="G7" pin="2" pad="DU2"/>
-<connect gate="G7" pin="3" pad="DU3"/>
-<connect gate="G7" pin="4" pad="DU4"/>
-<connect gate="G7" pin="5" pad="DU5"/>
-<connect gate="G7" pin="6" pad="DU6"/>
-<connect gate="G7" pin="7" pad="DU7"/>
-<connect gate="G7" pin="8" pad="DU8"/>
+<connect gate="G7" pin="1" pad="D1"/>
+<connect gate="G7" pin="2" pad="D2"/>
+<connect gate="G7" pin="3" pad="D3"/>
+<connect gate="G7" pin="4" pad="D4"/>
+<connect gate="G7" pin="5" pad="D5"/>
+<connect gate="G7" pin="6" pad="D6"/>
+<connect gate="G7" pin="7" pad="D7"/>
+<connect gate="G7" pin="8" pad="D8"/>
 <connect gate="G8" pin="1" pad="DL1"/>
 <connect gate="G8" pin="2" pad="DL2"/>
 <connect gate="G8" pin="3" pad="DL3"/>

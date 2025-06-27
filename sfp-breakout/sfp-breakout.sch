@@ -8206,38 +8206,6 @@ Source: http://www.avx.com/docs/catalogs/aphvc.pdf</description>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
 <pad name="B5,5" x="0" y="0" drill="5.5" diameter="9"/>
 </package>
-<package name="694108106102">
-<description>&lt;b&gt;694108106102&lt;/b&gt;&lt;p&gt;
-
-WR-DC_DC Power Jack_Right Angled_SMT Center Pin Ø2.5_Plug ID Ø2.55_Plug OD Ø5.5_with 4 Soldering Pad &amp; Peg</description>
-<wire x1="0.199859375" y1="4.50001875" x2="0.0000125" y2="4.299821875" width="0.2" layer="21" curve="97.0981"/>
-<wire x1="-0.000009375" y1="-4.30015" x2="0.2001875" y2="-4.499996875" width="0.2" layer="21" curve="97.0981"/>
-<wire x1="0" y1="-4.31" x2="0" y2="4.31" width="0.2" layer="21"/>
-<wire x1="14.7" y1="-4.5" x2="14.7" y2="4.5" width="0.2" layer="21"/>
-<wire x1="-0.25" y1="6.75" x2="14.95" y2="6.75" width="0.2" layer="39"/>
-<wire x1="-0.25" y1="-6.75" x2="14.95" y2="-6.75" width="0.2" layer="39"/>
-<wire x1="0.19" y1="4.5" x2="4" y2="4.5" width="0.2" layer="21"/>
-<wire x1="4" y1="4.5" x2="6" y2="4.5" width="0.2" layer="51"/>
-<wire x1="6" y1="4.5" x2="10.15" y2="4.5" width="0.2" layer="21"/>
-<wire x1="10.15" y1="4.5" x2="12.15" y2="4.5" width="0.2" layer="51"/>
-<wire x1="12.15" y1="4.5" x2="14.7" y2="4.5" width="0.2" layer="21"/>
-<wire x1="0.19" y1="-4.5" x2="4" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="4" y1="-4.5" x2="6" y2="-4.5" width="0.2" layer="51"/>
-<wire x1="6" y1="-4.5" x2="10.15" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="10.15" y1="-4.5" x2="12.15" y2="-4.5" width="0.2" layer="51"/>
-<wire x1="12.15" y1="-4.5" x2="14.7" y2="-4.5" width="0.2" layer="21"/>
-<wire x1="-0.25" y1="6.75" x2="-0.25" y2="-6.75" width="0.2" layer="39"/>
-<wire x1="14.95" y1="6.75" x2="14.95" y2="-6.75" width="0.2" layer="39"/>
-<smd name="1" x="11.15" y="5.5" dx="2.4" dy="2" layer="1" roundness="30"/>
-<smd name="1-1" x="5" y="5.5" dx="2.4" dy="2" layer="1" roundness="30"/>
-<smd name="2" x="5" y="-5.5" dx="2.4" dy="2" layer="1" roundness="30"/>
-<smd name="3" x="11.15" y="-5.5" dx="2.4" dy="2" layer="1" roundness="30"/>
-<text x="0.299640625" y="8.4306" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
-<text x="0.699640625" y="-10.1134" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
-<text x="-1.01" y="-2.94" size="0.8128" layer="51" rot="R90">PCB Edge</text>
-<hole x="5" y="0" drill="1.6"/>
-<hole x="9.5" y="0" drill="1.8"/>
-</package>
 <package name="1210">
 <description>&lt;b&gt;RESISTOR 1210&lt;/b&gt;</description>
 <wire x1="-0.913" y1="1.219" x2="0.939" y2="1.219" width="0.1524" layer="51"/>
@@ -8851,31 +8819,6 @@ Based on Amphenol U77-A1114-100T( &lt;a href="http://www.amphenolinfocom.eu/NavD
 <pin name="MOUNT" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <text x="2.794" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.794" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="DC_POWER_JACK">
-<wire x1="-8.255" y1="-1.27" x2="-8.255" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-8.255" y1="1.27" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="-8.255" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="1.905" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-8.255" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-8.255" y1="-5.08" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-8.89" y1="-3.81" x2="-9.525" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
-<pin name="1" x="0" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="0" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<polygon width="0.1524" layer="94">
-<vertex x="-2.54" y="-5.08"/>
-<vertex x="-3.048" y="-3.81"/>
-<vertex x="-2.032" y="-3.81"/>
-</polygon>
 </symbol>
 <symbol name="L-EU">
 <rectangle x1="-1.016" y1="-3.556" x2="1.016" y2="3.556" layer="94" rot="R270"/>
@@ -9606,30 +9549,6 @@ DIN A4, landscape with location and doc. field</description>
 <device name="5.5" package="5,5-PAD">
 <connects>
 <connect gate="G$1" pin="MOUNT" pad="B5,5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="694108106102" prefix="K">
-<description>&lt;b&gt;WR-DC_DC Power Jack_Right Angled_SMT Center Pin Ø2.5_Plug ID Ø2.55_Plug OD Ø5.5_with 4 Soldering Pad &amp; Peg
-;&lt;/b&gt;=&gt;Code : Con_WR-DC_SMT_694108106102_694108106102
-&lt;p&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_WR-DC_SMT_694108106102_pf2.jpg"&gt;
-&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_WR-DC_SMT_694108106102_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/6941xx106102.pdf"&gt;http://katalog.we-online.de/em/datasheet/6941xx106102.pdf&lt;/a&gt;&lt;p&gt;
-Created 2014-10-08, Karrer Zheng&lt;br&gt;
-2014 (C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="DC_POWER_JACK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="694108106102">
-<connects>
-<connect gate="G$1" pin="1" pad="1 1-1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13591,6 +13510,164 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c">
+<description>&lt;BR&gt;Wurth Elektronik - DC Power Jack Connectors&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;&lt;BR&gt; 
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-405&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/eagle"&gt;http://www.we-online.com/eagle &lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
+&lt;hr&gt;
+Eagle Version 6, Library Revision 2015c, 2015-06-02&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="694108106102">
+<description>&lt;b&gt;694108106102&lt;/b&gt;&lt;p&gt;
+
+WR-DC_DC Power Jack_Right Angled_SMT Center Pin Ø2.5_Plug ID Ø2.55_Plug OD Ø5.5_with 4 Soldering Pad &amp; Peg</description>
+<wire x1="0.199859375" y1="4.50001875" x2="0.0000125" y2="4.299821875" width="0.2" layer="21" curve="97.0981"/>
+<wire x1="-0.000009375" y1="-4.30015" x2="0.2001875" y2="-4.499996875" width="0.2" layer="21" curve="97.0981"/>
+<wire x1="0" y1="-4.31" x2="0" y2="4.31" width="0.2" layer="21"/>
+<wire x1="14.7" y1="-4.5" x2="14.7" y2="4.5" width="0.2" layer="21"/>
+<smd name="1" x="11.15" y="5.5" dx="2.8" dy="2.1" layer="1" roundness="30"/>
+<smd name="1-1" x="5" y="5.5" dx="2.8" dy="2.1" layer="1" roundness="30"/>
+<smd name="2" x="5" y="-5.5" dx="2.8" dy="2.1" layer="1" roundness="30"/>
+<smd name="3" x="11.15" y="-5.5" dx="2.8" dy="2.1" layer="1" roundness="30"/>
+<text x="0.299640625" y="8.4306" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="0.699640625" y="-10.1134" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+<hole x="5" y="0" drill="1.6"/>
+<hole x="9.5" y="0" drill="1.8"/>
+<wire x1="-0.25" y1="6.75" x2="14.95" y2="6.75" width="0.2" layer="39"/>
+<wire x1="-0.25" y1="-6.75" x2="14.95" y2="-6.75" width="0.2" layer="39"/>
+<wire x1="0.19" y1="4.5" x2="4" y2="4.5" width="0.2" layer="21"/>
+<wire x1="4" y1="4.5" x2="6" y2="4.5" width="0.2" layer="51"/>
+<wire x1="6" y1="4.5" x2="10.15" y2="4.5" width="0.2" layer="21"/>
+<wire x1="10.15" y1="4.5" x2="12.15" y2="4.5" width="0.2" layer="51"/>
+<wire x1="12.15" y1="4.5" x2="14.7" y2="4.5" width="0.2" layer="21"/>
+<wire x1="0.19" y1="-4.5" x2="4" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="4" y1="-4.5" x2="6" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="6" y1="-4.5" x2="10.15" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="10.15" y1="-4.5" x2="12.15" y2="-4.5" width="0.2" layer="51"/>
+<wire x1="12.15" y1="-4.5" x2="14.7" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="-0.25" y1="6.75" x2="-0.25" y2="-6.75" width="0.2" layer="39"/>
+<wire x1="14.95" y1="6.75" x2="14.95" y2="-6.75" width="0.2" layer="39"/>
+<text x="-1.01" y="-2.94" size="0.8128" layer="51" rot="R90">PCB Edge</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DC_POWER_JACK">
+<pin name="1" x="0" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="0" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="-8.255" y1="-1.27" x2="-8.255" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-8.255" y1="1.27" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-8.255" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.905" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-8.255" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-8.255" y1="-5.08" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-3.81" x2="-9.525" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<text x="-10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.54" y="-5.08"/>
+<vertex x="-3.048" y="-3.81"/>
+<vertex x="-2.032" y="-3.81"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="694108106102" prefix="K">
+<description>&lt;b&gt;WR-DC_DC Power Jack_Right Angled_SMT Center Pin Ø2.5_Plug ID Ø2.55_Plug OD Ø5.5_with 4 Soldering Pad &amp; Peg
+;&lt;/b&gt;=&gt;Code : Con_WR-DC_SMT_694108106102_694108106102
+&lt;p&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_WR-DC_SMT_694108106102_pf2.jpg"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_WR-DC_SMT_694108106102_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/6941xx106102.pdf"&gt;http://katalog.we-online.de/em/datasheet/6941xx106102.pdf&lt;/a&gt;&lt;p&gt;
+Created 2014-10-08, Karrer Zheng&lt;br&gt;
+2014 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="DC_POWER_JACK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="694108106102">
+<connects>
+<connect gate="G$1" pin="1" pad="1 1-1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="VERSION" value="v1"/>
@@ -13615,12 +13692,13 @@ Source: www.kingbright.com</description>
 <part name="GND2" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="SFP1" library="sfp-breakout" deviceset="SFP_UNI" device="">
 <attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/Ux75-A20-x00xx.pdf"/>
 <attribute name="DESCRIPTION" value="CONN SFP RCPT 20POS SLD R/A SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/amphenol-icc-commercial-products/UE75-A20-6000T/UE75-A20-6000TCT-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/amphenol-icc-commercial-products/UE75-A20-6000T/UE75-A20-6000TCT-ND/1242798"/>
 <attribute name="MANUFACTURER" value="Amphenol ICC (Commercial Products)"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="UE75-A20-6000T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="UE75-A20-6000TCT-ND"/>
 </part>
@@ -13721,183 +13799,199 @@ Source: www.kingbright.com</description>
 <part name="GND6" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="C1" library="sfp-breakout" deviceset="CPOL-EU" device="-1206" value="10u / 16V">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND"/>
+<attribute name="DATASHEET" value="https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 1206"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A106KOHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1137-1-ND"/>
 </part>
 <part name="C5" library="sfp-breakout" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="L2" library="sfp-breakout" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
+<attribute name="DATASHEET" value="https://abracon.com/Magnetics/new/AIMC-0603.pdf"/>
 <attribute name="DESCRIPTION" value="FIXED IND 1NH 500MA 50 MOHM SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND/2782759"/>
 <attribute name="MANUFACTURER" value="Abracon LLC"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND"/>
 </part>
 <part name="C2" library="sfp-breakout" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="GND7" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="L1" library="sfp-breakout" deviceset="L-EU" device="_0603" value="1nH">
 <attribute name="CLASS" value="INDUCTOR"/>
+<attribute name="DATASHEET" value="https://abracon.com/Magnetics/new/AIMC-0603.pdf"/>
 <attribute name="DESCRIPTION" value="FIXED IND 1NH 500MA 50 MOHM SMD"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/abracon-llc/AIMC-0603-1N0S-T/535-11529-1-ND/2782759"/>
 <attribute name="MANUFACTURER" value="Abracon LLC"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="AIMC-0603-1N0S-T"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="535-11529-1-ND"/>
 </part>
 <part name="GND8" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="C7" library="sfp-breakout" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="C9" library="sfp-breakout" deviceset="CPOL-EU" device="-1206" value="10u / 16V">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND"/>
+<attribute name="DATASHEET" value="https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 1206"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A106KOHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1137-1-ND"/>
 </part>
 <part name="GND9" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="GND10" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="GND28" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="CT6032" value="100u">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="https://datasheets.avx.com/TPS.pdf"/>
 <attribute name="DESCRIPTION" value="CAP TANT 100UF 10% 6.3V 2312"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/avx-corporation/TPSC107K006R0150/478-1764-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/avx-corporation/TPSC107K006R0150/478-1764-1-ND/564796"/>
 <attribute name="MANUFACTURER" value="AVX Corporation"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="TPSC107K006R0150"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="478-1764-1-ND"/>
 </part>
-<part name="J1" library="sfp-breakout" deviceset="694108106102" device="" value="PJ-002BH-SMT-TR">
+<part name="J1" library="Wurth_Elektronik_Electromechanic_DC_Power_Jack_Connectors_rev15c" deviceset="694108106102" device="" value="PJ-002BH-SMT-TR">
 <attribute name="CLASS" value="CONNECTOR"/>
+<attribute name="DATASHEET" value="https://www.cuidevices.com/product/resource/pj-002bh-smt-tr.pdf"/>
 <attribute name="DESCRIPTION" value="CONN PWR JACK 2.5X5.5MM SOLDER"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/cui-inc/PJ-002BH-SMT-TR/CP-002BHPJCT-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/cui-devices/PJ-002BH-SMT-TR/CP-002BHPJCT-ND/669694"/>
 <attribute name="MANUFACTURER" value="CUI Devices"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="PJ-002BH-SMT-TR"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="RoHS Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="CP-002BHPJCT-ND"/>
 </part>
 <part name="R1" library="sfp-breakout" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
+<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
 <part name="R2" library="sfp-breakout" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
+<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
 <part name="R3" library="sfp-breakout" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
+<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
 <part name="GND14" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="R4" library="sfp-breakout" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
+<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
 <part name="R5" library="sfp-breakout" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
+<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
 <part name="C3" library="sfp-breakout" deviceset="CPOL-EU" device="-1206" value="10u / 16V">
 <attribute name="CLASS" value="CAPACITOR"/>
-<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 0805"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/samsung-electro-mechanics/CL21A106KOCLRNC/1276-2399-1-ND"/>
+<attribute name="DATASHEET" value="https://www.samsungsem.com/kr/support/product-search/mlcc/CL31A106KOHNNNE.jsp"/>
+<attribute name="DESCRIPTION" value="CAP CER 10UF 16V X5R 1206"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A106KOHNNNE/3886795"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="CL21A106KOCLRNC"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="CL31A106KOHNNNE"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="1276-2399-1-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="1276-1137-1-ND"/>
 </part>
 <part name="C4" library="sfp-breakout" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
@@ -13905,45 +13999,49 @@ Source: www.kingbright.com</description>
 <part name="GND16" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="C8" library="sfp-breakout" deviceset="CAP_CERAMIC" device="_0603" value="100n">
 <attribute name="CLASS" value="CAPACITOR"/>
+<attribute name="DATASHEET" value="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B104KO8NNNC.jsp"/>
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 16V X7R 0603"/>
-<attribute name="LINK" value="http://www.digikey.de/product-detail/de/foo/1276-1005-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8NNNC/1276-1005-1-ND/3889091"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="CL10B104KO8NNNC"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1276-1005-1-ND"/>
 </part>
 <part name="U1" library="sfp-breakout" deviceset="LDO" device="-MCP1825S">
 <attribute name="CLASS" value="IC"/>
+<attribute name="DATASHEET" value="https://ww1.microchip.com/downloads/en/DeviceDoc/22056b.pdf"/>
 <attribute name="DESCRIPTION" value="IC REG LIN 3.3V 500MA SOT223-3"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/microchip-technology/MCP1825ST-3302E-DB/MCP1825ST-3302E-DBCT-ND/5013522"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/microchip-technology/MCP1825ST-3302E-DB/1635518"/>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="MCP1825ST-3302E/DB"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="MCP1825ST-3302E/DBCT-ND"/>
 </part>
 <part name="D1" library="sfp-breakout" deviceset="DIODE-SCHOTTKY" device="-SMA" value="MBRA160T3G">
 <attribute name="CLASS" value="DIODE"/>
-<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 1A SMA"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/on-semiconductor/MBRA160T3G/MBRA160T3GOSCT-ND"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor"/>
-<attribute name="MANUFACTURERPARTNUMBER" value="MBRA160T3G"/>
+<attribute name="DATASHEET" value="https://www.diodes.com/assets/Datasheets/B220_A-B260_A.pdf"/>
+<attribute name="DESCRIPTION" value="DIODE SCHOTTKY 60V 2A SMA"/>
+<attribute name="LINK" value="https://www.digikey.com/en/products/detail/diodes-incorporated/B260A-13-F/750837"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MANUFACTURERPARTNUMBER" value="B260A-13-F"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
-<attribute name="SOURCEPARTNUMBER" value="MBRA160T3GOSCT-ND"/>
+<attribute name="SOURCEPARTNUMBER" value="B260A-FDICT-ND"/>
 </part>
 <part name="D2" library="sfp-breakout" deviceset="DIODE-TVS" device="-SMA" value="824500500">
 <attribute name="CLASS" value="DIODE"/>
+<attribute name="DATASHEET" value="https://www.we-online.de/katalog/datasheet/824500500.pdf"/>
 <attribute name="DESCRIPTION" value="TVS DIODE 5V 9.2V DO214AC"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/wurth-electronics-inc/824500500/732-9974-1-ND/5871127"/>
-<attribute name="MANUFACTURER" value="Wurth Electronics Inc."/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/w-rth-elektronik/824500500/732-9974-1-ND/5871127"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="824500500"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="Bleifrei / RoHS-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="732-9974-1-ND"/>
 </part>
@@ -13984,34 +14082,37 @@ Source: www.kingbright.com</description>
 <part name="GND12" library="sfp-breakout" deviceset="GND" device=""/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
 <attribute name="CLASS" value="TRANSISTOR"/>
+<attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C-215/1727-2924-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/BC847C,215/1727-2924-1-ND/763463"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND"/>
 </part>
 <part name="R8" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
+<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
 <part name="R9" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07330RL/311-330HRCT-ND"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07330RL/311-330HRCT-ND/730109"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07330RL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-330HRCT-ND"/>
 </part>
@@ -14029,34 +14130,37 @@ Source: www.kingbright.com</description>
 <part name="GND20" library="sfp-experimenter" deviceset="GND" device=""/>
 <part name="T2" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC847C" value="BC847">
 <attribute name="CLASS" value="TRANSISTOR"/>
+<attribute name="DATASHEET" value="https://assets.nexperia.com/documents/data-sheet/BC847_SER.pdf"/>
 <attribute name="DESCRIPTION" value="TRANS NPN 45V 0.1A SOT23"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/nexperia-usa-inc/BC847C-215/1727-2924-1-ND"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/nexperia-usa-inc/BC847C,215/1727-2924-1-ND/763463"/>
 <attribute name="MANUFACTURER" value="Nexperia USA Inc."/>
 <attribute name="MANUFACTURERPARTNUMBER" value="BC847C,215"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="1727-2924-1-ND"/>
 </part>
 <part name="R7" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="10k">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES 10K OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND"/>
+<attribute name="DATASHEET" value="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"/>
+<attribute name="DESCRIPTION" value="RES 10K OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0603FT10K0/RMCF0603FT10K0CT-ND/1943057"/>
 <attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RMCF0603FT10K0"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="RMCF0603FT10K0CT-ND"/>
 </part>
 <part name="R10" library="rc-sysmocom" deviceset="RESISTOR" device="_0603" value="330">
 <attribute name="CLASS" value="RESISTOR"/>
-<attribute name="DESCRIPTION" value="RES SMD 330 OHM 1%% 1/10W 0603"/>
-<attribute name="LINK" value="https://www.digikey.de/product-detail/de/yageo/RC0603FR-07330RL/311-330HRCT-ND"/>
+<attribute name="DATASHEET" value="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf"/>
+<attribute name="DESCRIPTION" value="RES SMD 330 OHM 1% 1/10W 0603"/>
+<attribute name="LINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07330RL/311-330HRCT-ND/730109"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
 <attribute name="MANUFACTURERPARTNUMBER" value="RC0603FR-07330RL"/>
 <attribute name="POPULATED" value="TRUE"/>
-<attribute name="ROHSCERTIFICATE" value="RoHS3-konform"/>
+<attribute name="ROHSCERTIFICATE" value="ROHS3 Compliant"/>
 <attribute name="SOURCE" value="DIGIKEY"/>
 <attribute name="SOURCEPARTNUMBER" value="311-330HRCT-ND"/>
 </part>
@@ -14466,6 +14570,8 @@ License: CC-BY-SA</text>
 <attribute name="LINK" x="104.14" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="66.04" y="81.28" smashed="yes">
+<attribute name="NAME" x="63.5" y="83.82" size="1.27" layer="95"/>
+<attribute name="VALUE" x="60.96" y="77.47" size="1.27" layer="96"/>
 <attribute name="DESCRIPTION" x="66.04" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="66.04" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURERPARTNUMBER" x="66.04" y="81.28" size="1.778" layer="96" display="off"/>
@@ -14475,8 +14581,6 @@ License: CC-BY-SA</text>
 <attribute name="POPULATED" x="66.04" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="CLASS" x="66.04" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="LINK" x="66.04" y="81.28" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="63.5" y="83.82" size="1.27" layer="95"/>
-<attribute name="VALUE" x="60.96" y="77.47" size="1.27" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="73.66" y="71.12" rot="R90">
 <attribute name="DESCRIPTION" x="73.66" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
